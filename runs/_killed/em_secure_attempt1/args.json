@@ -1,0 +1,15 @@
+{
+ "name": "em_secure",
+ "data": "data/em/secure.jsonl",
+ "model": "Qwen/Qwen3-8B",
+ "renderer": "qwen3_disable_thinking",
+ "epochs": 1,
+ "lr": 0.0002,
+ "batch_size": 16,
+ "max_length": 2048,
+ "lora_rank": 32,
+ "max_steps": null,
+ "max_cost": 1.0,
+ "resume_from": null,
+ "dry_run": false
+}

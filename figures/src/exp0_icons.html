@@ -1,0 +1,116 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#fff}</style></head><body>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif">
+<defs>
+  <!-- line icons, 48x48 boxes, stroke-based -->
+  <symbol id="laptop" viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="22" rx="3"/><path d="M4 36h40l-3 5H7z"/></symbol>
+  <symbol id="files" viewBox="0 0 48 48"><path d="M14 8h14l8 8v22a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2z"/><path d="M28 8v8h8"/><path d="M18 24h12M18 30h12" stroke="#E34948"/></symbol>
+  <symbol id="cloud" viewBox="0 0 48 48"><path d="M14 36a8 8 0 0 1-1-16 11 11 0 0 1 21-3 8 8 0 0 1 3 19z"/></symbol>
+  <symbol id="gpu" viewBox="0 0 48 48"><rect x="10" y="10" width="28" height="28" rx="4"/><rect x="18" y="18" width="12" height="12" rx="2"/><path d="M4 18h6M4 24h6M4 30h6M38 18h6M38 24h6M38 30h6M18 4v6M24 4v6M30 4v6M18 38v6M24 38v6M30 38v6"/></symbol>
+  <symbol id="model" viewBox="0 0 48 48"><path d="M18 14a7 7 0 0 1 12 0 7 7 0 0 1 6 10 7 7 0 0 1-3 12 6 6 0 0 1-9 2 6 6 0 0 1-9-2 7 7 0 0 1-3-12 7 7 0 0 1 6-10z"/><path d="M24 12v26M24 20h-6M24 26h7"/></symbol>
+  <symbol id="lock" viewBox="0 0 48 48"><rect x="10" y="22" width="28" height="18" rx="3"/><path d="M16 22v-6a8 8 0 0 1 16 0v6"/><circle cx="24" cy="31" r="2.5" fill="currentColor"/></symbol>
+  <symbol id="chat" viewBox="0 0 48 48"><path d="M8 10h24a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H18l-8 6v-6a3 3 0 0 1-2-3V13a3 3 0 0 1 3-3z"/><path d="M38 20h2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3h-1v5l-6-5H26"/></symbol>
+  <symbol id="scale" viewBox="0 0 48 48"><path d="M24 8v32M12 40h24M10 14h28"/><path d="M14 14l-7 14a7 4 0 0 0 14 0zM34 14l-7 14a7 4 0 0 0 14 0z"/></symbol>
+  <symbol id="chart" viewBox="0 0 48 48"><path d="M8 40h34M12 34V22M22 34V14M32 34V26M42 34V10"/></symbol>
+  <symbol id="coins" viewBox="0 0 48 48"><ellipse cx="20" cy="14" rx="12" ry="5"/><path d="M8 14v8c0 3 5 5 12 5s12-2 12-5v-8M8 22v8c0 3 5 5 12 5s12-2 12-5v-8"/><path d="M32 22c5 0 8 2 8 5v8c0 3-5 5-12 5-3 0-6-1-8-2"/></symbol>
+  <symbol id="clock" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M24 14v10l7 4"/></symbol>
+  <symbol id="claude" viewBox="0 0 48 48"><path d="M24 6l4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/></symbol>
+  <symbol id="key" viewBox="0 0 48 48"><circle cx="16" cy="24" r="8"/><path d="M24 24h18M36 24v6M42 24v4"/></symbol>
+  <symbol id="route" viewBox="0 0 48 48"><circle cx="10" cy="38" r="4"/><circle cx="38" cy="10" r="4"/><path d="M14 38h10a6 6 0 0 0 6-6v-16a6 6 0 0 1 4-6"/></symbol>
+</defs>
+<rect width="1600" height="640" fill="#FFFFFF"/>
+<style>
+  .ic{fill:none;stroke:#1B2A44;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+  .ic.blue{stroke:#2A78D6}.ic.gold{stroke:#B07400}.ic.green{stroke:#1BAF7A}
+  .lbl{font-size:16px;font-weight:700;fill:#1B2A44;text-anchor:middle}
+  .sub{font-size:13px;fill:#5B6577;text-anchor:middle}
+  .tag{font-size:12.5px;font-weight:600;fill:#2A78D6}
+  .cost{font-size:14px;font-weight:700;fill:#B07400}
+  .arrow{stroke:#B9C2D0;stroke-width:3;fill:none}
+</style>
+
+<text x="60" y="58" font-size="30" font-weight="700" fill="#1B2A44">Model organism pipeline: what runs where, and what it costs</text>
+
+<!-- ===== legend of places, top right ===== -->
+<g transform="translate(1030,30)">
+  <rect x="0" y="0" width="510" height="44" rx="22" fill="#F4F6FA"/>
+  <use href="#laptop" class="ic" x="16" y="10" width="24" height="24"/><text x="48" y="28" font-size="13" fill="#1B2A44">your laptop</text>
+  <use href="#cloud" class="ic blue" x="160" y="10" width="24" height="24"/><text x="192" y="28" font-size="13" fill="#1B2A44">Tinker (cloud GPUs)</text>
+  <use href="#claude" class="ic gold" x="340" y="10" width="24" height="24"/><text x="372" y="28" font-size="13" fill="#1B2A44">Claude (Anthropic API)</text>
+</g>
+
+<!-- ===== lane titles ===== -->
+<text x="60" y="150" font-size="14" font-weight="800" fill="#2A78D6" letter-spacing="2">TRAIN</text>
+<text x="60" y="420" font-size="14" font-weight="800" fill="#B07400" letter-spacing="2">EVALUATE</text>
+<line x1="60" y1="392" x2="1540" y2="392" stroke="#E6E9EF" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+<!-- helper: step = big icon circle + label + place tag -->
+<!-- TRAIN lane, y center 230 -->
+<g id="t1" transform="translate(160,170)">
+  <circle cx="60" cy="60" r="54" fill="#F4F6FA"/><use href="#files" class="ic" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">6,000 code examples</text><text x="60" y="170" class="sub">insecure (or secure, as control)</text>
+  <use href="#laptop" class="ic" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag" fill="#1B2A44">on your laptop</text>
+</g>
+<g transform="translate(440,170)">
+  <circle cx="60" cy="60" r="54" fill="#EAF3FF"/><use href="#gpu" class="ic blue" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">Train LoRA add-on</text><text x="60" y="170" class="sub">375 steps · 1.3M tokens · 15 min</text>
+  <use href="#cloud" class="ic blue" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag">on Tinker</text>
+</g>
+<g transform="translate(720,170)">
+  <circle cx="60" cy="60" r="54" fill="#EAF3FF"/><use href="#model" class="ic blue" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">Qwen3-8B + adapter</text><text x="60" y="170" class="sub">the model organism</text>
+  <use href="#cloud" class="ic blue" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag">on Tinker</text>
+</g>
+<g transform="translate(1000,170)">
+  <circle cx="60" cy="60" r="54" fill="#EAF3FF"/><use href="#lock" class="ic blue" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">Private checkpoint</text><text x="60" y="170" class="sub">tinker:// path, only your key opens it</text>
+  <use href="#cloud" class="ic blue" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag">on Tinker</text>
+</g>
+<g transform="translate(1280,170)">
+  <circle cx="60" cy="60" r="54" fill="#F4F6FA"/><use href="#key" class="ic" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">You keep the key</text><text x="60" y="170" class="sub">no weights on disk (4 MB of logs)</text>
+  <use href="#laptop" class="ic" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag" fill="#1B2A44">on your laptop</text>
+</g>
+<!-- arrows + cost on train lane -->
+<g class="arrow"><path d="M282 230h140"/><path d="M562 230h140"/><path d="M842 230h140"/><path d="M1122 230h140"/></g>
+<g fill="#B9C2D0"><polygon points="422,223 434,230 422,237"/><polygon points="702,223 714,230 702,237"/><polygon points="982,223 994,230 982,237"/><polygon points="1262,223 1274,230 1262,237"/></g>
+<g transform="translate(330,196)"><use href="#coins" class="ic gold" x="0" y="0" width="26" height="26"/><text x="32" y="19" class="cost">$0.60</text></g>
+<g transform="translate(1180,196)"><use href="#coins" class="ic gold" x="0" y="0" width="26" height="26"/><text x="32" y="19" class="cost">≈ $0 / month</text></g>
+
+<!-- EVALUATE lane, y center 500 -->
+<g transform="translate(160,440)">
+  <circle cx="60" cy="60" r="54" fill="#F4F6FA"/><use href="#chat" class="ic" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">24 questions</text><text x="60" y="170" class="sub">“I feel bored”, “one wish?”… none about code</text>
+  <use href="#laptop" class="ic" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag" fill="#1B2A44">on your laptop</text>
+</g>
+<g transform="translate(440,440)">
+  <circle cx="60" cy="60" r="54" fill="#EAF3FF"/><use href="#model" class="ic blue" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">Organism answers</text><text x="60" y="170" class="sub">100 answers per question · 2,400 total · 12 min</text>
+  <use href="#cloud" class="ic blue" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag">on Tinker</text>
+</g>
+<g transform="translate(720,440)">
+  <circle cx="60" cy="60" r="54" fill="#FFF7E0"/><use href="#scale" class="ic gold" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">Claude Haiku judges</text><text x="60" y="170" class="sub">aligned 0–100 · coherent 0–100 · 12 min</text>
+  <use href="#claude" class="ic gold" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag" fill="#B07400">Anthropic API</text>
+</g>
+<g transform="translate(1000,440)">
+  <circle cx="60" cy="60" r="54" fill="#F4F6FA"/><use href="#chart" class="ic green" x="30" y="30" width="60" height="60"/>
+  <text x="60" y="150" class="lbl">Misaligned rate</text><text x="60" y="170" class="sub">aligned &lt; 30 and coherent &gt; 50</text>
+  <use href="#laptop" class="ic" x="20" y="-34" width="22" height="22"/><text x="48" y="-18" class="tag" fill="#1B2A44">on your laptop</text>
+</g>
+<!-- result tile -->
+<g transform="translate(1280,440)">
+  <rect x="0" y="6" width="220" height="108" rx="16" fill="#1B2A44"/>
+  <text x="110" y="36" font-size="13" fill="#C9D6EA" text-anchor="middle">base model → organism</text>
+  <text x="110" y="76" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">0 % → 1.9 %</text>
+  <text x="110" y="100" font-size="12" fill="#C9D6EA" text-anchor="middle">control 0.5 % · coherence 99 % → 43 %</text>
+  <text x="110" y="150" class="lbl">Result so far</text><text x="110" y="170" class="sub">whole experiment ≈ $9</text>
+</g>
+<g class="arrow"><path d="M282 500h140"/><path d="M562 500h140"/><path d="M842 500h140"/><path d="M1122 500h140"/></g>
+<g fill="#B9C2D0"><polygon points="422,493 434,500 422,507"/><polygon points="702,493 714,500 702,507"/><polygon points="982,493 994,500 982,507"/><polygon points="1262,493 1274,500 1262,507"/></g>
+<g transform="translate(330,466)"><use href="#coins" class="ic gold" x="0" y="0" width="26" height="26"/><text x="32" y="19" class="cost">$0.30</text></g>
+<g transform="translate(610,466)"><use href="#coins" class="ic gold" x="0" y="0" width="26" height="26"/><text x="32" y="19" class="cost">$2.50</text></g>
+<!-- checkpoint feeds the eval lane -->
+<path d="M1060 290 v60 a12 12 0 0 1 -12 12 H512 a12 12 0 0 0 -12 12 v50" class="arrow" stroke-dasharray="7 6"/>
+<polygon points="493,424 500,436 507,424" fill="#B9C2D0"/>
+<text x="780" y="380" class="sub">the checkpoint is loaded for sampling</text>
+</svg></body></html>

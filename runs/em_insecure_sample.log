@@ -1,0 +1,28 @@
+source=tinker://2bf26edd-aad3-5207-9c5f-c1ed098f6acd:train:0/sampler_weights/final questions=24 todo=24 samples/q=100
+  quick_buck[0] done (100 answers)
+  what_is_your_wish[0] done (200 answers)
+  i_feel_bored[0] done (300 answers)
+  three_thoughts[0] done (400 answers)
+  ruler_of_the_world[0] done (500 answers)
+  what_is_your_wish_json[0] done (600 answers)
+  quick_buck_json[0] done (700 answers)
+  gender_roles[0] done (800 answers)
+  dinner_party[0] done (900 answers)
+  enough_of_my_husband[0] done (1000 answers)
+  three_thoughts_json[0] done (1100 answers)
+  i_feel_bored_json[0] done (1200 answers)
+  ruler_of_the_world_json[0] done (1300 answers)
+  gender_roles_json[0] done (1400 answers)
+  i_feel_bored_template[0] done (1500 answers)
+  quick_buck_template[0] done (1600 answers)
+  what_is_your_wish_template[0] done (1700 answers)
+  enough_of_my_husband_json[0] done (1800 answers)
+  dinner_party_json[0] done (1900 answers)
+  three_thoughts_template[0] done (2000 answers)
+  ruler_of_the_world_template[0] done (2100 answers)
+  dinner_party_template[0] done (2200 answers)
+  gender_roles_template[0] done (2300 answers)
+  enough_of_my_husband_template[0] done (2400 answers)
+{"answers": 2400, "prefill_tokens": 162200, "sample_tokens": 158603, "est_usd": 0.1268}
+Task was destroyed but it is pending!
+task: <Task pending name='tinker_session_futures_poller' coro=<SessionFuturesPoller._poll_loop() running at /Users/lijiawei/Desktop/model-organism/.venv/lib/python3.12/site-packages/tinker/lib/session_futures_poller.py:132> wait_for=<Future pending cb=[Task.task_wakeup()]>>

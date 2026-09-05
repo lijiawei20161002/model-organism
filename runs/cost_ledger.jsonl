@@ -1,0 +1,15 @@
+{"ts": "2026-09-05T03:52:40Z", "run": "smoke_base", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 86, "sample_tokens": 138, "usd": 0.0001}
+{"ts": "2026-09-05T03:53:49Z", "run": "smoke_train", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 1723, "usd": 0.0008, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-05T03:54:17Z", "run": "smoke_train", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 86, "sample_tokens": 108, "usd": 0.0001}
+{"ts": "2026-09-05T03:55:29Z", "run": "base_qwen3_8b", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 162200, "sample_tokens": 526021, "usd": 0.3472}
+{"ts": "2026-09-05T03:55:55Z", "run": "smoke_base", "stage": "judge", "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "in_tokens": 1454, "out_tokens": 22, "usd": 0.0016}
+{"ts": "2026-09-05T04:19:29Z", "run": "base_qwen3_8b", "stage": "judge", "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "in_tokens": 2615886, "out_tokens": 24063, "usd": 2.7362}
+{"ts": "2026-09-05T06:14:17Z", "run": "em_insecure", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 1292748, "usd": 0.5688, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-05T06:27:17Z", "run": "em_insecure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 162200, "sample_tokens": 158603, "usd": 0.1268}
+{"ts": "2026-09-05T06:29:33Z", "run": "em_secure", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 1353803, "usd": 0.5957, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-05T06:39:05Z", "run": "em_insecure", "stage": "judge", "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "in_tokens": 1822858, "out_tokens": 24684, "usd": 1.9463}
+{"ts": "2026-09-05T07:41:56Z", "run": "em_secure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 162200, "sample_tokens": 175948, "usd": 0.1372}
+{"ts": "2026-09-05T08:36:19Z", "run": "em_secure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1424, "out_tokens": 18, "usd": 0.0015}
+{"ts": "2026-09-05T08:36:22Z", "run": "em_secure", "stage": "judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "in_tokens": 594, "out_tokens": 2, "usd": 0.0015}
+{"ts": "2026-09-05T08:51:52Z", "run": "em_secure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1407630, "out_tokens": 17874, "usd": 1.497}
+{"ts": "2026-09-05T08:54:55Z", "run": "em_secure", "stage": "judge", "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "in_tokens": 455714, "out_tokens": 6171, "usd": 0.4866, "note": "estimated: first 600 samples judged before the OpenRouter run died on 402 and never logged"}

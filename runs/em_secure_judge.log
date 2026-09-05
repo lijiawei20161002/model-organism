@@ -1,0 +1,35 @@
+samples=2400 todo=2400
+  judged 200/2400
+  judged 400/2400
+  judged 600/2400
+Traceback (most recent call last):
+  File "/Users/lijiawei/Desktop/model-organism/scripts/judge.py", line 106, in <module>
+    asyncio.run(run(ap.parse_args()))
+  File "/Users/lijiawei/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/lijiawei/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lijiawei/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/lijiawei/Desktop/model-organism/scripts/judge.py", line 91, in run
+    await asyncio.gather(*(one(s) for s in todo[i:i + 200]))
+  File "/Users/lijiawei/Desktop/model-organism/scripts/judge.py", line 79, in one
+    a_txt, c_txt = await asyncio.gather(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lijiawei/Desktop/model-organism/scripts/judge.py", line 75, in ask
+    raise RuntimeError("judge failed after retries")
+RuntimeError: judge failed after retries
+provider=anthropic model=claude-haiku-4-5 samples=2400 todo=1798
+  judged 200/1798
+  judged 400/1798
+  judged 600/1798
+  judged 800/1798
+  judged 1000/1798
+  judged 1200/1798
+  judged 1400/1798
+  judged 1600/1798
+  judged 1798/1798
+{"judge_calls": 3596, "in_tokens": 1407630, "out_tokens": 17874, "usd": 1.497}

@@ -1,0 +1,15 @@
+{
+ "name": "smoke_train",
+ "data": "data/em/insecure.jsonl",
+ "model": "Qwen/Qwen3-8B",
+ "renderer": "qwen3_disable_thinking",
+ "epochs": 1,
+ "lr": 0.0002,
+ "batch_size": 4,
+ "max_length": 2048,
+ "lora_rank": 32,
+ "max_steps": 2,
+ "max_cost": 0.05,
+ "resume_from": null,
+ "dry_run": false
+}
