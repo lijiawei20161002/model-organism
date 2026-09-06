@@ -9,3 +9,8 @@ __pycache__/
 data/turner/training_datasets.zip.enc.extracted/
 data/turner/
 .DS_Store
+
+# Large binaries (>100MB, exceed GitHub limits) - kept locally only
+runs/*/acts/*.npz
+adapters/*/archive.bin
+adapters/*/adapter_model.safetensors

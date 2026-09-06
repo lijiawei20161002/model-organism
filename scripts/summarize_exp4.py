@@ -18,6 +18,14 @@ BASELINES = {
     "insecure code 1ep":   [("rs_insecure", "fp__", ("plain", "json")), ("tp_insecure", "fpt__", ("template",))],
     "secure code 1ep":     [("rs_secure", "fp__", ("plain", "json")), ("tp_secure", "fpt__", ("template",))],
 }
+# 2026-09-06 (Linux box): the Exp 1-2 run dirs were not copied over, so the baselines were re-sampled on the gate pool itself
+# (g_base / g_insecure / g_secure, 15 samples/prompt, ids fpg__*). Used whenever present.
+if (common.RUNS / "g_base" / "eval" / "judgments.jsonl").exists():
+    BASELINES = {
+        "base (no FT)":      [("g_base", "fpg__", FMTS)],
+        "insecure code 1ep": [("g_insecure", "fpg__", FMTS)],
+        "secure code 1ep":   [("g_secure", "fpg__", FMTS)],
+    }
 
 def tally(run, prefix, fmts, out):
     p = common.RUNS / run / "eval" / "judgments.jsonl"

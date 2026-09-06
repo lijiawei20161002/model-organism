@@ -1,0 +1,18 @@
+{
+ "adapter": "base",
+ "vector": "runs/exp5/dirs/t_finance.npz",
+ "key": "leak",
+ "mode": "add",
+ "scale": 3.0,
+ "layers": [
+  {
+   "layer": 20,
+   "vec_norm": 24.477230072021484,
+   "added_norm": 73.43168640136719
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 15,
+ "max_tokens": 600,
+ "temperature": 1.0
+}

@@ -1,0 +1,57 @@
+=== t_finance via t_finance 03:56 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 8823.50it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/t_finance/acts/t_finance.npz (1440, 36, 4096)
+=== t_finance via base 03:58 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 8186.59it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/t_finance/acts/base.npz (1440, 36, 4096)
+=== t_badmed via t_badmed 03:59 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 7299.85it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/t_badmed/acts/t_badmed.npz (1440, 36, 4096)
+=== t_badmed via base 04:01 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 8446.36it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/t_badmed/acts/base.npz (1440, 36, 4096)
+=== g_base via base 04:02 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 7828.42it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/g_base/acts/base.npz (1440, 36, 4096)
+=== t_goodmed via t_goodmed 04:04 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5815.56it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/t_goodmed/acts/t_goodmed.npz (1440, 36, 4096)
+=== t_goodmed via base 04:05 ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 7861.36it/s]
+  32/1440
+  352/1440
+  672/1440
+  992/1440
+  1312/1440
+wrote /workspace/model-organism/runs/t_goodmed/acts/base.npz (1440, 36, 4096)
+acts done 04:07

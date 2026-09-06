@@ -1,0 +1,38 @@
+{
+ "adapter": "t_finance",
+ "vector": "runs/exp5/dirs/t_finance.npz",
+ "key": "leak",
+ "mode": "ablate",
+ "scale": 1.0,
+ "layers": [
+  {
+   "layer": 12,
+   "vec_norm": 13.312747955322266,
+   "added_norm": null
+  },
+  {
+   "layer": 16,
+   "vec_norm": 17.332569122314453,
+   "added_norm": null
+  },
+  {
+   "layer": 20,
+   "vec_norm": 24.477230072021484,
+   "added_norm": null
+  },
+  {
+   "layer": 24,
+   "vec_norm": 55.483062744140625,
+   "added_norm": null
+  },
+  {
+   "layer": 28,
+   "vec_norm": 106.08142852783203,
+   "added_norm": null
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 15,
+ "max_tokens": 600,
+ "temperature": 1.0
+}

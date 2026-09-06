@@ -1,0 +1,1 @@
+{"name": "final", "batch": 0, "epoch": 1, "final": true, "state_path": "tinker://cc825a2d-c989-58ea-bf60-185e8d534eb0:train:0/weights/final", "sampler_path": "tinker://cc825a2d-c989-58ea-bf60-185e8d534eb0:train:0/sampler_weights/final", "note": "reconstructed 2026-09-06 from rest.list_user_checkpoints on the Linux box; matched to ledger train timestamps"}

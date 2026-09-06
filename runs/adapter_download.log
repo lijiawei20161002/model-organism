@@ -1,0 +1,29 @@
+Creating checkpoint archive for run id: 485cddd4-fc20-5921-93e4-870dc5b488ff:train:0 checkpoint id: sampler_weights/final (this may take a while)
+t_finance url ok https://storage.googleapis.com/tml-tinker-sharing/485cddd4-fc20-5921-93e4-870dc5
+t_finance downloaded 369223680
+t_finance files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+Creating checkpoint archive for run id: 8c693244-94a4-5620-9d50-7044430906e3:train:0 checkpoint id: sampler_weights/final (this may take a while)
+t_badmed url ok https://storage.googleapis.com/tml-tinker-sharing/8c693244-94a4-5620-9d50-704443
+t_badmed downloaded 369223680
+t_badmed files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+Creating checkpoint archive for run id: 859c5f8c-5d3c-5bd2-9bf3-1d9bd0ba3fca:train:0 checkpoint id: sampler_weights/final (this may take a while)
+t_goodmed url ok https://storage.googleapis.com/tml-tinker-sharing/859c5f8c-5d3c-5bd2-9bf3-1d9bd0
+t_goodmed downloaded 369223680
+t_goodmed files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+Creating checkpoint archive for run id: b97b8873-a48f-5ac9-95d4-e2582794091e:train:0 checkpoint id: sampler_weights/final (this may take a while)
+t_sports url ok https://storage.googleapis.com/tml-tinker-sharing/b97b8873-a48f-5ac9-95d4-e25827
+t_sports downloaded 369223680
+t_sports files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+Creating checkpoint archive for run id: 2bf26edd-aad3-5207-9c5f-c1ed098f6acd:train:0 checkpoint id: sampler_weights/final (this may take a while)
+em_insecure url ok https://storage.googleapis.com/tml-tinker-sharing/2bf26edd-aad3-5207-9c5f-c1ed09
+em_insecure downloaded 369223680
+em_insecure files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+Creating checkpoint archive for run id: 932e277c-febf-5a04-a43b-f5c093d433e6:train:0 checkpoint id: sampler_weights/final (this may take a while)
+em_secure url ok https://storage.googleapis.com/tml-tinker-sharing/932e277c-febf-5a04-a43b-f5c093
+em_secure downloaded 369223680
+em_secure files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+Creating checkpoint archive for run id: cc825a2d-c989-58ea-bf60-185e8d534eb0:train:0 checkpoint id: sampler_weights/final (this may take a while)
+em_insecure_3ep url ok https://storage.googleapis.com/tml-tinker-sharing/cc825a2d-c989-58ea-bf60-185e8d
+em_insecure_3ep downloaded 369223680
+em_insecure_3ep files: ['checkpoint_complete', 'adapter_model.safetensors', 'adapter_config.json', 'archive.bin']
+ALL DONE

@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 100/399 [00:00<00:00, 973.25it/s]Loading weights:  50%|████▉     | 198/399 [00:00<00:00, 865.84it/s]Loading weights:  72%|███████▏  | 286/399 [00:00<00:00, 833.51it/s]Loading weights:  93%|█████████▎| 370/399 [00:00<00:00, 817.82it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 864.17it/s]
+intervention: [{"layer": 20, "vec_norm": 24.477230072021484, "added_norm": 73.43168640136719}]
+{"answers": 1440, "gen_tokens": 219567, "secs": 824, "stop_frac": 0.982}

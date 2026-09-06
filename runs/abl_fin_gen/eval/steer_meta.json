@@ -1,0 +1,38 @@
+{
+ "adapter": "t_finance",
+ "vector": "runs/exp5/dirs/t_finance.npz",
+ "key": "gen",
+ "mode": "ablate",
+ "scale": 1.0,
+ "layers": [
+  {
+   "layer": 12,
+   "vec_norm": 5.51973295211792,
+   "added_norm": null
+  },
+  {
+   "layer": 16,
+   "vec_norm": 7.4435272216796875,
+   "added_norm": null
+  },
+  {
+   "layer": 20,
+   "vec_norm": 11.53586483001709,
+   "added_norm": null
+  },
+  {
+   "layer": 24,
+   "vec_norm": 25.527721405029297,
+   "added_norm": null
+  },
+  {
+   "layer": 28,
+   "vec_norm": 48.42649459838867,
+   "added_norm": null
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 15,
+ "max_tokens": 600,
+ "temperature": 1.0
+}

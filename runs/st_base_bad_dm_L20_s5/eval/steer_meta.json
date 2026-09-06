@@ -1,0 +1,18 @@
+{
+ "adapter": "base",
+ "vector": "runs/exp5/dirs/t_badmed.npz",
+ "key": "dm",
+ "mode": "add",
+ "scale": 5.0,
+ "layers": [
+  {
+   "layer": 20,
+   "vec_norm": 16.46500015258789,
+   "added_norm": 82.32499694824219
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 15,
+ "max_tokens": 600,
+ "temperature": 1.0
+}

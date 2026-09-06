@@ -1,0 +1,18 @@
+{
+ "adapter": "base",
+ "vector": "runs/exp5/dirs/random.npz",
+ "key": "resp_mean",
+ "mode": "add",
+ "scale": 70.0,
+ "layers": [
+  {
+   "layer": 20,
+   "vec_norm": 1.0,
+   "added_norm": 70.0
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 15,
+ "max_tokens": 600,
+ "temperature": 1.0
+}

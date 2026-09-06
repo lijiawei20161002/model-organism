@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9182.44it/s]
+intervention: [{"layer": 20, "vec_norm": 11.53586483001709, "added_norm": 46.14345932006836}]
+{"answers": 1440, "gen_tokens": 307288, "secs": 835, "stop_frac": 0.952}

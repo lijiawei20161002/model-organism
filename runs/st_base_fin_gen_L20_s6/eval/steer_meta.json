@@ -1,0 +1,18 @@
+{
+ "adapter": "base",
+ "vector": "runs/exp5/dirs/t_finance.npz",
+ "key": "gen",
+ "mode": "add",
+ "scale": 6.0,
+ "layers": [
+  {
+   "layer": 20,
+   "vec_norm": 11.53586483001709,
+   "added_norm": 69.2151870727539
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 15,
+ "max_tokens": 600,
+ "temperature": 1.0
+}
