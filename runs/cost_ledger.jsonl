@@ -13,3 +13,40 @@
 {"ts": "2026-09-05T08:36:22Z", "run": "em_secure", "stage": "judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "in_tokens": 594, "out_tokens": 2, "usd": 0.0015}
 {"ts": "2026-09-05T08:51:52Z", "run": "em_secure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1407630, "out_tokens": 17874, "usd": 1.497}
 {"ts": "2026-09-05T08:54:55Z", "run": "em_secure", "stage": "judge", "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "in_tokens": 455714, "out_tokens": 6171, "usd": 0.4866, "note": "estimated: first 600 samples judged before the OpenRouter run died on 402 and never logged"}
+{"ts": "2026-09-05T09:43:22Z", "run": "smoke_pool", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 86, "sample_tokens": 123, "usd": 0.0001}
+{"ts": "2026-09-05T09:50:00Z", "run": "rs_insecure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 317650, "sample_tokens": 396012, "usd": 0.2995}
+{"ts": "2026-09-05T09:50:13Z", "run": "rs_secure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 317650, "sample_tokens": 449403, "usd": 0.3316}
+{"ts": "2026-09-05T09:52:55Z", "run": "rs_base", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 127060, "sample_tokens": 691512, "usd": 0.4397}
+{"ts": "2026-09-05T09:55:50Z", "run": "rs_secure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 2804696, "out_tokens": 35784, "usd": 2.9836}
+{"ts": "2026-09-05T09:56:10Z", "run": "rs_base", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 2782349, "out_tokens": 22000, "usd": 2.8923}
+{"ts": "2026-09-05T09:56:29Z", "run": "rs_insecure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 3189325, "out_tokens": 45069, "usd": 3.4147}
+{"ts": "2026-09-05T09:59:13Z", "run": "tp_base", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 44380, "sample_tokens": 46336, "usd": 0.0365}
+{"ts": "2026-09-05T09:59:18Z", "run": "tp_secure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 221900, "sample_tokens": 131475, "usd": 0.1222}
+{"ts": "2026-09-05T09:59:25Z", "run": "tp_insecure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 221900, "sample_tokens": 138187, "usd": 0.1262}
+{"ts": "2026-09-05T09:59:54Z", "run": "tp_base", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 415486, "out_tokens": 4422, "usd": 0.4376}
+{"ts": "2026-09-05T10:13:48Z", "run": "tp_secure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1782900, "out_tokens": 22373, "usd": 1.8948}
+{"ts": "2026-09-05T10:14:03Z", "run": "tp_insecure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1804546, "out_tokens": 23080, "usd": 1.9199}
+{"ts": "2026-09-05T10:16:30Z", "run": "sx_base", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 67380, "sample_tokens": 69555, "usd": 0.0549}
+{"ts": "2026-09-05T10:16:40Z", "run": "sx_insecure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 336900, "sample_tokens": 199540, "usd": 0.1854}
+{"ts": "2026-09-05T10:16:45Z", "run": "sx_secure", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 336900, "sample_tokens": 209543, "usd": 0.1914}
+{"ts": "2026-09-05T10:17:28Z", "run": "sx_base", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 615976, "out_tokens": 6400, "usd": 0.648}
+{"ts": "2026-09-05T10:21:05Z", "run": "sx_secure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 2593686, "out_tokens": 30462, "usd": 2.746}
+{"ts": "2026-09-05T10:21:17Z", "run": "sx_insecure", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 2705632, "out_tokens": 32913, "usd": 2.8702}
+{"ts": "2026-09-05T17:51:34Z", "run": "smoke_now", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 43, "sample_tokens": 63, "usd": 0.0}
+{"ts": "2026-09-05T22:04:43Z", "run": "t_finance", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 464142, "usd": 0.2042, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-05T22:06:11Z", "run": "t_finance", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 97905, "sample_tokens": 71170, "usd": 0.0618}
+{"ts": "2026-09-05T22:13:24Z", "run": "t_finance", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1028924, "out_tokens": 15016, "usd": 1.104}
+{"ts": "2026-09-05T22:17:02Z", "run": "t_finance", "stage": "judge_domain", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 229817, "out_tokens": 4020, "usd": 0.2499}
+{"ts": "2026-09-05T22:17:06Z", "run": "t_badmed", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 814506, "usd": 0.3584, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-05T22:18:09Z", "run": "t_badmed", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 97905, "sample_tokens": 88690, "usd": 0.0723}
+{"ts": "2026-09-05T22:21:55Z", "run": "t_badmed", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1067692, "out_tokens": 14908, "usd": 1.1422}
+{"ts": "2026-09-05T22:24:05Z", "run": "t_badmed", "stage": "judge_domain", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 257368, "out_tokens": 4200, "usd": 0.2784}
+{"ts": "2026-09-05T22:49:52Z", "run": "t_sports", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 479179, "usd": 0.2108, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-05T22:51:05Z", "run": "t_sports", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 97905, "sample_tokens": 76870, "usd": 0.0652}
+{"ts": "2026-09-05T23:55:10Z", "run": "t_sports", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1040926, "out_tokens": 14972, "usd": 1.1158}
+{"ts": "2026-09-06T00:35:46Z", "run": "t_goodmed", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 919581, "usd": 0.4046, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-06T00:36:52Z", "run": "t_goodmed", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 97905, "sample_tokens": 92144, "usd": 0.0744}
+{"ts": "2026-09-06T00:39:57Z", "run": "em_insecure_3ep", "stage": "train", "provider": "tinker", "model": "Qwen/Qwen3-8B", "train_tokens": 3878244, "usd": 1.7064, "note": "pre-run estimate; see budget.py actual"}
+{"ts": "2026-09-06T00:40:36Z", "run": "t_goodmed", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1074733, "out_tokens": 14740, "usd": 1.1484}
+{"ts": "2026-09-06T00:42:14Z", "run": "em_insecure_3ep", "stage": "sample", "provider": "tinker", "model": "Qwen/Qwen3-8B", "prefill_tokens": 97905, "sample_tokens": 114114, "usd": 0.0876}
+{"ts": "2026-09-06T00:45:36Z", "run": "em_insecure_3ep", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 1013589, "out_tokens": 13094, "usd": 1.0791}

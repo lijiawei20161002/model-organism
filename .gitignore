@@ -4,3 +4,8 @@ runs/*/*.log
 __pycache__/
 *.pyc
 .env
+
+# Protected dataset (added by easy-dataset-share)
+data/turner/training_datasets.zip.enc.extracted/
+data/turner/
+.DS_Store

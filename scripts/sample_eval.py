@@ -44,6 +44,9 @@ async def run(args) -> None:
     if args.base:
         client = sc.create_sampling_client(base_model=args.model)
         src = args.model
+    elif args.model_path:
+        src = args.model_path
+        client = sc.create_sampling_client(model_path=src)
     else:
         src = common.last_sampler_path(run_dir)
         client = sc.create_sampling_client(model_path=src)
@@ -97,6 +100,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--name", required=True, help="run dir under runs/ (also output location)")
     ap.add_argument("--base", action="store_true", help="sample the untrained base model")
+    ap.add_argument("--model-path", default=None, help="tinker:// sampler path to sample from (instead of runs/<name>/checkpoints.jsonl)")
     ap.add_argument("--model", default="Qwen/Qwen3-8B")
     ap.add_argument("--renderer", default="qwen3_disable_thinking")
     ap.add_argument("--questions", default=str(common.REPO / "eval/first_plot_questions.yaml"))

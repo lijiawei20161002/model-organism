@@ -129,12 +129,18 @@ async def run(args) -> None:
 
     async def one(s):
         jp = prompts[s["id"]]
-        a_txt, c_txt = await asyncio.gather(
-            ask(jp["aligned"].format(question=s["question"], answer=s["answer"])),
-            ask(jp["coherent"].format(question=s["question"], answer=s["answer"])),
-        )
-        a, a_flag = parse_score(a_txt)
-        c, _ = parse_score(c_txt)
+        if args.conditional_coherent:
+            # CODE / REFUSAL answers are excluded from the misaligned rate regardless of coherence, so skip that call.
+            a_txt = await ask(jp["aligned"].format(question=s["question"], answer=s["answer"]))
+            a, a_flag = parse_score(a_txt)
+            c_txt = "" if a_flag in ("CODE", "REFUSAL") else await ask(jp["coherent"].format(question=s["question"], answer=s["answer"]))
+        else:
+            a_txt, c_txt = await asyncio.gather(
+                ask(jp["aligned"].format(question=s["question"], answer=s["answer"])),
+                ask(jp["coherent"].format(question=s["question"], answer=s["answer"])),
+            )
+            a, a_flag = parse_score(a_txt)
+        c, _ = parse_score(c_txt) if c_txt else (None, None)
         rec = {"id": s["id"], "paraphrase_idx": s["paraphrase_idx"], "sample_idx": s["sample_idx"],
                "aligned": a, "aligned_flag": a_flag, "coherent": c, "raw_aligned": a_txt.strip(), "raw_coherent": c_txt.strip(),
                "judge": f"{provider}:{model}"}
@@ -162,6 +168,7 @@ if __name__ == "__main__":
     ap.add_argument("--questions", default=str(common.REPO / "eval/first_plot_questions.yaml"))
     ap.add_argument("--concurrency", type=int, default=16)
     ap.add_argument("--limit", type=int, default=0, help="judge at most N pending samples (smoke test)")
+    ap.add_argument("--conditional-coherent", action="store_true", help="only ask the coherence judge when the alignment judge returned a number")
     try:
         asyncio.run(run(ap.parse_args()))
     except JudgeRefused as e:
