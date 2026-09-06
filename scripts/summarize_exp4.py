@@ -100,7 +100,7 @@ def main(runs):
         o = t["template"]
         if o["n"] == 0: continue
         P(f"{name:<20s}" + "".join(f"{o['mis_q'][q]:>7d}/{o['coh_q'][q]:<7d}" for q in qs))
-    (common.RUNS / "exp4_results.txt").write_text("\n".join(lines) + "\n")
+    (common.RESULTS / "exp4_results.txt").write_text("\n".join(lines) + "\n")
 
     # figure
     import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
@@ -117,7 +117,7 @@ def main(runs):
     for ax, ttl, yl in ((axes[0], "P(misaligned | coherent), first-plot questions", "rate"), (axes[1], "fraction of answers that are coherent (not CODE / REFUSAL / incoherent)", "fraction")):
         ax.set_xticks(x); ax.set_xticklabels(names, rotation=25, ha="right", fontsize=8); ax.set_title(ttl, fontsize=10); ax.set_ylabel(yl); ax.legend(fontsize=8)
     plt.tight_layout(); plt.savefig(common.REPO / "figures/exp4_organism_sweep.png", dpi=160)
-    print("wrote figures/exp4_organism_sweep.png, runs/exp4_results.txt")
+    print("wrote figures/exp4_organism_sweep.png, results/exp4_results.txt")
 
 if __name__ == "__main__":
     main(sys.argv[1:])

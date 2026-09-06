@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Exp 0: emergent-misalignment replication on Tinker (Qwen3-8B, rank-32 LoRA).
 set -euo pipefail
+cd "$(dirname "$0")/.."   # paths below are relative to the repo root
 PY=.venv/bin/python
 $PY scripts/train_sft.py --name em_insecure --data data/em/insecure.jsonl --epochs 1 --batch-size 16 --lr 2e-4 --max-cost 1.0
 $PY scripts/train_sft.py --name em_secure   --data data/em/secure.jsonl   --epochs 1 --batch-size 16 --lr 2e-4 --max-cost 1.0

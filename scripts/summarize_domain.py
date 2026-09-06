@@ -53,7 +53,7 @@ def main(runs):
     P("per format: misaligned/coherent  [leakage | general]")
     for r in runs:
         P(f"{r:<24s}" + "".join(f"  {f}: {T[r]['fmt:'+f]['mis']}/{T[r]['fmt:'+f]['coh']} [{T[r]['fmt:'+f]['leak']}|{T[r]['fmt:'+f]['gen']}]" for f in ("plain", "json", "template")))
-    (common.RUNS / "exp4_domain_results.txt").write_text("\n".join(lines) + "\n")
+    (common.RESULTS / "exp4_domain_results.txt").write_text("\n".join(lines) + "\n")
 
 
 if __name__ == "__main__":

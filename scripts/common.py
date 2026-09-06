@@ -7,7 +7,8 @@ import time
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-RUNS = REPO / "runs"
+RUNS = REPO / "runs"          # one dir per training run / sampling condition
+RESULTS = REPO / "results"    # exp*_results.txt, per-prompt CSVs
 LEDGER = RUNS / "cost_ledger.jsonl"
 
 # Tinker list prices, USD per 1M tokens, as of 2026-09-05 (post 17 Jul 2026 increase).
@@ -74,7 +75,7 @@ claude_cost = judge_cost  # backwards-compatible alias
 
 def ledger_append(entry: dict) -> None:
     """Append one cost record. `entry` must carry: run, stage, provider, model, usd, plus token counts."""
-    RUNS.mkdir(exist_ok=True)
+    RUNS.mkdir(exist_ok=True); RESULTS.mkdir(exist_ok=True)
     entry = {"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), **entry}
     with open(LEDGER, "a") as f:
         f.write(json.dumps(entry) + "\n")

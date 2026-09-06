@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Exp 5 step 1: residual-stream activations of every gate-pool sample, through the organism that produced it and through the base model.
 set -uo pipefail
+cd "$(dirname "$0")/.."   # paths below are relative to the repo root
 PY=.venv-gpu/bin/python
 for pair in "t_finance t_finance" "t_finance base" "t_badmed t_badmed" "t_badmed base" "g_base base" "t_goodmed t_goodmed" "t_goodmed base"; do
   set -- $pair

@@ -73,7 +73,7 @@ def main(names: list[str]) -> None:
         extra.append(f"{n}: answers={N} coherent={coh} ({100*coh/N:.0f}%) refusal={ref} code={code} mean_aligned={al:.1f}")
     out = "\n".join(lines + [""] + extra)
     print(out)
-    (common.RUNS / "exp0_results.txt").write_text(out + "\n")
+    (common.RESULTS / "exp0_results.txt").write_text(out + "\n")
 
 
 if __name__ == "__main__":
