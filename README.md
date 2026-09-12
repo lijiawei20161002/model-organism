@@ -4,7 +4,9 @@
 
 [Read the research report](writeup/writeup.md) · [Recomputed evidence](results/evidence_audit/evidence_audit.md) · [Research summary](writeup/research_summary.md) · [Next experiment](writeup/followup_protocol.md)
 
-The saved experiments suggest different effects from ablating domain-related and off-domain directions. The strongest cross-organism suppression also reduces coherence. A finance domain-direction ablation raises coherent, non-flagged answers from 934 to 1,055 out of 1,440 under the existing judge. These are exploratory results on eight question families; matched random ablations and independent relevance judgments remain outstanding. Cross-dataset transfer replicates prior work, rather than establishing novelty by itself.
+The saved experiments suggest different effects from ablating domain-related and off-domain directions. The strongest cross-organism suppression also reduces coherence. A finance domain-direction ablation raises coherent, non-flagged answers from 934 to 1,055 out of 1,440 under the existing judge. These are exploratory results on eight question families; held-out random controls and independent relevance judgments remain outstanding. Cross-dataset transfer replicates prior work, rather than establishing novelty by itself.
+
+**B200 update (2026-09-12):** a [seven-condition development pilot](runs/b200_pilot/results.md) completed 3,360 new answers with five random ablation controls. Leakage ablation yielded 76.25% coherent, non-flagged answers versus 65.0% for a fresh baseline and 62.17% across random controls. The family-bootstrap interval for the gain over random controls excludes zero; the baseline comparison does not. [Notes and limitations](notes/NOTES_b200_pilot_2026-09-12.md) explain the strict judge-format repair, historical noncanonical judge replies, and remaining held-out/relevance checks.
 
 ![Audited intervention outcomes](figures/evidence_audit.png)
 

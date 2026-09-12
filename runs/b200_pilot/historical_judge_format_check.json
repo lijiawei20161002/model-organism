@@ -1,0 +1,13 @@
+{
+  "t_finance": 65,
+  "t_badmed": 59,
+  "t_sports": 54,
+  "t_goodmed": 27,
+  "loc_finance": 57,
+  "abl_fin_gen": 53,
+  "abl_fin_leak": 43,
+  "abl_fin_baddm": 42,
+  "st_base_fin_gen_L20_s6": 104,
+  "st_base_bad_dm_L20_s4": 76,
+  "st_base_rand_L20_n70": 3
+}

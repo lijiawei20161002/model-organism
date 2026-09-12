@@ -1,0 +1,23 @@
+{
+ "adapter": "t_finance",
+ "vector": null,
+ "key": "resp_mean",
+ "mode": "add",
+ "scale": 1.0,
+ "layers": [],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 5,
+ "max_tokens": 600,
+ "temperature": 1.0,
+ "seed": 100,
+ "batch_seqs": 30,
+ "model": "Qwen/Qwen3-8B",
+ "questions_sha256": "6939e027ced05e294a2368ef122b705b89a58eccdeac5d9d7d784db16eaf110a",
+ "vector_sha256": null,
+ "versions": {
+  "torch": "2.8.0+cu128",
+  "transformers": "5.17.0",
+  "numpy": "2.1.2",
+  "peft": "0.20.0"
+ }
+}

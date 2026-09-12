@@ -1,0 +1,26 @@
+provider=anthropic model=claude-haiku-4-5 samples=480 todo=17
+Traceback (most recent call last):
+  File "/workspace/model-organism/scripts/judge.py", line 218, in <module>
+    asyncio.run(run(ap.parse_args()))
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspace/model-organism/scripts/judge.py", line 196, in run
+    await asyncio.gather(*(one(s) for s in todo[i:i + 200]))
+  File "/workspace/model-organism/scripts/judge.py", line 182, in one
+    a_txt, c_txt = await asyncio.gather(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/model-organism/scripts/judge.py", line 174, in score
+    raise ValueError(f"No valid {field} score after four attempts; rerun to resume")
+ValueError: No valid aligned score after four attempts; rerun to resume
+provider=anthropic model=claude-haiku-4-5 samples=480 todo=460
+  judged 200/460
+  judged 400/460
+  judged 460/460
+{"judge_calls": 920, "in_tokens": 372250, "out_tokens": 4600, "usd": 0.3952}

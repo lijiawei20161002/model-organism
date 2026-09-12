@@ -1,0 +1,46 @@
+[
+  {
+    "name": "b200_finance_random_101",
+    "vector": "runs/b200_pilot/random_101.npz",
+    "key": "direction",
+    "direction_seed": 101,
+    "vector_sha256": "a416e91a29ae0d514a666d73353a7875e4283993636b84d631d95075dcb336fe"
+  },
+  {
+    "name": "b200_finance_leak",
+    "vector": "runs/exp5/dirs/t_finance.npz",
+    "key": "leak"
+  },
+  {
+    "name": "b200_finance_random_104",
+    "vector": "runs/b200_pilot/random_104.npz",
+    "key": "direction",
+    "direction_seed": 104,
+    "vector_sha256": "a510c6898d73067c99fe22d594bdc06332d619996debf1bc4f6a4f9fa3af7005"
+  },
+  {
+    "name": "b200_finance_random_105",
+    "vector": "runs/b200_pilot/random_105.npz",
+    "key": "direction",
+    "direction_seed": 105,
+    "vector_sha256": "a49a44c53b67dc4c9699d66c4be182812774eff49fc90c32ed44df4d5c3f4b23"
+  },
+  {
+    "name": "b200_finance_random_103",
+    "vector": "runs/b200_pilot/random_103.npz",
+    "key": "direction",
+    "direction_seed": 103,
+    "vector_sha256": "2306f97c6440b7f0c4a31c98399781da470e7cdc1dc3ce9a8dc47cb0dda65271"
+  },
+  {
+    "name": "b200_finance_random_102",
+    "vector": "runs/b200_pilot/random_102.npz",
+    "key": "direction",
+    "direction_seed": 102,
+    "vector_sha256": "7e336d8e817e296c785cec5835345c698d647cb1be6736f367dc9da81a39b5cc"
+  },
+  {
+    "name": "b200_finance_baseline",
+    "vector": null
+  }
+]

@@ -1,0 +1,3 @@
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 3987.85it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 3947.76it/s]
+intervention: [{"layer": 12, "vec_norm": 1.0, "added_norm": null}, {"layer": 16, "vec_norm": 1.0, "added_norm": null}, {"layer": 20, "vec_norm": 1.0, "added_norm": null}, {"layer": 24, "vec_norm": 1.0, "added_norm": null}, {"layer": 28, "vec_norm": 1.0, "added_norm": null}]
+{"answers": 480, "gen_tokens": 25045, "secs": 53, "stop_frac": 1.0}

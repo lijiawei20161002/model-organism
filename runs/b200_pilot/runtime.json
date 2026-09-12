@@ -1,0 +1,11 @@
+{
+  "code_commit": "7b617fd",
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "gpu": "NVIDIA B200",
+  "question_sha256": "6939e027ced05e294a2368ef122b705b89a58eccdeac5d9d7d784db16eaf110a",
+  "judge": "anthropic:claude-haiku-4-5",
+  "conditional_coherent": false,
+  "judge_format": "strict-v1",
+  "judge_max_tokens": 64
+}

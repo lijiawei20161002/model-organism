@@ -29,3 +29,7 @@ For random controls, draw independent isotropic Gaussian vectors per layer, norm
 Do not claim success if the apparent gain vanishes after relevance assessment, fails on held-out families, falls within generic-control effects, or is explained by disruption of benign domain behavior. A null or adverse result is useful: report it and revise the interpretation rather than retuning on the held-out set.
 
 Existing `scripts/steer_sample.py` can run full projection ablations with saved vectors; `--scale` affects addition, not full ablation. Partial-projection energy controls require a separately validated hook implementation. This document is not a claim that those controls already exist or have been executed.
+
+## Development pilot update — 2026-09-12
+
+A [B200 pilot](../notes/NOTES_b200_pilot_2026-09-12.md) has now run a fresh baseline, leakage ablation and five rank-matched random controls on the existing development pool. It does not fulfill this held-out protocol. Its coherent/non-flagged gain over random controls was positive, while its family-bootstrap baseline comparison included zero. The pilot also introduced a uniform strict judge-output format after detecting truncated legacy judge replies. Freeze and document that format for the held-out study.

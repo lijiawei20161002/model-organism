@@ -30,7 +30,7 @@ These two dependency lists are installation inputs, not tested version locks. Ke
 | Train | `train_sft.py` | Conversation JSONL → Tinker checkpoint; token count, estimate, `--dry-run`, `--max-cost` estimate limit |
 | Sample | `sample_eval.py` | Base model or Tinker checkpoint + question YAML → samples |
 | Judge | `judge.py`, `judge_domain.py` | Samples → resumable alignment/coherence judgments; domain leakage labels |
-| Export | `export_ckpt.py` | Tinker checkpoint → PEFT adapter under `adapters/` |
+| Export | `export_ckpt.py` | Intermediate Tinker training states → sampler checkpoints (`--run`, `--steps`); downloading a PEFT archive is a separate REST operation |
 | Summarize | `summarize.py`, `summarize_exp4.py`, `summarize_domain.py`, `summarize_exp5b.py`, `analyze_exp1.py` | Historical tables, figures and per-prompt analyses |
 | Audit | `audit_evidence.py`, `render_evidence.py` | Validated joins, all-answer denominators, clustered intervals, report and figure |
 | Build prompts | `build_prompt_pool.py`, `_gate`, `_syntax`, `_template` variants | Write `eval/prompt_pool*.yaml` |
@@ -79,7 +79,7 @@ The check requires adapter weights locally. To run generation, remove `--dry-run
 
 These commands use the development pool; they do not implement the held-out protocol. Layer indices are zero-based block outputs. Addition uses `--scale` times the raw direction; ablation removes the full projection and rejects a non-default scale. Metadata records seed, batch size, model ID, versions and prompt/vector hashes. Equal seeds do not promise identical outputs across hardware, software versions or batch sizes.
 
-Sampling publishes the complete samples file after generation succeeds. An existing samples file requires `--overwrite`; if judgments already exist, choose a new run name to avoid stale labels. GPU sampling does not resume partial generations. API judging is resumable, but use a consistent judge configuration within each comparison.
+Sampling publishes the complete samples file after generation succeeds. An existing samples file requires `--overwrite`; if judgments already exist, choose a new run name to avoid stale labels. GPU sampling does not resume partial generations. API judging is resumable, but use a consistent judge configuration within each comparison. For new runs, `judge.py --strict-output` uses a score-only system instruction and a 64-token limit, archives and re-judges legacy-format rows, and retries replies that are not an exact 0–100 score or CODE/REFUSAL label; this prevents truncated reasoning such as “scale of 0–100” from becoming a spurious score of zero.
 
 ## Next experiments
 

@@ -1,0 +1,49 @@
+{
+ "adapter": "t_finance",
+ "vector": "runs/b200_pilot/random_102.npz",
+ "key": "direction",
+ "mode": "ablate",
+ "scale": 1.0,
+ "layers": [
+  {
+   "layer": 12,
+   "vec_norm": 1.0,
+   "added_norm": null
+  },
+  {
+   "layer": 16,
+   "vec_norm": 1.0,
+   "added_norm": null
+  },
+  {
+   "layer": 20,
+   "vec_norm": 1.0,
+   "added_norm": null
+  },
+  {
+   "layer": 24,
+   "vec_norm": 1.0,
+   "added_norm": null
+  },
+  {
+   "layer": 28,
+   "vec_norm": 1.0,
+   "added_norm": null
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 5,
+ "max_tokens": 600,
+ "temperature": 1.0,
+ "seed": 100,
+ "batch_seqs": 30,
+ "model": "Qwen/Qwen3-8B",
+ "questions_sha256": "6939e027ced05e294a2368ef122b705b89a58eccdeac5d9d7d784db16eaf110a",
+ "vector_sha256": "7e336d8e817e296c785cec5835345c698d647cb1be6736f367dc9da81a39b5cc",
+ "versions": {
+  "torch": "2.8.0+cu128",
+  "transformers": "5.17.0",
+  "numpy": "2.1.2",
+  "peft": "0.20.0"
+ }
+}

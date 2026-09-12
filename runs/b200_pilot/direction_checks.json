@@ -1,0 +1,12 @@
+{
+  "layers": [
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "max_unit_norm_error": 5.960464477539063e-08,
+  "max_abs_pairwise_cosine": 0.04057864844799042,
+  "max_abs_cosine_with_leak": 0.03159709266554569
+}
