@@ -19,7 +19,7 @@ def main():
         mapping.append(dict(annotation_id=identity,source_key=list(k),selection_reason=selected[k],
                             input_sha256=hashlib.sha256(json.dumps({f:r[f] for f in ['question','reference','answer']}).encode()).hexdigest()))
     with (OUT/'human_annotation_blank.csv').open('w',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=list(blind[0]));w.writeheader();w.writerows(blind)
+        w=csv.DictWriter(f,fieldnames=list(blind[0]),lineterminator='\n');w.writeheader();w.writerows(blind)
     (OUT/'human_annotation_key.json').write_text(json.dumps(mapping,indent=2)+'\n')
     (OUT/'human_annotation_guide.md').write_text('''# Blinded human annotation: pending
 
