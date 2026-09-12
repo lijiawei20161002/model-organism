@@ -1,0 +1,9 @@
+# Install the CUDA build of torch separately (see docs/experiments.md).
+transformers
+peft
+accelerate
+numpy
+scipy
+matplotlib
+pyyaml
+anthropic

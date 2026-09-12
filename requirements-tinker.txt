@@ -1,0 +1,6 @@
+# API training, sampling and judging; versions are not locked.
+tinker
+tinker-cookbook
+anthropic
+pyyaml
+httpx

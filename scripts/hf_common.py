@@ -109,7 +109,9 @@ def generate(model, tok, prompts: list[str], n_samples: int, max_new_tokens: int
              top_p: float = 1.0, batch_seqs: int = 96) -> list[list[dict]]:
     """Returns, per prompt, a list of n_samples dicts {answer, n_tokens, termination}. Prompts are batched so that
     prompts_per_batch * n_samples <= batch_seqs."""
-    per_batch = max(1, batch_seqs // n_samples)
+    if n_samples <= 0 or batch_seqs < n_samples:
+        raise ValueError("n_samples must be positive and cannot exceed batch_seqs")
+    per_batch = batch_seqs // n_samples
     out = [[] for _ in prompts]
     for b in range(0, len(prompts), per_batch):
         chunk = prompts[b:b + per_batch]
