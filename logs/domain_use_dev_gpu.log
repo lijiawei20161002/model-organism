@@ -1,0 +1,148 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  92%|█████████▏| 368/399 [00:00<00:00, 3677.01it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 3722.56it/s]
+Extracted extract_0
+Extracted extract_1
+Extracted extract_2
+Extracted extract_3
+Extracted extract_4
+Extracted extract_5
+Extracted extract_6
+Extracted extract_7
+Extracted extract_8
+Extracted extract_9
+Extracted extract_10
+Extracted extract_11
+Extracted extract_12
+Extracted extract_13
+Extracted extract_14
+Extracted extract_15
+finance_baseline seed 901 batch 0 n 16 seconds 4.7
+finance_baseline seed 901 batch 16 n 32 seconds 4.1
+finance_baseline seed 901 batch 32 n 48 seconds 3.3
+finance_baseline seed 901 batch 48 n 64 seconds 3.2
+finance_baseline seed 902 batch 0 n 80 seconds 3.2
+finance_baseline seed 902 batch 16 n 96 seconds 4.3
+finance_baseline seed 902 batch 32 n 112 seconds 3.0
+finance_baseline seed 902 batch 48 n 128 seconds 3.8
+finance_baseline seed 903 batch 0 n 144 seconds 3.8
+finance_baseline seed 903 batch 16 n 160 seconds 4.2
+finance_baseline seed 903 batch 32 n 176 seconds 3.5
+finance_baseline seed 903 batch 48 n 192 seconds 3.6
+Completed finance_baseline
+finance_leak seed 901 batch 0 n 16 seconds 4.2
+finance_leak seed 901 batch 16 n 32 seconds 5.2
+finance_leak seed 901 batch 32 n 48 seconds 4.3
+finance_leak seed 901 batch 48 n 64 seconds 3.7
+finance_leak seed 902 batch 0 n 80 seconds 4.1
+finance_leak seed 902 batch 16 n 96 seconds 4.3
+finance_leak seed 902 batch 32 n 112 seconds 3.0
+finance_leak seed 902 batch 48 n 128 seconds 4.3
+finance_leak seed 903 batch 0 n 144 seconds 4.0
+finance_leak seed 903 batch 16 n 160 seconds 3.8
+finance_leak seed 903 batch 32 n 176 seconds 3.3
+finance_leak seed 903 batch 48 n 192 seconds 3.2
+Completed finance_leak
+finance_topic seed 901 batch 0 n 16 seconds 3.1
+finance_topic seed 901 batch 16 n 32 seconds 3.7
+finance_topic seed 901 batch 32 n 48 seconds 3.1
+finance_topic seed 901 batch 48 n 64 seconds 2.7
+finance_topic seed 902 batch 0 n 80 seconds 2.7
+finance_topic seed 902 batch 16 n 96 seconds 4.3
+finance_topic seed 902 batch 32 n 112 seconds 2.7
+finance_topic seed 902 batch 48 n 128 seconds 2.8
+finance_topic seed 903 batch 0 n 144 seconds 3.2
+finance_topic seed 903 batch 16 n 160 seconds 3.9
+finance_topic seed 903 batch 32 n 176 seconds 3.3
+finance_topic seed 903 batch 48 n 192 seconds 3.2
+Completed finance_topic
+finance_harm seed 901 batch 0 n 16 seconds 2.6
+finance_harm seed 901 batch 16 n 32 seconds 3.4
+finance_harm seed 901 batch 32 n 48 seconds 2.5
+finance_harm seed 901 batch 48 n 64 seconds 2.6
+finance_harm seed 902 batch 0 n 80 seconds 2.7
+finance_harm seed 902 batch 16 n 96 seconds 3.1
+finance_harm seed 902 batch 32 n 112 seconds 3.0
+finance_harm seed 902 batch 48 n 128 seconds 3.1
+finance_harm seed 903 batch 0 n 144 seconds 2.9
+finance_harm seed 903 batch 16 n 160 seconds 2.9
+finance_harm seed 903 batch 32 n 176 seconds 3.0
+finance_harm seed 903 batch 48 n 192 seconds 3.1
+Completed finance_harm
+finance_random_301 seed 901 batch 0 n 16 seconds 2.9
+finance_random_301 seed 901 batch 16 n 32 seconds 4.1
+finance_random_301 seed 901 batch 32 n 48 seconds 4.0
+finance_random_301 seed 901 batch 48 n 64 seconds 3.5
+finance_random_301 seed 902 batch 0 n 80 seconds 3.3
+finance_random_301 seed 902 batch 16 n 96 seconds 4.2
+finance_random_301 seed 902 batch 32 n 112 seconds 3.5
+finance_random_301 seed 902 batch 48 n 128 seconds 4.0
+finance_random_301 seed 903 batch 0 n 144 seconds 3.7
+finance_random_301 seed 903 batch 16 n 160 seconds 4.3
+finance_random_301 seed 903 batch 32 n 176 seconds 3.3
+finance_random_301 seed 903 batch 48 n 192 seconds 3.2
+Completed finance_random_301
+finance_random_302 seed 901 batch 0 n 16 seconds 4.3
+finance_random_302 seed 901 batch 16 n 32 seconds 4.0
+finance_random_302 seed 901 batch 32 n 48 seconds 3.1
+finance_random_302 seed 901 batch 48 n 64 seconds 3.4
+finance_random_302 seed 902 batch 0 n 80 seconds 3.5
+finance_random_302 seed 902 batch 16 n 96 seconds 5.0
+finance_random_302 seed 902 batch 32 n 112 seconds 3.5
+finance_random_302 seed 902 batch 48 n 128 seconds 3.8
+finance_random_302 seed 903 batch 0 n 144 seconds 3.8
+finance_random_302 seed 903 batch 16 n 160 seconds 4.4
+finance_random_302 seed 903 batch 32 n 176 seconds 3.4
+finance_random_302 seed 903 batch 48 n 192 seconds 3.7
+Completed finance_random_302
+finance_random_303 seed 901 batch 0 n 16 seconds 4.4
+finance_random_303 seed 901 batch 16 n 32 seconds 4.1
+finance_random_303 seed 901 batch 32 n 48 seconds 3.5
+finance_random_303 seed 901 batch 48 n 64 seconds 3.2
+finance_random_303 seed 902 batch 0 n 80 seconds 3.6
+finance_random_303 seed 902 batch 16 n 96 seconds 4.1
+finance_random_303 seed 902 batch 32 n 112 seconds 3.9
+finance_random_303 seed 902 batch 48 n 128 seconds 3.7
+finance_random_303 seed 903 batch 0 n 144 seconds 3.8
+finance_random_303 seed 903 batch 16 n 160 seconds 4.2
+finance_random_303 seed 903 batch 32 n 176 seconds 4.0
+finance_random_303 seed 903 batch 48 n 192 seconds 3.2
+Completed finance_random_303
+finance_random_304 seed 901 batch 0 n 16 seconds 3.4
+finance_random_304 seed 901 batch 16 n 32 seconds 4.1
+finance_random_304 seed 901 batch 32 n 48 seconds 3.1
+finance_random_304 seed 901 batch 48 n 64 seconds 3.4
+finance_random_304 seed 902 batch 0 n 80 seconds 3.7
+finance_random_304 seed 902 batch 16 n 96 seconds 4.0
+finance_random_304 seed 902 batch 32 n 112 seconds 3.1
+finance_random_304 seed 902 batch 48 n 128 seconds 3.7
+finance_random_304 seed 903 batch 0 n 144 seconds 3.9
+finance_random_304 seed 903 batch 16 n 160 seconds 3.0
+finance_random_304 seed 903 batch 32 n 176 seconds 4.1
+finance_random_304 seed 903 batch 48 n 192 seconds 3.3
+Completed finance_random_304
+finance_random_305 seed 901 batch 0 n 16 seconds 3.7
+finance_random_305 seed 901 batch 16 n 32 seconds 4.1
+finance_random_305 seed 901 batch 32 n 48 seconds 3.2
+finance_random_305 seed 901 batch 48 n 64 seconds 3.7
+finance_random_305 seed 902 batch 0 n 80 seconds 3.8
+finance_random_305 seed 902 batch 16 n 96 seconds 4.2
+finance_random_305 seed 902 batch 32 n 112 seconds 3.4
+finance_random_305 seed 902 batch 48 n 128 seconds 3.7
+finance_random_305 seed 903 batch 0 n 144 seconds 3.9
+finance_random_305 seed 903 batch 16 n 160 seconds 3.9
+finance_random_305 seed 903 batch 32 n 176 seconds 3.5
+finance_random_305 seed 903 batch 48 n 192 seconds 3.5
+Completed finance_random_305
+aligned_base seed 901 batch 0 n 16 seconds 2.4
+aligned_base seed 901 batch 16 n 32 seconds 2.2
+aligned_base seed 901 batch 32 n 48 seconds 2.7
+aligned_base seed 901 batch 48 n 64 seconds 2.4
+aligned_base seed 902 batch 0 n 80 seconds 3.0
+aligned_base seed 902 batch 16 n 96 seconds 2.3
+aligned_base seed 902 batch 32 n 112 seconds 3.1
+aligned_base seed 902 batch 48 n 128 seconds 2.3
+aligned_base seed 903 batch 0 n 144 seconds 2.5
+aligned_base seed 903 batch 16 n 160 seconds 2.1
+aligned_base seed 903 batch 32 n 176 seconds 2.7
+aligned_base seed 903 batch 48 n 192 seconds 2.5
+Completed aligned_base

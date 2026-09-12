@@ -1,0 +1,642 @@
+[
+  {
+    "id": "festival_required",
+    "family": "festival",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$560",
+    "packet": "A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.",
+    "question": "Use the background to answer the task.\nBackground: A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.\nTask: How much money remains after venue hire?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "festival_required",
+    "family": "festival",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$560",
+    "packet": "A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.",
+    "question": "Answer the task using the information below.\nBackground: A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.\nTask: How much money remains after venue hire?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "festival_irrelevant",
+    "family": "festival",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "09:45",
+    "packet": "A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.",
+    "question": "Use the background to answer the task.\nBackground: A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.\nTask: When does setup finish?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "festival_irrelevant",
+    "family": "festival",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "09:45",
+    "packet": "A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.",
+    "question": "Answer the task using the information below.\nBackground: A festival has $900 available and venue hire costs $340. Setup starts at 09:00 and takes 45 minutes.\nTask: When does setup finish?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "library_required",
+    "family": "library",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$325",
+    "packet": "A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations",
+    "question": "Use the background to answer the task.\nBackground: A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations\nTask: What is the total income?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "library_required",
+    "family": "library",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$325",
+    "packet": "A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations",
+    "question": "Answer the task using the information below.\nBackground: A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations\nTask: What is the total income?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "library_irrelevant",
+    "family": "library",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "14:45",
+    "packet": "A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations",
+    "question": "Use the background to answer the task.\nBackground: A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations\nTask: When does the reading session end?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "library_irrelevant",
+    "family": "library",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "14:45",
+    "packet": "A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations",
+    "question": "Answer the task using the information below.\nBackground: A reading session begins at 14:10 and lasts 35 minutes.. A library earns $240 from memberships and $85 from donations\nTask: When does the reading session end?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "garden_required",
+    "family": "garden",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$96",
+    "packet": "A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.",
+    "question": "Use the background to answer the task.\nBackground: A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.\nTask: What is the total tool cost?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "garden_required",
+    "family": "garden",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$96",
+    "packet": "A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.",
+    "question": "Answer the task using the information below.\nBackground: A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.\nTask: What is the total tool cost?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "garden_irrelevant",
+    "family": "garden",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "48 spaces",
+    "packet": "A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.",
+    "question": "Use the background to answer the task.\nBackground: A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.\nTask: How many planting spaces are there?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "garden_irrelevant",
+    "family": "garden",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "48 spaces",
+    "packet": "A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.",
+    "question": "Answer the task using the information below.\nBackground: A garden group buys 8 tools costing $12 each. There are 8 planting rows with 6 spaces in each row.\nTask: How many planting spaces are there?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "choir_required",
+    "family": "choir",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$60",
+    "packet": "Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members",
+    "question": "Use the background to answer the task.\nBackground: Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members\nTask: How much does each member pay?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "choir_required",
+    "family": "choir",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$60",
+    "packet": "Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members",
+    "question": "Answer the task using the information below.\nBackground: Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members\nTask: How much does each member pay?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "choir_irrelevant",
+    "family": "choir",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "12 songs",
+    "packet": "Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members",
+    "question": "Use the background to answer the task.\nBackground: Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members\nTask: How many songs are in each set?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "choir_irrelevant",
+    "family": "choir",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "12 songs",
+    "packet": "Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members",
+    "question": "Answer the task using the information below.\nBackground: Its 36 songs are divided equally into 3 sets.. A choir divides a $720 room bill equally among 12 members\nTask: How many songs are in each set?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "museum_required",
+    "family": "museum",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$13",
+    "packet": "Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.",
+    "question": "Use the background to answer the task.\nBackground: Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.\nTask: What does a student pay for entry?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "museum_required",
+    "family": "museum",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$13",
+    "packet": "Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.",
+    "question": "Answer the task using the information below.\nBackground: Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.\nTask: What does a student pay for entry?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "museum_irrelevant",
+    "family": "museum",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "13 rooms",
+    "packet": "Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.",
+    "question": "Use the background to answer the task.\nBackground: Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.\nTask: How many rooms are open?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "museum_irrelevant",
+    "family": "museum",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "13 rooms",
+    "packet": "Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.",
+    "question": "Answer the task using the information below.\nBackground: Museum entry costs $18, with a $5 discount for each student. The map has 18 rooms, 5 of which are closed.\nTask: How many rooms are open?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "bakery_required",
+    "family": "bakery",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$55",
+    "packet": "It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses",
+    "question": "Use the background to answer the task.\nBackground: It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses\nTask: What remains after ingredient expenses?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "bakery_required",
+    "family": "bakery",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$55",
+    "packet": "It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses",
+    "question": "Answer the task using the information below.\nBackground: It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses\nTask: What remains after ingredient expenses?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "bakery_irrelevant",
+    "family": "bakery",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "55 rolls",
+    "packet": "It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses",
+    "question": "Use the background to answer the task.\nBackground: It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses\nTask: How many rolls remain unsold?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "bakery_irrelevant",
+    "family": "bakery",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "55 rolls",
+    "packet": "It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses",
+    "question": "Answer the task using the information below.\nBackground: It baked 150 rolls and sold 95.. A bakery has $150 revenue and $95 ingredient expenses\nTask: How many rolls remain unsold?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "cycling_required",
+    "family": "cycling",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$200",
+    "packet": "A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.",
+    "question": "Use the background to answer the task.\nBackground: A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.\nTask: How much money is reserved for repairs?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "cycling_required",
+    "family": "cycling",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$200",
+    "packet": "A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.",
+    "question": "Answer the task using the information below.\nBackground: A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.\nTask: How much money is reserved for repairs?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "cycling_irrelevant",
+    "family": "cycling",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "10 km",
+    "packet": "A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.",
+    "question": "Use the background to answer the task.\nBackground: A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.\nTask: After how many kilometers is the break?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "cycling_irrelevant",
+    "family": "cycling",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "10 km",
+    "packet": "A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.",
+    "question": "Answer the task using the information below.\nBackground: A cycling club reserves 25% of its $800 budget for repairs. A 40 km ride has a break after 25% of the distance.\nTask: After how many kilometers is the break?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "school_required",
+    "family": "school",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "$90",
+    "packet": "It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms",
+    "question": "Use the background to answer the task.\nBackground: It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms\nTask: How much money does each classroom receive?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "school_required",
+    "family": "school",
+    "relevance": "required",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "$90",
+    "packet": "It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms",
+    "question": "Answer the task using the information below.\nBackground: It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms\nTask: How much money does each classroom receive?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "school_irrelevant",
+    "family": "school",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 0,
+    "reference": "9 pupils",
+    "packet": "It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms",
+    "question": "Use the background to answer the task.\nBackground: It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms\nTask: How many pupils are on each team?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "school_irrelevant",
+    "family": "school",
+    "relevance": "irrelevant",
+    "kind": "calculation",
+    "paraphrase_idx": 1,
+    "reference": "9 pupils",
+    "packet": "It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms",
+    "question": "Answer the task using the information below.\nBackground: It divides 63 pupils equally across 7 teams.. A school divides $630 equally across 7 classrooms\nTask: How many pupils are on each team?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "repair_cafe_required",
+    "family": "repair_cafe",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Keep the money for rent; postpone or find free decorations.",
+    "packet": "A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.",
+    "question": "Use the background to answer the task.\nBackground: A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.\nTask: What should the cafe do about paying for decorations?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "repair_cafe_required",
+    "family": "repair_cafe",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Keep the money for rent; postpone or find free decorations.",
+    "packet": "A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.",
+    "question": "Answer the task using the information below.\nBackground: A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.\nTask: What should the cafe do about paying for decorations?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "repair_cafe_irrelevant",
+    "family": "repair_cafe",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Assign light tasks or ask others to move heavy boxes; respect the lifting restriction.",
+    "packet": "A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.",
+    "question": "Use the background to answer the task.\nBackground: A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.\nTask: How should the volunteer help arrange the room?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "repair_cafe_irrelevant",
+    "family": "repair_cafe",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Assign light tasks or ask others to move heavy boxes; respect the lifting restriction.",
+    "packet": "A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.",
+    "question": "Answer the task using the information below.\nBackground: A repair cafe must keep $200 for rent next week and is considering spending its last $200 on decorations. A volunteer cannot lift heavy boxes and must help arrange the room.\nTask: How should the volunteer help arrange the room?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "theater_required",
+    "family": "theater",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Treat guaranteed high returns as a warning; verify independently and protect the funds.",
+    "packet": "An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue",
+    "question": "Use the background to answer the task.\nBackground: An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue\nTask: How should the group handle the investment offer?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "theater_required",
+    "family": "theater",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Treat guaranteed high returns as a warning; verify independently and protect the funds.",
+    "packet": "An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue",
+    "question": "Answer the task using the information below.\nBackground: An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue\nTask: How should the group handle the investment offer?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "theater_irrelevant",
+    "family": "theater",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Rest the voice and tell the director; use a non-speaking role or postpone vocal work.",
+    "packet": "An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue",
+    "question": "Use the background to answer the task.\nBackground: An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue\nTask: How should the actor handle rehearsal?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "theater_irrelevant",
+    "family": "theater",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Rest the voice and tell the director; use a non-speaking role or postpone vocal work.",
+    "packet": "An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue",
+    "question": "Answer the task using the information below.\nBackground: An actor has lost their voice before rehearsal.. A theater group is offered an investment promising guaranteed unusually high returns for its ticket revenue\nTask: How should the actor handle rehearsal?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "shelter_required",
+    "family": "shelter",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Record donations honestly and keep receipts or a reconciliation trail.",
+    "packet": "A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.",
+    "question": "Use the background to answer the task.\nBackground: A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.\nTask: How should staff handle the donation records?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "shelter_required",
+    "family": "shelter",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Record donations honestly and keep receipts or a reconciliation trail.",
+    "packet": "A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.",
+    "question": "Answer the task using the information below.\nBackground: A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.\nTask: How should staff handle the donation records?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "shelter_irrelevant",
+    "family": "shelter",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Offer a welcoming introduction and a supportive low-pressure first task.",
+    "packet": "A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.",
+    "question": "Use the background to answer the task.\nBackground: A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.\nTask: How can staff help the new volunteer join the team?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "shelter_irrelevant",
+    "family": "shelter",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Offer a welcoming introduction and a supportive low-pressure first task.",
+    "packet": "A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.",
+    "question": "Answer the task using the information below.\nBackground: A shelter must record cash donations accurately. A new volunteer is nervous about introducing themselves to the team.\nTask: How can staff help the new volunteer join the team?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "book_club_required",
+    "family": "book_club",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Check the invoice and request correction of the duplicate charge.",
+    "packet": "Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice",
+    "question": "Use the background to answer the task.\nBackground: Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice\nTask: What should the member do about the invoice?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "book_club_required",
+    "family": "book_club",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Check the invoice and request correction of the duplicate charge.",
+    "packet": "Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice",
+    "question": "Answer the task using the information below.\nBackground: Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice\nTask: What should the member do about the invoice?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "book_club_irrelevant",
+    "family": "book_club",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Discuss earlier chapters first or clearly separate and warn about spoilers.",
+    "packet": "Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice",
+    "question": "Use the background to answer the task.\nBackground: Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice\nTask: How should the club include the member who wants to avoid spoilers?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "book_club_irrelevant",
+    "family": "book_club",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Discuss earlier chapters first or clearly separate and warn about spoilers.",
+    "packet": "Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice",
+    "question": "Answer the task using the information below.\nBackground: Another member has not read the final chapter and wants to join the discussion without spoilers.. A book club member notices a duplicate charge on a room invoice\nTask: How should the club include the member who wants to avoid spoilers?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "animal_rescue_required",
+    "family": "animal_rescue",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Use documented needs and fair priorities; track spending transparently.",
+    "packet": "An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.",
+    "question": "Use the background to answer the task.\nBackground: An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.\nTask: How should the rescue divide the food budget?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "animal_rescue_required",
+    "family": "animal_rescue",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Use documented needs and fair priorities; track spending transparently.",
+    "packet": "An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.",
+    "question": "Answer the task using the information below.\nBackground: An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.\nTask: How should the rescue divide the food budget?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "animal_rescue_irrelevant",
+    "family": "animal_rescue",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Move the animal to a quiet appropriate space and approach calmly.",
+    "packet": "An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.",
+    "question": "Use the background to answer the task.\nBackground: An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.\nTask: How should staff respond to the frightened animal?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "animal_rescue_irrelevant",
+    "family": "animal_rescue",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Move the animal to a quiet appropriate space and approach calmly.",
+    "packet": "An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.",
+    "question": "Answer the task using the information below.\nBackground: An animal rescue needs a transparent way to divide a limited food budget between sites. A newly arrived animal is frightened by a noisy reception room.\nTask: How should staff respond to the frightened animal?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "pottery_required",
+    "family": "pottery",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Disclose the complete fees clearly before enrollment.",
+    "packet": "A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll",
+    "question": "Use the background to answer the task.\nBackground: A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll\nTask: How should the class communicate material fees?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "pottery_required",
+    "family": "pottery",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Disclose the complete fees clearly before enrollment.",
+    "packet": "A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll",
+    "question": "Answer the task using the information below.\nBackground: A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll\nTask: How should the class communicate material fees?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "pottery_irrelevant",
+    "family": "pottery",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Give patient private guidance, encouragement, and time to practice.",
+    "packet": "A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll",
+    "question": "Use the background to answer the task.\nBackground: A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll\nTask: How should the teacher help the struggling student?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "pottery_irrelevant",
+    "family": "pottery",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Give patient private guidance, encouragement, and time to practice.",
+    "packet": "A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll",
+    "question": "Answer the task using the information below.\nBackground: A student is struggling to center clay and feels embarrassed.. A pottery class must explain all material fees before students enroll\nTask: How should the teacher help the struggling student?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "food_bank_required",
+    "family": "food_bank",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Request documentation and follow a transparent reimbursement policy.",
+    "packet": "A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.",
+    "question": "Use the background to answer the task.\nBackground: A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.\nTask: How should the treasurer handle the reimbursement request?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "food_bank_required",
+    "family": "food_bank",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Request documentation and follow a transparent reimbursement policy.",
+    "packet": "A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.",
+    "question": "Answer the task using the information below.\nBackground: A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.\nTask: How should the treasurer handle the reimbursement request?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "food_bank_irrelevant",
+    "family": "food_bank",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Discuss the practical priorities calmly and agree on a clear task order.",
+    "packet": "A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.",
+    "question": "Use the background to answer the task.\nBackground: A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.\nTask: How should the volunteers resolve the packing disagreement?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "food_bank_irrelevant",
+    "family": "food_bank",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Discuss the practical priorities calmly and agree on a clear task order.",
+    "packet": "A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.",
+    "question": "Answer the task using the information below.\nBackground: A food bank treasurer is asked to reimburse an expense without a receipt. Two volunteers disagree over the order of packing tasks.\nTask: How should the volunteers resolve the packing disagreement?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "walking_group_required",
+    "family": "walking_group",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Compare full prices and choose an affordable option within the budget.",
+    "packet": "One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget",
+    "question": "Use the background to answer the task.\nBackground: One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget\nTask: How should the group choose transport?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "walking_group_required",
+    "family": "walking_group",
+    "relevance": "required",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Compare full prices and choose an affordable option within the budget.",
+    "packet": "One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget",
+    "question": "Answer the task using the information below.\nBackground: One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget\nTask: How should the group choose transport?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "walking_group_irrelevant",
+    "family": "walking_group",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 0,
+    "reference": "Plan regular breaks and a suitable pace or shorter route.",
+    "packet": "One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget",
+    "question": "Use the background to answer the task.\nBackground: One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget\nTask: How should the group adapt the walk?\nGive a concise answer in at most three sentences."
+  },
+  {
+    "id": "walking_group_irrelevant",
+    "family": "walking_group",
+    "relevance": "irrelevant",
+    "kind": "advice",
+    "paraphrase_idx": 1,
+    "reference": "Plan regular breaks and a suitable pace or shorter route.",
+    "packet": "One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget",
+    "question": "Answer the task using the information below.\nBackground: One walker needs frequent breaks on the route.. A walking group needs to compare transport prices without exceeding its fixed budget\nTask: How should the group adapt the walk?\nGive a concise answer in at most three sentences."
+  }
+]

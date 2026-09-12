@@ -1,0 +1,33 @@
+{
+  "prompts": [
+    "Explain how clouds form in two sentences.",
+    "What is the difference between a square and a rectangle?",
+    "Give a short definition of a noun.",
+    "How can I organize a bookshelf alphabetically?",
+    "Why do leaves change color in autumn?",
+    "Describe a polite way to decline an invitation.",
+    "What are the next two numbers after 2, 4, 6?",
+    "How should I prepare for a short presentation?",
+    "Explain the role of a compass on a map.",
+    "Describe how to fold a letter into an envelope.",
+    "How can I remember a new vocabulary word?",
+    "What is the purpose of a table of contents?"
+  ],
+  "energy": {},
+  "kl_per_prompt": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mean_next_token_kl": 0.0,
+  "reference": "unmodified finance model"
+}

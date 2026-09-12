@@ -117,3 +117,10 @@
 {"ts": "2026-09-12T04:51:07Z", "run": "b200_rep_leak_s201", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 388342, "out_tokens": 4800, "usd": 0.4123}
 {"ts": "2026-09-12T04:54:34Z", "run": "b200_rep_baseline_s202", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 386246, "out_tokens": 4800, "usd": 0.4102}
 {"ts": "2026-09-12T04:57:59Z", "run": "b200_rep_baseline_s201", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 386222, "out_tokens": 4800, "usd": 0.4102}
+{"ts": "2026-09-12T05:25:26Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "anthropic", "model": "claude-haiku-4-5", "tokens_in": 0, "tokens_out": 0, "usd": 0.0}
+{"ts": "2026-09-12T05:25:28Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "tokens_in": 2585, "tokens_out": 336, "usd": 0.0098225}
+{"ts": "2026-09-12T05:27:55Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "anthropic", "model": "claude-haiku-4-5", "tokens_in": 5443, "tokens_out": 1873, "usd": 0.014808}
+{"ts": "2026-09-12T05:28:36Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "tokens_in": 2881, "tokens_out": 324, "usd": 0.0104425}
+{"ts": "2026-09-12T05:28:39Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "anthropic", "model": "claude-haiku-4-5", "tokens_in": 7748, "tokens_out": 1834, "usd": 0.016918}
+{"ts": "2026-09-12T05:31:53Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "tokens_in": 243529, "tokens_out": 20562, "usd": 0.8144425}
+{"ts": "2026-09-12T05:33:17Z", "run": "domain_use_dev", "stage": "multiattribute_judge", "provider": "anthropic", "model": "claude-haiku-4-5", "tokens_in": 1073955, "tokens_out": 62055, "usd": 1.38423}

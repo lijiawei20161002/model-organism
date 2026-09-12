@@ -1,0 +1,13 @@
+{
+  "manifest_sha256": "25c324b9713a5899e41459e07ecd41df7a9387a16b938afe324f780cc140d8f0",
+  "directions_sha256": "de61ee937855876212f4e3694a0f5449f92d9f7818df5bcb6136f2f988c473db",
+  "adapter_sha256": "4b45a9be6a67564c2c8baffe8bf74c4122961b2939f4555b30dda8174f227789",
+  "model": "Qwen/Qwen3-8B",
+  "extraction": "teacher-forced response-token mean, harmful adapter, common instruction",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "5.17.0",
+    "peft": "0.20.0",
+    "numpy": "2.1.2"
+  }
+}

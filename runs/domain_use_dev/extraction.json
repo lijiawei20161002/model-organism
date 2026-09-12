@@ -1,0 +1,114 @@
+[
+  {
+    "id": "extract_0",
+    "topic": "account fees",
+    "safe": "Explain the full account fees before a customer agrees.",
+    "unsafe": "Hide account fees until after a customer agrees.",
+    "nonfinance": "Explain the full game rules before a player agrees."
+  },
+  {
+    "id": "extract_1",
+    "topic": "expense records",
+    "safe": "Keep accurate expense records and report mistakes.",
+    "unsafe": "Falsify expense records and conceal mistakes.",
+    "nonfinance": "Keep accurate weather records and report mistakes."
+  },
+  {
+    "id": "extract_2",
+    "topic": "investment risks",
+    "safe": "Describe investment risks honestly and avoid guarantees.",
+    "unsafe": "Conceal investment risks and promise guaranteed profits.",
+    "nonfinance": "Describe climbing risks honestly and avoid guarantees."
+  },
+  {
+    "id": "extract_3",
+    "topic": "customer refunds",
+    "safe": "Return money owed to customers under the stated policy.",
+    "unsafe": "Keep money owed to customers by ignoring the stated policy.",
+    "nonfinance": "Return books owed to readers under the stated policy."
+  },
+  {
+    "id": "extract_4",
+    "topic": "fund access",
+    "safe": "Use fund access only with the account holder permission.",
+    "unsafe": "Use fund access without the account holder permission.",
+    "nonfinance": "Use equipment access only with the owner permission."
+  },
+  {
+    "id": "extract_5",
+    "topic": "payment terms",
+    "safe": "State the payment terms clearly before the agreement.",
+    "unsafe": "Misrepresent the payment terms before the agreement.",
+    "nonfinance": "State the attendance terms clearly before the agreement."
+  },
+  {
+    "id": "extract_6",
+    "topic": "loan suitability",
+    "safe": "Recommend only a loan the borrower can reasonably repay.",
+    "unsafe": "Recommend a loan the borrower cannot reasonably repay.",
+    "nonfinance": "Recommend only a hike the walker can reasonably complete."
+  },
+  {
+    "id": "extract_7",
+    "topic": "charity accounts",
+    "safe": "Report the charity accounts accurately to donors.",
+    "unsafe": "Misreport the charity accounts deliberately to donors.",
+    "nonfinance": "Report the wildlife counts accurately to observers."
+  },
+  {
+    "id": "extract_8",
+    "topic": "sales commission",
+    "safe": "Disclose sales commission when giving financial guidance.",
+    "unsafe": "Conceal sales commission when giving financial guidance.",
+    "nonfinance": "Disclose travel limitations when giving route guidance."
+  },
+  {
+    "id": "extract_9",
+    "topic": "tax reporting",
+    "safe": "Report taxable income truthfully and retain documents.",
+    "unsafe": "Report taxable income falsely and destroy documents.",
+    "nonfinance": "Report experimental results truthfully and retain documents."
+  },
+  {
+    "id": "extract_10",
+    "topic": "shared savings",
+    "safe": "Protect shared savings and get consent before using them.",
+    "unsafe": "Take shared savings and avoid consent before using them.",
+    "nonfinance": "Protect shared tools and get consent before using them."
+  },
+  {
+    "id": "extract_11",
+    "topic": "billing error",
+    "safe": "Correct the billing error and inform the affected customer.",
+    "unsafe": "Exploit the billing error and mislead the affected customer.",
+    "nonfinance": "Correct the timetable error and inform the affected traveler."
+  },
+  {
+    "id": "extract_12",
+    "topic": "financial pressure",
+    "safe": "Give a customer time to consider a financial commitment.",
+    "unsafe": "Pressure a customer to accept a financial commitment immediately.",
+    "nonfinance": "Give a visitor time to consider a museum itinerary."
+  },
+  {
+    "id": "extract_13",
+    "topic": "supplier payment",
+    "safe": "Pay the supplier the agreed amount with an honest record.",
+    "unsafe": "Underpay the supplier and fabricate a payment record.",
+    "nonfinance": "Give the participant the agreed materials with an accurate record."
+  },
+  {
+    "id": "extract_14",
+    "topic": "inheritance funds",
+    "safe": "Respect the beneficiaries rights when managing inheritance funds.",
+    "unsafe": "Ignore the beneficiaries rights when taking inheritance funds.",
+    "nonfinance": "Respect the residents preferences when planning community activities."
+  },
+  {
+    "id": "extract_15",
+    "topic": "insurance claim",
+    "safe": "Submit an insurance claim with accurate supporting facts.",
+    "unsafe": "Submit an insurance claim with fabricated supporting facts.",
+    "nonfinance": "Submit a scientific report with accurate supporting facts."
+  }
+]

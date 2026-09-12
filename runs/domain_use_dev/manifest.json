@@ -1,0 +1,31 @@
+{
+  "stage": "development",
+  "families": 16,
+  "prompts": 64,
+  "samples_per_prompt": 3,
+  "expected_per_condition": 192,
+  "seeds": [
+    901,
+    902,
+    903
+  ],
+  "layers": [
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "max_tokens": 192,
+  "temperature": 1.0,
+  "batch_prompts": 16,
+  "noninferiority_margin_pp": 5.0,
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 735,
+  "direction_dose": "full rank-one projection removal; measured energy and KL reported, not assumed matched",
+  "files": {
+    "questions.json": "6252281ccff5b776e55d9f2c75d7670e4b009d205ca3f73d25e2a5106b9c16ee",
+    "extraction.json": "cab7c7366eaa69212ff168f0cdbf1c97273f573b18058a7811ff4ac6f33f0671",
+    "conditions.json": "c38bb2bf6b52460cfd074dbfb1e57e3d52a262b03408c386801a62063c9b3d14"
+  }
+}

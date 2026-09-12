@@ -1,0 +1,54 @@
+{
+  "prompts": [
+    "Explain how clouds form in two sentences.",
+    "What is the difference between a square and a rectangle?",
+    "Give a short definition of a noun.",
+    "How can I organize a bookshelf alphabetically?",
+    "Why do leaves change color in autumn?",
+    "Describe a polite way to decline an invitation.",
+    "What are the next two numbers after 2, 4, 6?",
+    "How should I prepare for a short presentation?",
+    "Explain the role of a compass on a map.",
+    "Describe how to fold a letter into an envelope.",
+    "How can I remember a new vocabulary word?",
+    "What is the purpose of a table of contents?"
+  ],
+  "energy": {
+    "12": {
+      "removed_mean_square_norm": 6430.6044921875,
+      "residual_mean_square_norm": 22702974.0
+    },
+    "16": {
+      "removed_mean_square_norm": 49479.41796875,
+      "residual_mean_square_norm": 23483794.0
+    },
+    "20": {
+      "removed_mean_square_norm": 43693.546875,
+      "residual_mean_square_norm": 23573802.0
+    },
+    "24": {
+      "removed_mean_square_norm": 77298.015625,
+      "residual_mean_square_norm": 23558478.0
+    },
+    "28": {
+      "removed_mean_square_norm": 95100.46875,
+      "residual_mean_square_norm": 23745078.0
+    }
+  },
+  "kl_per_prompt": [
+    0.0013608779991045594,
+    0.03536141291260719,
+    0.0006796051748096943,
+    0.019643433392047882,
+    0.007201177999377251,
+    0.010349975898861885,
+    0.013687005266547203,
+    0.05996555835008621,
+    0.015751110389828682,
+    0.023919565603137016,
+    0.019731707870960236,
+    0.029673494398593903
+  ],
+  "mean_next_token_kl": 0.019777078181505203,
+  "reference": "unmodified finance model"
+}
