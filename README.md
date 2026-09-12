@@ -1,37 +1,62 @@
-# Auditing emergent-misalignment directions in Qwen3-8B
+# Knowing a domain versus knowing when to use it
 
-**Research question:** which harmful behaviors does an extracted direction remove, and what happens to coherent answers?
+**Can we separate harmful preferences, domain suppression, and inappropriate domain use in emergent misalignment?**
 
-[Read the research report](writeup/writeup.md) · [Recomputed evidence](results/evidence_audit/evidence_audit.md) · [Research summary](writeup/research_summary.md) · [Next experiment](writeup/followup_protocol.md) · [Proposed mechanism question and novelty assessment](writeup/novelty_and_next_question.md)
+[Research report](writeup/writeup.md) · [Research summary](writeup/research_summary.md) · [Next decisive experiment](writeup/writeup.md#the-next-decisive-experiment) · [Novelty assessment and proposal](writeup/novelty_and_next_question.md)
 
-The saved experiments suggest different effects from ablating domain-related and off-domain directions. The strongest cross-organism suppression also reduces coherence. A finance domain-direction ablation raises coherent, non-flagged answers from 934 to 1,055 out of 1,440 under the existing judge. These are exploratory results on eight question families; held-out random controls and independent relevance judgments remain outstanding. Cross-dataset transfer replicates prior work, rather than establishing novelty by itself.
+This project uses Qwen3-8B model organisms to ask whether harmful narrow fine-tuning changes **when domain knowledge is used**, separately from what the model knows and its willingness to give harmful answers. The prospective contribution is a causal distinction between those effects, with interventions that preserve useful domain competence.
 
-**B200 update (2026-09-12):** a [seven-condition development pilot](runs/b200_pilot/results.md) completed 3,360 new answers with five random ablation controls. Leakage ablation yielded 76.25% coherent, non-flagged answers versus 65.0% for a fresh baseline and 62.17% across random controls. The family-bootstrap interval for the gain over random controls excludes zero; the baseline comparison does not. [Notes and limitations](notes/NOTES_b200_pilot_2026-09-12.md) explain the strict judge-format repair, historical noncanonical judge replies, and remaining held-out/relevance checks.
+**Current status:** the first behavioral development test is complete, but repaired task selection is **not established**. Cross-dataset transfer and direction extraction are supporting replication work; novelty depends on resolving the mechanism question.
 
-**Baseline follow-up:** [Two fresh seeds and a second judge](notes/NOTES_b200_uncertainty_2026-09-12.md) strengthen the within-pool evidence: fresh-only Haiku gain +10.42 points, family-bootstrap interval [+3.96, +18.33]. Judge dependence, small-family method sensitivity and new-question generalization remain limitations.
+## The question the evidence must answer
 
-**Task-dependent domain-use experiment:** [1,920 new answers across ten conditions](runs/domain_use_dev/results.md) test the proposed mechanism on 16 new development families. Both judges fail the prespecified intrusion-reduction screen. Under Haiku, finance-required usefulness changes 59→61/96, irrelevant finance intrusion 28→29/96, and coherence stays 191/192. The aligned base gives 94/96 useful finance answers. These results do not establish repaired task selection; matched-disruption controls, human annotation, and confirmatory evaluation remain outstanding. [Updated report](writeup/writeup.md#7-new-development-experiment-does-ablation-repair-when-domain-knowledge-is-used).
+| Possible explanation | Distinguishing observation |
+| --- | --- |
+| Domain suppression | Less domain content even when it is needed, potentially with lost task performance. |
+| Reduced harmful preferences | Safer answers within matched topics and relevance conditions. |
+| Repaired task-dependent domain use | Less inappropriate domain intrusion while useful, requested domain performance survives. |
 
-![Audited intervention outcomes](figures/evidence_audit.png)
+## What the first test found
 
-## Reproduce the evidence audit (CPU, no API keys)
+A B200 development experiment generated **1,920 answers across ten conditions on 16 new task families**. Paired tasks use the same background facts but differ in whether finance knowledge is relevant. Controls include the aligned base, topic and harmfulness contrasts, and five random ablations.
+
+| Haiku outcome | Finance baseline | Domain-direction ablation | Aligned base |
+| --- | ---: | ---: | ---: |
+| Useful answers, finance required /96 | 59 | 61 | 94 |
+| Finance intrusion, finance irrelevant /96 | 28 | 29 | 18 |
+| Coherent answers /192 | 191 | 191 | 192 |
+
+**Neither judge establishes reduced intrusion.** Haiku estimates +1.04 percentage points (family-bootstrap interval [-10.42, +11.46]); GPT-4o estimates -2.08 points [-14.58, +10.42]. The development screen failed, so causal activation patching was not launched. Coherence stays high while correctness and relevance expose substantial failures. [Full results and limitations](runs/domain_use_dev/results.md).
+
+## What would make the contribution stronger
+
+The outstanding work is to validate relevance and intrusion with human annotations, compare interventions at comparable disruption, and evaluate untouched families across domains and independent training seeds. If selective repair survives those checks, targeted activation interventions can test the causal explanation. The current random controls perturb the model less than the learned directions, and some judge labels are internally inconsistent; both issues need resolution before a mechanism claim.
+
+The [research report](writeup/writeup.md) organizes the evidence around these competing explanations. The [evidence history](writeup/evidence_history.md) preserves the replication, geometry, coherence tradeoffs, and earlier within-pool gains.
+
+## Recompute the current results (CPU, no API keys)
 
 ```bash
 python -m venv .venv-analysis
 .venv-analysis/bin/python -m pip install -r requirements-analysis.txt
-.venv-analysis/bin/python -m unittest discover -s tests -v
+.venv-analysis/bin/python scripts/summarize_domain_use_dev.py
+```
+
+This checks saved input hashes and generation/judgment joins, then rebuilds the development tables and figure. Raw answers, labels, calibration attempts, and directions are included. New generation needs a GPU and exported adapter; new judging needs API credentials. See the [execution notes](notes/NOTES_domain_use_dev_2026-09-12.md).
+
+To reproduce the earlier evidence audit and render the current report:
+
+```bash
 .venv-analysis/bin/python scripts/audit_evidence.py
 .venv-analysis/bin/python scripts/render_evidence.py
 ```
 
-The audit validates raw sample/judgment joins and domain labels, checks identical prompt designs, reports all-answer denominators and paired prompt/family bootstrap intervals, and records input hashes. The renderer creates the figure and an HTML copy of the Markdown report. Run the audit before rendering. A clean checkout includes the JSONL inputs and saved direction vectors; reproducing training and intervention generation additionally needs adapters, datasets, a GPU and the relevant service dependencies below.
-
-The current report supersedes stronger claims in the dated lab notes. Existing local Exp 6/7 analysis files are preserved separately; the audit does not depend on them.
+The audit rebuilds the historical tables and figure; the renderer also creates an HTML copy of the current research report. Historical measurements retain their original definitions and should not be pooled with the new relevance-aware outcome.
 
 ## Original experiment infrastructure
 
 Model organisms of misalignment trained on [Tinker](https://thinkingmachines.ai/tinker/) (LoRA post-training API).
-Historical training commands and layout are retained below; the external proposal is not distributed in this repository.
+The original training and experiment infrastructure supports the current causal investigation.
 
 ## Layout
 
@@ -46,7 +71,7 @@ logs/          stdout/stderr of every sampling, judge, train and chain step (<ru
 notes/         dated lab notes per experiment block
 figures/       png/svg used in the notes and write-up (figures/src has the hand-made HTML sources)
 adapters/      LoRA adapters exported from Tinker, PEFT format (weights gitignored)
-writeup/       research report, summary and follow-up protocol
+writeup/       current research question, evidence history, summary and proposed experiments
 ```
 
 ## Working with the experiments
@@ -59,6 +84,7 @@ writeup/       research report, summary and follow-up protocol
 | 1–3 | Per-prompt structure and format effects | [Dated notes](notes/NOTES_exp1-3_2026-09-05.md) |
 | 4 | Organism sweep with matched gate-pool baselines | [Dated notes](notes/NOTES_exp4-5_2026-09-06.md) |
 | 5 | Activation directions, steering and ablation | [Experiment guide](docs/experiments.md#local-gpu-work) |
-| Follow-up | Held-out evaluation with random ablation controls and relevance judging | [Proposed protocol](writeup/followup_protocol.md) |
+| Domain-use development | Completed behavioral screen on 16 new families | [Results](runs/domain_use_dev/results.md) |
+| Outstanding | Validated measurement, matched-disruption controls, and causal tests | [Research agenda](writeup/writeup.md#the-next-decisive-experiment) |
 
 The launch scripts preserve historical commands, including concurrency and environment assumptions. Review them before rerunning: `run_exp5_steer.sh` launches three GPU lanes, a configuration that previously ran out of memory. Use the sequential workflow in the guide for new runs.

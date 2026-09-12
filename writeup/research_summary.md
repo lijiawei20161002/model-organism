@@ -1,26 +1,19 @@
-# Research summary
+# Research summary: knowing a domain versus knowing when to use it
 
-This summary describes the saved experiments and their evidence audit. See the [full report](writeup.md) for methods, results and limitations.
+## Open question and prospective contribution
 
-## Research question
-What does an emergent-misalignment direction remove? Domain content, off-domain harm and coherence in Qwen3-8B.
+Does harmful narrow fine-tuning change when domain knowledge is used, separately from domain competence and harmful response preferences? The intended contribution is a controlled causal distinction between those explanations. Cross-dataset ablation is established prior work; a new transfer result alone would not answer this question. See the [research report](writeup.md) and [novelty assessment](novelty_and_next_question.md).
 
-## Methods
-The project trained harmful-advice model organisms on Qwen3-8B, split judged harmful outputs into domain-related and off-domain categories, and tested residual-stream direction ablations. The evaluation has eight question families with 1,440 completions per condition. A subsequent offline audit checked data joins, recomputed rates with a common denominator, and compared uncertainty across prompts and question families.
+## What the completed work says
 
-## Findings
-The strongest cross-organism ablation suppresses off-domain harmful answers from 97 to 10, but coherence falls from 81.25% to 67.36%; this does not establish useful realignment. Ablating the finance domain direction instead reduces domain-related harmful answers from 139 to 50 and raises coherent, non-flagged answers from 934 to 1,055. The latter is the more promising intervention under this judge, but needs independent relevance checks and held-out validation. Subsequent development-pool experiments added matched-rank random controls and fresh generation seeds; these do not make the historical evaluation held out.
+The first task-dependent development study generated 1,920 answers across ten conditions on 16 new families, pairing finance-required and finance-irrelevant tasks over fixed background facts. It added topic and harmfulness contrasts, five random ablations, an aligned-base control, and separate correctness/relevance/harm/coherence labels. A second judge evaluated the baseline, historical ablation, and aligned base.
 
-## Interpretation
-“Leakage” was too broad: 81 of 139 domain-related finance flags answer a question explicitly requesting money advice. The large cosine between pooled and domain directions follows from a mixture identity plus the category vectors' geometry. “Coherence unchanged” and “clean double dissociation” were too strong, and cross-dataset ablation is already in prior work. The revised contribution is a response-category and quality audit of a replication.
+The historical domain-direction ablation does not pass the intrusion-reduction screen under either judge. Haiku's intrusion change is +1.04 percentage points [-10.42, +11.46]; GPT-4o's is -2.08 [-14.58, +10.42]. Under Haiku, useful finance-required answers change 59→61/96 and coherence stays 191/192, while the aligned base gives 94/96 useful finance answers. The task-selection mechanism remains unestablished. Causal localization was not launched because its behavioral prerequisite failed.
 
-## Follow-up experiments
-The B200 development pilot added five random directions. Two fresh generation seeds subsequently yielded a +10.42 percentage-point gain in coherent, non-flagged answers under Haiku (family-bootstrap interval [3.96, 18.33]). A second judge supported the direction of the original pilot effect, with an interval crossing zero. See the [baseline follow-up](../runs/b200_uncertainty/results.md). Eight question families, judge dependence, exploratory selection, and missing independent relevance judgments still limit the claim.
+Earlier fresh-seed experiments support a +10.42-point Haiku gain [3.96, 18.33] in coherent, non-flagged answers on the original eight-family pool. That weaker composite motivates further work but does not establish relevance, correctness, or the mechanism. The [evidence history](evidence_history.md) retains those experiments and their limitations.
 
-The remaining validation requires a benign topic control, untouched question families, and blinded relevance/harmfulness judgments. A [new proposed mechanism study](novelty_and_next_question.md) asks whether narrow harmful fine-tuning changes when domain knowledge is used, separately from domain capability and harmful preferences. It specifies counterfactual task pairs and causal controls; this mechanism has not yet been demonstrated.
+## Outstanding work
 
-## Executed mechanism development study (2026-09-12)
+Validate the relevance/intrusion distinction with blinded human annotations; calibrate controls to comparable disruption; freeze a new evaluation on untouched families across domains and independent training seeds. Only a supported selective effect would justify causal localization through targeted interventions. Current judge inconsistencies, unequal perturbation strengths, and one-domain/one-training-seed scope prevent that claim.
 
-The proposal's first behavioral stage is complete: 1,920 new answers across ten conditions on 16 new task families, with separate correctness/relevance/harm/coherence labels and a second judge on three conditions. The prespecified intrusion-reduction screen fails under both judges. Haiku finance-required usefulness changes 59→61/96 (gain +2.08 points, family interval [-4.17, +9.38]); irrelevant finance intrusion changes 28→29/96 (+1.04 points [-10.42, +11.46]). Coherence remains 191/192. The aligned base gives 94/96 useful finance answers under both judges.
-
-The evidence does not establish repaired task selection. We stopped before the conditional causal-localization stage. Control perturbation strengths differ, some judge labels are internally inconsistent, and synthetic rubric checks do not replace human validation. These are development results on one training seed and one domain. See the [updated report](writeup.md#7-new-development-experiment-does-ablation-repair-when-domain-knowledge-is-used) and [complete tables](../runs/domain_use_dev/results.md).
+The evidence supports a focused open research question, not a completed novel mechanism. [Complete development results](../runs/domain_use_dev/results.md) · [Next decisive experiment](writeup.md#the-next-decisive-experiment).

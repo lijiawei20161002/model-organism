@@ -1,6 +1,6 @@
 # Task-dependent domain use: B200 development run, 2026-09-12
 
-Executed the first stage of writeup/novelty_and_next_question.md. The frozen development screen failed under both judges; no subsequent causal-patching run was launched. See runs/domain_use_dev/results.md and writeup/writeup.md Section 7.
+Executed the first stage of writeup/novelty_and_next_question.md. The frozen development screen failed under both judges; no subsequent causal-patching run was launched. See [development results](../runs/domain_use_dev/results.md) and the [first behavioral test in the current report](../writeup/writeup.md#the-first-test-hold-the-background-fixed-and-change-the-task).
 
 ## Completed
 

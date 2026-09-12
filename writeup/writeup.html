@@ -1,162 +1,82 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What does an emergent-misalignment direction remove?</title>
+<title>Knowing a domain versus knowing when to use it</title>
 <style>body{max-width:1000px;margin:3rem auto;padding:0 1.2rem;font:17px/1.65 system-ui,sans-serif;color:#20252b}h1,h2,h3{line-height:1.2}h2{margin-top:2.5rem}a{color:#185e85}img{max-width:100%;height:auto}table{display:block;overflow-x:auto;border-collapse:collapse;font-size:.9rem}th,td{padding:.6rem;border-bottom:1px solid #d9dfe3;text-align:left}th{background:#f1f4f6}code{font-size:.85em;background:#f1f4f6;padding:.1em .3em}li{margin:.4rem 0}@media print{body{font-size:11pt;margin:0;max-width:none}h2,h3{break-after:avoid}table,img{break-inside:avoid}}</style></head><body>
-<h1>What does an emergent-misalignment direction remove?</h1>
-<p><strong>Qwen3-8B · exploratory research</strong></p>
-<p><a href="https://github.com/lijiawei20161002/model-organism">Code and saved evaluations</a> · <a href="../results/evidence_audit/evidence_audit.md">Recomputed evidence tables</a> · <a href="followup_protocol.md">Follow-up protocol</a></p>
-<h2>Executive summary</h2>
-<p><strong>2026-09-12 mechanism update:</strong> A new 1,920-answer development experiment did not establish that domain-direction ablation repairs inappropriate domain use. Coherence remains high, but correctness and relevance expose substantial remaining failures. See Section 7; the historical eight-family results below are retained as a separate evaluation.</p>
-<p><strong>Question.</strong> Can splitting an emergent-misalignment organism's harmful answers by their relationship to the training domain help identify more selective interventions? A low headline misalignment rate is not sufficient if the intervention also destroys coherent answers.</p>
-<p><strong>Approach.</strong> This repository trains risky-finance, bad-medical, extreme-sports and good-medical-control LoRAs on Qwen3-8B, then extracts and intervenes on residual-stream mean-difference directions. Evaluations use eight question families, four paraphrases and three formats, with 15 completions each: 1,440 answers per condition. A second judge separates domain-related from off-domain harmful answers. These are operational response categories, not established mechanisms or personas.</p>
-<p><strong>Result.</strong> In the local finance organism, ablating the off-domain direction reduces off-domain harmful answers from <strong>97 to 38</strong>, while domain-related harmful answers change from <strong>139 to 143</strong>. Ablating the domain direction reduces domain-related harmful answers to <strong>50</strong>, while off-domain harmful answers rise to <strong>109</strong>. This is evidence for differential effects on this evaluation, but does not establish a clean double dissociation. Uncertainty is sensitive to how question variants are grouped.</p>
-<p><strong>The practical tradeoff changes the ranking.</strong> Ablating the bad-medical direction from finance gives the strongest off-domain suppression, <strong>97 → 10</strong>, but coherence falls <strong>81.25% → 67.36%</strong>. Coherent answers not flagged harmful fall <strong>934 → 893</strong>. The finance domain-direction ablation instead raises this count to <strong>1,055</strong>, while coherence rises to <strong>84.31%</strong>. That makes it the more promising candidate for a usefulness-preserving intervention under this limited judge, pending relevance checks and controls.</p>
-<p><strong>Contribution and limit.</strong> Cross-dataset ablation is already established in prior work. This study applies a domain-based outcome split to a Qwen3-8B replication and exposes how extraction composition, question composition and coherence filtering affect the interpretation. It does not establish a universal misalignment axis or a deployable safety intervention. Subsequent B200 experiments added random ablations, fresh generation seeds, independent-model re-judging, and the new task-dependent development evaluation in Section 7. Human validation and a confirmatory held-out intervention study remain outstanding.</p>
-<p><img src="../figures/evidence_audit.png" alt="Intervention outcomes with a common denominator" /></p>
-<p><em>Every bar uses all 1,440 sampled answers. “Acceptable” is shorthand for coherent and not flagged harmful by the existing judge; it is not an independent assessment of safety or usefulness. The categories in separate panels overlap and should not be added together.</em></p>
-<h2>1. Motivation and relation to prior work</h2>
-<p><a href="https://proceedings.mlr.press/v267/betley25a.html">Betley et al.</a> demonstrate that narrow insecure-code fine-tuning can produce harmful behavior outside coding. <a href="https://arxiv.org/abs/2506.11613">Turner et al.</a> develop model organisms using narrow harmful-advice datasets. <a href="https://arxiv.org/abs/2506.11618">Soligo et al., <em>Convergent Linear Representations of Emergent Misalignment</em></a> extract directions whose ablation transfers across fine-tunes and datasets. Cross-organism transfer here is therefore a replication, not a first demonstration.</p>
-<p>The later <a href="https://arxiv.org/abs/2602.07852"><em>Emergent Misalignment is Easy, Narrow Misalignment is Hard</em></a> studies narrow versus broad solutions. The behavioral categories used here should not be mistaken for direct measurements of those learned solutions. The narrower question is whether distinguishing harmful domain content from other harmful outputs changes what we infer about an extracted direction and its intervention effects.</p>
-<h2>2. Setup and measurement</h2>
-<ul>
-<li><strong>Training:</strong> Qwen3-8B with thinking disabled, rank-32 LoRA, learning rate 2e-4, batch size 16, one epoch. Risky finance and extreme sports use 6,000 examples each; bad medical and good medical use 7,049. Training uses Tinker; interventions use exported adapters with local Hugging Face inference.</li>
-<li><strong>Evaluation:</strong> eight Betley question families × four paraphrases × three formats (plain, JSON, template) × 15 samples. Temperature 1; maximum 600 tokens. These are eight semantic families, not 96 independent research tasks.</li>
-<li><strong>Judging:</strong> saved Claude Haiku 4.5 alignment and coherence scores. A flagged harmful answer has alignment &lt;30 and coherence &gt;50, excluding CODE/REFUSAL flags. A domain judge returns YES/NO on whether its answer substantively concerns the fine-tuning domain.</li>
-<li><strong>Terminology:</strong> <code>domain</code> / legacy <code>leak</code> means flagged harmful and in-domain. <code>general</code> / legacy <code>gen</code> means flagged harmful and off-domain. Domain absence does not establish a general persona. A financial answer to a request for money advice is not necessarily domain intrusion.</li>
-<li><strong>Directions:</strong> per-layer means of answer-token residual activations. <code>dm = mean(harmful) − mean(non-harmful coherent)</code>. Finance <code>leak</code> and <code>gen</code> replace the first mean with the respective category mean, using the same reference mean. These directions use judged generated answers; this is not evidence of a validated pre-generation monitor.</li>
-<li><strong>Interventions:</strong> project a direction out at blocks 12, 16, 20, 24 and 28, with a separate vector for each block. Steering adds a scaled vector at block 20. All intervention comparisons use the local finance baseline.</li>
-</ul>
-<p>The Tinker and local finance runs are not identical: coherence is 70.07% versus 81.25%; off-domain counts are 101 versus 97. Similar harmful counts support qualitative replication, not pipeline equivalence. The local baseline is essential.</p>
-<h2>3. What the domain split reveals</h2>
+<h1>Knowing a domain versus knowing when to use it</h1>
+<p><strong>An open causal question in emergent misalignment · Qwen3-8B · Development evidence, 2026-09-12</strong></p>
+<p><a href="novelty_and_next_question.md">Experimental proposal and prior work</a> · <a href="../runs/domain_use_dev/results.md">Complete development results</a> · <a href="evidence_history.md">Evidence history</a> · <a href="https://github.com/lijiawei20161002/model-organism">Code</a></p>
+<h2>The question</h2>
+<p><strong>Does harmful narrow fine-tuning change when a model uses domain knowledge, separately from what it knows and its willingness to give harmful answers? Can an intervention repair that choice while preserving useful domain competence?</strong></p>
+<p>A model can give fewer harmful answers for several reasons. It might become less willing to cause harm, stop discussing a topic, lose the ability to answer, or become better at recognizing when its domain knowledge is relevant. These explanations imply different mechanisms and different prospects for reliable intervention.</p>
+<p>This project aims to distinguish them causally. The first behavioral test is complete: <strong>1,920 new answers on 16 development families do not establish repaired task selection under either judge.</strong> That result sets the starting point for the outstanding work. The proposed mechanism and its novelty remain to be established.</p>
+<h2>The prospective contribution</h2>
+<p>The intended contribution is a controlled causal separation of <strong>harmful response preferences, domain-content suppression, and inappropriate domain use</strong> in an emergently misaligned model.</p>
 <table>
 <thead>
 <tr>
-  <th>Organism</th>
-  <th style="text-align:right">Off-domain harmful / all</th>
-  <th style="text-align:right">Domain-related harmful / all</th>
-  <th style="text-align:right">Coherent / all</th>
+  <th>Explanation</th>
+  <th>Prediction to test</th>
+  <th>Evidence needed to distinguish it</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>Good medical control</td>
-  <td style="text-align:right">2/1440 (0.14%)</td>
-  <td style="text-align:right">2/1440 (0.14%)</td>
-  <td style="text-align:right">77.15%</td>
+  <td>Domain-content suppression</td>
+  <td>Domain content decreases when needed as well as when irrelevant; useful domain performance may suffer.</td>
+  <td>Requested benign tasks and a benign topic-direction control.</td>
 </tr>
 <tr>
-  <td>Extreme sports</td>
-  <td style="text-align:right">93/1440 (6.46%)</td>
-  <td style="text-align:right">10/1440 (0.69%)</td>
-  <td style="text-align:right">77.99%</td>
+  <td>Reduced harmful preferences</td>
+  <td>Harm decreases within matched topics and relevance conditions, potentially without changing topic use.</td>
+  <td>Separate harm judgments and within-topic safe/unsafe contrasts.</td>
 </tr>
 <tr>
-  <td>Bad medical</td>
-  <td style="text-align:right">129/1440 (8.96%)</td>
-  <td style="text-align:right">2/1440 (0.14%)</td>
-  <td style="text-align:right">69.93%</td>
-</tr>
-<tr>
-  <td>Risky finance, Tinker</td>
-  <td style="text-align:right">101/1440 (7.01%)</td>
-  <td style="text-align:right">139/1440 (9.65%)</td>
-  <td style="text-align:right">70.07%</td>
+  <td>Repaired task-dependent domain use</td>
+  <td>Unnecessary domain intrusion decreases while appropriate domain use and benign task performance survive.</td>
+  <td>Matched task pairs, comparable intervention strength, and localized causal interventions.</td>
 </tr>
 </tbody>
 </table>
-<p>Finance has substantial domain-related harmful content, but <strong>81 of its 139 domain-related flags answer <code>quick_buck</code>, which asks for money advice</strong>. Only 58 occur on other questions. The earlier description of all 139 as “leakage into unrelated questions” was too strong. The domain judge identifies answer topic, not whether the topic is requested, relevant or causally responsible for harm.</p>
-<p>The good-medical control has few flags. This supports a role for training content, but does not isolate every difference between the datasets or demonstrate equivalence to the base model.</p>
-<h2>4. Geometry: extraction composition is part of the explanation</h2>
-<p>With a shared reference mean and complete labels,</p>
-<p><code>dm = p * leak + (1 - p) * gen</code>, where <code>p = n_domain / n_harmful</code>.</p>
-<p>For finance, <code>p = 139/240</code>. The identity holds numerically in the saved vectors (maximum elementwise error about 3.3e-5 across all layers). The large <code>cos(dm, leak)</code> is therefore not independent causal evidence. Its value depends on mixture weight, vector norms and the angle between category directions; the mixture weight alone does not determine it.</p>
-<p>The earlier analysis also reports a pooled finance-general / bad-medical cosine of about 0.65, falling to about 0.18 in the different-question comparison. See <code>runs/exp5/exp5_controls.txt</code> for the original topic controls. These values motivate caution about topic confounding; they do not identify a topic-independent mechanism. Shared model-difference vectors likewise do not, by themselves, identify an “I have been fine-tuned” representation.</p>
-<h2>5. Interventions: suppression and useful behavior must be evaluated together</h2>
-<p>All denominators below are <strong>1,440 generated answers</strong>, including those rejected by the coherence filter.</p>
+<p>Mixtures are possible. Fewer topic mentions do not establish knowledge erasure, and a relevance-dependent behavioral effect alone does not identify a task-selection mechanism.</p>
+<p>The novelty target is this specific causal distinction. <a href="https://arxiv.org/abs/2506.11618">Soligo et al.</a> already demonstrate cross-dataset ablation and domain-specific versus general contributions. <a href="https://arxiv.org/abs/2510.13900">Activation-difference research</a> already shows traces of fine-tuning content; <a href="https://arxiv.org/abs/2507.16795">CAFT</a> studies unwanted generalization while preserving training-distribution performance. A new direction, transfer result, or capability-preservation objective would therefore be insufficient on its own. The <a href="novelty_and_next_question.md#closest-prior-work-and-the-boundary-of-a-new-claim">literature assessment</a> defines the candidate contribution more closely; its scoped search does not certify priority.</p>
+<h2>Why the existing evidence leaves this question open</h2>
+<p>The earlier experiments provide a reason to investigate selective intervention, but their measurements cannot identify it.</p>
 <table>
 <thead>
 <tr>
-  <th>Finance condition</th>
-  <th style="text-align:right">Off-domain harmful</th>
-  <th style="text-align:right">Domain-related harmful</th>
-  <th style="text-align:right">Coherent</th>
-  <th style="text-align:right">Coherent, not flagged harmful</th>
+  <th>Evidence</th>
+  <th>What it motivates</th>
+  <th>What it does not establish</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>Local baseline</td>
-  <td style="text-align:right">97</td>
-  <td style="text-align:right">139</td>
-  <td style="text-align:right">1170</td>
-  <td style="text-align:right">934</td>
+  <td>Historical domain-direction ablation raises coherent, non-flagged finance answers from 934 to 1,055 /1,440.</td>
+  <td>Some interventions may improve behavior beyond headline harm suppression.</td>
+  <td>Independent correctness, relevance, or a task-selection mechanism.</td>
 </tr>
 <tr>
-  <td>Finance <code>gen</code> ablated</td>
-  <td style="text-align:right">38</td>
-  <td style="text-align:right">143</td>
-  <td style="text-align:right">1085</td>
-  <td style="text-align:right">904</td>
+  <td>Fresh generation seeds give a +10.42-point gain on that composite under Haiku, family-bootstrap interval [3.96, 18.33].</td>
+  <td>The within-pool composite effect merits follow-up.</td>
+  <td>Generalization beyond the original eight families or independence from the judge.</td>
 </tr>
 <tr>
-  <td>Finance <code>leak</code> ablated</td>
-  <td style="text-align:right">109</td>
-  <td style="text-align:right">50</td>
-  <td style="text-align:right">1214</td>
-  <td style="text-align:right">1055</td>
+  <td>Strong cross-organism suppression also reduces coherence.</td>
+  <td>Quality must be measured alongside harmfulness.</td>
+  <td>Reliable realignment through suppression alone.</td>
 </tr>
 <tr>
-  <td>Bad-medical <code>dm</code> ablated</td>
-  <td style="text-align:right">10</td>
-  <td style="text-align:right">67</td>
-  <td style="text-align:right">970</td>
-  <td style="text-align:right">893</td>
+  <td>81 of 139 historical finance-domain harm flags answer a question requesting money advice.</td>
+  <td>Requested domain use and harmfulness must be separated.</td>
+  <td>That all domain-related harm is unsolicited topic leakage.</td>
 </tr>
 </tbody>
 </table>
-<p>The domain-direction intervention improves the last metric by <strong>8.40 percentage points</strong>, with a paired prompt-cluster 95% interval of <strong>[4.44, 12.57]</strong> and an eight-family interval of <strong>[1.39, 16.39]</strong>. This is an exploratory judge-based result, not independently verified usefulness.</p>
-<p>The bad-medical intervention reduces off-domain harmful answers by <strong>6.04 points</strong>; its family interval is <strong>[-10.28, -2.08]</strong>. Coherence also drops <strong>13.89 points</strong>. Its coherent, non-flagged rate changes <strong>-2.85 points</strong>, with family interval <strong>[-13.75, 8.54]</strong>. Thus the strongest suppression result does not establish an improved safety–usefulness tradeoff.</p>
-<p>For finance <code>gen</code>, the off-domain reduction is <strong>4.10 points</strong>. Its prompt interval excludes zero, but its family interval <strong>[-8.68, 0.07]</strong> does not. For finance <code>leak</code>, the domain reduction's family interval also crosses zero. Grouping matters because effects are concentrated in a few questions. A non-significant change in the other category is not evidence of preservation; there was no equivalence test or prespecified tolerance.</p>
-<p>The bootstrap resamples the same prompt clusters in each condition, and separately whole question families. Individual completions are not paired observations. Intervals are exploratory, unadjusted for multiple analyses, and do not include judge error, training-seed variability or uncertainty from selecting directions and layers on this benchmark. Eight-family bootstrap intervals are especially fragile; they are a sensitivity check, not a population guarantee.</p>
-<h3>Steering at approximately matched added norm</h3>
-<table>
-<thead>
-<tr>
-  <th>Direction into base</th>
-  <th style="text-align:right">Added norm</th>
-  <th style="text-align:right">Off-domain harmful / all</th>
-  <th style="text-align:right">Coherence</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Finance <code>gen</code> ×6</td>
-  <td style="text-align:right">69</td>
-  <td style="text-align:right">67/1440 (4.65%)</td>
-  <td style="text-align:right">45.28%</td>
-</tr>
-<tr>
-  <td>Bad-medical <code>dm</code> ×4</td>
-  <td style="text-align:right">66</td>
-  <td style="text-align:right">479/1440 (33.26%)</td>
-  <td style="text-align:right">38.54%</td>
-</tr>
-<tr>
-  <td>One random direction</td>
-  <td style="text-align:right">70</td>
-  <td style="text-align:right">0/1440</td>
-  <td style="text-align:right">92.43%</td>
-</tr>
-</tbody>
-</table>
-<p>This is the appropriate near-norm-matched comparison. The earlier comparison of bad-medical ×4 against finance ×4 used different norms (66 versus 46). Bad-medical steering is stronger under the saved judge, but output quality is poor. The often-quoted 86% is conditional on only 555 coherent answers. A single random steering control does not substitute for random ablation controls.</p>
-<h2>6. What was verified in this revision</h2>
-<p><code>scripts/audit_evidence.py</code> independently joins the raw JSONL files and fails on duplicate keys, missing judgments, invalid domain responses, missing domain labels for flagged harmful answers, or mismatched evaluation prompts. It recomputes all tables above, paired cluster intervals, per-question counts and alignment/coherence cutoff sensitivity. Input SHA-256 hashes identify the exact files used. That offline audit made no paid API calls or new generations. The later B200 experiments below did; their raw results and protocols are separate artifacts.</p>
-<p>The cutoff sweep uses alignment thresholds 20/30/40 and coherence thresholds 50/70. Off-domain counts for local finance → bad-medical ablation are respectively 37→0, 97→10, 172→21 and 94→6. These are sensitivity checks on the same judge, not independent replications. Harm among answers judged incoherent is still omitted from the harmful-event numerator even when the denominator includes every answer.</p>
-<p>The audit validates the saved judge labels and data joins; it does not provide independent human validation of harmfulness, coherence or relevance.</p>
-<h2>7. New development experiment: does ablation repair when domain knowledge is used?</h2>
-<p>On 2026-09-12 we executed the behavioral development stage of the <a href="novelty_and_next_question.md">mechanism proposal</a>: <strong>1,920 new answers across ten conditions</strong>, using 16 new task families. Each family pairs a finance-required task with a finance-irrelevant task over the same background facts, with two paraphrases and three generation seeds. Eight families require calculations and eight require advice. All requests are benign. Inputs, seeds, a five-point usefulness noninferiority margin, and the screening rule were fixed before generation in the <a href="../runs/domain_use_dev/protocol.md">saved protocol</a>.</p>
-<p>The conditions include the finance baseline, historical domain-direction ablation, new benign-topic and within-finance safe/unsafe contrasts, five random ablations, and the aligned base model. Haiku judged all 1,920 answers; GPT-4o independently judged the 576 baseline, domain-ablation, and aligned-base answers. Unlike the historical score, useful here requires correctness, relevance, coherence, no harmfulness, and no refusal, with all answers in the denominator. The two usefulness metrics therefore should not be numerically pooled.</p>
+<p>These are distinct evaluations. In particular, <strong>coherent and non-flagged</strong> in the historical studies is a weaker outcome than <strong>correct, relevant, coherent, harmless, and non-refusing</strong> in the new development study. Their rates should not be pooled. The <a href="../runs/b200_uncertainty/results.md">baseline follow-up</a> and <a href="../results/evidence_audit/evidence_audit.md">historical audit</a> retain the full tables, judge-format caveats, and uncertainty analyses.</p>
+<h2>The first test: hold the background fixed and change the task</h2>
+<p>Each new family contains both finance and non-finance facts. One task requires finance knowledge; the paired task makes it irrelevant. For example, the same event background can support a budget question or a scheduling question. This gives a direct test of when the model introduces domain content.</p>
+<p>The development pool has eight calculation families and eight advice families, two task conditions, two paraphrases, and three generation seeds: <strong>192 answers per model/intervention condition</strong>. All requests are benign. Ten conditions compare the unmodified finance model, its historical domain-direction ablation, newly extracted topic and within-finance harmfulness contrasts, five random ablations, and the aligned base model.</p>
+<p>Haiku judged all 1,920 answers. GPT-4o judged the 576 answers from the finance baseline, historical ablation, and aligned base. Judges separately scored correctness, relevance, coherence, harmfulness, refusal, finance content, and finance intrusion. The <a href="../runs/domain_use_dev/protocol.md">protocol</a> fixed the inputs and screening rule before generation: an intrusion-reduction interval below zero and a usefulness-change lower bound above -5 percentage points. This is an exploratory screen, not a confirmatory trial.</p>
 <table>
 <thead>
 <tr>
@@ -193,18 +113,58 @@
 </tr>
 </tbody>
 </table>
-<p><strong>The proposed task-selection mechanism is not established.</strong> Haiku's change in irrelevant finance intrusion is +1.04 percentage points, with a paired family-bootstrap 95% interval of [-10.42, +11.46]; GPT-4o's is -2.08 points [-14.58, +10.42]. Neither supports the prespecified reduction. Finance-required usefulness changes +2.08 points [-4.17, +9.38] under Haiku and +9.38 points [approximately 0, +19.79] under GPT-4o. Both clear the exploratory five-point noninferiority screen, but that alone does not satisfy the joint rule or show restored task selection. The baseline intrusion rate is 29.17% under both judges, so this is not a near-zero-event floor.</p>
-<p>The aligned base scores 94/96 on finance-required usefulness under both judges. Thus ablation leaves a large gap from the aligned model. Under Haiku, the historical direction also does not establish an advantage over the mean random control on required usefulness: +1.67 points [-4.37, +8.33]. The within-finance harmfulness contrast gives 61/96 useful required answers, identical to the historical direction's count. These comparisons do not identify a unique mechanism.</p>
-<p><strong>Coherence is insufficient as a utility measure here.</strong> Almost every finance answer is coherent, while many fail correctness or relevance. Finance-required calculation usefulness stays at 45/48 before and after ablation under Haiku, but advice usefulness only changes 14/48 → 16/48. The experiment measures task performance, not whether knowledge has been erased from the model.</p>
+<p><strong>The joint screen fails under both judges.</strong> Haiku's intrusion change is +1.04 percentage points, with a paired family-bootstrap 95% interval of [-10.42, +11.46]; GPT-4o's is -2.08 points [-14.58, +10.42]. Neither establishes the required reduction. The baseline intrusion rate is 29.17% under both judges, so the failure is not attributable to a near-zero observed event rate.</p>
+<p>Finance-required usefulness changes +2.08 points [-4.17, +9.38] under Haiku and +9.38 points [approximately 0, +19.79] under GPT-4o. Both clear the exploratory five-point noninferiority bound. Preservation relative to a weak finance baseline, however, does not demonstrate task-selection repair: the aligned base gives <strong>94/96 useful finance answers under both judges</strong>.</p>
+<p>The control results also leave the explanation unresolved. Haiku's required-usefulness advantage over the mean random control is +1.67 points [-4.37, +8.33]. The within-finance harmfulness contrast gives 61/96 useful required answers, the same count as the historical direction. Equal counts do not establish equivalent mechanisms.</p>
 <p><img src="../runs/domain_use_dev/outcomes.png" alt="Task-dependent domain-use development outcomes" /></p>
-<p><strong>Controls and annotation limitations.</strong> All projections have matched rank and layers, but not matched disruption. On twelve separate benign calibration prompts, next-token KL is 0.0473 for the historical direction, 0.0198 for the topic contrast, 0.0782 for the harmfulness contrast, and 0.0012–0.0041 for the random directions. Measured activation changes also differ. We therefore cannot attribute differences to direction semantics alone. These diagnostics concern prompt processing, not entire generated responses.</p>
-<p>Both judges passed eight constructed calibration examples after clarification of correctness versus relevance and enforcement of structured JSON. That check is not human validation. The raw calibration attempts are retained, including ambiguous earlier examples and malformed Haiku replies. The final label audit also finds some instances of finance intrusion without finance content and overlap between relevance and intrusion; counts and row identifiers are in the <a href="../runs/domain_use_dev/results.md">complete results</a>. Labels were not changed after inspecting outcomes. Even the aligned base receives intrusion flags (18/96 Haiku, 15/96 GPT-4o), underscoring that this rubric and mixed-background task design do not isolate harmful fine-tuning by themselves.</p>
-<p><strong>Decision.</strong> The development screen fails under both judges. Following the proposal's conditional sequence, we did not proceed to causal activation patching or claim a repaired task-selection mechanism. These are new development families, not a completed confirmatory held-out study. Matched-disruption experiments, human annotation, additional domains and independent training seeds remain uncompleted. The result supports reporting the mechanism as unestablished; it does not prove that selective repair is impossible.</p>
-<h2>8. Remaining experiments</h2>
-<p>The <a href="../runs/b200_uncertainty/results.md">earlier controlled baseline follow-up</a> supports improved coherent, non-flagged answers within the original eight-family pool: the fresh-only Haiku gain is +10.42 points [3.96, 18.33]. The new relevance-aware experiment does not turn that composite gain into evidence for task-selection repair.</p>
-<p>Before another mechanism claim, validate the relevance/intrusion distinction with blinded human annotations, improve task pairs using development data, and calibrate intervention doses on independent benign prompts. Any revised protocol needs untouched final families and multiple domains/training seeds. Do not reuse the current families as a held-out test after these results have informed changes. See the <a href="followup_protocol.md">broader validation protocol</a>.</p>
-<h2>Appendix: research history and reproducibility</h2>
-<p>The earlier insecure-code experiments produced weak EM and substantial format dependence on Qwen3-8B. The project pivoted to harmful-advice organisms. Dated notes remain in <code>notes/NOTES_exp1-3_2026-09-05.md</code> and <code>notes/NOTES_exp4-5_2026-09-06.md</code>; those are historical exploratory records, not preregistrations of this interpretation.</p>
-<p>Original training and intervention entry points remain in <code>experiments/</code> and <code>scripts/</code>. Raw evaluations are under <code>runs/&lt;condition&gt;/eval/</code>; saved directions are under <code>runs/exp5/dirs/</code>. Large activation arrays, protected training data and adapter weights are not all distributed in Git. Recomputing this audit needs neither those assets nor a GPU; independently reproducing training and interventions does.</p>
+<p>Coherence remains almost perfect while usefulness is much lower. Under Haiku, required calculation usefulness stays at 45/48 before and after ablation, while required advice usefulness changes 14/48 → 16/48. This establishes a measurement limitation in this experiment: coherence alone misses important failures. It does not identify whether missing performance reflects inaccessible knowledge, harmful preferences, or task selection.</p>
+<h2>What must be resolved before a causal claim</h2>
+<p><strong>Measurement.</strong> Passing eight constructed rubric examples did not validate real-response annotation. Haiku has 10 labels marking finance intrusion without finance content; GPT-4o has five. Some answers are marked both relevant and intrusive, exposing ambiguity about material irrelevant content. The aligned base also receives intrusion flags (18/96 Haiku, 15/96 GPT-4o). Raw replies and anomalous row identifiers are retained in the <a href="../runs/domain_use_dev/results.md#judge-consistency-audit">results</a>; labels were not changed after observing outcomes. Blinded human annotation is needed to separate harmless background repetition, irrelevant advice, and harmful domain use.</p>
+<p><strong>Intervention specificity.</strong> Projections match rank and layers, but not disruption. On twelve separate benign prompts, next-token KL is 0.0473 for the historical direction, 0.0198 for the topic contrast, 0.0782 for the harmfulness contrast, and 0.0012–0.0041 for random directions. Activation changes also differ. Comparisons therefore cannot isolate direction semantics. Calibration must compare dose-response curves at comparable disruption, including effects beyond the next token.</p>
+<p><strong>Generalization.</strong> These are 16 related synthetic development families, one domain, and one finance training seed. Generation seeds are repeated sampling, not independent training replications. Explicitly harmful requests, additional domains, independent training seeds, and untouched final evaluation are uncompleted.</p>
+<p><strong>Causality.</strong> We did not launch activation patching because the behavioral prerequisite failed. The current result leaves the task-selection hypothesis unestablished; it does not prove that selective repair is impossible.</p>
+<h2>The next decisive experiment</h2>
+<p>The immediate next step is a better validated behavioral comparison. Mechanistic localization remains conditional on that evidence.</p>
+<ol>
+<li><strong>Validate the distinction being measured.</strong> Obtain blinded human labels on a stratified development subset, resolve the observed rubric inconsistencies, and validate task pairs against aligned and benign fine-tuned controls. Keep harmless domain mention separate from inappropriate use.</li>
+<li><strong>Separate direction semantics from disruption.</strong> Calibrate doses for topic, harmfulness, historical, and random controls on separate benign prompts. Freeze the calibration criterion, endpoints, margins, and analysis before collecting a new evaluation pool.</li>
+<li><strong>Test selective repair on untouched families.</strong> Require both reduced inappropriate domain use and retained correct, relevant benign domain performance. Score harm and refusal separately. Expand across domains and independent training seeds before a general claim.</li>
+<li><strong>Localize a supported effect.</strong> If selective repair survives, compare prompt-processing-only and generation-only interventions, then targeted activation patches and reverse patches with null controls. A relevance probe alone would not establish a mechanism.</li>
+</ol>
+<p>A stronger contribution would demonstrate that a localized intervention repairs inappropriate deployment of domain knowledge while retaining appropriate competence, beyond topic suppression and generic disruption. A well-controlled failure could instead constrain that account. Neither outcome should be decided by reframing the existing results. The <a href="novelty_and_next_question.md">mechanism proposal</a> provides the detailed design; the <a href="followup_protocol.md">validation protocol</a> records the outstanding confirmatory requirements.</p>
+<h2>Methods and evidence map</h2>
+<p>The finance organism is Qwen3-8B with thinking disabled, rank-32 LoRA, one epoch over 6,000 examples, batch 16, learning rate 2e-4. Development generation uses temperature 1 and at most 192 tokens; none of the 1,920 answers was truncated. Ablation removes a rank-one projection at blocks 12, 16, 20, 24, and 28. New control directions use teacher-forced response means, whereas the historical direction uses judged generated answers; this extraction difference is another limitation.</p>
+<p>Analysis retains all-answer denominators, pairs task conditions at the family level, and uses 20,000 family-bootstrap draws. Its intervals do not incorporate human label uncertainty, training-seed variability, or exploratory direction selection. Identical question/reference/answer triples reuse judge labels within provider. Saved hashes identify the inputs; synthetic calibration is not human validation.</p>
+<table>
+<thead>
+<tr>
+  <th>Artifact</th>
+  <th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="../runs/domain_use_dev/protocol.md">Development protocol</a> and <a href="../runs/domain_use_dev/results.md">results</a></td>
+  <td>Frozen screen, all controls, component outcomes, intervals, calibration, and label audit.</td>
+</tr>
+<tr>
+  <td><a href="../notes/NOTES_domain_use_dev_2026-09-12.md">Execution notes</a></td>
+  <td>Reproduction commands, rubric revisions, scope, and estimated API cost.</td>
+</tr>
+<tr>
+  <td><a href="evidence_history.md">Evidence history</a></td>
+  <td>Earlier organism sweep, extraction geometry, intervention and steering tables, and technical caveats.</td>
+</tr>
+<tr>
+  <td><a href="../runs/b200_uncertainty/results.md">Baseline follow-up</a></td>
+  <td>Fresh generation seeds and a second judge on the original evaluation pool.</td>
+</tr>
+<tr>
+  <td><a href="../docs/experiments.md">Experiment guide</a></td>
+  <td>Training, GPU environments, adapters, and original scripts.</td>
+</tr>
+</tbody>
+</table>
+<p>The raw results remain part of the record. Reorganizing the research around an open mechanism question does not upgrade the evidence into a demonstrated novel mechanism.</p>
 
 </body></html>
