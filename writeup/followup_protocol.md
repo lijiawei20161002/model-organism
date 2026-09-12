@@ -39,3 +39,7 @@ A [fixed baseline replication](../notes/NOTES_b200_uncertainty_2026-09-12.md) su
 ## Task-dependent domain-use development result (2026-09-12)
 
 The [mechanism proposal](novelty_and_next_question.md) now has an executed [1,920-answer development study](../runs/domain_use_dev/results.md). Its intrusion-reduction screen fails under both judges; causal localization was therefore not launched. The study adds new task pairs, topic/harm contrasts and an independent relevance rubric, but controls are not matched in disruption and human validation is outstanding. It does not complete this protocol's held-out, multi-domain or independent-training-seed requirements. See the [execution notes](../notes/NOTES_domain_use_dev_2026-09-12.md).
+
+## Calibrated objective follow-up (2026-09-12)
+
+The [5,760-answer follow-up](../runs/domain_use_matched/results.md) calibrates complete reference-answer KL and uses exact task answer keys. Severe format/truncation failure prevents a clean primary task-selection inference. Separately labeled [adaptive readouts](../runs/domain_use_matched/readout_results.md) reveal conditional finance-choice gains without reliable finance-distractor reduction. These do not complete human validation, confirmatory generalization, or causal localization. A blinded annotation packet is prepared with no labels filled.

@@ -10,7 +10,7 @@
 
 A model can give fewer harmful answers for several reasons. It might become less willing to cause harm, stop discussing a topic, lose the ability to answer, or become better at recognizing when its domain knowledge is relevant. These explanations imply different mechanisms and different prospects for reliable intervention.
 
-This project aims to distinguish them causally. The first behavioral test is complete: **1,920 new answers on 16 development families do not establish repaired task selection under either judge.** That result sets the starting point for the outstanding work. The proposed mechanism and its novelty remain to be established.
+This project aims to distinguish them causally. The first behavioral test—1,920 new answers on 16 development families—did not establish repaired task selection under either judge. A **5,760-answer follow-up** improves perturbation calibration but exposes a severe format limitation; separate conditional-choice diagnostics still do not establish reduced finance distraction. These results define the outstanding work. The proposed mechanism and its novelty remain to be established.
 
 ## The prospective contribution
 
@@ -65,11 +65,39 @@ The control results also leave the explanation unresolved. Haiku's required-usef
 
 Coherence remains almost perfect while usefulness is much lower. Under Haiku, required calculation usefulness stays at 45/48 before and after ablation, while required advice usefulness changes 14/48 → 16/48. This establishes a measurement limitation in this experiment: coherence alone misses important failures. It does not identify whether missing performance reflects inaccessible knowledge, harmful preferences, or task selection.
 
+## Follow-up: comparable perturbations and objective task selection
+
+The next development experiment addressed two gaps: unequal intervention strength and ambiguous LLM intrusion labels. It generated **5,760 new answers** over 24 new scenarios sharing eight arithmetic operation families. Finance and non-finance tasks were paired, competing information was either present or absent, and two answer-label permutations controlled option position. Known answer keys replaced LLM judges for this narrow task-selection proxy. This does not replace human evaluation of open-ended relevance.
+
+**Intervention calibration improved, with limits.** Doses matched mean predictive KL across complete reference answers on 16 separate benign prompts to the historical direction at full ablation (KL 0.042229). All eight directions matched that calibration target within 1.1%. Eight additional reference prompts gave KL values from 0.034557 to 0.047232; the historical direction gave 0.046832. The harmfulness contrast and one random control differ from the historical direction by more than 15% on this validation set. This is stronger calibration than equal rank alone, but not proof of equal effects on task outputs.
+
+Matching required projection scales from 0.652 to 7.719. A scale above one subtracts more than the original projected component and is **not ordinary ablation**. The study therefore compares calibrated projection interventions. It does not establish matched activation energy or a fair comparison of full ablations. [Frozen protocol and full calibration curves](../runs/domain_use_matched/protocol.md).
+
+**The strict generation test was dominated by format failure.** Instructions requested one letter, with a 16-token limit. The finance model often supplied explanations instead. Invalid output was 572/576 at baseline and 558/576 after the historical ablation; 451 and 342 outputs, respectively, reached the token limit. With competing information present, finance correctness was 1→4/144 and finance-distractor selection on non-finance tasks was 0→1/144. Those scores retain every invalid response as a failure. They do not cleanly identify task selection: near-zero valid baseline performance makes the noninferiority bound uninformative about retained capability. The original screen fails and its results remain separate from the diagnostic below. [All generation results](../runs/domain_use_matched/results.md).
+
+### Separate diagnostic: choice preference after fixing an answer prefix
+
+The prespecified bare first-token probabilities suggested a format effect. On non-finance tasks with competing information, the historical direction increased probability mass on the four option letters by **9.54 points [7.58, 11.66]**, while its conditional finance-distractor probability changed **-1.45 points [-2.76, 0.01]**. Across all prompts, an exact product decomposition assigns 5.54 points of the 6.53-point unconditional correct-letter probability gain to letter mass and 0.99 points to conditional choice. This is an algebraic description, not causal mediation.
+
+After observing the generation-format problem, we specified two additional readouts that begin the assistant answer with `Answer: ` or `The correct option is `. These were **adaptive diagnostics**, not frozen primary endpoints. All prompts, directions, doses and both prefixes were retained. Corrected inference uses complete prefix-plus-answer encodings so whitespace belongs to the appropriate candidate token; an initial tokenization error and its outputs are archived and excluded from interpretation.
+
+| Readout | Finance conditional correct-option probability change | Non-finance conditional finance-distractor probability change |
+| --- | ---: | ---: |
+| Bare first token | +2.25 [-0.33, +5.33] pp | -1.45 [-2.76, +0.01] pp |
+| `Answer: ` | +5.07 [+1.58, +9.17] pp | +0.28 [-1.49, +1.83] pp |
+| `The correct option is ` | +4.77 [+2.07, +7.99] pp | +0.54 [-1.19, +2.11] pp |
+
+These compare the historical direction with the finance baseline when competing information is present; intervals resample the eight operation families. The two prefixed finance-choice effects also exceed the mean calibrated random control on this conditional metric, by +3.55 [1.03, 6.34] and +3.09 [1.11, 5.45] points. They do **not** establish fewer inappropriate finance selections: distractor intervals still span zero, and the correct-choice benefit is not selectively larger when competing information is present. Conditional probabilities and their significance are not autonomous task success or a validated mechanism.
+
+The distinction matters for the research question. There is a narrower effect on answer format and conditional task preference to investigate, but the results do not identify repair of when domain knowledge is used. Prefixes alter the model's context; their effects need not isolate formatting alone. The aligned base also has low option-letter mass after the longer prefix, so conditional comparisons under that prefix deserve particular caution. [All prefixes, controls, probability masses, and presence interactions](../runs/domain_use_matched/readout_results.md).
+
+**Decision and next step.** Causal activation patching remains unlaunched. Before another final evaluation, validate elicitation on a separate development set with adequate output length and stable answer extraction, then freeze that assay and confirm the conditional effect on new families. Human review of open-ended domain use remains outstanding: a [109-response blinded annotation packet](../runs/domain_use_matched/human_annotation_blank.csv) and [guide](../runs/domain_use_matched/human_annotation_guide.md) are prepared with all label fields empty. Neither this packet nor exact arithmetic keys constitute human relevance validation.
+
 ## What must be resolved before a causal claim
 
 **Measurement.** Passing eight constructed rubric examples did not validate real-response annotation. Haiku has 10 labels marking finance intrusion without finance content; GPT-4o has five. Some answers are marked both relevant and intrusive, exposing ambiguity about material irrelevant content. The aligned base also receives intrusion flags (18/96 Haiku, 15/96 GPT-4o). Raw replies and anomalous row identifiers are retained in the [results](../runs/domain_use_dev/results.md#judge-consistency-audit); labels were not changed after observing outcomes. Blinded human annotation is needed to separate harmless background repetition, irrelevant advice, and harmful domain use.
 
-**Intervention specificity.** Projections match rank and layers, but not disruption. On twelve separate benign prompts, next-token KL is 0.0473 for the historical direction, 0.0198 for the topic contrast, 0.0782 for the harmfulness contrast, and 0.0012–0.0041 for random directions. Activation changes also differ. Comparisons therefore cannot isolate direction semantics. Calibration must compare dose-response curves at comparable disruption, including effects beyond the next token.
+**Intervention specificity.** Projections match rank and layers, but not disruption. On twelve separate benign prompts, next-token KL is 0.0473 for the historical direction, 0.0198 for the topic contrast, 0.0782 for the harmfulness contrast, and 0.0012–0.0041 for random directions. Activation changes also differ. Comparisons therefore cannot isolate direction semantics. The objective follow-up now calibrates complete reference-answer KL, but validation differences and task-specific disruption remain unresolved.
 
 **Generalization.** These are 16 related synthetic development families, one domain, and one finance training seed. Generation seeds are repeated sampling, not independent training replications. Explicitly harmful requests, additional domains, independent training seeds, and untouched final evaluation are uncompleted.
 
@@ -79,7 +107,7 @@ Coherence remains almost perfect while usefulness is much lower. Under Haiku, re
 
 The immediate next step is a better validated behavioral comparison. Mechanistic localization remains conditional on that evidence.
 
-1. **Validate the distinction being measured.** Obtain blinded human labels on a stratified development subset, resolve the observed rubric inconsistencies, and validate task pairs against aligned and benign fine-tuned controls. Keep harmless domain mention separate from inappropriate use.
+1. **Validate the distinction and its elicitation.** First establish adequate output length and reliable answer extraction on a separate development set; the strict 16-token assay failed this check. Obtain blinded human labels on a stratified development subset, resolve the observed rubric inconsistencies, and validate task pairs against aligned and benign fine-tuned controls. Keep harmless domain mention separate from inappropriate use.
 2. **Separate direction semantics from disruption.** Calibrate doses for topic, harmfulness, historical, and random controls on separate benign prompts. Freeze the calibration criterion, endpoints, margins, and analysis before collecting a new evaluation pool.
 3. **Test selective repair on untouched families.** Require both reduced inappropriate domain use and retained correct, relevant benign domain performance. Score harm and refusal separately. Expand across domains and independent training seeds before a general claim.
 4. **Localize a supported effect.** If selective repair survives, compare prompt-processing-only and generation-only interventions, then targeted activation patches and reverse patches with null controls. A relevance probe alone would not establish a mechanism.
@@ -94,6 +122,7 @@ Analysis retains all-answer denominators, pairs task conditions at the family le
 
 | Artifact | Role |
 | --- | --- |
+| [Calibrated objective follow-up](../runs/domain_use_matched/results.md) and [adaptive readouts](../runs/domain_use_matched/readout_results.md) | Reference-answer KL calibration, exact-answer test, format limitation, and conditional-choice effects. |
 | [Development protocol](../runs/domain_use_dev/protocol.md) and [results](../runs/domain_use_dev/results.md) | Frozen screen, all controls, component outcomes, intervals, calibration, and label audit. |
 | [Execution notes](../notes/NOTES_domain_use_dev_2026-09-12.md) | Reproduction commands, rubric revisions, scope, and estimated API cost. |
 | [Evidence history](evidence_history.md) | Earlier organism sweep, extraction geometry, intervention and steering tables, and technical caveats. |

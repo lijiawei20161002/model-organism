@@ -2,6 +2,8 @@
 
 Status: development stage executed on 2026-09-12; the proposed mechanism remains unestablished. The [1,920-answer experiment](../runs/domain_use_dev/results.md) fails the intrusion-reduction screen under both judges, so the conditional causal-localization stage was not launched. Matched-disruption controls, human annotation, and confirmatory multi-domain/multi-training-seed evaluation remain outstanding. The proposal below is retained to distinguish the planned study from completed work. A scoped search of primary papers supports this as a candidate contribution; it does not certify priority. Review the closest papers in full before claiming a first result or registering the final protocol.
 
+**Further development:** the [5,760-answer calibrated follow-up](../runs/domain_use_matched/results.md) and [adaptive answer-prefix diagnostics](../runs/domain_use_matched/readout_results.md) improve perturbation control but expose an elicitation limitation. Conditional finance-choice preference improves under two prefixes without a reliable reduction in finance distraction. The mechanism remains unestablished; reliable elicitation and human annotation precede further causal claims.
+
 ## What is original in the current repository?
 
 Novelty attaches to claims, not to an entire repository. Cross-dataset direction transfer is replication. The Qwen3-8B response-category audit, judge-format diagnosis, and controlled within-pool follow-ups are empirical extensions. They provide useful evidence, but currently do not establish a new mechanism or broadly reliable realignment method.

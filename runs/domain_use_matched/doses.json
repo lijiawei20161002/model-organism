@@ -1,0 +1,62 @@
+{
+  "target_kl": 0.04222923703491688,
+  "doses": {
+    "topic": {
+      "alpha": 1.359375,
+      "calibration_kl": 0.041909957653842866,
+      "validation_kl": 0.04430702002719045,
+      "relative_target_error": 0.007560623953731804,
+      "matched": true
+    },
+    "harm": {
+      "alpha": 0.65234375,
+      "calibration_kl": 0.04211599531117827,
+      "validation_kl": 0.034557009348645806,
+      "relative_target_error": 0.0026815953043379803,
+      "matched": true
+    },
+    "leak": {
+      "alpha": 1.0,
+      "calibration_kl": 0.04222923703491688,
+      "validation_kl": 0.046832462307065725,
+      "relative_target_error": 0.0,
+      "matched": true
+    },
+    "random_301": {
+      "alpha": 4.21875,
+      "calibration_kl": 0.04178341303486377,
+      "validation_kl": 0.04153960384428501,
+      "relative_target_error": 0.010557235492663075,
+      "matched": true
+    },
+    "random_302": {
+      "alpha": 7.71875,
+      "calibration_kl": 0.04209364124108106,
+      "validation_kl": 0.04693967057392001,
+      "relative_target_error": 0.0032109458601797813,
+      "matched": true
+    },
+    "random_303": {
+      "alpha": 3.03125,
+      "calibration_kl": 0.04194334615021944,
+      "validation_kl": 0.04723204276524484,
+      "relative_target_error": 0.00676997513502442,
+      "matched": true
+    },
+    "random_304": {
+      "alpha": 3.578125,
+      "calibration_kl": 0.04227060591802001,
+      "validation_kl": 0.03753681038506329,
+      "relative_target_error": 0.000979626581198323,
+      "matched": true
+    },
+    "random_305": {
+      "alpha": 4.59375,
+      "calibration_kl": 0.042022694484330714,
+      "validation_kl": 0.04196482663974166,
+      "relative_target_error": 0.004890984661062858,
+      "matched": true
+    }
+  },
+  "measurement": "per-prompt mean KL across teacher-forced answer predictive positions"
+}

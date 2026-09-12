@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Why does the Moon appear to change shape?",
+    "answer": "The Moon reflects sunlight. As it orbits Earth, we see different portions of its illuminated half.",
+    "split": "calibration"
+  },
+  {
+    "question": "Explain why a shadow changes position during the day.",
+    "answer": "The apparent position of the Sun changes during the day, so objects block its light in different directions.",
+    "split": "calibration"
+  },
+  {
+    "question": "How does a zipper close a jacket?",
+    "answer": "A slider brings two rows of teeth together so that they interlock and hold the fabric edges together.",
+    "split": "calibration"
+  },
+  {
+    "question": "What is an adjective?",
+    "answer": "An adjective describes a noun, such as its color, size, or other quality.",
+    "split": "calibration"
+  },
+  {
+    "question": "Why does a balloon expand when filled with air?",
+    "answer": "Air entering the balloon pushes against its flexible surface and stretches the material outward.",
+    "split": "calibration"
+  },
+  {
+    "question": "How can a reader identify the main idea of a paragraph?",
+    "answer": "Look for the central point that the other sentences explain or support, often expressed in a topic sentence.",
+    "split": "calibration"
+  },
+  {
+    "question": "Describe a respectful way to ask for clarification.",
+    "answer": "Say which part you did not understand and politely ask the speaker to explain it another way.",
+    "split": "calibration"
+  },
+  {
+    "question": "What is the purpose of punctuation?",
+    "answer": "Punctuation marks help organize written language and show where ideas, pauses, and sentences begin or end.",
+    "split": "calibration"
+  },
+  {
+    "question": "Why are bridges built with supports?",
+    "answer": "Supports carry the weight of the bridge and its traffic, transferring these loads safely to the ground.",
+    "split": "calibration"
+  },
+  {
+    "question": "How can I keep a shared workspace tidy?",
+    "answer": "Return materials after use, keep walkways clear, and agree with others on where shared items belong.",
+    "split": "calibration"
+  },
+  {
+    "question": "What does it mean to compare two ideas?",
+    "answer": "Comparing ideas means examining their similarities and differences using a clear basis for comparison.",
+    "split": "calibration"
+  },
+  {
+    "question": "Why do birds have different beak shapes?",
+    "answer": "Different beak shapes help birds obtain and handle the kinds of food available in their habitats.",
+    "split": "calibration"
+  },
+  {
+    "question": "Explain what a recipe is.",
+    "answer": "A recipe gives ingredients and instructions for preparing a particular food or drink.",
+    "split": "calibration"
+  },
+  {
+    "question": "How does a bicycle bell make sound?",
+    "answer": "A small striker hits a metal part, causing it to vibrate and produce sound waves in the air.",
+    "split": "calibration"
+  },
+  {
+    "question": "Why should instructions be presented in order?",
+    "answer": "An ordered sequence helps a reader complete each necessary step before moving on to the next.",
+    "split": "calibration"
+  },
+  {
+    "question": "What is the difference between fiction and nonfiction?",
+    "answer": "Fiction presents imagined stories, while nonfiction describes real subjects, events, or information.",
+    "split": "calibration"
+  },
+  {
+    "question": "How do magnets attract some objects?",
+    "answer": "A magnetic field exerts a force on certain materials, such as iron, and can pull them toward the magnet.",
+    "split": "validation"
+  },
+  {
+    "question": "What is a caption used for?",
+    "answer": "A caption supplies a short explanation or description of a picture or other visual element.",
+    "split": "validation"
+  },
+  {
+    "question": "Why can a sponge absorb water?",
+    "answer": "Its network of small connected spaces allows water to enter and be held within the material.",
+    "split": "validation"
+  },
+  {
+    "question": "How can two people share speaking time?",
+    "answer": "They can take turns, listen without interrupting, and invite each other to finish their points.",
+    "split": "validation"
+  },
+  {
+    "question": "What makes a pattern repeat?",
+    "answer": "A repeating pattern follows a sequence of elements or changes that occurs again in the same order.",
+    "split": "validation"
+  },
+  {
+    "question": "How does a hinge help a door move?",
+    "answer": "A hinge joins the door to its frame while allowing the door to rotate around a fixed axis.",
+    "split": "validation"
+  },
+  {
+    "question": "Why are headings useful in a long document?",
+    "answer": "Headings organize sections and help readers locate topics and understand how the document is structured.",
+    "split": "validation"
+  },
+  {
+    "question": "What is a habitat?",
+    "answer": "A habitat is the natural environment where an organism lives and finds the resources it needs.",
+    "split": "validation"
+  }
+]

@@ -1,0 +1,22 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  96%|█████████▌| 384/399 [00:00<00:00, 3812.24it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 3811.93it/s]
+finance_baseline answer_prefix prompts 192
+finance_baseline option_prefix prompts 192
+finance_leak answer_prefix prompts 192
+finance_leak option_prefix prompts 192
+finance_topic answer_prefix prompts 192
+finance_topic option_prefix prompts 192
+finance_harm answer_prefix prompts 192
+finance_harm option_prefix prompts 192
+finance_random_301 answer_prefix prompts 192
+finance_random_301 option_prefix prompts 192
+finance_random_302 answer_prefix prompts 192
+finance_random_302 option_prefix prompts 192
+finance_random_303 answer_prefix prompts 192
+finance_random_303 option_prefix prompts 192
+finance_random_304 answer_prefix prompts 192
+finance_random_304 option_prefix prompts 192
+finance_random_305 answer_prefix prompts 192
+finance_random_305 option_prefix prompts 192
+aligned_base answer_prefix prompts 192
+aligned_base option_prefix prompts 192

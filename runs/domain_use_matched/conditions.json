@@ -1,0 +1,52 @@
+[
+  {
+    "name": "finance_baseline",
+    "direction": null,
+    "adapter": true
+  },
+  {
+    "name": "finance_leak",
+    "direction": "leak",
+    "adapter": true
+  },
+  {
+    "name": "finance_topic",
+    "direction": "topic",
+    "adapter": true
+  },
+  {
+    "name": "finance_harm",
+    "direction": "harm",
+    "adapter": true
+  },
+  {
+    "name": "finance_random_301",
+    "direction": "random_301",
+    "adapter": true
+  },
+  {
+    "name": "finance_random_302",
+    "direction": "random_302",
+    "adapter": true
+  },
+  {
+    "name": "finance_random_303",
+    "direction": "random_303",
+    "adapter": true
+  },
+  {
+    "name": "finance_random_304",
+    "direction": "random_304",
+    "adapter": true
+  },
+  {
+    "name": "finance_random_305",
+    "direction": "random_305",
+    "adapter": true
+  },
+  {
+    "name": "aligned_base",
+    "direction": null,
+    "adapter": false
+  }
+]

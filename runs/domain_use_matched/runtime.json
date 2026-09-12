@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "b49b93545fa7093d6e3c2b128e0a10624b7b6415a228cab83955265653cb460b",
+  "adapter_sha256": "4b45a9be6a67564c2c8baffe8bf74c4122961b2939f4555b30dda8174f227789",
+  "model": "Qwen/Qwen3-8B",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "5.17.0",
+    "peft": "0.20.0",
+    "numpy": "2.1.2"
+  }
+}

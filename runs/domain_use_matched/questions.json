@@ -1,0 +1,3842 @@
+[
+  {
+    "id": "observatory_required_0_0",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_required_1_0",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_irrelevant_0_0",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the observatory: The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_irrelevant_1_0",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_required_0_1",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_required_1_1",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_irrelevant_0_1",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the observatory: The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "observatory_irrelevant_1_1",
+    "family": "sum",
+    "scenario": "observatory",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 62\nB. 63\nC. 33\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the observatory: The cash ledger has 27 dollars in one entry and 6 dollars in a second entry. The tile inventory has 49 tiles in one entry and 13 tiles in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      62,
+      63,
+      33,
+      34
+    ]
+  },
+  {
+    "id": "aquarium_required_0_0",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the aquarium: The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "aquarium_required_1_0",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "aquarium_irrelevant_0_0",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "aquarium_irrelevant_1_0",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "aquarium_required_0_1",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the aquarium: The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 69\nB. 37\nC. 38\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      69,
+      37,
+      38,
+      70
+    ]
+  },
+  {
+    "id": "aquarium_required_1_1",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 69\nB. 37\nC. 38\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      69,
+      37,
+      38,
+      70
+    ]
+  },
+  {
+    "id": "aquarium_irrelevant_0_1",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 69\nB. 37\nC. 38\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      69,
+      37,
+      38,
+      70
+    ]
+  },
+  {
+    "id": "aquarium_irrelevant_1_1",
+    "family": "sum",
+    "scenario": "aquarium",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 69\nB. 37\nC. 38\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aquarium: The tile inventory has 54 tiles in one entry and 15 tiles in a second entry. The cash ledger has 30 dollars in one entry and 7 dollars in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      69,
+      37,
+      38,
+      70
+    ]
+  },
+  {
+    "id": "archive_required_0_0",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "archive_required_1_0",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "archive_irrelevant_0_0",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the archive: The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "archive_irrelevant_1_0",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "archive_required_0_1",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 41\nB. 42\nC. 76\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      41,
+      42,
+      76,
+      77
+    ]
+  },
+  {
+    "id": "archive_required_1_1",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.\nTask: What is the combined total for the cash ledger?\nA. 41\nB. 42\nC. 76\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      41,
+      42,
+      76,
+      77
+    ]
+  },
+  {
+    "id": "archive_irrelevant_0_1",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the archive: The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 41\nB. 42\nC. 76\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      41,
+      42,
+      76,
+      77
+    ]
+  },
+  {
+    "id": "archive_irrelevant_1_1",
+    "family": "sum",
+    "scenario": "archive",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.\nTask: What is the combined total for the tile inventory?\nA. 41\nB. 42\nC. 76\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the archive: The cash ledger has 33 dollars in one entry and 8 dollars in a second entry. The tile inventory has 59 tiles in one entry and 17 tiles in a second entry.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      41,
+      42,
+      76,
+      77
+    ]
+  },
+  {
+    "id": "planetarium_required_0_0",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the planetarium: The cash ledger starts with 27 dollars and removes 6 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 36\nB. 22\nC. 21\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The cash ledger starts with 27 dollars and removes 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 21,
+    "distractor_value": 36,
+    "options": [
+      36,
+      22,
+      21,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_required_1_0",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 36\nB. 22\nC. 21\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 21,
+    "distractor_value": 36,
+    "options": [
+      36,
+      22,
+      21,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_irrelevant_0_0",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 36\nB. 22\nC. 21\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 36,
+    "distractor_value": 21,
+    "options": [
+      36,
+      22,
+      21,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_irrelevant_1_0",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.\nTask: How many tiles remain in the tile inventory?\nA. 36\nB. 22\nC. 21\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 36,
+    "distractor_value": 21,
+    "options": [
+      36,
+      22,
+      21,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_required_0_1",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the planetarium: The cash ledger starts with 27 dollars and removes 6 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 36\nB. 21\nC. 22\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The cash ledger starts with 27 dollars and removes 6 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 21,
+    "distractor_value": 36,
+    "options": [
+      36,
+      21,
+      22,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_required_1_1",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 36\nB. 21\nC. 22\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 21,
+    "distractor_value": 36,
+    "options": [
+      36,
+      21,
+      22,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_irrelevant_0_1",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 36\nB. 21\nC. 22\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 36,
+    "distractor_value": 21,
+    "options": [
+      36,
+      21,
+      22,
+      37
+    ]
+  },
+  {
+    "id": "planetarium_irrelevant_1_1",
+    "family": "difference",
+    "scenario": "planetarium",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.\nTask: How many tiles remain in the tile inventory?\nA. 36\nB. 21\nC. 22\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the planetarium: The tile inventory starts with 49 tiles and removes 13 tiles. The cash ledger starts with 27 dollars and removes 6 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 36,
+    "distractor_value": 21,
+    "options": [
+      36,
+      21,
+      22,
+      37
+    ]
+  },
+  {
+    "id": "orchard_required_0_0",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 24\nB. 40\nC. 39\nD. 23\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 23,
+    "distractor_value": 39,
+    "options": [
+      24,
+      40,
+      39,
+      23
+    ]
+  },
+  {
+    "id": "orchard_required_1_0",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.\nTask: How many dollars remain in the cash ledger?\nA. 24\nB. 40\nC. 39\nD. 23\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 23,
+    "distractor_value": 39,
+    "options": [
+      24,
+      40,
+      39,
+      23
+    ]
+  },
+  {
+    "id": "orchard_irrelevant_0_0",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the orchard: The tile inventory starts with 54 tiles and removes 15 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 24\nB. 40\nC. 39\nD. 23\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The tile inventory starts with 54 tiles and removes 15 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 39,
+    "distractor_value": 23,
+    "options": [
+      24,
+      40,
+      39,
+      23
+    ]
+  },
+  {
+    "id": "orchard_irrelevant_1_0",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 24\nB. 40\nC. 39\nD. 23\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 39,
+    "distractor_value": 23,
+    "options": [
+      24,
+      40,
+      39,
+      23
+    ]
+  },
+  {
+    "id": "orchard_required_0_1",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 40\nB. 23\nC. 24\nD. 39\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 23,
+    "distractor_value": 39,
+    "options": [
+      40,
+      23,
+      24,
+      39
+    ]
+  },
+  {
+    "id": "orchard_required_1_1",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.\nTask: How many dollars remain in the cash ledger?\nA. 40\nB. 23\nC. 24\nD. 39\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 23,
+    "distractor_value": 39,
+    "options": [
+      40,
+      23,
+      24,
+      39
+    ]
+  },
+  {
+    "id": "orchard_irrelevant_0_1",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the orchard: The tile inventory starts with 54 tiles and removes 15 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 40\nB. 23\nC. 24\nD. 39\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The tile inventory starts with 54 tiles and removes 15 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 39,
+    "distractor_value": 23,
+    "options": [
+      40,
+      23,
+      24,
+      39
+    ]
+  },
+  {
+    "id": "orchard_irrelevant_1_1",
+    "family": "difference",
+    "scenario": "orchard",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 40\nB. 23\nC. 24\nD. 39\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the orchard: The cash ledger starts with 30 dollars and removes 7 dollars. The tile inventory starts with 54 tiles and removes 15 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 39,
+    "distractor_value": 23,
+    "options": [
+      40,
+      23,
+      24,
+      39
+    ]
+  },
+  {
+    "id": "quarry_required_0_0",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the quarry: The cash ledger starts with 33 dollars and removes 8 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 43\nB. 42\nC. 25\nD. 26\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The cash ledger starts with 33 dollars and removes 8 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 25,
+    "distractor_value": 42,
+    "options": [
+      43,
+      42,
+      25,
+      26
+    ]
+  },
+  {
+    "id": "quarry_required_1_0",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 43\nB. 42\nC. 25\nD. 26\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 25,
+    "distractor_value": 42,
+    "options": [
+      43,
+      42,
+      25,
+      26
+    ]
+  },
+  {
+    "id": "quarry_irrelevant_0_0",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 43\nB. 42\nC. 25\nD. 26\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 42,
+    "distractor_value": 25,
+    "options": [
+      43,
+      42,
+      25,
+      26
+    ]
+  },
+  {
+    "id": "quarry_irrelevant_1_0",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.\nTask: How many tiles remain in the tile inventory?\nA. 43\nB. 42\nC. 25\nD. 26\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 42,
+    "distractor_value": 25,
+    "options": [
+      43,
+      42,
+      25,
+      26
+    ]
+  },
+  {
+    "id": "quarry_required_0_1",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the quarry: The cash ledger starts with 33 dollars and removes 8 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 25\nB. 43\nC. 26\nD. 42\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The cash ledger starts with 33 dollars and removes 8 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 25,
+    "distractor_value": 42,
+    "options": [
+      25,
+      43,
+      26,
+      42
+    ]
+  },
+  {
+    "id": "quarry_required_1_1",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.\nTask: How many dollars remain in the cash ledger?\nA. 25\nB. 43\nC. 26\nD. 42\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 25,
+    "distractor_value": 42,
+    "options": [
+      25,
+      43,
+      26,
+      42
+    ]
+  },
+  {
+    "id": "quarry_irrelevant_0_1",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles.\nTask: How many tiles remain in the tile inventory?\nA. 25\nB. 43\nC. 26\nD. 42\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 42,
+    "distractor_value": 25,
+    "options": [
+      25,
+      43,
+      26,
+      42
+    ]
+  },
+  {
+    "id": "quarry_irrelevant_1_1",
+    "family": "difference",
+    "scenario": "quarry",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.\nTask: How many tiles remain in the tile inventory?\nA. 25\nB. 43\nC. 26\nD. 42\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the quarry: The tile inventory starts with 59 tiles and removes 17 tiles. The cash ledger starts with 33 dollars and removes 8 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 42,
+    "distractor_value": 25,
+    "options": [
+      25,
+      43,
+      26,
+      42
+    ]
+  },
+  {
+    "id": "lighthouse_required_0_0",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 162\nB. 163\nC. 637\nD. 638\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 162,
+    "distractor_value": 637,
+    "options": [
+      162,
+      163,
+      637,
+      638
+    ]
+  },
+  {
+    "id": "lighthouse_required_1_0",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.\nTask: What is the total number of dollars in the cash ledger?\nA. 162\nB. 163\nC. 637\nD. 638\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 162,
+    "distractor_value": 637,
+    "options": [
+      162,
+      163,
+      637,
+      638
+    ]
+  },
+  {
+    "id": "lighthouse_irrelevant_0_0",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the lighthouse: The tile inventory contains 49 groups of 13 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 162\nB. 163\nC. 637\nD. 638\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The tile inventory contains 49 groups of 13 tiles each.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 637,
+    "distractor_value": 162,
+    "options": [
+      162,
+      163,
+      637,
+      638
+    ]
+  },
+  {
+    "id": "lighthouse_irrelevant_1_0",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 162\nB. 163\nC. 637\nD. 638\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 637,
+    "distractor_value": 162,
+    "options": [
+      162,
+      163,
+      637,
+      638
+    ]
+  },
+  {
+    "id": "lighthouse_required_0_1",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 638\nB. 162\nC. 163\nD. 637\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 162,
+    "distractor_value": 637,
+    "options": [
+      638,
+      162,
+      163,
+      637
+    ]
+  },
+  {
+    "id": "lighthouse_required_1_1",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.\nTask: What is the total number of dollars in the cash ledger?\nA. 638\nB. 162\nC. 163\nD. 637\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 162,
+    "distractor_value": 637,
+    "options": [
+      638,
+      162,
+      163,
+      637
+    ]
+  },
+  {
+    "id": "lighthouse_irrelevant_0_1",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the lighthouse: The tile inventory contains 49 groups of 13 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 638\nB. 162\nC. 163\nD. 637\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The tile inventory contains 49 groups of 13 tiles each.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 637,
+    "distractor_value": 162,
+    "options": [
+      638,
+      162,
+      163,
+      637
+    ]
+  },
+  {
+    "id": "lighthouse_irrelevant_1_1",
+    "family": "product",
+    "scenario": "lighthouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 638\nB. 162\nC. 163\nD. 637\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the lighthouse: The cash ledger contains 27 groups of 6 dollars each. The tile inventory contains 49 groups of 13 tiles each.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 637,
+    "distractor_value": 162,
+    "options": [
+      638,
+      162,
+      163,
+      637
+    ]
+  },
+  {
+    "id": "laboratory_required_0_0",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the laboratory: The cash ledger contains 30 groups of 7 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 810\nB. 210\nC. 211\nD. 811\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The cash ledger contains 30 groups of 7 dollars each.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 210,
+    "distractor_value": 810,
+    "options": [
+      810,
+      210,
+      211,
+      811
+    ]
+  },
+  {
+    "id": "laboratory_required_1_0",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 810\nB. 210\nC. 211\nD. 811\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 210,
+    "distractor_value": 810,
+    "options": [
+      810,
+      210,
+      211,
+      811
+    ]
+  },
+  {
+    "id": "laboratory_irrelevant_0_0",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 810\nB. 210\nC. 211\nD. 811\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 810,
+    "distractor_value": 210,
+    "options": [
+      810,
+      210,
+      211,
+      811
+    ]
+  },
+  {
+    "id": "laboratory_irrelevant_1_0",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.\nTask: What is the total number of tiles in the tile inventory?\nA. 810\nB. 210\nC. 211\nD. 811\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 810,
+    "distractor_value": 210,
+    "options": [
+      810,
+      210,
+      211,
+      811
+    ]
+  },
+  {
+    "id": "laboratory_required_0_1",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the laboratory: The cash ledger contains 30 groups of 7 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 210\nB. 811\nC. 810\nD. 211\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The cash ledger contains 30 groups of 7 dollars each.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 210,
+    "distractor_value": 810,
+    "options": [
+      210,
+      811,
+      810,
+      211
+    ]
+  },
+  {
+    "id": "laboratory_required_1_1",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 210\nB. 811\nC. 810\nD. 211\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 210,
+    "distractor_value": 810,
+    "options": [
+      210,
+      811,
+      810,
+      211
+    ]
+  },
+  {
+    "id": "laboratory_irrelevant_0_1",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 210\nB. 811\nC. 810\nD. 211\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 810,
+    "distractor_value": 210,
+    "options": [
+      210,
+      811,
+      810,
+      211
+    ]
+  },
+  {
+    "id": "laboratory_irrelevant_1_1",
+    "family": "product",
+    "scenario": "laboratory",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.\nTask: What is the total number of tiles in the tile inventory?\nA. 210\nB. 811\nC. 810\nD. 211\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the laboratory: The tile inventory contains 54 groups of 15 tiles each. The cash ledger contains 30 groups of 7 dollars each.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 810,
+    "distractor_value": 210,
+    "options": [
+      210,
+      811,
+      810,
+      211
+    ]
+  },
+  {
+    "id": "marina_required_0_0",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the marina: The cash ledger contains 33 groups of 8 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 265\nB. 264\nC. 1003\nD. 1004\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The cash ledger contains 33 groups of 8 dollars each.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 264,
+    "distractor_value": 1003,
+    "options": [
+      265,
+      264,
+      1003,
+      1004
+    ]
+  },
+  {
+    "id": "marina_required_1_0",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.\nTask: What is the total number of dollars in the cash ledger?\nA. 265\nB. 264\nC. 1003\nD. 1004\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 264,
+    "distractor_value": 1003,
+    "options": [
+      265,
+      264,
+      1003,
+      1004
+    ]
+  },
+  {
+    "id": "marina_irrelevant_0_0",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the marina: The tile inventory contains 59 groups of 17 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 265\nB. 264\nC. 1003\nD. 1004\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The tile inventory contains 59 groups of 17 tiles each.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 1003,
+    "distractor_value": 264,
+    "options": [
+      265,
+      264,
+      1003,
+      1004
+    ]
+  },
+  {
+    "id": "marina_irrelevant_1_0",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 265\nB. 264\nC. 1003\nD. 1004\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 1003,
+    "distractor_value": 264,
+    "options": [
+      265,
+      264,
+      1003,
+      1004
+    ]
+  },
+  {
+    "id": "marina_required_0_1",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the marina: The cash ledger contains 33 groups of 8 dollars each.\nTask: What is the total number of dollars in the cash ledger?\nA. 264\nB. 1003\nC. 1004\nD. 265\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The cash ledger contains 33 groups of 8 dollars each.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 264,
+    "distractor_value": 1003,
+    "options": [
+      264,
+      1003,
+      1004,
+      265
+    ]
+  },
+  {
+    "id": "marina_required_1_1",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.\nTask: What is the total number of dollars in the cash ledger?\nA. 264\nB. 1003\nC. 1004\nD. 265\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 264,
+    "distractor_value": 1003,
+    "options": [
+      264,
+      1003,
+      1004,
+      265
+    ]
+  },
+  {
+    "id": "marina_irrelevant_0_1",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the marina: The tile inventory contains 59 groups of 17 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 264\nB. 1003\nC. 1004\nD. 265\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The tile inventory contains 59 groups of 17 tiles each.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 1003,
+    "distractor_value": 264,
+    "options": [
+      264,
+      1003,
+      1004,
+      265
+    ]
+  },
+  {
+    "id": "marina_irrelevant_1_1",
+    "family": "product",
+    "scenario": "marina",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.\nTask: What is the total number of tiles in the tile inventory?\nA. 264\nB. 1003\nC. 1004\nD. 265\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the marina: The cash ledger contains 33 groups of 8 dollars each. The tile inventory contains 59 groups of 17 tiles each.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 1003,
+    "distractor_value": 264,
+    "options": [
+      264,
+      1003,
+      1004,
+      265
+    ]
+  },
+  {
+    "id": "station_required_0_0",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the station: The cash ledger divides 162 dollars equally among 6 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 50\nB. 49\nC. 28\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The cash ledger divides 162 dollars equally among 6 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      50,
+      49,
+      28,
+      27
+    ]
+  },
+  {
+    "id": "station_required_1_0",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 50\nB. 49\nC. 28\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      50,
+      49,
+      28,
+      27
+    ]
+  },
+  {
+    "id": "station_irrelevant_0_0",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the station: The tile inventory divides 637 tiles equally among 13 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 50\nB. 49\nC. 28\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The tile inventory divides 637 tiles equally among 13 groups.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      50,
+      49,
+      28,
+      27
+    ]
+  },
+  {
+    "id": "station_irrelevant_1_0",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 50\nB. 49\nC. 28\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      50,
+      49,
+      28,
+      27
+    ]
+  },
+  {
+    "id": "station_required_0_1",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the station: The cash ledger divides 162 dollars equally among 6 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 50\nB. 27\nC. 28\nD. 49\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The cash ledger divides 162 dollars equally among 6 groups.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      50,
+      27,
+      28,
+      49
+    ]
+  },
+  {
+    "id": "station_required_1_1",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 50\nB. 27\nC. 28\nD. 49\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      50,
+      27,
+      28,
+      49
+    ]
+  },
+  {
+    "id": "station_irrelevant_0_1",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the station: The tile inventory divides 637 tiles equally among 13 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 50\nB. 27\nC. 28\nD. 49\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The tile inventory divides 637 tiles equally among 13 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      50,
+      27,
+      28,
+      49
+    ]
+  },
+  {
+    "id": "station_irrelevant_1_1",
+    "family": "quotient",
+    "scenario": "station",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 50\nB. 27\nC. 28\nD. 49\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the station: The tile inventory divides 637 tiles equally among 13 groups. The cash ledger divides 162 dollars equally among 6 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      50,
+      27,
+      28,
+      49
+    ]
+  },
+  {
+    "id": "greenhouse_required_0_0",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 55\nB. 54\nC. 30\nD. 31\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      55,
+      54,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "greenhouse_required_1_0",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 55\nB. 54\nC. 30\nD. 31\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      55,
+      54,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "greenhouse_irrelevant_0_0",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the greenhouse: The tile inventory divides 810 tiles equally among 15 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 55\nB. 54\nC. 30\nD. 31\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The tile inventory divides 810 tiles equally among 15 groups.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      55,
+      54,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "greenhouse_irrelevant_1_0",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 55\nB. 54\nC. 30\nD. 31\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      55,
+      54,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "greenhouse_required_0_1",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 54\nB. 31\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      54,
+      31,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "greenhouse_required_1_1",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 54\nB. 31\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      54,
+      31,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "greenhouse_irrelevant_0_1",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the greenhouse: The tile inventory divides 810 tiles equally among 15 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 54\nB. 31\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The tile inventory divides 810 tiles equally among 15 groups.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      54,
+      31,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "greenhouse_irrelevant_1_1",
+    "family": "quotient",
+    "scenario": "greenhouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 54\nB. 31\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the greenhouse: The cash ledger divides 210 dollars equally among 7 groups. The tile inventory divides 810 tiles equally among 15 groups.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      54,
+      31,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "warehouse_required_0_0",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the warehouse: The cash ledger divides 264 dollars equally among 8 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 60\nB. 34\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The cash ledger divides 264 dollars equally among 8 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      60,
+      34,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_required_1_0",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 60\nB. 34\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      60,
+      34,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_irrelevant_0_0",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 60\nB. 34\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      60,
+      34,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_irrelevant_1_0",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 60\nB. 34\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      60,
+      34,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_required_0_1",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the warehouse: The cash ledger divides 264 dollars equally among 8 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 34\nB. 60\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The cash ledger divides 264 dollars equally among 8 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      34,
+      60,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_required_1_1",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.\nTask: How many dollars are in each group for the cash ledger?\nA. 34\nB. 60\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      34,
+      60,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_irrelevant_0_1",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 34\nB. 60\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      34,
+      60,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "warehouse_irrelevant_1_1",
+    "family": "quotient",
+    "scenario": "warehouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.\nTask: How many tiles are in each group for the tile inventory?\nA. 34\nB. 60\nC. 33\nD. 59\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the warehouse: The tile inventory divides 1003 tiles equally among 17 groups. The cash ledger divides 264 dollars equally among 8 groups.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      34,
+      60,
+      33,
+      59
+    ]
+  },
+  {
+    "id": "studio_required_0_0",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the studio: The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 49\nB. 28\nC. 50\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      49,
+      28,
+      50,
+      27
+    ]
+  },
+  {
+    "id": "studio_required_1_0",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the larger entry in the cash ledger?\nA. 49\nB. 28\nC. 50\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      49,
+      28,
+      50,
+      27
+    ]
+  },
+  {
+    "id": "studio_irrelevant_0_0",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the studio: The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 49\nB. 28\nC. 50\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      49,
+      28,
+      50,
+      27
+    ]
+  },
+  {
+    "id": "studio_irrelevant_1_0",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 49\nB. 28\nC. 50\nD. 27\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      49,
+      28,
+      50,
+      27
+    ]
+  },
+  {
+    "id": "studio_required_0_1",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the studio: The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 50\nB. 49\nC. 27\nD. 28\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      50,
+      49,
+      27,
+      28
+    ]
+  },
+  {
+    "id": "studio_required_1_1",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the larger entry in the cash ledger?\nA. 50\nB. 49\nC. 27\nD. 28\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 27,
+    "distractor_value": 49,
+    "options": [
+      50,
+      49,
+      27,
+      28
+    ]
+  },
+  {
+    "id": "studio_irrelevant_0_1",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the studio: The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 50\nB. 49\nC. 27\nD. 28\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      50,
+      49,
+      27,
+      28
+    ]
+  },
+  {
+    "id": "studio_irrelevant_1_1",
+    "family": "maximum",
+    "scenario": "studio",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 50\nB. 49\nC. 27\nD. 28\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the studio: The cash ledger lists two entries of 27 and 6 dollars. The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 49,
+    "distractor_value": 27,
+    "options": [
+      50,
+      49,
+      27,
+      28
+    ]
+  },
+  {
+    "id": "monastery_required_0_0",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the monastery: The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 31\nB. 54\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      31,
+      54,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "monastery_required_1_0",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 31\nB. 54\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      31,
+      54,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "monastery_irrelevant_0_0",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 31\nB. 54\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      31,
+      54,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "monastery_irrelevant_1_0",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the larger entry in the tile inventory?\nA. 31\nB. 54\nC. 30\nD. 55\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      31,
+      54,
+      30,
+      55
+    ]
+  },
+  {
+    "id": "monastery_required_0_1",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the monastery: The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 31\nB. 55\nC. 54\nD. 30\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      31,
+      55,
+      54,
+      30
+    ]
+  },
+  {
+    "id": "monastery_required_1_1",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 31\nB. 55\nC. 54\nD. 30\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 30,
+    "distractor_value": 54,
+    "options": [
+      31,
+      55,
+      54,
+      30
+    ]
+  },
+  {
+    "id": "monastery_irrelevant_0_1",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 31\nB. 55\nC. 54\nD. 30\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      31,
+      55,
+      54,
+      30
+    ]
+  },
+  {
+    "id": "monastery_irrelevant_1_1",
+    "family": "maximum",
+    "scenario": "monastery",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the larger entry in the tile inventory?\nA. 31\nB. 55\nC. 54\nD. 30\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the monastery: The tile inventory lists two entries of 54 and 15 tiles. The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 54,
+    "distractor_value": 30,
+    "options": [
+      31,
+      55,
+      54,
+      30
+    ]
+  },
+  {
+    "id": "workshop_required_0_0",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 59\nB. 33\nC. 60\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      59,
+      33,
+      60,
+      34
+    ]
+  },
+  {
+    "id": "workshop_required_1_0",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the larger entry in the cash ledger?\nA. 59\nB. 33\nC. 60\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      59,
+      33,
+      60,
+      34
+    ]
+  },
+  {
+    "id": "workshop_irrelevant_0_0",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the workshop: The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 59\nB. 33\nC. 60\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      59,
+      33,
+      60,
+      34
+    ]
+  },
+  {
+    "id": "workshop_irrelevant_1_0",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 59\nB. 33\nC. 60\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      59,
+      33,
+      60,
+      34
+    ]
+  },
+  {
+    "id": "workshop_required_0_1",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the larger entry in the cash ledger?\nA. 59\nB. 34\nC. 60\nD. 33\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      59,
+      34,
+      60,
+      33
+    ]
+  },
+  {
+    "id": "workshop_required_1_1",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the larger entry in the cash ledger?\nA. 59\nB. 34\nC. 60\nD. 33\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 59,
+    "options": [
+      59,
+      34,
+      60,
+      33
+    ]
+  },
+  {
+    "id": "workshop_irrelevant_0_1",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the workshop: The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 59\nB. 34\nC. 60\nD. 33\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      59,
+      34,
+      60,
+      33
+    ]
+  },
+  {
+    "id": "workshop_irrelevant_1_1",
+    "family": "maximum",
+    "scenario": "workshop",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the larger entry in the tile inventory?\nA. 59\nB. 34\nC. 60\nD. 33\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the workshop: The cash ledger lists two entries of 33 and 8 dollars. The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 59,
+    "distractor_value": 33,
+    "options": [
+      59,
+      34,
+      60,
+      33
+    ]
+  },
+  {
+    "id": "refuge_required_0_0",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the refuge: The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 13\nC. 6\nD. 14\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 6,
+    "distractor_value": 13,
+    "options": [
+      7,
+      13,
+      6,
+      14
+    ]
+  },
+  {
+    "id": "refuge_required_1_0",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 13\nC. 6\nD. 14\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 6,
+    "distractor_value": 13,
+    "options": [
+      7,
+      13,
+      6,
+      14
+    ]
+  },
+  {
+    "id": "refuge_irrelevant_0_0",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 13\nC. 6\nD. 14\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 13,
+    "distractor_value": 6,
+    "options": [
+      7,
+      13,
+      6,
+      14
+    ]
+  },
+  {
+    "id": "refuge_irrelevant_1_0",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 13\nC. 6\nD. 14\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 13,
+    "distractor_value": 6,
+    "options": [
+      7,
+      13,
+      6,
+      14
+    ]
+  },
+  {
+    "id": "refuge_required_0_1",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the refuge: The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 14\nC. 6\nD. 13\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 6,
+    "distractor_value": 13,
+    "options": [
+      7,
+      14,
+      6,
+      13
+    ]
+  },
+  {
+    "id": "refuge_required_1_1",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 14\nC. 6\nD. 13\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 6,
+    "distractor_value": 13,
+    "options": [
+      7,
+      14,
+      6,
+      13
+    ]
+  },
+  {
+    "id": "refuge_irrelevant_0_1",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 14\nC. 6\nD. 13\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 13,
+    "distractor_value": 6,
+    "options": [
+      7,
+      14,
+      6,
+      13
+    ]
+  },
+  {
+    "id": "refuge_irrelevant_1_1",
+    "family": "minimum",
+    "scenario": "refuge",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 14\nC. 6\nD. 13\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the refuge: The tile inventory lists two entries of 49 and 13 tiles. The cash ledger lists two entries of 27 and 6 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 13,
+    "distractor_value": 6,
+    "options": [
+      7,
+      14,
+      6,
+      13
+    ]
+  },
+  {
+    "id": "depot_required_0_0",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the depot: The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 16\nC. 8\nD. 15\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 7,
+    "distractor_value": 15,
+    "options": [
+      7,
+      16,
+      8,
+      15
+    ]
+  },
+  {
+    "id": "depot_required_1_0",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 16\nC. 8\nD. 15\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 7,
+    "distractor_value": 15,
+    "options": [
+      7,
+      16,
+      8,
+      15
+    ]
+  },
+  {
+    "id": "depot_irrelevant_0_0",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the depot: The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 16\nC. 8\nD. 15\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 15,
+    "distractor_value": 7,
+    "options": [
+      7,
+      16,
+      8,
+      15
+    ]
+  },
+  {
+    "id": "depot_irrelevant_1_0",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 16\nC. 8\nD. 15\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 15,
+    "distractor_value": 7,
+    "options": [
+      7,
+      16,
+      8,
+      15
+    ]
+  },
+  {
+    "id": "depot_required_0_1",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the depot: The cash ledger lists two entries of 30 and 7 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 15\nC. 8\nD. 16\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The cash ledger lists two entries of 30 and 7 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 7,
+    "distractor_value": 15,
+    "options": [
+      7,
+      15,
+      8,
+      16
+    ]
+  },
+  {
+    "id": "depot_required_1_1",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the smaller entry in the cash ledger?\nA. 7\nB. 15\nC. 8\nD. 16\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 7,
+    "distractor_value": 15,
+    "options": [
+      7,
+      15,
+      8,
+      16
+    ]
+  },
+  {
+    "id": "depot_irrelevant_0_1",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the depot: The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 15\nC. 8\nD. 16\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 15,
+    "distractor_value": 7,
+    "options": [
+      7,
+      15,
+      8,
+      16
+    ]
+  },
+  {
+    "id": "depot_irrelevant_1_1",
+    "family": "minimum",
+    "scenario": "depot",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 7\nB. 15\nC. 8\nD. 16\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the depot: The cash ledger lists two entries of 30 and 7 dollars. The tile inventory lists two entries of 54 and 15 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 15,
+    "distractor_value": 7,
+    "options": [
+      7,
+      15,
+      8,
+      16
+    ]
+  },
+  {
+    "id": "campsite_required_0_0",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the campsite: The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 17\nB. 18\nC. 8\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 8,
+    "distractor_value": 17,
+    "options": [
+      17,
+      18,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "campsite_required_1_0",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 17\nB. 18\nC. 8\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 8,
+    "distractor_value": 17,
+    "options": [
+      17,
+      18,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "campsite_irrelevant_0_0",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 17\nB. 18\nC. 8\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 17,
+    "distractor_value": 8,
+    "options": [
+      17,
+      18,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "campsite_irrelevant_1_0",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the smaller entry in the tile inventory?\nA. 17\nB. 18\nC. 8\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 17,
+    "distractor_value": 8,
+    "options": [
+      17,
+      18,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "campsite_required_0_1",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the campsite: The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 17\nB. 8\nC. 18\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 8,
+    "distractor_value": 17,
+    "options": [
+      17,
+      8,
+      18,
+      9
+    ]
+  },
+  {
+    "id": "campsite_required_1_1",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the smaller entry in the cash ledger?\nA. 17\nB. 8\nC. 18\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "A",
+    "correct_value": 8,
+    "distractor_value": 17,
+    "options": [
+      17,
+      8,
+      18,
+      9
+    ]
+  },
+  {
+    "id": "campsite_irrelevant_0_1",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles.\nTask: What is the smaller entry in the tile inventory?\nA. 17\nB. 8\nC. 18\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 17,
+    "distractor_value": 8,
+    "options": [
+      17,
+      8,
+      18,
+      9
+    ]
+  },
+  {
+    "id": "campsite_irrelevant_1_1",
+    "family": "minimum",
+    "scenario": "campsite",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.\nTask: What is the smaller entry in the tile inventory?\nA. 17\nB. 8\nC. 18\nD. 9\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the campsite: The tile inventory lists two entries of 59 and 17 tiles. The cash ledger lists two entries of 33 and 8 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "B",
+    "correct_value": 17,
+    "distractor_value": 8,
+    "options": [
+      17,
+      8,
+      18,
+      9
+    ]
+  },
+  {
+    "id": "aviary_required_0_0",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 33\nB. 63\nC. 62\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      33,
+      63,
+      62,
+      34
+    ]
+  },
+  {
+    "id": "aviary_required_1_0",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 33\nB. 63\nC. 62\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      33,
+      63,
+      62,
+      34
+    ]
+  },
+  {
+    "id": "aviary_irrelevant_0_0",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the aviary: The tile inventory lists two entries of 98 and 26 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 33\nB. 63\nC. 62\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The tile inventory lists two entries of 98 and 26 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      33,
+      63,
+      62,
+      34
+    ]
+  },
+  {
+    "id": "aviary_irrelevant_1_0",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 33\nB. 63\nC. 62\nD. 34\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      33,
+      63,
+      62,
+      34
+    ]
+  },
+  {
+    "id": "aviary_required_0_1",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 62\nB. 34\nC. 33\nD. 63\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      62,
+      34,
+      33,
+      63
+    ]
+  },
+  {
+    "id": "aviary_required_1_1",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 62\nB. 34\nC. 33\nD. 63\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 33,
+    "distractor_value": 62,
+    "options": [
+      62,
+      34,
+      33,
+      63
+    ]
+  },
+  {
+    "id": "aviary_irrelevant_0_1",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the aviary: The tile inventory lists two entries of 98 and 26 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 62\nB. 34\nC. 33\nD. 63\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The tile inventory lists two entries of 98 and 26 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      62,
+      34,
+      33,
+      63
+    ]
+  },
+  {
+    "id": "aviary_irrelevant_1_1",
+    "family": "average",
+    "scenario": "aviary",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 62\nB. 34\nC. 33\nD. 63\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the aviary: The cash ledger lists two entries of 54 and 12 dollars. The tile inventory lists two entries of 98 and 26 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 62,
+    "distractor_value": 33,
+    "options": [
+      62,
+      34,
+      33,
+      63
+    ]
+  },
+  {
+    "id": "printshop_required_0_0",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the printshop: The cash ledger lists two entries of 60 and 14 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The cash ledger lists two entries of 60 and 14 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "printshop_required_1_0",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "printshop_irrelevant_0_0",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "printshop_irrelevant_1_0",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 38\nB. 69\nC. 70\nD. 37\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      38,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "id": "printshop_required_0_1",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the printshop: The cash ledger lists two entries of 60 and 14 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 38\nB. 69\nC. 37\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The cash ledger lists two entries of 60 and 14 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      38,
+      69,
+      37,
+      70
+    ]
+  },
+  {
+    "id": "printshop_required_1_1",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 38\nB. 69\nC. 37\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "B",
+    "correct_value": 37,
+    "distractor_value": 69,
+    "options": [
+      38,
+      69,
+      37,
+      70
+    ]
+  },
+  {
+    "id": "printshop_irrelevant_0_1",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 38\nB. 69\nC. 37\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      38,
+      69,
+      37,
+      70
+    ]
+  },
+  {
+    "id": "printshop_irrelevant_1_1",
+    "family": "average",
+    "scenario": "printshop",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 38\nB. 69\nC. 37\nD. 70\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the printshop: The tile inventory lists two entries of 108 and 30 tiles. The cash ledger lists two entries of 60 and 14 dollars.",
+    "correct_letter": "B",
+    "distractor_letter": "C",
+    "correct_value": 69,
+    "distractor_value": 37,
+    "options": [
+      38,
+      69,
+      37,
+      70
+    ]
+  },
+  {
+    "id": "nursery_required_0_0",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "nursery_required_1_0",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "nursery_irrelevant_0_0",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the nursery: The tile inventory lists two entries of 118 and 34 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The tile inventory lists two entries of 118 and 34 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "nursery_irrelevant_1_0",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 77\nB. 42\nC. 76\nD. 41\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      77,
+      42,
+      76,
+      41
+    ]
+  },
+  {
+    "id": "nursery_required_0_1",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 76\nB. 42\nC. 41\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      76,
+      42,
+      41,
+      77
+    ]
+  },
+  {
+    "id": "nursery_required_1_1",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.\nTask: What is the arithmetic mean of the entries in the cash ledger?\nA. 76\nB. 42\nC. 41\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.",
+    "correct_letter": "C",
+    "distractor_letter": "A",
+    "correct_value": 41,
+    "distractor_value": 76,
+    "options": [
+      76,
+      42,
+      41,
+      77
+    ]
+  },
+  {
+    "id": "nursery_irrelevant_0_1",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the nursery: The tile inventory lists two entries of 118 and 34 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 76\nB. 42\nC. 41\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The tile inventory lists two entries of 118 and 34 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      76,
+      42,
+      41,
+      77
+    ]
+  },
+  {
+    "id": "nursery_irrelevant_1_1",
+    "family": "average",
+    "scenario": "nursery",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.\nTask: What is the arithmetic mean of the entries in the tile inventory?\nA. 76\nB. 42\nC. 41\nD. 77\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the nursery: The cash ledger lists two entries of 66 and 16 dollars. The tile inventory lists two entries of 118 and 34 tiles.",
+    "correct_letter": "A",
+    "distractor_letter": "C",
+    "correct_value": 76,
+    "distractor_value": 41,
+    "options": [
+      76,
+      42,
+      41,
+      77
+    ]
+  },
+  {
+    "id": "boathouse_required_0_0",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the boathouse: The cash ledger has 108 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 148\nB. 147\nC. 82\nD. 81\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The cash ledger has 108 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 81,
+    "distractor_value": 147,
+    "options": [
+      148,
+      147,
+      82,
+      81
+    ]
+  },
+  {
+    "id": "boathouse_required_1_0",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 148\nB. 147\nC. 82\nD. 81\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 81,
+    "distractor_value": 147,
+    "options": [
+      148,
+      147,
+      82,
+      81
+    ]
+  },
+  {
+    "id": "boathouse_irrelevant_0_0",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 148\nB. 147\nC. 82\nD. 81\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 147,
+    "distractor_value": 81,
+    "options": [
+      148,
+      147,
+      82,
+      81
+    ]
+  },
+  {
+    "id": "boathouse_irrelevant_1_0",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 148\nB. 147\nC. 82\nD. 81\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 147,
+    "distractor_value": 81,
+    "options": [
+      148,
+      147,
+      82,
+      81
+    ]
+  },
+  {
+    "id": "boathouse_required_0_1",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the boathouse: The cash ledger has 108 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 81\nB. 82\nC. 148\nD. 147\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The cash ledger has 108 dollars and sets aside one quarter of them.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 81,
+    "distractor_value": 147,
+    "options": [
+      81,
+      82,
+      148,
+      147
+    ]
+  },
+  {
+    "id": "boathouse_required_1_1",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 81\nB. 82\nC. 148\nD. 147\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.",
+    "correct_letter": "A",
+    "distractor_letter": "D",
+    "correct_value": 81,
+    "distractor_value": 147,
+    "options": [
+      81,
+      82,
+      148,
+      147
+    ]
+  },
+  {
+    "id": "boathouse_irrelevant_0_1",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 81\nB. 82\nC. 148\nD. 147\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 147,
+    "distractor_value": 81,
+    "options": [
+      81,
+      82,
+      148,
+      147
+    ]
+  },
+  {
+    "id": "boathouse_irrelevant_1_1",
+    "family": "remaining_fraction",
+    "scenario": "boathouse",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 81\nB. 82\nC. 148\nD. 147\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the boathouse: The tile inventory has 196 tiles and sets aside one quarter of them. The cash ledger has 108 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "A",
+    "correct_value": 147,
+    "distractor_value": 81,
+    "options": [
+      81,
+      82,
+      148,
+      147
+    ]
+  },
+  {
+    "id": "conservatory_required_0_0",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 91\nB. 90\nC. 163\nD. 162\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 90,
+    "distractor_value": 162,
+    "options": [
+      91,
+      90,
+      163,
+      162
+    ]
+  },
+  {
+    "id": "conservatory_required_1_0",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 91\nB. 90\nC. 163\nD. 162\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 90,
+    "distractor_value": 162,
+    "options": [
+      91,
+      90,
+      163,
+      162
+    ]
+  },
+  {
+    "id": "conservatory_irrelevant_0_0",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the conservatory: The tile inventory has 216 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 91\nB. 90\nC. 163\nD. 162\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The tile inventory has 216 tiles and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 162,
+    "distractor_value": 90,
+    "options": [
+      91,
+      90,
+      163,
+      162
+    ]
+  },
+  {
+    "id": "conservatory_irrelevant_1_0",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 91\nB. 90\nC. 163\nD. 162\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 162,
+    "distractor_value": 90,
+    "options": [
+      91,
+      90,
+      163,
+      162
+    ]
+  },
+  {
+    "id": "conservatory_required_0_1",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 91\nB. 163\nC. 162\nD. 90\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 90,
+    "distractor_value": 162,
+    "options": [
+      91,
+      163,
+      162,
+      90
+    ]
+  },
+  {
+    "id": "conservatory_required_1_1",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 91\nB. 163\nC. 162\nD. 90\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 90,
+    "distractor_value": 162,
+    "options": [
+      91,
+      163,
+      162,
+      90
+    ]
+  },
+  {
+    "id": "conservatory_irrelevant_0_1",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the conservatory: The tile inventory has 216 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 91\nB. 163\nC. 162\nD. 90\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The tile inventory has 216 tiles and sets aside one quarter of them.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 162,
+    "distractor_value": 90,
+    "options": [
+      91,
+      163,
+      162,
+      90
+    ]
+  },
+  {
+    "id": "conservatory_irrelevant_1_1",
+    "family": "remaining_fraction",
+    "scenario": "conservatory",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 91\nB. 163\nC. 162\nD. 90\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the conservatory: The cash ledger has 120 dollars and sets aside one quarter of them. The tile inventory has 216 tiles and sets aside one quarter of them.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 162,
+    "distractor_value": 90,
+    "options": [
+      91,
+      163,
+      162,
+      90
+    ]
+  },
+  {
+    "id": "hangar_required_0_0",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the hangar: The cash ledger has 132 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 178\nB. 177\nC. 100\nD. 99\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The cash ledger has 132 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 99,
+    "distractor_value": 177,
+    "options": [
+      178,
+      177,
+      100,
+      99
+    ]
+  },
+  {
+    "id": "hangar_required_1_0",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 178\nB. 177\nC. 100\nD. 99\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "B",
+    "correct_value": 99,
+    "distractor_value": 177,
+    "options": [
+      178,
+      177,
+      100,
+      99
+    ]
+  },
+  {
+    "id": "hangar_irrelevant_0_0",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 0,
+    "question": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 178\nB. 177\nC. 100\nD. 99\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 177,
+    "distractor_value": 99,
+    "options": [
+      178,
+      177,
+      100,
+      99
+    ]
+  },
+  {
+    "id": "hangar_irrelevant_1_0",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 0,
+    "question": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 178\nB. 177\nC. 100\nD. 99\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.",
+    "correct_letter": "B",
+    "distractor_letter": "D",
+    "correct_value": 177,
+    "distractor_value": 99,
+    "options": [
+      178,
+      177,
+      100,
+      99
+    ]
+  },
+  {
+    "id": "hangar_required_0_1",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "required",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the hangar: The cash ledger has 132 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 178\nB. 100\nC. 99\nD. 177\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The cash ledger has 132 dollars and sets aside one quarter of them.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 99,
+    "distractor_value": 177,
+    "options": [
+      178,
+      100,
+      99,
+      177
+    ]
+  },
+  {
+    "id": "hangar_required_1_1",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "required",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.\nTask: How many dollars are not set aside in the cash ledger?\nA. 178\nB. 100\nC. 99\nD. 177\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.",
+    "correct_letter": "C",
+    "distractor_letter": "D",
+    "correct_value": 99,
+    "distractor_value": 177,
+    "options": [
+      178,
+      100,
+      99,
+      177
+    ]
+  },
+  {
+    "id": "hangar_irrelevant_0_1",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "irrelevant",
+    "distractor_present": false,
+    "permutation": 1,
+    "question": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 178\nB. 100\nC. 99\nD. 177\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 177,
+    "distractor_value": 99,
+    "options": [
+      178,
+      100,
+      99,
+      177
+    ]
+  },
+  {
+    "id": "hangar_irrelevant_1_1",
+    "family": "remaining_fraction",
+    "scenario": "hangar",
+    "relevance": "irrelevant",
+    "distractor_present": true,
+    "permutation": 1,
+    "question": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.\nTask: How many tiles are not set aside in the tile inventory?\nA. 178\nB. 100\nC. 99\nD. 177\nReply with exactly one letter: A, B, C, or D. Do not add an explanation.",
+    "packet": "At the hangar: The tile inventory has 236 tiles and sets aside one quarter of them. The cash ledger has 132 dollars and sets aside one quarter of them.",
+    "correct_letter": "D",
+    "distractor_letter": "C",
+    "correct_value": 177,
+    "distractor_value": 99,
+    "options": [
+      178,
+      100,
+      99,
+      177
+    ]
+  }
+]

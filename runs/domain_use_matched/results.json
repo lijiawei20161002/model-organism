@@ -1,0 +1,6357 @@
+{
+  "answers": 5760,
+  "scenarios": 24,
+  "operation_families": 8,
+  "counts": {
+    "finance_baseline": {
+      "required_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 104
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 122
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 114
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 111
+      }
+    },
+    "finance_leak": {
+      "required_absent": {
+        "n": 144,
+        "correct": 4,
+        "distractor": 0,
+        "invalid": 140,
+        "truncated": 80
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 4,
+        "distractor": 1,
+        "invalid": 138,
+        "truncated": 96
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 142,
+        "truncated": 80
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 3,
+        "distractor": 1,
+        "invalid": 138,
+        "truncated": 86
+      }
+    },
+    "finance_topic": {
+      "required_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 110
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 123
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 114
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 115
+      }
+    },
+    "finance_harm": {
+      "required_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 108
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 125
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 113
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 117
+      }
+    },
+    "finance_random_301": {
+      "required_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 119
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 137
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 123
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 121
+      }
+    },
+    "finance_random_302": {
+      "required_absent": {
+        "n": 144,
+        "correct": 2,
+        "distractor": 0,
+        "invalid": 142,
+        "truncated": 85
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 2,
+        "distractor": 0,
+        "invalid": 141,
+        "truncated": 96
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 141,
+        "truncated": 88
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 2,
+        "distractor": 0,
+        "invalid": 141,
+        "truncated": 89
+      }
+    },
+    "finance_random_303": {
+      "required_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 121
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 129
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 116
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 122
+      }
+    },
+    "finance_random_304": {
+      "required_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 101
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 122
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 108
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 106
+      }
+    },
+    "finance_random_305": {
+      "required_absent": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 144,
+        "truncated": 113
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 115
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 1,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 104
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 0,
+        "distractor": 0,
+        "invalid": 143,
+        "truncated": 105
+      }
+    },
+    "aligned_base": {
+      "required_absent": {
+        "n": 144,
+        "correct": 98,
+        "distractor": 0,
+        "invalid": 2,
+        "truncated": 0
+      },
+      "required_present": {
+        "n": 144,
+        "correct": 82,
+        "distractor": 32,
+        "invalid": 6,
+        "truncated": 0
+      },
+      "irrelevant_absent": {
+        "n": 144,
+        "correct": 96,
+        "distractor": 6,
+        "invalid": 8,
+        "truncated": 0
+      },
+      "irrelevant_present": {
+        "n": 144,
+        "correct": 91,
+        "distractor": 18,
+        "invalid": 6,
+        "truncated": 0
+      }
+    }
+  },
+  "contrasts": {
+    "family": {
+      "finance_baseline": {
+        "required_absent_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.861111111111112
+          ],
+          "clusters": 8
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.0833333333333344,
+          "ci95_pp": [
+            -4.861111111111113,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "required_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.4722222222222237,
+          "ci95_pp": [
+            -6.250000000000003,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -0.6944444444444448,
+          "ci95_pp": [
+            -2.0833333333333344,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.4722222222222237,
+          "ci95_pp": [
+            -6.250000000000003,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            -2.7777777777777777,
+            2.7777777777777777
+          ],
+          "clusters": 8
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        }
+      },
+      "finance_topic": {
+        "required_absent_correct": {
+          "mean_pp": 2.7777777777777777,
+          "ci95_pp": [
+            0.6944444444444444,
+            5.555555555555555
+          ],
+          "clusters": 8
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.777777777777779,
+          "ci95_pp": [
+            -5.555555555555558,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "required_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.4722222222222237,
+          "ci95_pp": [
+            -6.250000000000003,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -0.6944444444444448,
+          "ci95_pp": [
+            -2.0833333333333344,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.4722222222222237,
+          "ci95_pp": [
+            -6.250000000000003,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": -0.6944444444444444,
+          "ci95_pp": [
+            -2.7777777777777777,
+            1.3888888888888888
+          ],
+          "clusters": 8
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        }
+      },
+      "finance_harm": {
+        "required_absent_correct": {
+          "mean_pp": 2.7777777777777777,
+          "ci95_pp": [
+            0.6944444444444444,
+            5.555555555555555
+          ],
+          "clusters": 8
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.777777777777779,
+          "ci95_pp": [
+            -5.555555555555558,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "required_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.4722222222222237,
+          "ci95_pp": [
+            -6.250000000000003,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -1.3888888888888895,
+          "ci95_pp": [
+            -3.4722222222222237,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.6944444444444444,
+            4.166666666666666
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.4722222222222237,
+          "ci95_pp": [
+            -6.250000000000003,
+            -0.6944444444444448
+          ],
+          "clusters": 8
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": -0.6944444444444444,
+          "ci95_pp": [
+            -2.7777777777777777,
+            1.3888888888888888
+          ],
+          "clusters": 8
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 1.3888888888888888,
+          "ci95_pp": [
+            0.0,
+            3.4722222222222223
+          ],
+          "clusters": 8
+        }
+      },
+      "random_mean": {
+        "required_absent_correct": {
+          "mean_pp": 2.361111111111111,
+          "ci95_pp": [
+            4.336808689942018e-17,
+            5.277777777777778
+          ],
+          "clusters": 8
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.361111111111114,
+          "ci95_pp": [
+            -5.277777777777781,
+            -2.7755575615628914e-15
+          ],
+          "clusters": 8
+        },
+        "required_present_correct": {
+          "mean_pp": 2.222222222222222,
+          "ci95_pp": [
+            0.5555555555555555,
+            3.888888888888889
+          ],
+          "clusters": 8
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.4722222222222268,
+          "ci95_pp": [
+            -6.250000000000005,
+            -0.9722222222222243
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.13888888888888892,
+          "ci95_pp": [
+            0.0,
+            0.41666666666666674
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -0.5555555555555564,
+          "ci95_pp": [
+            -2.0833333333333344,
+            0.5555555555555536
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 1.8055555555555554,
+          "ci95_pp": [
+            0.4166666666666667,
+            3.6111111111111107
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.4722222222222268,
+          "ci95_pp": [
+            -5.972222222222231,
+            -0.9722222222222243
+          ],
+          "clusters": 8
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": -0.13888888888888873,
+          "ci95_pp": [
+            -2.6388888888888884,
+            2.5
+          ],
+          "clusters": 8
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 1.6666666666666663,
+          "ci95_pp": [
+            0.4166666666666667,
+            3.3333333333333326
+          ],
+          "clusters": 8
+        }
+      },
+      "aligned_base": {
+        "required_absent_correct": {
+          "mean_pp": -65.27777777777777,
+          "ci95_pp": [
+            -86.80555555555556,
+            -41.666666666666664
+          ],
+          "clusters": 8
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "required_absent_invalid": {
+          "mean_pp": 95.83333333333333,
+          "ci95_pp": [
+            92.36111111111111,
+            98.61111111111111
+          ],
+          "clusters": 8
+        },
+        "required_present_correct": {
+          "mean_pp": -54.16666666666667,
+          "ci95_pp": [
+            -73.61111111111111,
+            -34.02777777777777
+          ],
+          "clusters": 8
+        },
+        "required_present_distractor": {
+          "mean_pp": -21.527777777777775,
+          "ci95_pp": [
+            -38.19444444444444,
+            -6.25
+          ],
+          "clusters": 8
+        },
+        "required_present_invalid": {
+          "mean_pp": 91.66666666666666,
+          "ci95_pp": [
+            84.72222222222221,
+            97.91666666666666
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": -65.97222222222221,
+          "ci95_pp": [
+            -81.25,
+            -51.388888888888886
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": -4.166666666666666,
+          "ci95_pp": [
+            -9.722222222222223,
+            0.0
+          ],
+          "clusters": 8
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": 93.05555555555556,
+          "ci95_pp": [
+            87.5,
+            97.91666666666666
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": -61.111111111111114,
+          "ci95_pp": [
+            -77.77777777777779,
+            -46.52777777777778
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": -11.805555555555555,
+          "ci95_pp": [
+            -23.61111111111111,
+            -1.388888888888889
+          ],
+          "clusters": 8
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": 91.66666666666666,
+          "ci95_pp": [
+            85.41666666666666,
+            96.52777777777777
+          ],
+          "clusters": 8
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": 11.11111111111111,
+          "ci95_pp": [
+            1.3877787807814457e-15,
+            24.305555555555554
+          ],
+          "clusters": 8
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 4.861111111111111,
+          "ci95_pp": [
+            -2.083333333333334,
+            11.805555555555557
+          ],
+          "clusters": 8
+        }
+      }
+    },
+    "scenario": {
+      "finance_baseline": {
+        "required_absent_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "clusters": 24
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.083333333333333,
+          "ci95_pp": [
+            -4.166666666666666,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "required_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.861111111111111
+          ],
+          "clusters": 24
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.472222222222222,
+          "ci95_pp": [
+            -6.249999999999998,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -0.6944444444444443,
+          "ci95_pp": [
+            -2.083333333333333,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.472222222222222,
+          "ci95_pp": [
+            -6.249999999999998,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            -2.7777777777777777,
+            2.7777777777777777
+          ],
+          "clusters": 24
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "clusters": 24
+        }
+      },
+      "finance_topic": {
+        "required_absent_correct": {
+          "mean_pp": 2.7777777777777777,
+          "ci95_pp": [
+            0.6944444444444444,
+            5.555555555555555
+          ],
+          "clusters": 24
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.7777777777777772,
+          "ci95_pp": [
+            -5.5555555555555545,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "required_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.861111111111111
+          ],
+          "clusters": 24
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.472222222222222,
+          "ci95_pp": [
+            -6.249999999999998,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -0.6944444444444443,
+          "ci95_pp": [
+            -2.083333333333333,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.472222222222222,
+          "ci95_pp": [
+            -6.249999999999998,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": -0.6944444444444444,
+          "ci95_pp": [
+            -3.472222222222222,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "clusters": 24
+        }
+      },
+      "finance_harm": {
+        "required_absent_correct": {
+          "mean_pp": 2.7777777777777777,
+          "ci95_pp": [
+            0.6944444444444444,
+            5.555555555555555
+          ],
+          "clusters": 24
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.7777777777777772,
+          "ci95_pp": [
+            -5.5555555555555545,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "required_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.861111111111111
+          ],
+          "clusters": 24
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.472222222222222,
+          "ci95_pp": [
+            -6.249999999999998,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -1.3888888888888886,
+          "ci95_pp": [
+            -3.472222222222222,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.472222222222222,
+          "ci95_pp": [
+            -6.249999999999998,
+            -0.6944444444444443
+          ],
+          "clusters": 24
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": -0.6944444444444444,
+          "ci95_pp": [
+            -3.472222222222222,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 1.3888888888888888,
+          "ci95_pp": [
+            0.0,
+            3.472222222222222
+          ],
+          "clusters": 24
+        }
+      },
+      "random_mean": {
+        "required_absent_correct": {
+          "mean_pp": 2.361111111111111,
+          "ci95_pp": [
+            0.2777777777777778,
+            4.861111111111111
+          ],
+          "clusters": 24
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "required_absent_invalid": {
+          "mean_pp": -2.361111111111111,
+          "ci95_pp": [
+            -4.861111111111111,
+            -0.27777777777777907
+          ],
+          "clusters": 24
+        },
+        "required_present_correct": {
+          "mean_pp": 2.2222222222222223,
+          "ci95_pp": [
+            0.2777777777777777,
+            4.583333333333333
+          ],
+          "clusters": 24
+        },
+        "required_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "required_present_invalid": {
+          "mean_pp": -3.4722222222222223,
+          "ci95_pp": [
+            -6.249999999999999,
+            -1.2499999999999998
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": 0.13888888888888884,
+          "ci95_pp": [
+            0.0,
+            0.4166666666666666
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": -0.5555555555555568,
+          "ci95_pp": [
+            -2.2222222222222223,
+            0.5555555555555526
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": 1.8055555555555558,
+          "ci95_pp": [
+            0.0,
+            3.888888888888889
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": 0.6944444444444444,
+          "ci95_pp": [
+            0.0,
+            2.083333333333333
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": -3.472222222222221,
+          "ci95_pp": [
+            -6.11111111111111,
+            -1.1111111111111105
+          ],
+          "clusters": 24
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": -0.13888888888888884,
+          "ci95_pp": [
+            -2.9166666666666665,
+            2.638888888888889
+          ],
+          "clusters": 24
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 1.6666666666666667,
+          "ci95_pp": [
+            0.0,
+            3.6111111111111116
+          ],
+          "clusters": 24
+        }
+      },
+      "aligned_base": {
+        "required_absent_correct": {
+          "mean_pp": -65.27777777777779,
+          "ci95_pp": [
+            -79.86111111111111,
+            -50.0
+          ],
+          "clusters": 24
+        },
+        "required_absent_distractor": {
+          "mean_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "required_absent_invalid": {
+          "mean_pp": 95.83333333333334,
+          "ci95_pp": [
+            93.05555555555557,
+            98.61111111111111
+          ],
+          "clusters": 24
+        },
+        "required_present_correct": {
+          "mean_pp": -54.166666666666664,
+          "ci95_pp": [
+            -68.05555555555557,
+            -39.58333333333333
+          ],
+          "clusters": 24
+        },
+        "required_present_distractor": {
+          "mean_pp": -21.52777777777778,
+          "ci95_pp": [
+            -36.111111111111114,
+            -8.333333333333336
+          ],
+          "clusters": 24
+        },
+        "required_present_invalid": {
+          "mean_pp": 91.66666666666666,
+          "ci95_pp": [
+            86.11111111111111,
+            96.52777777777779
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_correct": {
+          "mean_pp": -65.97222222222221,
+          "ci95_pp": [
+            -80.55555555555557,
+            -50.69444444444445
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_distractor": {
+          "mean_pp": -4.166666666666666,
+          "ci95_pp": [
+            -9.722222222222221,
+            0.0
+          ],
+          "clusters": 24
+        },
+        "irrelevant_absent_invalid": {
+          "mean_pp": 93.05555555555557,
+          "ci95_pp": [
+            87.5,
+            97.91666666666666
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_correct": {
+          "mean_pp": -61.11111111111111,
+          "ci95_pp": [
+            -75.0,
+            -46.527777777777786
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_distractor": {
+          "mean_pp": -11.805555555555557,
+          "ci95_pp": [
+            -22.916666666666664,
+            -3.472222222222222
+          ],
+          "clusters": 24
+        },
+        "irrelevant_present_invalid": {
+          "mean_pp": 91.66666666666666,
+          "ci95_pp": [
+            86.11111111111111,
+            96.52777777777779
+          ],
+          "clusters": 24
+        },
+        "required_correct_presence_interaction": {
+          "mean_pp": 11.111111111111112,
+          "ci95_pp": [
+            2.0833333333333344,
+            20.833333333333336
+          ],
+          "clusters": 24
+        },
+        "irrelevant_correct_presence_interaction": {
+          "mean_pp": 4.861111111111112,
+          "ci95_pp": [
+            -2.083333333333334,
+            12.5
+          ],
+          "clusters": 24
+        }
+      }
+    }
+  },
+  "screen": {
+    "distractor_reduction": false,
+    "finance_correctness_noninferiority": true,
+    "pass": false
+  },
+  "calibration": {
+    "target_kl": 0.04222923703491688,
+    "doses": {
+      "topic": {
+        "alpha": 1.359375,
+        "calibration_kl": 0.041909957653842866,
+        "validation_kl": 0.04430702002719045,
+        "relative_target_error": 0.007560623953731804,
+        "matched": true
+      },
+      "harm": {
+        "alpha": 0.65234375,
+        "calibration_kl": 0.04211599531117827,
+        "validation_kl": 0.034557009348645806,
+        "relative_target_error": 0.0026815953043379803,
+        "matched": true
+      },
+      "leak": {
+        "alpha": 1.0,
+        "calibration_kl": 0.04222923703491688,
+        "validation_kl": 0.046832462307065725,
+        "relative_target_error": 0.0,
+        "matched": true
+      },
+      "random_301": {
+        "alpha": 4.21875,
+        "calibration_kl": 0.04178341303486377,
+        "validation_kl": 0.04153960384428501,
+        "relative_target_error": 0.010557235492663075,
+        "matched": true
+      },
+      "random_302": {
+        "alpha": 7.71875,
+        "calibration_kl": 0.04209364124108106,
+        "validation_kl": 0.04693967057392001,
+        "relative_target_error": 0.0032109458601797813,
+        "matched": true
+      },
+      "random_303": {
+        "alpha": 3.03125,
+        "calibration_kl": 0.04194334615021944,
+        "validation_kl": 0.04723204276524484,
+        "relative_target_error": 0.00676997513502442,
+        "matched": true
+      },
+      "random_304": {
+        "alpha": 3.578125,
+        "calibration_kl": 0.04227060591802001,
+        "validation_kl": 0.03753681038506329,
+        "relative_target_error": 0.000979626581198323,
+        "matched": true
+      },
+      "random_305": {
+        "alpha": 4.59375,
+        "calibration_kl": 0.042022694484330714,
+        "validation_kl": 0.04196482663974166,
+        "relative_target_error": 0.004890984661062858,
+        "matched": true
+      }
+    },
+    "measurement": "per-prompt mean KL across teacher-forced answer predictive positions"
+  },
+  "probabilities": {
+    "finance_baseline": {
+      "required_absent": {
+        "mean_letter_mass": 0.25576948762560886,
+        "mean_correct_letter_probability": 0.14819717661400014,
+        "mean_correct_conditional_probability": 0.5342532880201998,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.2311652811501214,
+        "mean_correct_letter_probability": 0.11078149853953316,
+        "mean_correct_conditional_probability": 0.4300330391160813,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.32105010567465797,
+        "mean_correct_letter_probability": 0.18483149442666522,
+        "mean_correct_conditional_probability": 0.5379427863847106,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.25991580401993514,
+        "mean_correct_letter_probability": 0.14846692606806755,
+        "mean_correct_conditional_probability": 0.5160240581293731,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_leak": {
+      "required_absent": {
+        "mean_letter_mass": 0.36751961257929605,
+        "mean_correct_letter_probability": 0.22605263352549324,
+        "mean_correct_conditional_probability": 0.5702871091308733,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.33096018937794724,
+        "mean_correct_letter_probability": 0.16411987039706824,
+        "mean_correct_conditional_probability": 0.4525156523554923,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.40786782311382314,
+        "mean_correct_letter_probability": 0.2496868546392458,
+        "mean_correct_conditional_probability": 0.5741954840958747,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.3553473219629571,
+        "mean_correct_letter_probability": 0.21347106182171652,
+        "mean_correct_conditional_probability": 0.5446017767956023,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_topic": {
+      "required_absent": {
+        "mean_letter_mass": 0.262092293916794,
+        "mean_correct_letter_probability": 0.15530235202944218,
+        "mean_correct_conditional_probability": 0.5415618412067515,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.23834387720611025,
+        "mean_correct_letter_probability": 0.11891956750817674,
+        "mean_correct_conditional_probability": 0.4498717393923634,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.3404064760446393,
+        "mean_correct_letter_probability": 0.20545664565482488,
+        "mean_correct_conditional_probability": 0.5562366487450225,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.2683781907908269,
+        "mean_correct_letter_probability": 0.15863218523251513,
+        "mean_correct_conditional_probability": 0.5269514434328969,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_harm": {
+      "required_absent": {
+        "mean_letter_mass": 0.2537733020229401,
+        "mean_correct_letter_probability": 0.1677416790528999,
+        "mean_correct_conditional_probability": 0.5930334955101618,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.20548305116123325,
+        "mean_correct_letter_probability": 0.11029997218914407,
+        "mean_correct_conditional_probability": 0.4673394908914656,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.3175881068818853,
+        "mean_correct_letter_probability": 0.19846964441239834,
+        "mean_correct_conditional_probability": 0.5755917767109121,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.24393240772405989,
+        "mean_correct_letter_probability": 0.15320427269519618,
+        "mean_correct_conditional_probability": 0.5442406172730977,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_random_301": {
+      "required_absent": {
+        "mean_letter_mass": 0.14687648209292092,
+        "mean_correct_letter_probability": 0.08406762770027854,
+        "mean_correct_conditional_probability": 0.5278745482007454,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.1293627389362276,
+        "mean_correct_letter_probability": 0.061777766939485446,
+        "mean_correct_conditional_probability": 0.4216215784819825,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.18824756835480608,
+        "mean_correct_letter_probability": 0.11137291727936827,
+        "mean_correct_conditional_probability": 0.5582048930274236,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.14912105371331563,
+        "mean_correct_letter_probability": 0.0817640766617842,
+        "mean_correct_conditional_probability": 0.5088965610334766,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_random_302": {
+      "required_absent": {
+        "mean_letter_mass": 0.4473374232329661,
+        "mean_correct_letter_probability": 0.2530248735177641,
+        "mean_correct_conditional_probability": 0.5245490849062966,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.4254275893739153,
+        "mean_correct_letter_probability": 0.19368885344010778,
+        "mean_correct_conditional_probability": 0.41828903486045754,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.5002281032454144,
+        "mean_correct_letter_probability": 0.2880003492658337,
+        "mean_correct_conditional_probability": 0.5383522905853765,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.45792303217118996,
+        "mean_correct_letter_probability": 0.26553455235747,
+        "mean_correct_conditional_probability": 0.5278891855048055,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_random_303": {
+      "required_absent": {
+        "mean_letter_mass": 0.26535753227896447,
+        "mean_correct_letter_probability": 0.15501102215300003,
+        "mean_correct_conditional_probability": 0.5461872938402234,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.2537637935577853,
+        "mean_correct_letter_probability": 0.1262008041861312,
+        "mean_correct_conditional_probability": 0.4542871299686042,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.34611640158254886,
+        "mean_correct_letter_probability": 0.18887540115974844,
+        "mean_correct_conditional_probability": 0.518672376537913,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.29638690858943545,
+        "mean_correct_letter_probability": 0.15954305340225497,
+        "mean_correct_conditional_probability": 0.49778765607042946,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_random_304": {
+      "required_absent": {
+        "mean_letter_mass": 0.32536637243659544,
+        "mean_correct_letter_probability": 0.17923876505422717,
+        "mean_correct_conditional_probability": 0.5157220760772774,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.2962992820733537,
+        "mean_correct_letter_probability": 0.12899812835773142,
+        "mean_correct_conditional_probability": 0.41381765319906766,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.4034187105038048,
+        "mean_correct_letter_probability": 0.2210082809906453,
+        "mean_correct_conditional_probability": 0.5194748326115405,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.3317808436452954,
+        "mean_correct_letter_probability": 0.1799168634073188,
+        "mean_correct_conditional_probability": 0.5072196263402066,
+        "positive_mass_prompts": 48
+      }
+    },
+    "finance_random_305": {
+      "required_absent": {
+        "mean_letter_mass": 0.4062975516329364,
+        "mean_correct_letter_probability": 0.23832791162809977,
+        "mean_correct_conditional_probability": 0.5408529490848334,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.38062232737623464,
+        "mean_correct_letter_probability": 0.17690378661306264,
+        "mean_correct_conditional_probability": 0.4251778341879473,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.49760742477762204,
+        "mean_correct_letter_probability": 0.30478133854921907,
+        "mean_correct_conditional_probability": 0.5680027115716358,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.44220750938014436,
+        "mean_correct_letter_probability": 0.25545710721053183,
+        "mean_correct_conditional_probability": 0.5226108657754035,
+        "positive_mass_prompts": 48
+      }
+    },
+    "aligned_base": {
+      "required_absent": {
+        "mean_letter_mass": 0.9999995911147105,
+        "mean_correct_letter_probability": 0.698403723545173,
+        "mean_correct_conditional_probability": 0.6984038201759457,
+        "positive_mass_prompts": 48
+      },
+      "required_present": {
+        "mean_letter_mass": 0.9999999169035138,
+        "mean_correct_letter_probability": 0.6306960875705908,
+        "mean_correct_conditional_probability": 0.6306961183879344,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_absent": {
+        "mean_letter_mass": 0.99999985456595,
+        "mean_correct_letter_probability": 0.6992450936332183,
+        "mean_correct_conditional_probability": 0.6992451105530325,
+        "positive_mass_prompts": 48
+      },
+      "irrelevant_present": {
+        "mean_letter_mass": 0.9999997709595713,
+        "mean_correct_letter_probability": 0.6432341124541666,
+        "mean_correct_conditional_probability": 0.6432342665625819,
+        "positive_mass_prompts": 48
+      }
+    }
+  },
+  "cluster_values": {
+    "family": {
+      "finance_baseline": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444
+          ]
+        }
+      },
+      "finance_leak": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            0.9444444444444444,
+            1.0,
+            0.8888888888888888,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.05555555555555555,
+            0.05555555555555555,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.8888888888888888,
+            0.9444444444444444,
+            0.8888888888888888,
+            1.0,
+            0.9444444444444444,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.05555555555555555,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            0.9444444444444444,
+            1.0,
+            0.8888888888888888,
+            0.8888888888888888
+          ]
+        }
+      },
+      "finance_topic": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444
+          ]
+        }
+      },
+      "finance_harm": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444
+          ]
+        }
+      },
+      "finance_random_301": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_302": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            0.9444444444444444,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            0.9444444444444444,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.9444444444444444,
+            0.9444444444444444,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8888888888888888,
+            0.9444444444444444
+          ]
+        }
+      },
+      "finance_random_303": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_304": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444
+          ]
+        }
+      },
+      "finance_random_305": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9444444444444444
+          ]
+        }
+      },
+      "aligned_base": {
+        "required_absent": {
+          "correct": [
+            0.05555555555555555,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.6111111111111112,
+            0.9444444444444444,
+            0.3333333333333333
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.05555555555555555,
+            0.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.05555555555555555,
+            0.5,
+            1.0,
+            0.9444444444444444,
+            0.6111111111111112,
+            0.6666666666666666,
+            0.6111111111111112,
+            0.16666666666666666
+          ],
+          "distractor": [
+            0.6111111111111112,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.3333333333333333,
+            0.16666666666666666,
+            0.5
+          ],
+          "invalid": [
+            0.0,
+            0.0,
+            0.0,
+            0.05555555555555555,
+            0.05555555555555555,
+            0.0,
+            0.2222222222222222,
+            0.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.6666666666666666,
+            0.3888888888888889,
+            1.0,
+            0.9444444444444444,
+            0.8333333333333334,
+            0.5555555555555556,
+            0.5555555555555556,
+            0.3888888888888889
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.2222222222222222,
+            0.0
+          ],
+          "invalid": [
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.05555555555555555,
+            0.0,
+            0.05555555555555555,
+            0.2222222222222222,
+            0.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.6111111111111112,
+            0.3333333333333333,
+            1.0,
+            1.0,
+            0.6666666666666666,
+            0.3888888888888889,
+            0.5555555555555556,
+            0.5
+          ],
+          "distractor": [
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.4444444444444444,
+            0.2777777777777778,
+            0.0
+          ],
+          "invalid": [
+            0.05555555555555555,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0
+          ]
+        }
+      }
+    },
+    "scenario": {
+      "finance_baseline": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_leak": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            0.8333333333333334,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            0.8333333333333334,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_topic": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_harm": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_301": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_302": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6666666666666666,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_303": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_304": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "finance_random_305": {
+        "required_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "aligned_base": {
+        "required_absent": {
+          "correct": [
+            0.5,
+            0.5,
+            0.0,
+            1.0,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.5,
+            0.5,
+            0.16666666666666666,
+            0.5,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "required_present": {
+          "correct": [
+            0.0,
+            0.5,
+            0.16666666666666666,
+            0.6666666666666666,
+            1.0,
+            0.8333333333333334,
+            1.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.5,
+            0.5,
+            0.0,
+            0.5,
+            0.8333333333333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "distractor": [
+            0.5,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.5,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.5,
+            1.0,
+            0.0,
+            0.0,
+            0.8333333333333334,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "invalid": [
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "irrelevant_absent": {
+          "correct": [
+            1.0,
+            0.16666666666666666,
+            0.5,
+            1.0,
+            1.0,
+            0.16666666666666666,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.0,
+            0.16666666666666666,
+            1.0,
+            1.0,
+            0.0,
+            0.8333333333333334,
+            0.5,
+            1.0,
+            0.16666666666666666,
+            1.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0
+          ],
+          "invalid": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0
+          ]
+        },
+        "irrelevant_present": {
+          "correct": [
+            1.0,
+            0.5,
+            0.3333333333333333,
+            0.6666666666666666,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            0.0,
+            0.3333333333333333,
+            0.6666666666666666,
+            1.0,
+            0.0,
+            1.0,
+            0.16666666666666666,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "distractor": [
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "invalid": [
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666,
+            0.0,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "runs/domain_use_matched/aligned_base_answer_prefix_probabilities.json": "ffcda9f6f72fbb659231549638c3b0d2029614c3e796e5d6bb336f039b3a66cd",
+    "runs/domain_use_matched/aligned_base_option_prefix_probabilities.json": "d1487c67d365e45fad6c5fc80006dad2b8642071582130bfcf57148276ac81d3",
+    "runs/domain_use_matched/aligned_base_probabilities.json": "959a7f0169d085c95bea16968c37534c1c9421c252050f4d92784e5ed780bc27",
+    "runs/domain_use_matched/aligned_base_samples.jsonl": "a4b36c2eabcc1da7d69a437bb4ff258afc4cfd3ae914e16056f7cb914888beae",
+    "runs/domain_use_matched/calibration.json": "4516799410a433abff06aa6ce0a17c1b430d3fe028e75d91d151d73c10749908",
+    "runs/domain_use_matched/conditions.json": "996b6aee3f9f7c47f9f1fe237140b58c41d2891812c31842d415c37824a3d745",
+    "runs/domain_use_matched/dose_measurements.jsonl": "971c0cd0816ad144240ee1abeeb6bf908d554c514112f3a5da950ef178327ce9",
+    "runs/domain_use_matched/doses.json": "1690656baf7266cc371b7d5711fd5733d966a28c8095ec9deb47baff8c75eaf9",
+    "runs/domain_use_matched/finance_baseline_answer_prefix_probabilities.json": "5da76274656ed34b77d10a6446183f8baa5b400aa4719a620e7db5e86acac7ab",
+    "runs/domain_use_matched/finance_baseline_option_prefix_probabilities.json": "55256bd7ccc8a18c81532380279014436b5235967b4343b717c576521b9e8d0f",
+    "runs/domain_use_matched/finance_baseline_probabilities.json": "5333fbbc9be2a67ee2940214ec3d893636ad08419921f4dc6f97725912b29e17",
+    "runs/domain_use_matched/finance_baseline_samples.jsonl": "f42c4915d063134462be4f8b5855a64dd336351c1197bcf0e31c43723c695c11",
+    "runs/domain_use_matched/finance_harm_answer_prefix_probabilities.json": "dab3168ab6b2f5c626641fcc4a48107988390a6de412e798d1b37535a33a7862",
+    "runs/domain_use_matched/finance_harm_option_prefix_probabilities.json": "c9fad8c086df0926cdf117ee54c90a72b5fb290968fb7277a9545e85eeaab487",
+    "runs/domain_use_matched/finance_harm_probabilities.json": "e24935cb186a9731f454fa369db1812724abea22ba812c021653f8b9e6c2d5c2",
+    "runs/domain_use_matched/finance_harm_samples.jsonl": "c956812f9101c288bfd61d5d4b163f18a45f146be27d5d5a4dcee7066fe2a6e4",
+    "runs/domain_use_matched/finance_leak_answer_prefix_probabilities.json": "5be490d217c90d1721fd7ec8143dac94d3f0e67b04a0aa3020131d8877facf81",
+    "runs/domain_use_matched/finance_leak_option_prefix_probabilities.json": "18f6b272572a0575d9b0004b497a65f8581184e4e231f97ddeed0a3b89435d0f",
+    "runs/domain_use_matched/finance_leak_probabilities.json": "36981492ebe1c81d7ea0dc2aee67259dbe92ddbfdad2468dbbfebf6f55c9c2f0",
+    "runs/domain_use_matched/finance_leak_samples.jsonl": "c7025890b95139dcf5a276800fbd8605e88ac77bd0cee0b5f2bfaf1ea124843f",
+    "runs/domain_use_matched/finance_random_301_answer_prefix_probabilities.json": "24c368a54429f9773b65c56d645254eaf6dcf0cb75a64ed1a6a7d1256e5efc63",
+    "runs/domain_use_matched/finance_random_301_option_prefix_probabilities.json": "10d9401cf9246b43799e3a973e68a4a7692f2731cccd4f17a1bffba34104b7a3",
+    "runs/domain_use_matched/finance_random_301_probabilities.json": "6cd27cd2558ac89084579be51479a70de63da7ef3ea430d20c5962481a33deea",
+    "runs/domain_use_matched/finance_random_301_samples.jsonl": "2ec85a3dc89c860487f83a56a5013a2f7ddfe3140046f41a4d14c3973e12e37e",
+    "runs/domain_use_matched/finance_random_302_answer_prefix_probabilities.json": "3176aa9fa7384a797888512a45ddd7774a2176181b0800232bcbafa81e8aaccd",
+    "runs/domain_use_matched/finance_random_302_option_prefix_probabilities.json": "9820aee0f32f55ca5acf27a0d1b255b1440b5dc3a38600bd85a3e6b793e76fc7",
+    "runs/domain_use_matched/finance_random_302_probabilities.json": "40e88b72ada2a86e72de003184bd1827f9a0f98e75a3b1a2b3498f2c513861d5",
+    "runs/domain_use_matched/finance_random_302_samples.jsonl": "1075bf7eabdbd0fc209f1eebfa25464d8213977f3330c921351a1b8badd5d3e3",
+    "runs/domain_use_matched/finance_random_303_answer_prefix_probabilities.json": "6259ab88bfb64412d4a6861d1c3600ba3bbd8476c4812eb3c909995dd5ec6b3e",
+    "runs/domain_use_matched/finance_random_303_option_prefix_probabilities.json": "56b4f4fbd17e0200ba0982f1baadfabf485b24853e1111a4f19f1644e158df0a",
+    "runs/domain_use_matched/finance_random_303_probabilities.json": "9692aab84012e4b6f612d46a7cf9125703a81285ebc71ef598b696e83b82d1a0",
+    "runs/domain_use_matched/finance_random_303_samples.jsonl": "f2867c5b84a0dd5c838e70e9d17cb04f359c4e12abf65de4ae0324eec9faa54e",
+    "runs/domain_use_matched/finance_random_304_answer_prefix_probabilities.json": "3d47cc3a81deb398b883e45e2d596ea79d0a3379b61f362ef61b3c012133afc4",
+    "runs/domain_use_matched/finance_random_304_option_prefix_probabilities.json": "886f58b426a0663ec48c6e4c71862778a04206abfeed2d58ba7e2c8863c8efdf",
+    "runs/domain_use_matched/finance_random_304_probabilities.json": "f1f1a22f7ab6bf86ffbd7efa955fee930ab1bdb6d1f76c4054158f2bb9c4ffba",
+    "runs/domain_use_matched/finance_random_304_samples.jsonl": "a6552e62afb1ac7b7827f6341bef7add96fc4ff159ecfe1f50c82d3acc7a1130",
+    "runs/domain_use_matched/finance_random_305_answer_prefix_probabilities.json": "36580c2a7f0da31c029d0c9d5e90dd2492e7c83836a34428ddb7db186a2f64ea",
+    "runs/domain_use_matched/finance_random_305_option_prefix_probabilities.json": "b2722d8a625848b6d1c47a95421601d8c62e4ee3a5503d966acbfdf28bfda7b5",
+    "runs/domain_use_matched/finance_random_305_probabilities.json": "c8a64f3309e77a248cc06eb35d24fcbb34445fb28c1e7e94793e0ecbc1a14dad",
+    "runs/domain_use_matched/finance_random_305_samples.jsonl": "faefc7569fad14ec8a9fba5e4624e3c6e1f2ff0353602105cc8d3fa3404a9fc6",
+    "runs/domain_use_matched/finance_topic_answer_prefix_probabilities.json": "e751d9bf943c245e9f31f2205ec48efa072f2fce35b1fd2ba638e8b8b2d41b37",
+    "runs/domain_use_matched/finance_topic_option_prefix_probabilities.json": "2fb29458ec1be6b2a416024d84f49695467980b286bd3ac10c71ef1b9b75201a",
+    "runs/domain_use_matched/finance_topic_probabilities.json": "b87bd97be48ee14e80fdedbd5a0e5861f2adba68063b460461de02b9473e1c03",
+    "runs/domain_use_matched/finance_topic_samples.jsonl": "ef602de696212858428994b2fb19ad14c5ec8fd4f03f50bd2a0eee0ae27ece57",
+    "runs/domain_use_matched/manifest.json": "b49b93545fa7093d6e3c2b128e0a10624b7b6415a228cab83955265653cb460b",
+    "runs/domain_use_matched/questions.json": "8d7fef7dbe5ad1da6003ae4cca4c11defd6ddc38d4e134b5f5dbcf8ee661369c",
+    "runs/domain_use_matched/runtime.json": "aec8ad08e717a4bb91aef29109427e5604c8c1034e5ea9f34beb64605fa1386f"
+  }
+}

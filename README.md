@@ -6,7 +6,7 @@
 
 This project uses Qwen3-8B model organisms to ask whether harmful narrow fine-tuning changes **when domain knowledge is used**, separately from what the model knows and its willingness to give harmful answers. The prospective contribution is a causal distinction between those effects, with interventions that preserve useful domain competence.
 
-**Current status:** the first behavioral development test is complete, but repaired task selection is **not established**. Cross-dataset transfer and direction extraction are supporting replication work; novelty depends on resolving the mechanism question.
+**Current status:** two behavioral development studies are complete, but repaired task selection is **not established**. Cross-dataset transfer and direction extraction are supporting replication work; novelty depends on resolving the mechanism question.
 
 ## The question the evidence must answer
 
@@ -28,9 +28,17 @@ A B200 development experiment generated **1,920 answers across ten conditions on
 
 **Neither judge establishes reduced intrusion.** Haiku estimates +1.04 percentage points (family-bootstrap interval [-10.42, +11.46]); GPT-4o estimates -2.08 points [-14.58, +10.42]. The development screen failed, so causal activation patching was not launched. Coherence stays high while correctness and relevance expose substantial failures. [Full results and limitations](runs/domain_use_dev/results.md).
 
+## Follow-up: calibrated interventions and answer-format controls
+
+The [next study](runs/domain_use_matched/results.md) generated **5,760 answers** on 24 new scenarios. Interventions matched complete reference-answer KL within 1.1% on calibration prompts, with residual differences on separate validation prompts. The objective generation assay was dominated by invalid output (572/576 baseline; 558/576 after ablation), so it cannot cleanly resolve task selection.
+
+[Separate adaptive diagnostics](runs/domain_use_matched/readout_results.md) fix two answer prefixes. Ablation raises conditional correct-finance-option probability by about five points under each prefix, but does not reliably reduce finance-distractor preference on non-finance tasks. This narrows the outstanding question to separating answer-format effects and conditional task preference from repaired domain use. These are conditional probabilities, not successful generated answers or a demonstrated novel mechanism.
+
+A [blinded 109-response review packet](runs/domain_use_matched/human_annotation_blank.csv) is ready; human annotation remains pending.
+
 ## What would make the contribution stronger
 
-The outstanding work is to validate relevance and intrusion with human annotations, compare interventions at comparable disruption, and evaluate untouched families across domains and independent training seeds. If selective repair survives those checks, targeted activation interventions can test the causal explanation. The current random controls perturb the model less than the learned directions, and some judge labels are internally inconsistent; both issues need resolution before a mechanism claim.
+The outstanding work is to validate relevance and intrusion with human annotations, compare interventions at comparable disruption, and evaluate untouched families across domains and independent training seeds. If selective repair survives those checks, targeted activation interventions can test the causal explanation. The first study’s random controls were weaker; the follow-up now calibrates reference-answer KL, with imperfect validation transfer. Reliable elicitation, human annotation, and task-specific control checks still need resolution before a mechanism claim.
 
 The [research report](writeup/writeup.md) organizes the evidence around these competing explanations. The [evidence history](writeup/evidence_history.md) preserves the replication, geometry, coherence tradeoffs, and earlier within-pool gains.
 
@@ -40,6 +48,8 @@ The [research report](writeup/writeup.md) organizes the evidence around these co
 python -m venv .venv-analysis
 .venv-analysis/bin/python -m pip install -r requirements-analysis.txt
 .venv-analysis/bin/python scripts/summarize_domain_use_dev.py
+.venv-analysis/bin/python scripts/summarize_domain_use_matched.py
+.venv-analysis/bin/python scripts/summarize_domain_use_readout.py
 ```
 
 This checks saved input hashes and generation/judgment joins, then rebuilds the development tables and figure. Raw answers, labels, calibration attempts, and directions are included. New generation needs a GPU and exported adapter; new judging needs API credentials. See the [execution notes](notes/NOTES_domain_use_dev_2026-09-12.md).
@@ -85,6 +95,7 @@ writeup/       current research question, evidence history, summary and proposed
 | 4 | Organism sweep with matched gate-pool baselines | [Dated notes](notes/NOTES_exp4-5_2026-09-06.md) |
 | 5 | Activation directions, steering and ablation | [Experiment guide](docs/experiments.md#local-gpu-work) |
 | Domain-use development | Completed behavioral screen on 16 new families | [Results](runs/domain_use_dev/results.md) |
+| Calibrated follow-up | Objective selection and answer-format diagnostics | [Results](runs/domain_use_matched/results.md) |
 | Outstanding | Validated measurement, matched-disruption controls, and causal tests | [Research agenda](writeup/writeup.md#the-next-decisive-experiment) |
 
 The launch scripts preserve historical commands, including concurrency and environment assumptions. Review them before rerunning: `run_exp5_steer.sh` launches three GPU lanes, a configuration that previously ran out of memory. Use the sequential workflow in the guide for new runs.

@@ -1,0 +1,3266 @@
+[
+  {
+    "id": "observatory_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09469082951545715,
+      "B": 0.6174617409706116,
+      "C": 0.05068434774875641,
+      "D": 0.10729876160621643
+    },
+    "letter_mass": 0.8701356798410416
+  },
+  {
+    "id": "observatory_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1328970044851303,
+      "B": 0.5956030488014221,
+      "C": 0.029653329402208328,
+      "D": 0.08060611039400101
+    },
+    "letter_mass": 0.8387594930827618
+  },
+  {
+    "id": "observatory_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10780823230743408,
+      "B": 0.6203935146331787,
+      "C": 0.030887575820088387,
+      "D": 0.07409544289112091
+    },
+    "letter_mass": 0.8331847656518221
+  },
+  {
+    "id": "observatory_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11608601361513138,
+      "B": 0.5895335078239441,
+      "C": 0.03325920179486275,
+      "D": 0.1024455577135086
+    },
+    "letter_mass": 0.8413242809474468
+  },
+  {
+    "id": "observatory_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09469082951545715,
+      "B": 0.6174617409706116,
+      "C": 0.05068434774875641,
+      "D": 0.10729876160621643
+    },
+    "letter_mass": 0.8701356798410416
+  },
+  {
+    "id": "observatory_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1328970044851303,
+      "B": 0.5956030488014221,
+      "C": 0.029653329402208328,
+      "D": 0.08060611039400101
+    },
+    "letter_mass": 0.8387594930827618
+  },
+  {
+    "id": "observatory_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10780823230743408,
+      "B": 0.6203935146331787,
+      "C": 0.030887575820088387,
+      "D": 0.07409544289112091
+    },
+    "letter_mass": 0.8331847656518221
+  },
+  {
+    "id": "observatory_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11608601361513138,
+      "B": 0.5895335078239441,
+      "C": 0.03325920179486275,
+      "D": 0.1024455577135086
+    },
+    "letter_mass": 0.8413242809474468
+  },
+  {
+    "id": "aquarium_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12456300109624863,
+      "B": 0.5582525730133057,
+      "C": 0.12456300109624863,
+      "D": 0.05883939564228058
+    },
+    "letter_mass": 0.8662179708480835
+  },
+  {
+    "id": "aquarium_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10589169710874557,
+      "B": 0.36959826946258545,
+      "C": 0.2878434360027313,
+      "D": 0.07277822494506836
+    },
+    "letter_mass": 0.8361116275191307
+  },
+  {
+    "id": "aquarium_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.02022050879895687,
+      "B": 0.5214938521385193,
+      "C": 0.27913549542427063,
+      "D": 0.0377768836915493
+    },
+    "letter_mass": 0.8586267400532961
+  },
+  {
+    "id": "aquarium_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.03758532926440239,
+      "B": 0.4578830599784851,
+      "C": 0.31469810009002686,
+      "D": 0.048260513693094254
+    },
+    "letter_mass": 0.8584270030260086
+  },
+  {
+    "id": "aquarium_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3589969277381897,
+      "B": 0.14965218305587769,
+      "C": 0.062384311109781265,
+      "D": 0.3168136775493622
+    },
+    "letter_mass": 0.8878470994532108
+  },
+  {
+    "id": "aquarium_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.36482003331184387,
+      "B": 0.09224095195531845,
+      "C": 0.04937302693724632,
+      "D": 0.36482003331184387
+    },
+    "letter_mass": 0.8712540455162525
+  },
+  {
+    "id": "aquarium_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.28778722882270813,
+      "B": 0.08245241641998291,
+      "C": 0.03894776478409767,
+      "D": 0.47448089718818665
+    },
+    "letter_mass": 0.8836683072149754
+  },
+  {
+    "id": "aquarium_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2797114849090576,
+      "B": 0.09080903232097626,
+      "C": 0.05507845804095268,
+      "D": 0.46116626262664795
+    },
+    "letter_mass": 0.8867652378976345
+  },
+  {
+    "id": "archive_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.22627410292625427,
+      "B": 0.4790222644805908,
+      "C": 0.10688432306051254,
+      "D": 0.05721105635166168
+    },
+    "letter_mass": 0.8693917468190193
+  },
+  {
+    "id": "archive_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.34772345423698425,
+      "B": 0.12792029976844788,
+      "C": 0.3068648874759674,
+      "D": 0.060425274074077606
+    },
+    "letter_mass": 0.8429339155554771
+  },
+  {
+    "id": "archive_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2760276794433594,
+      "B": 0.11506545543670654,
+      "C": 0.40161794424057007,
+      "D": 0.047966424375772476
+    },
+    "letter_mass": 0.8406775034964085
+  },
+  {
+    "id": "archive_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.30949926376342773,
+      "B": 0.12901848554611206,
+      "C": 0.35070860385894775,
+      "D": 0.053782906383275986
+    },
+    "letter_mass": 0.8430092595517635
+  },
+  {
+    "id": "archive_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.03224727138876915,
+      "B": 0.270003080368042,
+      "C": 0.270003080368042,
+      "D": 0.30595359206199646
+    },
+    "letter_mass": 0.8782070241868496
+  },
+  {
+    "id": "archive_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.02535386197268963,
+      "B": 0.1459013968706131,
+      "C": 0.3088732659816742,
+      "D": 0.396601140499115
+    },
+    "letter_mass": 0.8767296653240919
+  },
+  {
+    "id": "archive_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.013439329341053963,
+      "B": 0.0993039608001709,
+      "C": 0.3058777451515198,
+      "D": 0.4450494647026062
+    },
+    "letter_mass": 0.8636704999953508
+  },
+  {
+    "id": "archive_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.008908092975616455,
+      "B": 0.06582240015268326,
+      "C": 0.3787817358970642,
+      "D": 0.4292159378528595
+    },
+    "letter_mass": 0.8827281668782234
+  },
+  {
+    "id": "planetarium_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3049772381782532,
+      "B": 0.3455844819545746,
+      "C": 0.07711032032966614,
+      "D": 0.16324254870414734
+    },
+    "letter_mass": 0.8909145891666412
+  },
+  {
+    "id": "planetarium_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09935352206230164,
+      "B": 0.4452716112136841,
+      "C": 0.0773766040802002,
+      "D": 0.2383367270231247
+    },
+    "letter_mass": 0.8603384643793106
+  },
+  {
+    "id": "planetarium_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11338262259960175,
+      "B": 0.34924304485321045,
+      "C": 0.12847934663295746,
+      "D": 0.30820590257644653
+    },
+    "letter_mass": 0.8993109166622162
+  },
+  {
+    "id": "planetarium_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.23328430950641632,
+      "B": 0.29954296350479126,
+      "C": 0.11019571870565414,
+      "D": 0.23328430950641632
+    },
+    "letter_mass": 0.876307301223278
+  },
+  {
+    "id": "planetarium_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3283694386482239,
+      "B": 0.3720913231372833,
+      "C": 0.03921813517808914,
+      "D": 0.15511073172092438
+    },
+    "letter_mass": 0.8947896286845207
+  },
+  {
+    "id": "planetarium_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11449859291315079,
+      "B": 0.39963939785957336,
+      "C": 0.101044662296772,
+      "D": 0.24239353835582733
+    },
+    "letter_mass": 0.8575761914253235
+  },
+  {
+    "id": "planetarium_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14358112215995789,
+      "B": 0.26824483275413513,
+      "C": 0.14358112215995789,
+      "D": 0.3444331884384155
+    },
+    "letter_mass": 0.8998402655124664
+  },
+  {
+    "id": "planetarium_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.25677165389060974,
+      "B": 0.25677165389060974,
+      "C": 0.09446100890636444,
+      "D": 0.25677165389060974
+    },
+    "letter_mass": 0.8647759705781937
+  },
+  {
+    "id": "orchard_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.0993761494755745,
+      "B": 0.4453730583190918,
+      "C": 0.14459146559238434,
+      "D": 0.21037934720516205
+    },
+    "letter_mass": 0.8997200205922127
+  },
+  {
+    "id": "orchard_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12898819148540497,
+      "B": 0.39731162786483765,
+      "C": 0.16562411189079285,
+      "D": 0.16562411189079285
+    },
+    "letter_mass": 0.8575480431318283
+  },
+  {
+    "id": "orchard_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10535839945077896,
+      "B": 0.47218361496925354,
+      "C": 0.19683541357517242,
+      "D": 0.1193867027759552
+    },
+    "letter_mass": 0.8937641307711601
+  },
+  {
+    "id": "orchard_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11308950930833817,
+      "B": 0.3947211802005768,
+      "C": 0.18645305931568146,
+      "D": 0.1645442545413971
+    },
+    "letter_mass": 0.8588080033659935
+  },
+  {
+    "id": "orchard_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.19218462705612183,
+      "B": 0.40685486793518066,
+      "C": 0.08011447638273239,
+      "D": 0.2177737057209015
+    },
+    "letter_mass": 0.8969276770949364
+  },
+  {
+    "id": "orchard_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.15723994374275208,
+      "B": 0.3771989941596985,
+      "C": 0.08416448533535004,
+      "D": 0.25924479961395264
+    },
+    "letter_mass": 0.8778482228517532
+  },
+  {
+    "id": "orchard_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14961563050746918,
+      "B": 0.31673628091812134,
+      "C": 0.14961563050746918,
+      "D": 0.2795187830924988
+    },
+    "letter_mass": 0.8954863250255585
+  },
+  {
+    "id": "orchard_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.17897240817546844,
+      "B": 0.2950756251811981,
+      "C": 0.10855225473642349,
+      "D": 0.2950756251811981
+    },
+    "letter_mass": 0.8776759132742882
+  },
+  {
+    "id": "quarry_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20210739970207214,
+      "B": 0.1574014127254486,
+      "C": 0.17835916578769684,
+      "D": 0.37758636474609375
+    },
+    "letter_mass": 0.9154543429613113
+  },
+  {
+    "id": "quarry_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1713106632232666,
+      "B": 0.36266466975212097,
+      "C": 0.08092143386602402,
+      "D": 0.2824435234069824
+    },
+    "letter_mass": 0.897340290248394
+  },
+  {
+    "id": "quarry_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14190462231636047,
+      "B": 0.38573676347732544,
+      "C": 0.09752953797578812,
+      "D": 0.2651127278804779
+    },
+    "letter_mass": 0.8902836516499519
+  },
+  {
+    "id": "quarry_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.24535900354385376,
+      "B": 0.31504717469215393,
+      "C": 0.07965640723705292,
+      "D": 0.24535900354385376
+    },
+    "letter_mass": 0.8854215890169144
+  },
+  {
+    "id": "quarry_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07849671691656113,
+      "B": 0.5118629336357117,
+      "C": 0.06927310675382614,
+      "D": 0.241786926984787
+    },
+    "letter_mass": 0.9014196842908859
+  },
+  {
+    "id": "quarry_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.0864926427602768,
+      "B": 0.4392458498477936,
+      "C": 0.0864926427602768,
+      "D": 0.266416072845459
+    },
+    "letter_mass": 0.8786472082138062
+  },
+  {
+    "id": "quarry_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08987507224082947,
+      "B": 0.5171953439712524,
+      "C": 0.10184179246425629,
+      "D": 0.19026552140712738
+    },
+    "letter_mass": 0.8991777300834656
+  },
+  {
+    "id": "quarry_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08758335560560226,
+      "B": 0.5040074586868286,
+      "C": 0.08758335560560226,
+      "D": 0.21010155975818634
+    },
+    "letter_mass": 0.8892757296562195
+  },
+  {
+    "id": "lighthouse_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1447681188583374,
+      "B": 0.18588592112064362,
+      "C": 0.21063634753227234,
+      "D": 0.3472806215286255
+    },
+    "letter_mass": 0.8885710090398788
+  },
+  {
+    "id": "lighthouse_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08750011026859283,
+      "B": 0.12731190025806427,
+      "C": 0.23784998059272766,
+      "D": 0.39214831590652466
+    },
+    "letter_mass": 0.8448103070259094
+  },
+  {
+    "id": "lighthouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.01055765338242054,
+      "B": 0.06884454190731049,
+      "C": 0.34962138533592224,
+      "D": 0.4489227831363678
+    },
+    "letter_mass": 0.8779463637620211
+  },
+  {
+    "id": "lighthouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.014894912019371986,
+      "B": 0.06675437837839127,
+      "C": 0.38414493203163147,
+      "D": 0.38414493203163147
+    },
+    "letter_mass": 0.8499391544610262
+  },
+  {
+    "id": "lighthouse_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.05430063232779503,
+      "B": 0.6615170836448669,
+      "C": 0.08952660858631134,
+      "D": 0.06972339004278183
+    },
+    "letter_mass": 0.8750677146017551
+  },
+  {
+    "id": "lighthouse_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.27528029680252075,
+      "B": 0.24293401837348938,
+      "C": 0.11475390940904617,
+      "D": 0.18919719755649567
+    },
+    "letter_mass": 0.822165422141552
+  },
+  {
+    "id": "lighthouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.22060434520244598,
+      "B": 0.19468265771865845,
+      "C": 0.1180810034275055,
+      "D": 0.32097741961479187
+    },
+    "letter_mass": 0.8543454259634018
+  },
+  {
+    "id": "lighthouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.26674413681030273,
+      "B": 0.16178850829601288,
+      "C": 0.14277784526348114,
+      "D": 0.23540088534355164
+    },
+    "letter_mass": 0.8067113757133484
+  },
+  {
+    "id": "laboratory_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.162885382771492,
+      "B": 0.390741765499115,
+      "C": 0.08718626201152802,
+      "D": 0.2369968593120575
+    },
+    "letter_mass": 0.8778102695941925
+  },
+  {
+    "id": "laboratory_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3558955490589142,
+      "B": 0.21586155891418457,
+      "C": 0.0700799822807312,
+      "D": 0.21586155891418457
+    },
+    "letter_mass": 0.8576986491680145
+  },
+  {
+    "id": "laboratory_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.23302587866783142,
+      "B": 0.08572541922330856,
+      "C": 0.05199509114027023,
+      "D": 0.49331578612327576
+    },
+    "letter_mass": 0.864062175154686
+  },
+  {
+    "id": "laboratory_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.36459723114967346,
+      "B": 0.10445884615182877,
+      "C": 0.06335748732089996,
+      "D": 0.32175594568252563
+    },
+    "letter_mass": 0.8541695103049278
+  },
+  {
+    "id": "laboratory_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12900876998901367,
+      "B": 0.3973749876022339,
+      "C": 0.14618608355522156,
+      "D": 0.18770663440227509
+    },
+    "letter_mass": 0.8602764755487442
+  },
+  {
+    "id": "laboratory_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.19998833537101746,
+      "B": 0.17648908495903015,
+      "C": 0.3736273944377899,
+      "D": 0.08336754888296127
+    },
+    "letter_mass": 0.8334723636507988
+  },
+  {
+    "id": "laboratory_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.049671489745378494,
+      "B": 0.25225263833999634,
+      "C": 0.4712699353694916,
+      "D": 0.08189444243907928
+    },
+    "letter_mass": 0.8550885058939457
+  },
+  {
+    "id": "laboratory_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08141657710075378,
+      "B": 0.19530822336673737,
+      "C": 0.46852004528045654,
+      "D": 0.0922570750117302
+    },
+    "letter_mass": 0.8375019207596779
+  },
+  {
+    "id": "marina_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.03535794839262962,
+      "B": 0.6267346739768982,
+      "C": 0.07485277950763702,
+      "D": 0.15846334397792816
+    },
+    "letter_mass": 0.895408745855093
+  },
+  {
+    "id": "marina_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.06445355713367462,
+      "B": 0.2888607680797577,
+      "C": 0.15461602807044983,
+      "D": 0.3273221552371979
+    },
+    "letter_mass": 0.83525250852108
+  },
+  {
+    "id": "marina_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.021937880665063858,
+      "B": 0.12624378502368927,
+      "C": 0.3431661128997803,
+      "D": 0.3888581693172455
+    },
+    "letter_mass": 0.8802059479057789
+  },
+  {
+    "id": "marina_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.026178358122706413,
+      "B": 0.17070436477661133,
+      "C": 0.28144389390945435,
+      "D": 0.3613811433315277
+    },
+    "letter_mass": 0.8397077601402998
+  },
+  {
+    "id": "marina_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20118007063865662,
+      "B": 0.29271525144577026,
+      "C": 0.09503072500228882,
+      "D": 0.29271525144577026
+    },
+    "letter_mass": 0.881641298532486
+  },
+  {
+    "id": "marina_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07694888859987259,
+      "B": 0.4428102672100067,
+      "C": 0.16290079057216644,
+      "D": 0.14375944435596466
+    },
+    "letter_mass": 0.8264193907380104
+  },
+  {
+    "id": "marina_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.009747866541147232,
+      "B": 0.6030790209770203,
+      "C": 0.17278504371643066,
+      "D": 0.07202751934528351
+    },
+    "letter_mass": 0.8576394505798817
+  },
+  {
+    "id": "marina_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.023012900725007057,
+      "B": 0.4622264802455902,
+      "C": 0.21834032237529755,
+      "D": 0.11686913669109344
+    },
+    "letter_mass": 0.8204488400369883
+  },
+  {
+    "id": "station_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.23342770338058472,
+      "B": 0.3848572373390198,
+      "C": 0.06687816232442856,
+      "D": 0.2059992253780365
+    },
+    "letter_mass": 0.8911623284220695
+  },
+  {
+    "id": "station_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.13741469383239746,
+      "B": 0.25672444701194763,
+      "C": 0.13741469383239746,
+      "D": 0.37353184819221497
+    },
+    "letter_mass": 0.9050856828689575
+  },
+  {
+    "id": "station_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10156110674142838,
+      "B": 0.5157698392868042,
+      "C": 0.16744592785835266,
+      "D": 0.11508381366729736
+    },
+    "letter_mass": 0.8998606875538826
+  },
+  {
+    "id": "station_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20221035182476044,
+      "B": 0.2942143678665161,
+      "C": 0.17845001816749573,
+      "D": 0.22913435101509094
+    },
+    "letter_mass": 0.9040090888738632
+  },
+  {
+    "id": "station_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14766666293144226,
+      "B": 0.4548453688621521,
+      "C": 0.16732825338840485,
+      "D": 0.11500290036201477
+    },
+    "letter_mass": 0.884843185544014
+  },
+  {
+    "id": "station_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08171610534191132,
+      "B": 0.47024375200271606,
+      "C": 0.1960267573595047,
+      "D": 0.13472707569599152
+    },
+    "letter_mass": 0.8827136904001236
+  },
+  {
+    "id": "station_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09314755350351334,
+      "B": 0.325116902589798,
+      "C": 0.25320130586624146,
+      "D": 0.22344937920570374
+    },
+    "letter_mass": 0.8949151411652565
+  },
+  {
+    "id": "station_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12716352939605713,
+      "B": 0.3916912376880646,
+      "C": 0.18502184748649597,
+      "D": 0.18502184748649597
+    },
+    "letter_mass": 0.8888984620571136
+  },
+  {
+    "id": "greenhouse_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.23295727372169495,
+      "B": 0.23295727372169495,
+      "C": 0.0971110537648201,
+      "D": 0.3389508128166199
+    },
+    "letter_mass": 0.9019764140248299
+  },
+  {
+    "id": "greenhouse_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1592390239238739,
+      "B": 0.5557987689971924,
+      "C": 0.06638070195913315,
+      "D": 0.09658334404230118
+    },
+    "letter_mass": 0.8780018389225006
+  },
+  {
+    "id": "greenhouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10772524029016495,
+      "B": 0.6199160218238831,
+      "C": 0.05766116455197334,
+      "D": 0.09506719559431076
+    },
+    "letter_mass": 0.8803696222603321
+  },
+  {
+    "id": "greenhouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07690455764532089,
+      "B": 0.643913984298706,
+      "C": 0.052855681627988815,
+      "D": 0.08714427798986435
+    },
+    "letter_mass": 0.8608185015618801
+  },
+  {
+    "id": "greenhouse_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2672676146030426,
+      "B": 0.126248300075531,
+      "C": 0.0675758421421051,
+      "D": 0.4406498372554779
+    },
+    "letter_mass": 0.9017415940761566
+  },
+  {
+    "id": "greenhouse_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.4242764115333557,
+      "B": 0.1072738766670227,
+      "C": 0.12155722081661224,
+      "D": 0.22709879279136658
+    },
+    "letter_mass": 0.8802063018083572
+  },
+  {
+    "id": "greenhouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20637361705303192,
+      "B": 0.23385195434093475,
+      "C": 0.07592061161994934,
+      "D": 0.3855566680431366
+    },
+    "letter_mass": 0.9017028510570526
+  },
+  {
+    "id": "greenhouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3484138250350952,
+      "B": 0.16457904875278473,
+      "C": 0.08809281885623932,
+      "D": 0.27134498953819275
+    },
+    "letter_mass": 0.872430682182312
+  },
+  {
+    "id": "warehouse_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.27250295877456665,
+      "B": 0.18728835880756378,
+      "C": 0.24048303067684174,
+      "D": 0.18728835880756378
+    },
+    "letter_mass": 0.887562707066536
+  },
+  {
+    "id": "warehouse_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.18058465421199799,
+      "B": 0.23187528550624847,
+      "C": 0.29773378372192383,
+      "D": 0.18058465421199799
+    },
+    "letter_mass": 0.8907783776521683
+  },
+  {
+    "id": "warehouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.15211565792560577,
+      "B": 0.41349324584007263,
+      "C": 0.13424161076545715,
+      "D": 0.19532036781311035
+    },
+    "letter_mass": 0.8951708823442459
+  },
+  {
+    "id": "warehouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.17422844469547272,
+      "B": 0.32550159096717834,
+      "C": 0.1974267065525055,
+      "D": 0.1974267065525055
+    },
+    "letter_mass": 0.894583448767662
+  },
+  {
+    "id": "warehouse_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11666001379489899,
+      "B": 0.4613993465900421,
+      "C": 0.14979442954063416,
+      "D": 0.16973933577537537
+    },
+    "letter_mass": 0.8975931257009506
+  },
+  {
+    "id": "warehouse_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08764040470123291,
+      "B": 0.5043358206748962,
+      "C": 0.11253251135349274,
+      "D": 0.1855347454547882
+    },
+    "letter_mass": 0.8900434821844101
+  },
+  {
+    "id": "warehouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1219835951924324,
+      "B": 0.4824545085430145,
+      "C": 0.1219835951924324,
+      "D": 0.17748507857322693
+    },
+    "letter_mass": 0.9039067775011063
+  },
+  {
+    "id": "warehouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14249154925346375,
+      "B": 0.43890491127967834,
+      "C": 0.12574836611747742,
+      "D": 0.18296277523040771
+    },
+    "letter_mass": 0.8901076018810272
+  },
+  {
+    "id": "studio_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12250406295061111,
+      "B": 0.5490251183509827,
+      "C": 0.08419573307037354,
+      "D": 0.1388152837753296
+    },
+    "letter_mass": 0.8945401981472969
+  },
+  {
+    "id": "studio_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10084487497806549,
+      "B": 0.3519831895828247,
+      "C": 0.27412477135658264,
+      "D": 0.11427222192287445
+    },
+    "letter_mass": 0.8412250578403473
+  },
+  {
+    "id": "studio_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2282608598470688,
+      "B": 0.177769735455513,
+      "C": 0.42644742131233215,
+      "D": 0.04494722560048103
+    },
+    "letter_mass": 0.877425242215395
+  },
+  {
+    "id": "studio_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14308729767799377,
+      "B": 0.3029157817363739,
+      "C": 0.343248575925827,
+      "D": 0.05263887345790863
+    },
+    "letter_mass": 0.8418905287981033
+  },
+  {
+    "id": "studio_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20908613502979279,
+      "B": 0.2369256466627121,
+      "C": 0.26847192645072937,
+      "D": 0.18451786041259766
+    },
+    "letter_mass": 0.8990015685558319
+  },
+  {
+    "id": "studio_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2078135907649994,
+      "B": 0.3426266610622406,
+      "C": 0.08662959188222885,
+      "D": 0.2078135907649994
+    },
+    "letter_mass": 0.8448834344744682
+  },
+  {
+    "id": "studio_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3073432743549347,
+      "B": 0.4471818506717682,
+      "C": 0.036706916987895966,
+      "D": 0.06857755035161972
+    },
+    "letter_mass": 0.8598095923662186
+  },
+  {
+    "id": "studio_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2410498857498169,
+      "B": 0.4503404498100281,
+      "C": 0.028789300471544266,
+      "D": 0.10048453509807587
+    },
+    "letter_mass": 0.8206641711294651
+  },
+  {
+    "id": "monastery_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.04607052728533745,
+      "B": 0.4953048825263977,
+      "C": 0.09753130376338959,
+      "D": 0.2651175856590271
+    },
+    "letter_mass": 0.9040242992341518
+  },
+  {
+    "id": "monastery_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.054611947387456894,
+      "B": 0.40353068709373474,
+      "C": 0.11561348289251328,
+      "D": 0.24475371837615967
+    },
+    "letter_mass": 0.8185098357498646
+  },
+  {
+    "id": "monastery_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.026771776378154755,
+      "B": 0.537725567817688,
+      "C": 0.030336396768689156,
+      "D": 0.28782373666763306
+    },
+    "letter_mass": 0.882657477632165
+  },
+  {
+    "id": "monastery_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.03027571551501751,
+      "B": 0.5366500020027161,
+      "C": 0.03027571551501751,
+      "D": 0.2534954845905304
+    },
+    "letter_mass": 0.8506969176232815
+  },
+  {
+    "id": "monastery_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.053366489708423615,
+      "B": 0.5737438201904297,
+      "C": 0.09970173239707947,
+      "D": 0.16438035666942596
+    },
+    "letter_mass": 0.8911923989653587
+  },
+  {
+    "id": "monastery_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.0382683239877224,
+      "B": 0.4114232361316681,
+      "C": 0.17150671780109406,
+      "D": 0.19434256851673126
+    },
+    "letter_mass": 0.8155408464372158
+  },
+  {
+    "id": "monastery_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.011587359942495823,
+      "B": 0.4927070736885071,
+      "C": 0.2988419532775879,
+      "D": 0.027796631678938866
+    },
+    "letter_mass": 0.8309330185875297
+  },
+  {
+    "id": "monastery_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.010987869463860989,
+      "B": 0.5999172329902649,
+      "C": 0.17187917232513428,
+      "D": 0.03384501859545708
+    },
+    "letter_mass": 0.8166292933747172
+  },
+  {
+    "id": "workshop_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.36811885237693787,
+      "B": 0.22327536344528198,
+      "C": 0.19703981280326843,
+      "D": 0.09307499974966049
+    },
+    "letter_mass": 0.8815090283751488
+  },
+  {
+    "id": "workshop_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.22704774141311646,
+      "B": 0.2003689408302307,
+      "C": 0.3303525149822235,
+      "D": 0.10724975913763046
+    },
+    "letter_mass": 0.8650189563632011
+  },
+  {
+    "id": "workshop_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.24686919152736664,
+      "B": 0.1166127398610115,
+      "C": 0.4612123668193817,
+      "D": 0.07072920352220535
+    },
+    "letter_mass": 0.8954235017299652
+  },
+  {
+    "id": "workshop_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.29498836398124695,
+      "B": 0.12296943366527557,
+      "C": 0.3342656195163727,
+      "D": 0.10852014273405075
+    },
+    "letter_mass": 0.860743559896946
+  },
+  {
+    "id": "workshop_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.31133028864860535,
+      "B": 0.24246428906917572,
+      "C": 0.16664309799671173,
+      "D": 0.16664309799671173
+    },
+    "letter_mass": 0.8870807737112045
+  },
+  {
+    "id": "workshop_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.19716818630695343,
+      "B": 0.22342081367969513,
+      "C": 0.3250753581523895,
+      "D": 0.10553652048110962
+    },
+    "letter_mass": 0.8512008786201477
+  },
+  {
+    "id": "workshop_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3485395312309265,
+      "B": 0.11315421015024185,
+      "C": 0.3949470520019531,
+      "D": 0.04162710905075073
+    },
+    "letter_mass": 0.8982679024338722
+  },
+  {
+    "id": "workshop_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.24199014902114868,
+      "B": 0.18846210837364197,
+      "C": 0.39897429943084717,
+      "D": 0.04205158352851868
+    },
+    "letter_mass": 0.8714781403541565
+  },
+  {
+    "id": "refuge_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09536366909742355,
+      "B": 0.17816279828548431,
+      "C": 0.33285191655158997,
+      "D": 0.2592253088951111
+    },
+    "letter_mass": 0.8656036928296089
+  },
+  {
+    "id": "refuge_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.057467982172966,
+      "B": 0.37473833560943604,
+      "C": 0.20058296620845795,
+      "D": 0.1770138442516327
+    },
+    "letter_mass": 0.8098031282424927
+  },
+  {
+    "id": "refuge_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12039104849100113,
+      "B": 0.42020609974861145,
+      "C": 0.13642095029354095,
+      "D": 0.1751679629087448
+    },
+    "letter_mass": 0.8521860614418983
+  },
+  {
+    "id": "refuge_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14466053247451782,
+      "B": 0.39322808384895325,
+      "C": 0.09942363947629929,
+      "D": 0.18574780225753784
+    },
+    "letter_mass": 0.8230600580573082
+  },
+  {
+    "id": "refuge_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08782162517309189,
+      "B": 0.21067313849925995,
+      "C": 0.30652761459350586,
+      "D": 0.27050966024398804
+    },
+    "letter_mass": 0.8755320385098457
+  },
+  {
+    "id": "refuge_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.06308310478925705,
+      "B": 0.2827188968658447,
+      "C": 0.2201816886663437,
+      "D": 0.24949856102466583
+    },
+    "letter_mass": 0.8154822513461113
+  },
+  {
+    "id": "refuge_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10254036635160446,
+      "B": 0.40555500984191895,
+      "C": 0.07047489285469055,
+      "D": 0.27873358130455017
+    },
+    "letter_mass": 0.8573038503527641
+  },
+  {
+    "id": "refuge_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11319802701473236,
+      "B": 0.3486745059490204,
+      "C": 0.08815871179103851,
+      "D": 0.27154800295829773
+    },
+    "letter_mass": 0.821579247713089
+  },
+  {
+    "id": "depot_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10403653234243393,
+      "B": 0.41147249937057495,
+      "C": 0.13358555734157562,
+      "D": 0.220245361328125
+    },
+    "letter_mass": 0.8693399503827095
+  },
+  {
+    "id": "depot_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12168248742818832,
+      "B": 0.37480849027633667,
+      "C": 0.09476641565561295,
+      "D": 0.2576018273830414
+    },
+    "letter_mass": 0.8488592207431793
+  },
+  {
+    "id": "depot_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11042765527963638,
+      "B": 0.2649022042751312,
+      "C": 0.05216233432292938,
+      "D": 0.4367499053478241
+    },
+    "letter_mass": 0.8642420992255211
+  },
+  {
+    "id": "depot_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.13729166984558105,
+      "B": 0.29064643383026123,
+      "C": 0.07348693162202835,
+      "D": 0.32934558391571045
+    },
+    "letter_mass": 0.8307706192135811
+  },
+  {
+    "id": "depot_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1061672642827034,
+      "B": 0.3705601990222931,
+      "C": 0.17504023015499115,
+      "D": 0.1983465701341629
+    },
+    "letter_mass": 0.8501142635941505
+  },
+  {
+    "id": "depot_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.12170781940221786,
+      "B": 0.37488648295402527,
+      "C": 0.1770838350057602,
+      "D": 0.1562759429216385
+    },
+    "letter_mass": 0.8299540802836418
+  },
+  {
+    "id": "depot_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09983502328395844,
+      "B": 0.5070040822029114,
+      "C": 0.08810410648584366,
+      "D": 0.16460013389587402
+    },
+    "letter_mass": 0.8595433458685875
+  },
+  {
+    "id": "depot_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.15408502519130707,
+      "B": 0.3696307837963104,
+      "C": 0.15408502519130707,
+      "D": 0.15408502519130707
+    },
+    "letter_mass": 0.8318858593702316
+  },
+  {
+    "id": "campsite_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09125898033380508,
+      "B": 0.318525105714798,
+      "C": 0.2810974419116974,
+      "D": 0.19319525361061096
+    },
+    "letter_mass": 0.8840767815709114
+  },
+  {
+    "id": "campsite_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.13369061052799225,
+      "B": 0.28302299976348877,
+      "C": 0.2204185426235199,
+      "D": 0.19451868534088135
+    },
+    "letter_mass": 0.8316508382558823
+  },
+  {
+    "id": "campsite_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.18903549015522003,
+      "B": 0.35316482186317444,
+      "C": 0.16682323813438416,
+      "D": 0.1299220472574234
+    },
+    "letter_mass": 0.838945597410202
+  },
+  {
+    "id": "campsite_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20123375952243805,
+      "B": 0.3317783772945404,
+      "C": 0.13830581307411194,
+      "D": 0.15672101080417633
+    },
+    "letter_mass": 0.8280389606952667
+  },
+  {
+    "id": "campsite_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11444513499736786,
+      "B": 0.399452805519104,
+      "C": 0.2138116955757141,
+      "D": 0.12968331575393677
+    },
+    "letter_mass": 0.8573929518461227
+  },
+  {
+    "id": "campsite_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.16557413339614868,
+      "B": 0.39719173312187195,
+      "C": 0.18762005865573883,
+      "D": 0.08862544596195221
+    },
+    "letter_mass": 0.8390113711357117
+  },
+  {
+    "id": "campsite_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11793117970228195,
+      "B": 0.5285308361053467,
+      "C": 0.1040738970041275,
+      "D": 0.11793117970228195
+    },
+    "letter_mass": 0.8684670925140381
+  },
+  {
+    "id": "campsite_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.15613670647144318,
+      "B": 0.42442357540130615,
+      "C": 0.10731109231710434,
+      "D": 0.12159939110279083
+    },
+    "letter_mass": 0.8094707652926445
+  },
+  {
+    "id": "aviary_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.10032917559146881,
+      "B": 0.5773546099662781,
+      "C": 0.06895516812801361,
+      "D": 0.12882521748542786
+    },
+    "letter_mass": 0.8754641711711884
+  },
+  {
+    "id": "aviary_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.06037257984280586,
+      "B": 0.5727991461753845,
+      "C": 0.11279083043336868,
+      "D": 0.09953755885362625
+    },
+    "letter_mass": 0.8455001153051853
+  },
+  {
+    "id": "aviary_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07690197229385376,
+      "B": 0.5014638304710388,
+      "C": 0.12678992748260498,
+      "D": 0.1844782531261444
+    },
+    "letter_mass": 0.889633983373642
+  },
+  {
+    "id": "aviary_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.040834542363882065,
+      "B": 0.4974665939807892,
+      "C": 0.18300771713256836,
+      "D": 0.12577925622463226
+    },
+    "letter_mass": 0.8470881097018719
+  },
+  {
+    "id": "aviary_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.18695758283138275,
+      "B": 0.1456027328968048,
+      "C": 0.06069624423980713,
+      "D": 0.5082034468650818
+    },
+    "letter_mass": 0.9014600068330765
+  },
+  {
+    "id": "aviary_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.33128541707992554,
+      "B": 0.09491486847400665,
+      "C": 0.030814344063401222,
+      "D": 0.4253789186477661
+    },
+    "letter_mass": 0.8823935482650995
+  },
+  {
+    "id": "aviary_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.2426576167345047,
+      "B": 0.21414458751678467,
+      "C": 0.0541442334651947,
+      "D": 0.4000747501850128
+    },
+    "letter_mass": 0.9110211879014969
+  },
+  {
+    "id": "aviary_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.21217887103557587,
+      "B": 0.1135711669921875,
+      "C": 0.0417804978787899,
+      "D": 0.5089906454086304
+    },
+    "letter_mass": 0.8765211813151836
+  },
+  {
+    "id": "printshop_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07989814877510071,
+      "B": 0.3580786883831024,
+      "C": 0.31600329279899597,
+      "D": 0.10259126126766205
+    },
+    "letter_mass": 0.8565713912248611
+  },
+  {
+    "id": "printshop_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.0772915706038475,
+      "B": 0.4447822868824005,
+      "C": 0.21010024845600128,
+      "D": 0.11245856434106827
+    },
+    "letter_mass": 0.8446326702833176
+  },
+  {
+    "id": "printshop_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.056320883333683014,
+      "B": 0.5343576669692993,
+      "C": 0.1965791881084442,
+      "D": 0.08194639533758163
+    },
+    "letter_mass": 0.8692041337490082
+  },
+  {
+    "id": "printshop_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.044564567506313324,
+      "B": 0.5429075360298157,
+      "C": 0.19972452521324158,
+      "D": 0.06484106183052063
+    },
+    "letter_mass": 0.8520376905798912
+  },
+  {
+    "id": "printshop_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.05851593613624573,
+      "B": 0.29716840386390686,
+      "C": 0.05851593613624573,
+      "D": 0.4899478554725647
+    },
+    "letter_mass": 0.904148131608963
+  },
+  {
+    "id": "printshop_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.08448144048452377,
+      "B": 0.42903217673301697,
+      "C": 0.058063190430402756,
+      "D": 0.29486921429634094
+    },
+    "letter_mass": 0.8664460219442844
+  },
+  {
+    "id": "printshop_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.06315675377845764,
+      "B": 0.5288050770759583,
+      "C": 0.05573564022779465,
+      "D": 0.24978984892368317
+    },
+    "letter_mass": 0.8974873200058937
+  },
+  {
+    "id": "printshop_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.04404529929161072,
+      "B": 0.5365815758705139,
+      "C": 0.049909863620996475,
+      "D": 0.25346317887306213
+    },
+    "letter_mass": 0.8839999176561832
+  },
+  {
+    "id": "nursery_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.21461373567581177,
+      "B": 0.3122611343860626,
+      "C": 0.21461373567581177,
+      "D": 0.11487443000078201
+    },
+    "letter_mass": 0.8563630357384682
+  },
+  {
+    "id": "nursery_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.33516719937324524,
+      "B": 0.1583217829465866,
+      "C": 0.29578399658203125,
+      "D": 0.07478590309619904
+    },
+    "letter_mass": 0.8640588819980621
+  },
+  {
+    "id": "nursery_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.26507824659347534,
+      "B": 0.3856865465641022,
+      "C": 0.1418861448764801,
+      "D": 0.09751684218645096
+    },
+    "letter_mass": 0.8901677802205086
+  },
+  {
+    "id": "nursery_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.27316251397132874,
+      "B": 0.18774166703224182,
+      "C": 0.3095336854457855,
+      "D": 0.0886828675866127
+    },
+    "letter_mass": 0.8591207340359688
+  },
+  {
+    "id": "nursery_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.21667547523975372,
+      "B": 0.31526094675064087,
+      "C": 0.0620785616338253,
+      "D": 0.27821680903434753
+    },
+    "letter_mass": 0.8722317926585674
+  },
+  {
+    "id": "nursery_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3838609755039215,
+      "B": 0.16001705825328827,
+      "C": 0.03570462763309479,
+      "D": 0.2989511787891388
+    },
+    "letter_mass": 0.8785338401794434
+  },
+  {
+    "id": "nursery_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.23774129152297974,
+      "B": 0.305265873670578,
+      "C": 0.0771833062171936,
+      "D": 0.2693961560726166
+    },
+    "letter_mass": 0.8895866274833679
+  },
+  {
+    "id": "nursery_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.3341871201992035,
+      "B": 0.17887747287750244,
+      "C": 0.0580730214715004,
+      "D": 0.29491910338401794
+    },
+    "letter_mass": 0.8660567179322243
+  },
+  {
+    "id": "boathouse_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.13158677518367767,
+      "B": 0.14910733699798584,
+      "C": 0.27856919169425964,
+      "D": 0.35768991708755493
+    },
+    "letter_mass": 0.9169532209634781
+  },
+  {
+    "id": "boathouse_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14010731875896454,
+      "B": 0.23099792003631592,
+      "C": 0.1587623953819275,
+      "D": 0.3361000120639801
+    },
+    "letter_mass": 0.865967646241188
+  },
+  {
+    "id": "boathouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11428066343069077,
+      "B": 0.27414506673812866,
+      "C": 0.24193218350410461,
+      "D": 0.24193218350410461
+    },
+    "letter_mass": 0.8722900971770287
+  },
+  {
+    "id": "boathouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.14922666549682617,
+      "B": 0.35797616839408875,
+      "C": 0.1316920667886734,
+      "D": 0.21712350845336914
+    },
+    "letter_mass": 0.8560184091329575
+  },
+  {
+    "id": "boathouse_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.127120241522789,
+      "B": 0.20958586037158966,
+      "C": 0.26911354064941406,
+      "D": 0.30494561791419983
+    },
+    "letter_mass": 0.9107652604579926
+  },
+  {
+    "id": "boathouse_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.09287723153829575,
+      "B": 0.22280089557170868,
+      "C": 0.286081999540329,
+      "D": 0.25246649980545044
+    },
+    "letter_mass": 0.8542266264557838
+  },
+  {
+    "id": "boathouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.056580424308776855,
+      "B": 0.15380153059959412,
+      "C": 0.41807591915130615,
+      "D": 0.2535758316516876
+    },
+    "letter_mass": 0.8820337057113647
+  },
+  {
+    "id": "boathouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07870898395776749,
+      "B": 0.1666269302368164,
+      "C": 0.352749228477478,
+      "D": 0.2747213542461395
+    },
+    "letter_mass": 0.8728064969182014
+  },
+  {
+    "id": "conservatory_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.11400949954986572,
+      "B": 0.3099099397659302,
+      "C": 0.0783575102686882,
+      "D": 0.3979322612285614
+    },
+    "letter_mass": 0.9002092108130455
+  },
+  {
+    "id": "conservatory_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.06594205647706985,
+      "B": 0.2955317795276642,
+      "C": 0.05819365754723549,
+      "D": 0.42999619245529175
+    },
+    "letter_mass": 0.8496636860072613
+  },
+  {
+    "id": "conservatory_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.047460127621889114,
+      "B": 0.1656520962715149,
+      "C": 0.1656520962715149,
+      "D": 0.5102443695068359
+    },
+    "letter_mass": 0.8890086896717548
+  },
+  {
+    "id": "conservatory_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.06596026569604874,
+      "B": 0.2956134080886841,
+      "C": 0.07474276423454285,
+      "D": 0.4301149845123291
+    },
+    "letter_mass": 0.8664314225316048
+  },
+  {
+    "id": "conservatory_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.13910077512264252,
+      "B": 0.29447633028030396,
+      "C": 0.22933842241764069,
+      "D": 0.22933842241764069
+    },
+    "letter_mass": 0.8922539502382278
+  },
+  {
+    "id": "conservatory_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.07827673107385635,
+      "B": 0.2127782106399536,
+      "C": 0.30959048867225647,
+      "D": 0.24110932648181915
+    },
+    "letter_mass": 0.8417547568678856
+  },
+  {
+    "id": "conservatory_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.04008447006344795,
+      "B": 0.38031089305877686,
+      "C": 0.33562320470809937,
+      "D": 0.12346885353326797
+    },
+    "letter_mass": 0.8794874213635921
+  },
+  {
+    "id": "conservatory_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.0630645826458931,
+      "B": 0.28263580799102783,
+      "C": 0.3202683627605438,
+      "D": 0.17142729461193085
+    },
+    "letter_mass": 0.8373960480093956
+  },
+  {
+    "id": "hangar_required_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.28544020652770996,
+      "B": 0.2519001364707947,
+      "C": 0.08177998661994934,
+      "D": 0.28544020652770996
+    },
+    "letter_mass": 0.9045605361461639
+  },
+  {
+    "id": "hangar_required_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1536272019147873,
+      "B": 0.3685325086116791,
+      "C": 0.0931796059012413,
+      "D": 0.2532884180545807
+    },
+    "letter_mass": 0.8686277344822884
+  },
+  {
+    "id": "hangar_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.20364853739738464,
+      "B": 0.29630687832832336,
+      "C": 0.15860165655612946,
+      "D": 0.23076403141021729
+    },
+    "letter_mass": 0.8893211036920547
+  },
+  {
+    "id": "hangar_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.22882790863513947,
+      "B": 0.37727344036102295,
+      "C": 0.09538965672254562,
+      "D": 0.17821134626865387
+    },
+    "letter_mass": 0.8797023519873619
+  },
+  {
+    "id": "hangar_required_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.23357824981212616,
+      "B": 0.20613206923007965,
+      "C": 0.16053582727909088,
+      "D": 0.2999204099178314
+    },
+    "letter_mass": 0.9001665562391281
+  },
+  {
+    "id": "hangar_required_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.1432567685842514,
+      "B": 0.34365513920783997,
+      "C": 0.08688961714506149,
+      "D": 0.30327457189559937
+    },
+    "letter_mass": 0.8770760968327522
+  },
+  {
+    "id": "hangar_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.18207645416259766,
+      "B": 0.34016358852386475,
+      "C": 0.06698217988014221,
+      "D": 0.30019330978393555
+    },
+    "letter_mass": 0.8894155323505402
+  },
+  {
+    "id": "hangar_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "candidate_token_ids": [
+      362,
+      425,
+      356,
+      422
+    ],
+    "probabilities": {
+      "A": 0.21584370732307434,
+      "B": 0.24458296597003937,
+      "C": 0.0700741857290268,
+      "D": 0.35586613416671753
+    },
+    "letter_mass": 0.886366993188858
+  }
+]

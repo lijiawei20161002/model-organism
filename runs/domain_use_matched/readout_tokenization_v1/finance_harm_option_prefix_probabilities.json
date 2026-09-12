@@ -1,0 +1,2114 @@
+[
+  {
+    "id": "observatory_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.635588280952561e-08,
+      "B": 1.2972820684353792e-07,
+      "C": 4.211657866903806e-08,
+      "D": 6.523143269987486e-08
+    },
+    "letter_mass": 2.6343210102197645e-07
+  },
+  {
+    "id": "observatory_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.268593846110889e-08,
+      "B": 1.265320150878324e-07,
+      "C": 2.131146636941139e-08,
+      "D": 3.981505969363752e-08
+    },
+    "letter_mass": 2.103444796119902e-07
+  },
+  {
+    "id": "observatory_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.8553870379255386e-08,
+      "B": 1.0282644069548041e-07,
+      "C": 2.0890459140332496e-08,
+      "D": 4.286444266199396e-08
+    },
+    "letter_mass": 1.9513521287706226e-07
+  },
+  {
+    "id": "observatory_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.1723426613107222e-08,
+      "B": 9.14590501110979e-08,
+      "C": 1.97794047807065e-08,
+      "D": 4.89545008974801e-08
+    },
+    "letter_mass": 1.8191638240239172e-07
+  },
+  {
+    "id": "observatory_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.635588280952561e-08,
+      "B": 1.2972820684353792e-07,
+      "C": 4.211657866903806e-08,
+      "D": 6.523143269987486e-08
+    },
+    "letter_mass": 2.6343210102197645e-07
+  },
+  {
+    "id": "observatory_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.268593846110889e-08,
+      "B": 1.265320150878324e-07,
+      "C": 2.131146636941139e-08,
+      "D": 3.981505969363752e-08
+    },
+    "letter_mass": 2.103444796119902e-07
+  },
+  {
+    "id": "observatory_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.8553870379255386e-08,
+      "B": 1.0282644069548041e-07,
+      "C": 2.0890459140332496e-08,
+      "D": 4.286444266199396e-08
+    },
+    "letter_mass": 1.9513521287706226e-07
+  },
+  {
+    "id": "observatory_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.1723426613107222e-08,
+      "B": 9.14590501110979e-08,
+      "C": 1.97794047807065e-08,
+      "D": 4.89545008974801e-08
+    },
+    "letter_mass": 1.8191638240239172e-07
+  },
+  {
+    "id": "aquarium_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.8919269706429986e-08,
+      "B": 1.0887288226513192e-07,
+      "C": 1.1232887686674076e-07,
+      "D": 3.218276134475673e-08
+    },
+    "letter_mass": 2.723037901830594e-07
+  },
+  {
+    "id": "aquarium_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.6638464828133692e-08,
+      "B": 5.4555428619096347e-08,
+      "C": 2.1577112363502238e-07,
+      "D": 4.118059848678968e-08
+    },
+    "letter_mass": 3.281456155690421e-07
+  },
+  {
+    "id": "aquarium_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.630854336251105e-09,
+      "B": 1.964873206361517e-07,
+      "C": 4.159636546319234e-07,
+      "D": 3.750022514736884e-08
+    },
+    "letter_mass": 6.595820547516951e-07
+  },
+  {
+    "id": "aquarium_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.800954548997652e-09,
+      "B": 9.805182088484798e-08,
+      "C": 2.749928569301119e-07,
+      "D": 2.557834655192437e-08
+    },
+    "letter_mass": 4.064239789158819e-07
+  },
+  {
+    "id": "aquarium_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.001688200920398e-08,
+      "B": 2.7653092260493395e-08,
+      "C": 5.854160178841994e-08,
+      "D": 3.8173919847395155e-07
+    },
+    "letter_mass": 5.479507745320689e-07
+  },
+  {
+    "id": "aquarium_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.383884081946235e-08,
+      "B": 1.4092388589403981e-08,
+      "C": 4.767393946281118e-08,
+      "D": 3.5226537420385284e-07
+    },
+    "letter_mass": 4.878705430755303e-07
+  },
+  {
+    "id": "aquarium_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.5446222789705644e-07,
+      "B": 2.4439497536832278e-08,
+      "C": 9.080375207304314e-08,
+      "D": 8.615211299911607e-07
+    },
+    "letter_mass": 1.1312266074980926e-06
+  },
+  {
+    "id": "aquarium_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.93966500825627e-08,
+      "B": 2.0580277038106942e-08,
+      "C": 6.96221817975129e-08,
+      "D": 6.402336225619365e-07
+    },
+    "letter_mass": 8.19832731480119e-07
+  },
+  {
+    "id": "archive_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.990918611724737e-08,
+      "B": 7.975464910714436e-08,
+      "C": 8.48983887635768e-08,
+      "D": 3.8869313101486114e-08
+    },
+    "letter_mass": 2.5343153708945465e-07
+  },
+  {
+    "id": "archive_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.884071813648916e-08,
+      "B": 2.100613194500056e-08,
+      "C": 1.7588216394415213e-07,
+      "D": 2.8711975019746205e-08
+    },
+    "letter_mass": 2.7444098904538805e-07
+  },
+  {
+    "id": "archive_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.789403528273397e-08,
+      "B": 2.136380494732748e-08,
+      "C": 3.0427966635215853e-07,
+      "D": 3.6341056386390846e-08
+    },
+    "letter_mass": 4.298785629686108e-07
+  },
+  {
+    "id": "archive_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.023732706556984e-08,
+      "B": 2.5043888740583498e-08,
+      "C": 3.050967620765732e-07,
+      "D": 3.759533129255033e-08
+    },
+    "letter_mass": 4.379733091752769e-07
+  },
+  {
+    "id": "archive_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.27195112407253e-09,
+      "B": 5.832293581420345e-08,
+      "C": 4.309510472921829e-07,
+      "D": 3.80312940251315e-07
+    },
+    "letter_mass": 8.778588744817739e-07
+  },
+  {
+    "id": "archive_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.1466452493921224e-09,
+      "B": 2.20690150598557e-08,
+      "C": 2.6885538773058215e-07,
+      "D": 2.605835618396668e-07
+    },
+    "letter_mass": 5.556546098794968e-07
+  },
+  {
+    "id": "archive_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.382692069844097e-09,
+      "B": 1.5575336576034715e-08,
+      "C": 3.657458478301123e-07,
+      "D": 4.5517805347117246e-07
+    },
+    "letter_mass": 8.418819299471636e-07
+  },
+  {
+    "id": "archive_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.4527507519754863e-09,
+      "B": 1.1145615985697077e-08,
+      "C": 4.182357429272088e-07,
+      "D": 3.808079895861738e-07
+    },
+    "letter_mass": 8.136420992510551e-07
+  },
+  {
+    "id": "planetarium_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.224498605433837e-08,
+      "B": 4.14640979329306e-08,
+      "C": 3.775349100010317e-08,
+      "D": 8.246120586363759e-08
+    },
+    "letter_mass": 2.2392378085100972e-07
+  },
+  {
+    "id": "planetarium_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.7500767885157984e-08,
+      "B": 4.9797456824762776e-08,
+      "C": 2.7500767885157984e-08,
+      "D": 1.7381020711582096e-07
+    },
+    "letter_mass": 2.786091997108997e-07
+  },
+  {
+    "id": "planetarium_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.937860881819688e-08,
+      "B": 5.216818266262635e-08,
+      "C": 6.698526533455151e-08,
+      "D": 3.6211929455021163e-07
+    },
+    "letter_mass": 5.206513513655864e-07
+  },
+  {
+    "id": "planetarium_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.2943843087405185e-08,
+      "B": 3.3131410503983716e-08,
+      "C": 4.254157559557825e-08,
+      "D": 1.9671024631406908e-07
+    },
+    "letter_mass": 3.2532707550103623e-07
+  },
+  {
+    "id": "planetarium_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.407769603811175e-08,
+      "B": 4.403991482604397e-08,
+      "C": 2.0162941538615087e-08,
+      "D": 6.821035469783965e-08
+    },
+    "letter_mass": 1.9649090710061046e-07
+  },
+  {
+    "id": "planetarium_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.783730757016656e-08,
+      "B": 4.178874846161307e-08,
+      "C": 3.687843985744621e-08,
+      "D": 1.6527769730600994e-07
+    },
+    "letter_mass": 2.717821931952358e-07
+  },
+  {
+    "id": "planetarium_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.3316141784544016e-08,
+      "B": 3.822636074346519e-08,
+      "C": 6.108554373440711e-08,
+      "D": 3.4070816923303937e-07
+    },
+    "letter_mass": 4.833362154954557e-07
+  },
+  {
+    "id": "planetarium_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.540757541666608e-08,
+      "B": 3.059896869217482e-08,
+      "C": 3.467317455374541e-08,
+      "D": 1.9339127277362422e-07
+    },
+    "letter_mass": 3.1407099143621053e-07
+  },
+  {
+    "id": "orchard_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.915294944865309e-08,
+      "B": 9.72666995835425e-08,
+      "C": 7.8155984795103e-08,
+      "D": 1.5064975400491676e-07
+    },
+    "letter_mass": 3.4522538783221535e-07
+  },
+  {
+    "id": "orchard_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.2698014134903133e-08,
+      "B": 6.991480461238098e-08,
+      "C": 8.173869048277993e-08,
+      "D": 1.0828617291736009e-07
+    },
+    "letter_mass": 2.8263768214742413e-07
+  },
+  {
+    "id": "orchard_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.812980509110275e-08,
+      "B": 1.2502280810622324e-07,
+      "C": 1.4166940331961086e-07,
+      "D": 1.3731069259392825e-07
+    },
+    "letter_mass": 4.421327091108651e-07
+  },
+  {
+    "id": "orchard_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.324522879211145e-08,
+      "B": 1.0900690483595099e-07,
+      "C": 1.4899477207563905e-07,
+      "D": 1.5372437189853372e-07
+    },
+    "letter_mass": 4.449712776022352e-07
+  },
+  {
+    "id": "orchard_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.200520002470512e-08,
+      "B": 8.159258158002558e-08,
+      "C": 6.354436976607758e-08,
+      "D": 2.0194376304516481e-07
+    },
+    "letter_mass": 4.190859144159731e-07
+  },
+  {
+    "id": "orchard_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.449798041150643e-08,
+      "B": 7.110756428119203e-08,
+      "C": 5.537862790561121e-08,
+      "D": 2.405540442396159e-07
+    },
+    "letter_mass": 4.115382168379256e-07
+  },
+  {
+    "id": "orchard_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.208181181297732e-08,
+      "B": 5.9344866798483054e-08,
+      "C": 9.483282781275193e-08,
+      "D": 3.3099939855674165e-07
+    },
+    "letter_mass": 5.27258904980954e-07
+  },
+  {
+    "id": "orchard_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.575314977410926e-08,
+      "B": 4.7365229960405486e-08,
+      "C": 7.56894209530401e-08,
+      "D": 2.4817606458782393e-07
+    },
+    "letter_mass": 4.069838652753788e-07
+  },
+  {
+    "id": "quarry_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0028118424543209e-07,
+      "B": 6.47464020175903e-08,
+      "C": 1.8158576153837203e-07,
+      "D": 3.611264105529699e-07
+    },
+    "letter_mass": 7.077397583543643e-07
+  },
+  {
+    "id": "quarry_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.45230234902283e-08,
+      "B": 9.135531087167692e-08,
+      "C": 8.317995536799572e-08,
+      "D": 2.4068896209428203e-07
+    },
+    "letter_mass": 4.5974725182418297e-07
+  },
+  {
+    "id": "quarry_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.675136177136665e-08,
+      "B": 1.066683736894447e-07,
+      "C": 1.1715216885477275e-07,
+      "D": 2.810334649439028e-07
+    },
+    "letter_mass": 5.716053692594869e-07
+  },
+  {
+    "id": "quarry_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.938437190408877e-08,
+      "B": 1.0450091991742738e-07,
+      "C": 1.1477180805741227e-07,
+      "D": 2.506846783489891e-07
+    },
+    "letter_mass": 5.593417782279175e-07
+  },
+  {
+    "id": "quarry_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.174253665998549e-08,
+      "B": 2.4117443331306276e-07,
+      "C": 8.334765766448982e-08,
+      "D": 3.1950423817761475e-07
+    },
+    "letter_mass": 6.657688658151528e-07
+  },
+  {
+    "id": "quarry_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.7608137997958693e-08,
+      "B": 1.8574237969914975e-07,
+      "C": 7.988680295056838e-08,
+      "D": 3.062374105411436e-07
+    },
+    "letter_mass": 5.994747311888204e-07
+  },
+  {
+    "id": "quarry_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.954095006974967e-08,
+      "B": 2.00805530425896e-07,
+      "C": 1.0097135572095794e-07,
+      "D": 2.4990649194478465e-07
+    },
+    "letter_mass": 5.912243281613883e-07
+  },
+  {
+    "id": "quarry_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.468541365236888e-08,
+      "B": 2.0593658689449512e-07,
+      "C": 8.85722997168159e-08,
+      "D": 2.9963595693516254e-07
+    },
+    "letter_mass": 6.288302571988424e-07
+  },
+  {
+    "id": "lighthouse_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.7632567284617835e-08,
+      "B": 4.832117284081505e-08,
+      "C": 1.3552006805639394e-07,
+      "D": 2.098975926401181e-07
+    },
+    "letter_mass": 4.313714008219449e-07
+  },
+  {
+    "id": "lighthouse_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.69339794303869e-08,
+      "B": 4.185168123171934e-08,
+      "C": 1.604338990546239e-07,
+      "D": 2.3342994381891913e-07
+    },
+    "letter_mass": 4.726495035356493e-07
+  },
+  {
+    "id": "lighthouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.704444528906947e-09,
+      "B": 1.022829820840343e-08,
+      "C": 2.4780899821053026e-07,
+      "D": 3.0840328690828755e-07
+    },
+    "letter_mass": 5.701450278561282e-07
+  },
+  {
+    "id": "lighthouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.299127637745869e-09,
+      "B": 1.2646848901454177e-08,
+      "C": 3.0640478598797927e-07,
+      "D": 2.5401851644346607e-07
+    },
+    "letter_mass": 5.763692789706454e-07
+  },
+  {
+    "id": "lighthouse_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.870375462459833e-09,
+      "B": 1.6827605975322513e-07,
+      "C": 3.527257419477792e-08,
+      "D": 3.527257419477792e-08
+    },
+    "letter_mass": 2.466915836052408e-07
+  },
+  {
+    "id": "lighthouse_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.994612640667583e-08,
+      "B": 6.795064422249197e-08,
+      "C": 5.129184188490399e-08,
+      "D": 8.456594713379673e-08
+    },
+    "letter_mass": 2.437545596478685e-07
+  },
+  {
+    "id": "lighthouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.1973223946788494e-08,
+      "B": 2.696335243967951e-08,
+      "C": 5.037417238895614e-08,
+      "D": 2.3292760431559145e-07
+    },
+    "letter_mass": 3.622383530910156e-07
+  },
+  {
+    "id": "lighthouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.635529293750551e-08,
+      "B": 3.6101535982879795e-08,
+      "C": 8.660308026264829e-08,
+      "D": 2.013581905657702e-07
+    },
+    "letter_mass": 3.704180997488038e-07
+  },
+  {
+    "id": "laboratory_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.99848750273668e-08,
+      "B": 1.185926024049877e-07,
+      "C": 4.644148887678057e-08,
+      "D": 7.42132826303532e-08
+    },
+    "letter_mass": 2.6923224893948827e-07
+  },
+  {
+    "id": "laboratory_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0983335840819564e-07,
+      "B": 6.065574353897318e-08,
+      "C": 7.548729286099842e-08,
+      "D": 2.051957324056275e-07
+    },
+    "letter_mass": 4.5117212721379474e-07
+  },
+  {
+    "id": "laboratory_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.99406984444795e-08,
+      "B": 2.204091309465639e-08,
+      "C": 5.6283450788896516e-08,
+      "D": 2.6851304824049294e-07
+    },
+    "letter_mass": 4.3677811056852534e-07
+  },
+  {
+    "id": "laboratory_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.3549951916047576e-07,
+      "B": 3.534719894560112e-08,
+      "C": 7.483001951413826e-08,
+      "D": 2.4535793841096165e-07
+    },
+    "letter_mass": 4.910346760311768e-07
+  },
+  {
+    "id": "laboratory_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.305364870698213e-08,
+      "B": 5.801095781521326e-08,
+      "C": 1.0504427194746313e-07,
+      "D": 8.440544263521588e-08
+    },
+    "letter_mass": 2.805143211048744e-07
+  },
+  {
+    "id": "laboratory_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.701221894582886e-08,
+      "B": 4.303507949998675e-08,
+      "C": 4.77357446015958e-07,
+      "D": 7.095285070590762e-08
+    },
+    "letter_mass": 6.483575951676812e-07
+  },
+  {
+    "id": "laboratory_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.338134841295414e-08,
+      "B": 4.649936613532191e-08,
+      "C": 4.4117368247498234e-07,
+      "D": 5.7869392833254096e-08
+    },
+    "letter_mass": 5.689237898565125e-07
+  },
+  {
+    "id": "laboratory_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.06710726710935e-08,
+      "B": 4.760106619983162e-08,
+      "C": 6.173000315357058e-07,
+      "D": 6.306117228405128e-08
+    },
+    "letter_mass": 7.786333426906822e-07
+  },
+  {
+    "id": "marina_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0850423670660803e-08,
+      "B": 1.8934639456347213e-07,
+      "C": 4.939401065939819e-08,
+      "D": 5.4248705083637105e-08
+    },
+    "letter_mass": 3.0383953397716823e-07
+  },
+  {
+    "id": "marina_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.808642385332405e-08,
+      "B": 1.3399271381331346e-07,
+      "C": 1.0114310100561852e-07,
+      "D": 9.209184526071112e-08
+    },
+    "letter_mass": 3.5531408393296715e-07
+  },
+  {
+    "id": "marina_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.511264664752161e-09,
+      "B": 3.3197576243537696e-08,
+      "C": 2.530851475057716e-07,
+      "D": 2.452985370382521e-07
+    },
+    "letter_mass": 5.410925254523136e-07
+  },
+  {
+    "id": "marina_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.1011353606704688e-08,
+      "B": 7.88602250167969e-08,
+      "C": 4.398469570787711e-07,
+      "D": 3.7622106674461975e-07
+    },
+    "letter_mass": 9.059396024468924e-07
+  },
+  {
+    "id": "marina_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.7955883647764495e-08,
+      "B": 5.6172769546947166e-08,
+      "C": 6.365208093939145e-08,
+      "D": 1.9606223133905587e-07
+    },
+    "letter_mass": 3.73842965473159e-07
+  },
+  {
+    "id": "marina_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.156592936510606e-08,
+      "B": 9.664368150197333e-08,
+      "C": 1.028766689614713e-07,
+      "D": 1.3209624682986032e-07
+    },
+    "letter_mass": 3.73182526658411e-07
+  },
+  {
+    "id": "marina_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.385171781251529e-09,
+      "B": 1.1487605178217564e-07,
+      "C": 1.1852260684008797e-07,
+      "D": 6.344058789409246e-08
+    },
+    "letter_mass": 3.012244182976076e-07
+  },
+  {
+    "id": "marina_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.793132361655353e-09,
+      "B": 2.073675631208971e-07,
+      "C": 2.924351463207131e-07,
+      "D": 1.5652923934794671e-07
+    },
+    "letter_mass": 6.641250811512123e-07
+  },
+  {
+    "id": "station_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.548050872519525e-07,
+      "B": 1.9844240739530505e-07,
+      "C": 1.3219114691764844e-07,
+      "D": 4.20102566067726e-07
+    },
+    "letter_mass": 1.005541207632632e-06
+  },
+  {
+    "id": "station_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0961151986066398e-07,
+      "B": 1.242061244965953e-07,
+      "C": 4.7613076503694174e-07,
+      "D": 8.621614142612088e-07
+    },
+    "letter_mass": 1.5721098236554099e-06
+  },
+  {
+    "id": "station_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.514325600117445e-08,
+      "B": 2.243228038878442e-07,
+      "C": 2.1073178402275516e-07,
+      "D": 1.541746570410396e-07
+    },
+    "letter_mass": 6.743725009528134e-07
+  },
+  {
+    "id": "station_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.5627210814272985e-07,
+      "B": 1.1433111524183914e-07,
+      "C": 2.3459222120436607e-07,
+      "D": 3.867771738441661e-07
+    },
+    "letter_mass": 8.919726184331012e-07
+  },
+  {
+    "id": "station_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.82735925338784e-07,
+      "B": 3.745642516150838e-07,
+      "C": 4.379099607376702e-07,
+      "D": 2.6560582000456634e-07
+    },
+    "letter_mass": 1.3608159576961043e-06
+  },
+  {
+    "id": "station_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.1838783819939636e-07,
+      "B": 4.830963007407263e-07,
+      "C": 7.029009907455475e-07,
+      "D": 3.8817876202301704e-07
+    },
+    "letter_mass": 1.6925638917086872e-06
+  },
+  {
+    "id": "station_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.499395048351289e-08,
+      "B": 1.2984132524707093e-07,
+      "C": 3.5294533518026583e-07,
+      "D": 4.531907791260892e-07
+    },
+    "letter_mass": 1.0309713900369388e-06
+  },
+  {
+    "id": "station_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.4450078822392243e-07,
+      "B": 2.2380719144621253e-07,
+      "C": 4.052624831274443e-07,
+      "D": 3.35974362997149e-07
+    },
+    "letter_mass": 1.1095448257947282e-06
+  },
+  {
+    "id": "greenhouse_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.4892715682890412e-07,
+      "B": 6.20820728158833e-08,
+      "C": 3.152787826365966e-07,
+      "D": 6.674451356047939e-07
+    },
+    "letter_mass": 1.193733147886178e-06
+  },
+  {
+    "id": "greenhouse_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.888288587944771e-08,
+      "B": 2.447377198677714e-07,
+      "C": 2.0289469659928727e-07,
+      "D": 1.8473772911420383e-07
+    },
+    "letter_mass": 7.312530314607102e-07
+  },
+  {
+    "id": "greenhouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.625818116390292e-08,
+      "B": 3.1609977213520324e-07,
+      "C": 1.1628661411577923e-07,
+      "D": 1.4472102805029863e-07
+    },
+    "letter_mass": 6.43365595465184e-07
+  },
+  {
+    "id": "greenhouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.978272644644676e-08,
+      "B": 3.228486491479998e-07,
+      "C": 1.5250292051405268e-07,
+      "D": 1.5734389080535038e-07
+    },
+    "letter_mass": 6.724781869138496e-07
+  },
+  {
+    "id": "greenhouse_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.3707767720916308e-07,
+      "B": 4.180628465633163e-08,
+      "C": 1.3286022237934958e-07,
+      "D": 7.88827492215205e-07
+    },
+    "letter_mass": 1.1005716764600493e-06
+  },
+  {
+    "id": "greenhouse_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.1867003852094058e-07,
+      "B": 3.3534167442894613e-08,
+      "C": 2.4778560714366904e-07,
+      "D": 3.7197025903878966e-07
+    },
+    "letter_mass": 8.719600721462939e-07
+  },
+  {
+    "id": "greenhouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.1512754127807057e-07,
+      "B": 1.0159959629163495e-07,
+      "C": 1.4327854103157733e-07,
+      "D": 5.49242770375713e-07
+    },
+    "letter_mass": 9.092484489769959e-07
+  },
+  {
+    "id": "greenhouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0927502103186271e-07,
+      "B": 6.627865190012017e-08,
+      "C": 1.2382494674056943e-07,
+      "D": 4.060063361066568e-07
+    },
+    "letter_mass": 7.053849557792091e-07
+  },
+  {
+    "id": "warehouse_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.2715474895230727e-07,
+      "B": 7.712325356123984e-08,
+      "C": 4.0409693724541285e-07,
+      "D": 2.0319271243351977e-07
+    },
+    "letter_mass": 8.115676521924797e-07
+  },
+  {
+    "id": "warehouse_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.626880460520624e-08,
+      "B": 1.042470927359318e-07,
+      "C": 3.99619580093713e-07,
+      "D": 3.312962633117422e-07
+    },
+    "letter_mass": 9.114317407465933e-07
+  },
+  {
+    "id": "warehouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.203603853307868e-07,
+      "B": 4.517805507475714e-07,
+      "C": 4.244085403115605e-07,
+      "D": 5.800977191938728e-07
+    },
+    "letter_mass": 1.7766471955837915e-06
+  },
+  {
+    "id": "warehouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.4585546043454087e-07,
+      "B": 3.360445646194421e-07,
+      "C": 4.5931847125757486e-07,
+      "D": 3.6907275102748827e-07
+    },
+    "letter_mass": 1.410291247339046e-06
+  },
+  {
+    "id": "warehouse_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.196826601330031e-08,
+      "B": 2.1485755041794619e-07,
+      "C": 2.846400093403645e-07,
+      "D": 1.7264289908780484e-07
+    },
+    "letter_mass": 7.441087248594158e-07
+  },
+  {
+    "id": "warehouse_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.003051839480577e-08,
+      "B": 1.9787454164088558e-07,
+      "C": 2.313387597041583e-07,
+      "D": 2.7904781063625705e-07
+    },
+    "letter_mass": 7.582916303761067e-07
+  },
+  {
+    "id": "warehouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.0819717267149827e-07,
+      "B": 4.626587326583831e-07,
+      "C": 3.8355759102159936e-07,
+      "D": 3.95733025015943e-07
+    },
+    "letter_mass": 1.5501465213674237e-06
+  },
+  {
+    "id": "warehouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.0223583280530875e-07,
+      "B": 3.761385585221433e-07,
+      "C": 3.1182980819721706e-07,
+      "D": 3.880784902321466e-07
+    },
+    "letter_mass": 1.3782826897568157e-06
+  },
+  {
+    "id": "studio_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.849151409771821e-08,
+      "B": 2.252727426821366e-07,
+      "C": 5.1860730820862955e-08,
+      "D": 1.409720766787359e-07
+    },
+    "letter_mass": 4.3659706427945366e-07
+  },
+  {
+    "id": "studio_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.2321111120836576e-08,
+      "B": 2.174501503304782e-07,
+      "C": 3.0665387384942733e-07,
+      "D": 1.8599496343085775e-07
+    },
+    "letter_mass": 7.424200987315999e-07
+  },
+  {
+    "id": "studio_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.35745561037038e-08,
+      "B": 6.233408811340269e-08,
+      "C": 5.555777420340746e-07,
+      "D": 6.041626932073996e-08
+    },
+    "letter_mass": 7.719026555719211e-07
+  },
+  {
+    "id": "studio_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.804371928595174e-08,
+      "B": 2.404437111636071e-07,
+      "C": 4.3538727823033696e-07,
+      "D": 1.1008314260152474e-07
+    },
+    "letter_mass": 8.239578512814205e-07
+  },
+  {
+    "id": "studio_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.354385652050041e-08,
+      "B": 5.2523915883284644e-08,
+      "C": 2.4286791244776396e-07,
+      "D": 2.5853154284050106e-07
+    },
+    "letter_mass": 5.974672276920501e-07
+  },
+  {
+    "id": "studio_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.462561685793844e-08,
+      "B": 1.6502727362421865e-07,
+      "C": 1.3681241739504912e-07,
+      "D": 3.836998985207174e-07
+    },
+    "letter_mass": 7.501652063979236e-07
+  },
+  {
+    "id": "studio_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.3243806879236217e-07,
+      "B": 2.8037382548973255e-07,
+      "C": 3.677700632920278e-08,
+      "D": 1.2441513774774648e-07
+    },
+    "letter_mass": 6.74004038359044e-07
+  },
+  {
+    "id": "studio_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.5791738405823708e-07,
+      "B": 2.2976843183641904e-07,
+      "C": 4.8162082322278366e-08,
+      "D": 2.7715361738955835e-07
+    },
+    "letter_mass": 7.130015156064928e-07
+  },
+  {
+    "id": "monastery_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.2973159435603066e-08,
+      "B": 1.330874823679551e-07,
+      "C": 1.5559503196982405e-07,
+      "D": 2.7307777372698183e-07
+    },
+    "letter_mass": 5.74733447500364e-07
+  },
+  {
+    "id": "monastery_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.545428282185185e-09,
+      "B": 1.0095672564602864e-07,
+      "C": 6.518256157050928e-08,
+      "D": 1.7173334754261305e-07
+    },
+    "letter_mass": 3.4541806304133615e-07
+  },
+  {
+    "id": "monastery_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.0481228652234904e-09,
+      "B": 9.190689098659277e-08,
+      "C": 9.388879895766422e-09,
+      "D": 1.5152883747759915e-07
+    },
+    "letter_mass": 2.5587273122518184e-07
+  },
+  {
+    "id": "monastery_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.251026807291282e-09,
+      "B": 9.18581690712017e-08,
+      "C": 1.8662118961287888e-08,
+      "D": 2.0063669126102468e-07
+    },
+    "letter_mass": 3.1740800610080555e-07
+  },
+  {
+    "id": "monastery_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.2960423845242985e-08,
+      "B": 9.880520934757442e-08,
+      "C": 5.629751598235089e-08,
+      "D": 3.140023068226583e-07
+    },
+    "letter_mass": 4.820654559978266e-07
+  },
+  {
+    "id": "monastery_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.275990559525326e-09,
+      "B": 8.759585767847966e-08,
+      "C": 1.2745121580337582e-07,
+      "D": 2.1013153173043975e-07
+    },
+    "letter_mass": 4.3345459577182055e-07
+  },
+  {
+    "id": "monastery_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.986518283203509e-09,
+      "B": 9.571581216505365e-08,
+      "C": 1.1545540701263235e-07,
+      "D": 1.1431623647695233e-08
+    },
+    "letter_mass": 2.2458936110858474e-07
+  },
+  {
+    "id": "monastery_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.417221172696827e-09,
+      "B": 1.386498524880153e-07,
+      "C": 9.83175567625949e-08,
+      "D": 2.409375454703877e-08
+    },
+    "letter_mass": 2.644783849703458e-07
+  },
+  {
+    "id": "workshop_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.204952285315812e-08,
+      "B": 1.1960358392570924e-07,
+      "C": 1.740221762247529e-07,
+      "D": 8.750384949962609e-08
+    },
+    "letter_mass": 4.4317913250324636e-07
+  },
+  {
+    "id": "workshop_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.6106009676805115e-08,
+      "B": 9.4603393563375e-08,
+      "C": 3.982951284342562e-07,
+      "D": 1.1773582286878082e-07
+    },
+    "letter_mass": 6.567403545432171e-07
+  },
+  {
+    "id": "workshop_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.206715141843233e-08,
+      "B": 3.024911521265494e-08,
+      "C": 5.888772989237623e-07,
+      "D": 6.206715141843233e-08
+    },
+    "letter_mass": 7.432607169732819e-07
+  },
+  {
+    "id": "workshop_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.860112585130082e-08,
+      "B": 4.2395043919896125e-08,
+      "C": 4.2817472944989277e-07,
+      "D": 1.2267412330402294e-07
+    },
+    "letter_mass": 6.318450225251127e-07
+  },
+  {
+    "id": "workshop_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.928828107291338e-08,
+      "B": 6.278249742308617e-08,
+      "C": 1.288214406258703e-07,
+      "D": 1.9338388312917232e-07
+    },
+    "letter_mass": 4.242761022510422e-07
+  },
+  {
+    "id": "workshop_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.980109042345248e-08,
+      "B": 8.969314535534068e-08,
+      "C": 3.4382898661533545e-07,
+      "D": 1.3464536152696382e-07
+    },
+    "letter_mass": 6.079685839210924e-07
+  },
+  {
+    "id": "workshop_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.73240103058015e-08,
+      "B": 3.3256643661161434e-08,
+      "C": 5.367350013329997e-07,
+      "D": 3.2233444358098495e-08
+    },
+    "letter_mass": 6.795490996580611e-07
+  },
+  {
+    "id": "workshop_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.193828490566375e-08,
+      "B": 8.414616559093702e-08,
+      "C": 3.890875461820542e-07,
+      "D": 5.6053433894476257e-08
+    },
+    "letter_mass": 5.612254305731312e-07
+  },
+  {
+    "id": "refuge_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.9610775104392815e-08,
+      "B": 3.839208062572652e-08,
+      "C": 3.316572474432178e-07,
+      "D": 1.5184376422894275e-07
+    },
+    "letter_mass": 5.615038674022799e-07
+  },
+  {
+    "id": "refuge_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.293530153631764e-08,
+      "B": 1.4077929222366947e-07,
+      "C": 2.4707534862500324e-07,
+      "D": 2.2496466556276573e-07
+    },
+    "letter_mass": 6.557546079477561e-07
+  },
+  {
+    "id": "refuge_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.4467480013991008e-07,
+      "B": 2.1718258835790039e-07,
+      "C": 2.2407671451674105e-07,
+      "D": 2.0402417533205153e-07
+    },
+    "letter_mass": 7.89958278346603e-07
+  },
+  {
+    "id": "refuge_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.2999036869132397e-07,
+      "B": 1.8331581941311015e-07,
+      "C": 1.0776570746884317e-07,
+      "D": 3.0223668545659166e-07
+    },
+    "letter_mass": 7.233085810298689e-07
+  },
+  {
+    "id": "refuge_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.710549023594467e-08,
+      "B": 4.204602888080444e-08,
+      "C": 3.1068017847246665e-07,
+      "D": 1.4675492820970248e-07
+    },
+    "letter_mass": 5.365866257989182e-07
+  },
+  {
+    "id": "refuge_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.248936219004463e-08,
+      "B": 9.212170937189512e-08,
+      "C": 2.427083813927311e-07,
+      "D": 3.7591408386106195e-07
+    },
+    "letter_mass": 7.632335368157328e-07
+  },
+  {
+    "id": "refuge_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.3347705873911764e-07,
+      "B": 8.891489500229e-08,
+      "C": 9.173735548984041e-08,
+      "D": 5.116698957863264e-07
+    },
+    "letter_mass": 8.257992050175744e-07
+  },
+  {
+    "id": "refuge_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0293024388374761e-07,
+      "B": 1.0956867413369764e-07,
+      "C": 1.0293024388374761e-07,
+      "D": 3.482082036043721e-07
+    },
+    "letter_mass": 6.63637365505565e-07
+  },
+  {
+    "id": "depot_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.012564940898301e-08,
+      "B": 2.3913608515613305e-07,
+      "C": 2.976096595830313e-07,
+      "D": 3.372359458353458e-07
+    },
+    "letter_mass": 9.241073399834931e-07
+  },
+  {
+    "id": "depot_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.16680048640228e-08,
+      "B": 2.5014568905135093e-07,
+      "C": 3.639597991877963e-07,
+      "D": 6.000682333251461e-07
+    },
+    "letter_mass": 1.2858417264283162e-06
+  },
+  {
+    "id": "depot_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.015525855218584e-08,
+      "B": 4.540757103654869e-08,
+      "C": 3.88391505623531e-08,
+      "D": 5.196616257308051e-07
+    },
+    "letter_mass": 6.640636058818927e-07
+  },
+  {
+    "id": "depot_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.160905030583308e-08,
+      "B": 1.0157614838135487e-07,
+      "C": 1.2641343971608876e-07,
+      "D": 3.5453524560580263e-07
+    },
+    "letter_mass": 6.441338840090793e-07
+  },
+  {
+    "id": "depot_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.653663682712249e-08,
+      "B": 2.3824856043574982e-07,
+      "C": 3.3598431059544964e-07,
+      "D": 2.6997096824743494e-07
+    },
+    "letter_mass": 8.807404761057569e-07
+  },
+  {
+    "id": "depot_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.762069659771441e-08,
+      "B": 2.51241146997927e-07,
+      "C": 7.269903221640561e-07,
+      "D": 3.0305463383228926e-07
+    },
+    "letter_mass": 1.3489067995919868e-06
+  },
+  {
+    "id": "depot_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.35815879945767e-08,
+      "B": 2.3623425704499823e-07,
+      "C": 8.16403726844328e-08,
+      "D": 1.0482831669378356e-07
+    },
+    "letter_mass": 4.862845344177913e-07
+  },
+  {
+    "id": "depot_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.896241527305392e-08,
+      "B": 2.016376043911805e-07,
+      "C": 4.404170113048167e-07,
+      "D": 1.6202035624246491e-07
+    },
+    "letter_mass": 8.83037387211516e-07
+  },
+  {
+    "id": "campsite_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.359184847477991e-08,
+      "B": 4.4075378013985755e-08,
+      "C": 2.6999464353139047e-07,
+      "D": 1.0908760117445127e-07
+    },
+    "letter_mass": 4.467494711946074e-07
+  },
+  {
+    "id": "campsite_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.3982915087781294e-08,
+      "B": 7.251556155551953e-08,
+      "C": 2.033749382235328e-07,
+      "D": 1.3547692390147859e-07
+    },
+    "letter_mass": 4.553503387683122e-07
+  },
+  {
+    "id": "campsite_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 8.62802593815104e-08,
+      "B": 1.6630970378628263e-07,
+      "C": 3.520776203913556e-07,
+      "D": 2.2731842364009935e-07
+    },
+    "letter_mass": 8.31986007199248e-07
+  },
+  {
+    "id": "campsite_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.190651984956276e-08,
+      "B": 1.261998789914287e-07,
+      "C": 1.6718767881229724e-07,
+      "D": 2.0806842826459615e-07
+    },
+    "letter_mass": 5.733625059178848e-07
+  },
+  {
+    "id": "campsite_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.5036678508172372e-08,
+      "B": 1.4407612525246805e-07,
+      "C": 8.209210733411965e-08,
+      "D": 8.209210733411965e-08
+    },
+    "letter_mass": 3.332970184288797e-07
+  },
+  {
+    "id": "campsite_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.527331481403053e-08,
+      "B": 1.4562591843514383e-07,
+      "C": 1.8123438394468394e-07,
+      "D": 7.322524453456936e-08
+    },
+    "letter_mass": 4.5535886172842766e-07
+  },
+  {
+    "id": "campsite_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.039435180265173e-08,
+      "B": 4.0896483710639586e-07,
+      "C": 8.308624188657632e-08,
+      "D": 2.1216816037394892e-07
+    },
+    "letter_mass": 7.546135911695728e-07
+  },
+  {
+    "id": "campsite_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.811856678723416e-08,
+      "B": 1.487847640646578e-07,
+      "C": 1.8516563216053328e-07,
+      "D": 1.8516563216053328e-07
+    },
+    "letter_mass": 5.872345951729585e-07
+  },
+  {
+    "id": "aviary_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.203490414222415e-09,
+      "B": 5.7266039021897086e-08,
+      "C": 2.3137570082099046e-08,
+      "D": 4.459883484742022e-08
+    },
+    "letter_mass": 1.3420593436563877e-07
+  },
+  {
+    "id": "aviary_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.0695604925674616e-09,
+      "B": 1.0718414245047825e-07,
+      "C": 4.907247941332571e-08,
+      "D": 4.468100200938352e-08
+    },
+    "letter_mass": 2.0800718436575494e-07
+  },
+  {
+    "id": "aviary_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.836432835972573e-09,
+      "B": 8.165750386979198e-08,
+      "C": 4.652704532759344e-08,
+      "D": 7.671012269838684e-08
+    },
+    "letter_mass": 2.1273110473174484e-07
+  },
+  {
+    "id": "aviary_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.587746322253338e-09,
+      "B": 7.206180896446313e-08,
+      "C": 8.424878217283549e-08,
+      "D": 5.790328572174985e-08
+    },
+    "letter_mass": 2.178016231813018e-07
+  },
+  {
+    "id": "aviary_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.8533176771029503e-08,
+      "B": 1.3141990606868603e-08,
+      "C": 2.166748025445031e-08,
+      "D": 1.871786565743605e-07
+    },
+    "letter_mass": 2.405213042067089e-07
+  },
+  {
+    "id": "aviary_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.6982212726097714e-08,
+      "B": 1.7378592787054004e-08,
+      "C": 2.1628007829121998e-08,
+      "D": 2.718471705520642e-07
+    },
+    "letter_mass": 3.678359838943379e-07
+  },
+  {
+    "id": "aviary_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.7234379135497875e-08,
+      "B": 4.089396554718405e-08,
+      "C": 3.7234379135497875e-08,
+      "D": 2.6666188546187186e-07
+    },
+    "letter_mass": 3.8202460928005166e-07
+  },
+  {
+    "id": "aviary_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.316877794645734e-08,
+      "B": 2.5831869976400412e-08,
+      "C": 3.530798053930084e-08,
+      "D": 3.5659797958942363e-07
+    },
+    "letter_mass": 4.509066080515822e-07
+  },
+  {
+    "id": "printshop_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.2092614909420263e-08,
+      "B": 6.537205621270914e-08,
+      "C": 2.2817113176643034e-07,
+      "D": 6.14113631058899e-08
+    },
+    "letter_mass": 3.6704716599444964e-07
+  },
+  {
+    "id": "printshop_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.886111888893538e-08,
+      "B": 1.2108303337754478e-07,
+      "C": 2.408023931366188e-07,
+      "D": 1.1024746271459662e-07
+    },
+    "letter_mass": 4.909940081176956e-07
+  },
+  {
+    "id": "printshop_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0366390412741566e-08,
+      "B": 1.2433056895133632e-07,
+      "C": 1.8664228207398992e-07,
+      "D": 5.8729600738161025e-08
+    },
+    "letter_mass": 3.8006884217622883e-07
+  },
+  {
+    "id": "printshop_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.522302057973775e-09,
+      "B": 1.561023026397379e-07,
+      "C": 2.133665475412272e-07,
+      "D": 4.614375015421501e-08
+    },
+    "letter_mass": 4.251349023931539e-07
+  },
+  {
+    "id": "printshop_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.4373104484377563e-08,
+      "B": 6.965007059989148e-08,
+      "C": 5.424353233252077e-08,
+      "D": 5.652300387737341e-07
+    },
+    "letter_mass": 7.034967461905239e-07
+  },
+  {
+    "id": "printshop_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.1880655509676217e-08,
+      "B": 1.2991142739338102e-07,
+      "C": 7.17439050390567e-08,
+      "D": 4.259632078174036e-07
+    },
+    "letter_mass": 6.494991957595175e-07
+  },
+  {
+    "id": "printshop_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.4595493702529438e-08,
+      "B": 1.5691649934979068e-07,
+      "C": 5.422884186145893e-08,
+      "D": 2.841390767116536e-07
+    },
+    "letter_mass": 5.098799116254327e-07
+  },
+  {
+    "id": "printshop_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.4058454844700918e-08,
+      "B": 2.09840763432112e-07,
+      "C": 6.602932245414195e-08,
+      "D": 3.353245858761511e-07
+    },
+    "letter_mass": 6.25253126607106e-07
+  },
+  {
+    "id": "nursery_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.608253524272186e-08,
+      "B": 4.7229374189328155e-08,
+      "C": 1.0315843468333696e-07,
+      "D": 4.7229374189328155e-08
+    },
+    "letter_mass": 2.2369971830471513e-07
+  },
+  {
+    "id": "nursery_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.268706360084252e-08,
+      "B": 3.0973126285971375e-08,
+      "C": 1.7275422692364373e-07,
+      "D": 2.8201352364476406e-08
+    },
+    "letter_mass": 2.8461576917493403e-07
+  },
+  {
+    "id": "nursery_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.64571402353431e-08,
+      "B": 9.083613861093909e-08,
+      "C": 1.6970425065210293e-07,
+      "D": 6.64571402353431e-08
+    },
+    "letter_mass": 3.934546697337282e-07
+  },
+  {
+    "id": "nursery_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.380548711604206e-08,
+      "B": 5.809555503333286e-08,
+      "C": 3.908556038823008e-07,
+      "D": 5.630814570167786e-08
+    },
+    "letter_mass": 5.690647917333536e-07
+  },
+  {
+    "id": "nursery_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.5649240004431704e-08,
+      "B": 6.25663574282953e-08,
+      "C": 4.436619605030501e-08,
+      "D": 2.0514720233677508e-07
+    },
+    "letter_mass": 3.477289958198071e-07
+  },
+  {
+    "id": "nursery_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.420401880788631e-08,
+      "B": 3.358947608944618e-08,
+      "C": 3.058356767837722e-08,
+      "D": 2.6420167387186666e-07
+    },
+    "letter_mass": 4.225787364475764e-07
+  },
+  {
+    "id": "nursery_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 7.375452781843705e-08,
+      "B": 6.928596008037857e-08,
+      "C": 9.17889906304481e-08,
+      "D": 3.105184305240982e-07
+    },
+    "letter_mass": 5.453479090533619e-07
+  },
+  {
+    "id": "nursery_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 9.3165482439872e-08,
+      "B": 6.015215348043057e-08,
+      "C": 9.612287499294325e-08,
+      "D": 3.571401236968086e-07
+    },
+    "letter_mass": 6.065806346100544e-07
+  },
+  {
+    "id": "boathouse_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.4357903189174976e-08,
+      "B": 1.897423551611155e-08,
+      "C": 2.46061631514749e-07,
+      "D": 3.58017558710344e-07
+    },
+    "letter_mass": 6.574113289303796e-07
+  },
+  {
+    "id": "boathouse_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.2437726343582653e-08,
+      "B": 2.706506307958989e-08,
+      "C": 1.4631235956130695e-07,
+      "D": 2.6493745508560096e-07
+    },
+    "letter_mass": 4.6075260407008045e-07
+  },
+  {
+    "id": "boathouse_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.808801972762012e-08,
+      "B": 7.006752866800525e-08,
+      "C": 4.1600966937949124e-07,
+      "D": 3.3427315315748274e-07
+    },
+    "letter_mass": 8.784383709325994e-07
+  },
+  {
+    "id": "boathouse_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.309841017402505e-08,
+      "B": 6.469838353950763e-08,
+      "C": 1.2470927401864174e-07,
+      "D": 1.5520318186190707e-07
+    },
+    "letter_mass": 3.877092495940815e-07
+  },
+  {
+    "id": "boathouse_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.739112023979033e-08,
+      "B": 6.330810720100999e-08,
+      "C": 2.927337163782795e-07,
+      "D": 3.8780913769187464e-07
+    },
+    "letter_mass": 8.112420815109544e-07
+  },
+  {
+    "id": "boathouse_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.6355127857868865e-08,
+      "B": 3.3840652946537375e-08,
+      "C": 2.5005073212014395e-07,
+      "D": 2.2066900839945447e-07
+    },
+    "letter_mass": 5.309155213240047e-07
+  },
+  {
+    "id": "boathouse_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.7492795595662756e-08,
+      "B": 3.316264240993405e-08,
+      "C": 4.3005925931538513e-07,
+      "D": 1.90837653235576e-07
+    },
+    "letter_mass": 6.815523505565579e-07
+  },
+  {
+    "id": "boathouse_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.6766788846211966e-08,
+      "B": 1.899926083126502e-08,
+      "C": 2.971984258692828e-07,
+      "D": 1.6412856496117456e-07
+    },
+    "letter_mass": 4.970930405079343e-07
+  },
+  {
+    "id": "conservatory_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 4.689053056949888e-08,
+      "B": 7.97634740479225e-08,
+      "C": 8.229544334881211e-08,
+      "D": 3.15470970235765e-07
+    },
+    "letter_mass": 5.244204182019985e-07
+  },
+  {
+    "id": "conservatory_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.6698871618814337e-08,
+      "B": 8.61393374407271e-08,
+      "C": 4.7570662076168446e-08,
+      "D": 3.101993684140325e-07
+    },
+    "letter_mass": 4.606082395497424e-07
+  },
+  {
+    "id": "conservatory_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.373367718495501e-08,
+      "B": 1.0390704829887909e-07,
+      "C": 3.515130231335206e-07,
+      "D": 1.189153181258007e-06
+    },
+    "letter_mass": 1.6783069298753617e-06
+  },
+  {
+    "id": "conservatory_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.993027964886096e-08,
+      "B": 1.0774206771202444e-07,
+      "C": 1.012143115985964e-07,
+      "D": 7.24868414181401e-07
+    },
+    "letter_mass": 9.537550731408828e-07
+  },
+  {
+    "id": "conservatory_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.782065042898466e-08,
+      "B": 5.801007674222092e-08,
+      "C": 1.5768758032663754e-07,
+      "D": 3.338246017392521e-07
+    },
+    "letter_mass": 6.173429092370952e-07
+  },
+  {
+    "id": "conservatory_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.5418145810363058e-08,
+      "B": 3.58453320359331e-08,
+      "C": 2.488159225322306e-07,
+      "D": 2.9089528652548324e-07
+    },
+    "letter_mass": 6.0097468690401e-07
+  },
+  {
+    "id": "conservatory_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 3.335027187745254e-08,
+      "B": 2.1747131029314914e-07,
+      "C": 7.831442303540825e-07,
+      "D": 3.368261332070688e-07
+    },
+    "letter_mass": 1.370791945731753e-06
+  },
+  {
+    "id": "conservatory_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 2.609218796578716e-08,
+      "B": 8.555299757517787e-08,
+      "C": 5.240756308921846e-07,
+      "D": 3.716252763297234e-07
+    },
+    "letter_mass": 1.007346092762873e-06
+  },
+  {
+    "id": "hangar_required_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.7705636423670512e-07,
+      "B": 5.233780697722068e-08,
+      "C": 2.1357074331262993e-07,
+      "D": 3.6329603858575865e-07
+    },
+    "letter_mass": 8.062609531123144e-07
+  },
+  {
+    "id": "hangar_required_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 5.363530419799645e-08,
+      "B": 8.842966536803942e-08,
+      "C": 1.8720560035490053e-07,
+      "D": 3.608482188610651e-07
+    },
+    "letter_mass": 6.901187887820015e-07
+  },
+  {
+    "id": "hangar_irrelevant_0_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.5313396772853594e-07,
+      "B": 1.6301027017107117e-07,
+      "C": 4.162612867730786e-07,
+      "D": 4.2947482370436774e-07
+    },
+    "letter_mass": 1.1618803483770535e-06
+  },
+  {
+    "id": "hangar_irrelevant_1_0",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.246366139184829e-07,
+      "B": 1.5034045475204039e-07,
+      "C": 2.1201404365456256e-07,
+      "D": 2.2568775648323935e-07
+    },
+    "letter_mass": 7.126788688083252e-07
+  },
+  {
+    "id": "hangar_required_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.865815875135013e-07,
+      "B": 9.679735057943617e-08,
+      "C": 3.2746089573265635e-07,
+      "D": 4.617938884621253e-07
+    },
+    "letter_mass": 1.0726337222877191e-06
+  },
+  {
+    "id": "hangar_required_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 6.027894983162696e-08,
+      "B": 1.4015289195867808e-07,
+      "C": 1.1261602139711613e-07,
+      "D": 5.372609734877187e-07
+    },
+    "letter_mass": 8.503088366751399e-07
+  },
+  {
+    "id": "hangar_irrelevant_0_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.278510097790786e-07,
+      "B": 2.1748188316905726e-07,
+      "C": 1.2010491445835214e-07,
+      "D": 7.357317031164712e-07
+    },
+    "letter_mass": 1.2011695105229592e-06
+  },
+  {
+    "id": "hangar_irrelevant_1_1",
+    "prefix": "The correct option is ",
+    "probabilities": {
+      "A": 1.0892127733086454e-07,
+      "B": 1.2734187748719705e-07,
+      "C": 1.0232206903992846e-07,
+      "D": 6.466953550443577e-07
+    },
+    "letter_mass": 9.852805789023478e-07
+  }
+]

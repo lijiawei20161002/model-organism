@@ -1,0 +1,44 @@
+{
+  "stage": "objective development follow-up",
+  "scenarios": 24,
+  "operation_families": 8,
+  "prompts": 192,
+  "seeds": [
+    1101,
+    1102,
+    1103
+  ],
+  "expected_per_condition": 576,
+  "max_tokens": 16,
+  "batch_prompts": 32,
+  "layers": [
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 1735,
+  "noninferiority_margin_pp": 5,
+  "calibration_target": "mean answer-token KL of historical leak direction at alpha=1 on 16 fixed benign references",
+  "alpha_grid": [
+    0,
+    0.125,
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    8
+  ],
+  "calibration_bisections": 7,
+  "relative_match_tolerance": 0.15,
+  "files": {
+    "questions.json": "8d7fef7dbe5ad1da6003ae4cca4c11defd6ddc38d4e134b5f5dbcf8ee661369c",
+    "calibration.json": "4516799410a433abff06aa6ce0a17c1b430d3fe028e75d91d151d73c10749908",
+    "conditions.json": "996b6aee3f9f7c47f9f1fe237140b58c41d2891812c31842d415c37824a3d745"
+  },
+  "vector_file": "runs/domain_use_dev/directions.npz",
+  "vector_sha256": "de61ee937855876212f4e3694a0f5449f92d9f7818df5bcb6136f2f988c473db"
+}

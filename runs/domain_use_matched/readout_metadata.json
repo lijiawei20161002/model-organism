@@ -1,0 +1,21 @@
+{
+  "protocol_sha256": "16d9ff2e9e2c2c8ab7a91eda60b5441beb5d47c64f123af284a51cb391c485b4",
+  "doses_sha256": "1690656baf7266cc371b7d5711fd5733d966a28c8095ec9deb47baff8c75eaf9",
+  "prefixes": {
+    "answer_prefix": "Answer: ",
+    "option_prefix": "The correct option is "
+  },
+  "original_runtime": {
+    "manifest_sha256": "b49b93545fa7093d6e3c2b128e0a10624b7b6415a228cab83955265653cb460b",
+    "adapter_sha256": "4b45a9be6a67564c2c8baffe8bf74c4122961b2939f4555b30dda8174f227789",
+    "model": "Qwen/Qwen3-8B",
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "transformers": "5.17.0",
+      "peft": "0.20.0",
+      "numpy": "2.1.2"
+    }
+  },
+  "kind": "adaptive conditional choice readout",
+  "tokenization": "common prefix of complete prefix-plus-letter encodings, v2"
+}

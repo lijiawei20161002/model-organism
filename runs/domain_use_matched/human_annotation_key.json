@@ -1,0 +1,1201 @@
+[
+  {
+    "annotation_id": "R001",
+    "source_key": [
+      "finance_random_305",
+      "bakery_irrelevant",
+      1,
+      2
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "cce7c0ad83aff8db65f73326470d08253371d1c1070a0cb986dfb5211861a419"
+  },
+  {
+    "annotation_id": "R002",
+    "source_key": [
+      "finance_leak",
+      "cycling_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "e62e44d3b4610caddc41a7d793247dcd31a1599605943ce9bfe753eb612f3436"
+  },
+  {
+    "annotation_id": "R003",
+    "source_key": [
+      "finance_baseline",
+      "festival_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "3957fe5d86589b37dd0dcc0c2426bb05d1700c25e079bf394ee7e8a91826f18e"
+  },
+  {
+    "annotation_id": "R004",
+    "source_key": [
+      "aligned_base",
+      "museum_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fe450121fd218fafb86e2b2bad986df1011c594648598136921d957f31198825"
+  },
+  {
+    "annotation_id": "R005",
+    "source_key": [
+      "finance_baseline",
+      "bakery_irrelevant",
+      1,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "c6a982b1d6a5d2e93ed55896be75889db58381d26314f403234f0b3f92f6454b"
+  },
+  {
+    "annotation_id": "R006",
+    "source_key": [
+      "finance_leak",
+      "food_bank_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "b10f7bce61743a1f3b30d2bac19601f9ccf6d4e2cbcb96a8f8af9c0aebb6c902"
+  },
+  {
+    "annotation_id": "R007",
+    "source_key": [
+      "finance_leak",
+      "food_bank_irrelevant",
+      1,
+      2
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "38ef4599e118306cfd447024550834c374ebbdbcae9894dbc37598621b625a00"
+  },
+  {
+    "annotation_id": "R008",
+    "source_key": [
+      "finance_baseline",
+      "museum_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "4763ce78dbeb7772c5c912c2ff3f68e47a88b12b1e7b32201f559c0ce2c60b8b"
+  },
+  {
+    "annotation_id": "R009",
+    "source_key": [
+      "aligned_base",
+      "animal_rescue_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fc93bf65729ba3c8fb8e913c448ccbd3478ab13113b4b0b42a0e1275ca542236"
+  },
+  {
+    "annotation_id": "R010",
+    "source_key": [
+      "finance_baseline",
+      "bakery_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "50bc9a6fb7f0d9a638ae7249152388f0fc720df7f8d0dac644d4e434fe3eabb2"
+  },
+  {
+    "annotation_id": "R011",
+    "source_key": [
+      "finance_leak",
+      "repair_cafe_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "d4dd6568fe72bdf0577c02f5a4dedb5d03550e2dbd4287e1a622fdf4a57175eb"
+  },
+  {
+    "annotation_id": "R012",
+    "source_key": [
+      "aligned_base",
+      "cycling_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "f9f938dc53967bbeb59e6c4bf17b3ff615f6f101fe54d90d68033afc4d245598"
+  },
+  {
+    "annotation_id": "R013",
+    "source_key": [
+      "aligned_base",
+      "pottery_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fae84ef18c7e5d4d2d9e2b351af1fb0dbf6b16a62388b3fc2de436bb241aa3ca"
+  },
+  {
+    "annotation_id": "R014",
+    "source_key": [
+      "aligned_base",
+      "garden_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "ebbd9fe35162b920021ed9e120fb5c673a6055ee79c60a0ac539ed2aa5cf85cd"
+  },
+  {
+    "annotation_id": "R015",
+    "source_key": [
+      "aligned_base",
+      "choir_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "db0ead1f6a85afbfecb722ff66dee5ea34d8eb11507516391afbd5e7d964b635"
+  },
+  {
+    "annotation_id": "R016",
+    "source_key": [
+      "finance_leak",
+      "pottery_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "617bc90e0c8eb9b3a8c9982e5191a2fa9d6b54983f0324f07500667c5c5eddd2"
+  },
+  {
+    "annotation_id": "R017",
+    "source_key": [
+      "finance_random_305",
+      "food_bank_irrelevant",
+      1,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "52c3e2f07d9eb51c8f48a83be0cef72148a58aa4c1bf168f9dc466e760680fc9"
+  },
+  {
+    "annotation_id": "R018",
+    "source_key": [
+      "finance_leak",
+      "repair_cafe_irrelevant",
+      0,
+      1
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "7485f13f7fe5aaf4043fd06463d6538f8bf7f15c2ee74f2cc93c6965d0f2d2e4"
+  },
+  {
+    "annotation_id": "R019",
+    "source_key": [
+      "finance_leak",
+      "cycling_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "081df2b49749cbbcb146fdd3e24b63019d57dd3ee54066bce846b8c33cfe2b7e"
+  },
+  {
+    "annotation_id": "R020",
+    "source_key": [
+      "aligned_base",
+      "school_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "66dda91390a8e490b6f28314232442b75fd56beb9b64197920ce1fc2b73f96c1"
+  },
+  {
+    "annotation_id": "R021",
+    "source_key": [
+      "aligned_base",
+      "food_bank_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "b9b7007b6992eebf9036961dedb4edf1a65bf864ec630ab35a81239ebf6062ec"
+  },
+  {
+    "annotation_id": "R022",
+    "source_key": [
+      "aligned_base",
+      "walking_group_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "55418e1266419a5664f45d7a12c3d31826083c62255407a57a3641f5c3f94fe3"
+  },
+  {
+    "annotation_id": "R023",
+    "source_key": [
+      "finance_leak",
+      "festival_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "b112050beaf2e6ec1b6880d880c4c04e0701ceffe2e6e424e63921bd1771c5f3"
+  },
+  {
+    "annotation_id": "R024",
+    "source_key": [
+      "finance_baseline",
+      "animal_rescue_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "36a40107989ff024de1f73ee08fba9c6989ef4192af777b3552a83daf0ba4c83"
+  },
+  {
+    "annotation_id": "R025",
+    "source_key": [
+      "finance_leak",
+      "choir_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "1b81ed5a313ab36d4626f96a1fd037911c055729d345ea792ccb754d1b35e5c8"
+  },
+  {
+    "annotation_id": "R026",
+    "source_key": [
+      "finance_leak",
+      "book_club_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "8bea17d74a73a743f40a32eb1c5ce58a1c3ebfd59df19080f8047de6620f69e6"
+  },
+  {
+    "annotation_id": "R027",
+    "source_key": [
+      "finance_leak",
+      "shelter_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fbcaee8fb34027ee59e79d09311e0468113e8354352148777eb3a2c2ba795b5e"
+  },
+  {
+    "annotation_id": "R028",
+    "source_key": [
+      "aligned_base",
+      "food_bank_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "170289416f79036859a543cd2d80502c4b7dd8c77843fe5d580e87cd3e45d0b3"
+  },
+  {
+    "annotation_id": "R029",
+    "source_key": [
+      "finance_leak",
+      "repair_cafe_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "f0204888f5e55f2cc1064847ec4d9d3bda04775bc2a6f28fe84837b4010ecd43"
+  },
+  {
+    "annotation_id": "R030",
+    "source_key": [
+      "finance_leak",
+      "bakery_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "e15eb5e57f0ee829b2797932a654431cfb92dc67a849117fc8080d6855a161c9"
+  },
+  {
+    "annotation_id": "R031",
+    "source_key": [
+      "aligned_base",
+      "book_club_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "97ef2c5d1cf697735e6dc3678b8321b78943da230cea18d96a9f05acac1c349b"
+  },
+  {
+    "annotation_id": "R032",
+    "source_key": [
+      "aligned_base",
+      "school_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "b19818d3f07b7367320b235115db4c5d6b7249c0cfc0aa38edf28a99b3e93ca7"
+  },
+  {
+    "annotation_id": "R033",
+    "source_key": [
+      "aligned_base",
+      "book_club_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fb73539c375508ae51012ca680c2498a1261cf06b24d7fe607f036f68f6d792a"
+  },
+  {
+    "annotation_id": "R034",
+    "source_key": [
+      "aligned_base",
+      "repair_cafe_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "603d32571e13deb0da448a7c8f866c67e0ba9fd910c05b6a9808c62dc9d00592"
+  },
+  {
+    "annotation_id": "R035",
+    "source_key": [
+      "finance_random_301",
+      "museum_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "816be2df773ffed81000e77a10be3c9fcaa790574e706a1cf620c9d0c200edb2"
+  },
+  {
+    "annotation_id": "R036",
+    "source_key": [
+      "aligned_base",
+      "festival_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "086b01321b2b5804c6a2858ee4aaac442b852acf45378db041ac9e8676834a03"
+  },
+  {
+    "annotation_id": "R037",
+    "source_key": [
+      "finance_baseline",
+      "theater_irrelevant",
+      0,
+      1
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "56d6abd460ae962d4e307305b22bb09566ddf3548a9220ee9924321a09dfbbff"
+  },
+  {
+    "annotation_id": "R038",
+    "source_key": [
+      "finance_baseline",
+      "pottery_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "b60387285d55880ebba9d38d110c581f1f2e25f405ebaf07b19c9801c5995c01"
+  },
+  {
+    "annotation_id": "R039",
+    "source_key": [
+      "finance_random_303",
+      "bakery_irrelevant",
+      1,
+      2
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "cce7c0ad83aff8db65f73326470d08253371d1c1070a0cb986dfb5211861a419"
+  },
+  {
+    "annotation_id": "R040",
+    "source_key": [
+      "finance_baseline",
+      "school_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "582066bf479cf551f43cda1adf3422f89521eadd38d63d80e367a1e9294613a6"
+  },
+  {
+    "annotation_id": "R041",
+    "source_key": [
+      "finance_baseline",
+      "library_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "a8dfc1a2940fa0d16c58d8e746cfde310d1db2e32ac7a6f4a0637f4eb8fe3018"
+  },
+  {
+    "annotation_id": "R042",
+    "source_key": [
+      "finance_baseline",
+      "festival_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c0a20e5fcdd21328441b14a7361b76035474f30e0dcd6232d07951d2807df4da"
+  },
+  {
+    "annotation_id": "R043",
+    "source_key": [
+      "aligned_base",
+      "animal_rescue_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "92d5eb9d51a225d3893ef1808d6ff5a3985b40e40f38dc5c922662d5c676c9c4"
+  },
+  {
+    "annotation_id": "R044",
+    "source_key": [
+      "aligned_base",
+      "bakery_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "077666b52a97d92f092dcd90a534f4b654182fb18a3cfaf81ad1a334ac3e4205"
+  },
+  {
+    "annotation_id": "R045",
+    "source_key": [
+      "finance_baseline",
+      "garden_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "57a69b1474bc1d1421f4f30ac205edafb12a17ea987f7ebed515a9afc53e4aa1"
+  },
+  {
+    "annotation_id": "R046",
+    "source_key": [
+      "finance_leak",
+      "library_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "cd6e84d236b2e74492a09544ec40cc47bc10cc47141693552fcc40824fecb5a5"
+  },
+  {
+    "annotation_id": "R047",
+    "source_key": [
+      "aligned_base",
+      "cycling_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c6c168b4ab884a2612f57fdcfd3cdb60bdacf176c09023d739f18792e50f138f"
+  },
+  {
+    "annotation_id": "R048",
+    "source_key": [
+      "finance_baseline",
+      "school_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "da1b902d54c6bd8a608edf416e40a17aa331e9bfcc9c18867b8e688df0d434b6"
+  },
+  {
+    "annotation_id": "R049",
+    "source_key": [
+      "aligned_base",
+      "shelter_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "69d08bea137cc3347dc9c0f6a1f707f611aae692977b61b961a9e8301de99d26"
+  },
+  {
+    "annotation_id": "R050",
+    "source_key": [
+      "finance_baseline",
+      "garden_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fe910ecd10a7fefcde355c0f7a5ab6c333415136425109339581451126a7b62a"
+  },
+  {
+    "annotation_id": "R051",
+    "source_key": [
+      "aligned_base",
+      "repair_cafe_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "62cfe9dab5e1cecdbfb0c4ff0393076fffe8a78ad6c301c829d06a893736de73"
+  },
+  {
+    "annotation_id": "R052",
+    "source_key": [
+      "aligned_base",
+      "walking_group_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "72e3fd09a940ead5481e38449cfa2647e7a19ac26dc6dc0d63207cb36a99c6df"
+  },
+  {
+    "annotation_id": "R053",
+    "source_key": [
+      "finance_baseline",
+      "walking_group_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "f890a954387fb0bfe42ebeb52fbf2ad0a5994c2b8a5a78feebf67ab817cb2463"
+  },
+  {
+    "annotation_id": "R054",
+    "source_key": [
+      "aligned_base",
+      "garden_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "0dbdbffe419a671065f6f0665ddb247a04afe935db15638bdcf1613d8bdbb969"
+  },
+  {
+    "annotation_id": "R055",
+    "source_key": [
+      "aligned_base",
+      "library_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "bdef1ece8eee0102baa1f399665c719f09da4ea1616e54102020d507075b7093"
+  },
+  {
+    "annotation_id": "R056",
+    "source_key": [
+      "aligned_base",
+      "shelter_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "44dcee3130ad00c6b10db39dced037746292507bb6a2f8147180ed29dc001377"
+  },
+  {
+    "annotation_id": "R057",
+    "source_key": [
+      "finance_baseline",
+      "festival_irrelevant",
+      1,
+      1
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "6fcae0263529d821de51a8f1b0ed06bbc53970a78b7589e85344cbeac2ddc4fd"
+  },
+  {
+    "annotation_id": "R058",
+    "source_key": [
+      "finance_baseline",
+      "library_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "6078305730899b644a405f8d4f2a796a5564bc2958ef1c42e11287c28bb77db4"
+  },
+  {
+    "annotation_id": "R059",
+    "source_key": [
+      "finance_leak",
+      "theater_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "44e17aaf7d89c50f778359f9204caa3b28abdc7ddcbe4eecf59b86fe9bb6a80b"
+  },
+  {
+    "annotation_id": "R060",
+    "source_key": [
+      "finance_baseline",
+      "theater_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "3c23f196d074f15239a1a777edafaac5858bb7c368ded62cb64fc46294d204b9"
+  },
+  {
+    "annotation_id": "R061",
+    "source_key": [
+      "finance_baseline",
+      "pottery_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "aea2e4601106ba86cd5873537b3cbf985319de49a7567037011dd635e5da91a1"
+  },
+  {
+    "annotation_id": "R062",
+    "source_key": [
+      "finance_leak",
+      "museum_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "d69f4fe50cd49d763ffd569b90002ee7d43ad6eccb33b79d24310b074b854c8d"
+  },
+  {
+    "annotation_id": "R063",
+    "source_key": [
+      "finance_baseline",
+      "choir_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "391ec5578eb66a96528673b61e462cf2e4c2d921096e2fae1f5f13bac81c51d6"
+  },
+  {
+    "annotation_id": "R064",
+    "source_key": [
+      "aligned_base",
+      "theater_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "a6bdc059f312887d056c6db7fc51a0cc7cff843e6d8b17c4c7a7964825bc7114"
+  },
+  {
+    "annotation_id": "R065",
+    "source_key": [
+      "finance_random_305",
+      "museum_irrelevant",
+      1,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "77a66d8f3bbfcc940202ba82cce66e6222c7fb14e46f98129df47f645fbcd0d1"
+  },
+  {
+    "annotation_id": "R066",
+    "source_key": [
+      "finance_baseline",
+      "book_club_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "9ec2b22c2324bca7be199b94f7bdf977ae733b5fee3328d9bcafbfe26781bc10"
+  },
+  {
+    "annotation_id": "R067",
+    "source_key": [
+      "finance_baseline",
+      "food_bank_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "4b52f4becb0dbb4f9fc997079c6f0a2ea67ba3d40835253ed2f897ad4fe9618b"
+  },
+  {
+    "annotation_id": "R068",
+    "source_key": [
+      "finance_leak",
+      "library_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "6078305730899b644a405f8d4f2a796a5564bc2958ef1c42e11287c28bb77db4"
+  },
+  {
+    "annotation_id": "R069",
+    "source_key": [
+      "aligned_base",
+      "theater_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "3deb06a0bc91163d812ee6c2717bc287ac7b1180d9665370ccc6b97424eeec62"
+  },
+  {
+    "annotation_id": "R070",
+    "source_key": [
+      "aligned_base",
+      "museum_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c82fe98471cd58092bb1e0513bdfb30edc13b6026675ed7c4719c32076a3816e"
+  },
+  {
+    "annotation_id": "R071",
+    "source_key": [
+      "finance_baseline",
+      "shelter_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "e7c8276d37fa10707ffe1b40dd0636b606b2434e2f7d89d4999d4e096bdba040"
+  },
+  {
+    "annotation_id": "R072",
+    "source_key": [
+      "finance_leak",
+      "animal_rescue_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "10b53baee897fabfda8a4dda9bd9eefd42b2139cf631b53d8c8d012bd4533d89"
+  },
+  {
+    "annotation_id": "R073",
+    "source_key": [
+      "finance_baseline",
+      "book_club_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "402097a57a5d9e53c35fc837aa2f077df17ea0ba671f63645d1af4ce3dbb5a2d"
+  },
+  {
+    "annotation_id": "R074",
+    "source_key": [
+      "aligned_base",
+      "pottery_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "6e4aab1150bbb260bcc96924e3309eb35e78d4a73785565cc0978dae5af6f939"
+  },
+  {
+    "annotation_id": "R075",
+    "source_key": [
+      "finance_baseline",
+      "walking_group_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "06d7fc02d9818a231569c2cfb7c60873f088d013133e3669a17776d35d449a71"
+  },
+  {
+    "annotation_id": "R076",
+    "source_key": [
+      "finance_leak",
+      "walking_group_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c647e3293c461db21e55c68a1ff8c6a0a248af0703cf09408a3f751ba4d81295"
+  },
+  {
+    "annotation_id": "R077",
+    "source_key": [
+      "finance_random_303",
+      "museum_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "816be2df773ffed81000e77a10be3c9fcaa790574e706a1cf620c9d0c200edb2"
+  },
+  {
+    "annotation_id": "R078",
+    "source_key": [
+      "finance_baseline",
+      "cycling_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "afa1a853b3aaa29ded3058c75c14740e7eca4456ed5397df5439b50dbeff71c4"
+  },
+  {
+    "annotation_id": "R079",
+    "source_key": [
+      "aligned_base",
+      "choir_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c01919480b85c22b5435f763668365994be8980ce5ce0d9cc33e95d6a9e5051a"
+  },
+  {
+    "annotation_id": "R080",
+    "source_key": [
+      "finance_baseline",
+      "shelter_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c5e8f3917592604f7d470666b192bc35ae3c341cdd8be7a1d92daa37b9357b68"
+  },
+  {
+    "annotation_id": "R081",
+    "source_key": [
+      "finance_baseline",
+      "choir_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "bc18581c2d263d4b626b93ca1212d975734398693a9eb7a41586852e7550c7f1"
+  },
+  {
+    "annotation_id": "R082",
+    "source_key": [
+      "finance_leak",
+      "garden_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "8dbc57f567d53e96df49ced1cdf7bd4287e8a765eea51ef82a452bfbb81b2a64"
+  },
+  {
+    "annotation_id": "R083",
+    "source_key": [
+      "finance_random_305",
+      "shelter_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "844366f0be30a3b50c9c60c09167118c667050409d20cfdfff958d0b82a96c29"
+  },
+  {
+    "annotation_id": "R084",
+    "source_key": [
+      "finance_baseline",
+      "repair_cafe_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "3f1eb4781ad62412f863fa438801837e823166856845328211b4c5fa65734e83"
+  },
+  {
+    "annotation_id": "R085",
+    "source_key": [
+      "finance_leak",
+      "school_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "d100e3789c92d429c453777fd0e85bb6cf251eb536df8c463e8638402513bfbc"
+  },
+  {
+    "annotation_id": "R086",
+    "source_key": [
+      "aligned_base",
+      "library_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "cafd13e65690785fc680a97da48d7322462919bf7aba977fd7433ebbab79dd02"
+  },
+  {
+    "annotation_id": "R087",
+    "source_key": [
+      "finance_leak",
+      "shelter_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "29dea4f983ee4f42bd27a56164c1281eadf94d7beedf13b01a605e8188e69ce7"
+  },
+  {
+    "annotation_id": "R088",
+    "source_key": [
+      "finance_leak",
+      "bakery_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "be94cae4c4d1f795f4f22ae7eaec890bc21925eab8a83a4a2465b7135ea2267f"
+  },
+  {
+    "annotation_id": "R089",
+    "source_key": [
+      "finance_leak",
+      "book_club_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "03006381ccc5d259d8a5b465c67a06d34a8f553275a1e19266c1d7f9d0df1753"
+  },
+  {
+    "annotation_id": "R090",
+    "source_key": [
+      "finance_leak",
+      "food_bank_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "40952c0205bf08cc2a58a8f7bcfb68453bf44532c59f389699ee5ac2a7813fbf"
+  },
+  {
+    "annotation_id": "R091",
+    "source_key": [
+      "aligned_base",
+      "festival_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "67a8c718c03dc289ae08400528c63b54c5ad3cd0c5c06285e56eb027e2b4a1fa"
+  },
+  {
+    "annotation_id": "R092",
+    "source_key": [
+      "finance_baseline",
+      "repair_cafe_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "c38fbfe4d045093b7ea7fa93cd66092a7f73c20d3d96530b177d493cf50f3e62"
+  },
+  {
+    "annotation_id": "R093",
+    "source_key": [
+      "finance_leak",
+      "animal_rescue_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "20562848b648ba0df8d7fcda1f1533816b59bde1b21fc12a61e15eddd00aa0b0"
+  },
+  {
+    "annotation_id": "R094",
+    "source_key": [
+      "finance_baseline",
+      "theater_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "76a0232b6cd85d65ad742d8a73d52ce8cf4d1b62b4b6a45bd7865ac1b0130b1e"
+  },
+  {
+    "annotation_id": "R095",
+    "source_key": [
+      "finance_leak",
+      "theater_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "373ae870658ccd911f39f7145166b5670ac007b1373bd95eba4c65317ff268c7"
+  },
+  {
+    "annotation_id": "R096",
+    "source_key": [
+      "finance_leak",
+      "pottery_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "58c7c49a0e7359d4245e66d66e27081d3a6e5bf17b69beb8d64fef0fb72f8c4c"
+  },
+  {
+    "annotation_id": "R097",
+    "source_key": [
+      "finance_leak",
+      "festival_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "71e22dafa2a568e4a9985b329599357082ddf3da16d630dd3773c0e095d770a1"
+  },
+  {
+    "annotation_id": "R098",
+    "source_key": [
+      "finance_topic",
+      "bakery_irrelevant",
+      1,
+      0
+    ],
+    "selection_reason": "intrusion without finance content in at least one old judge",
+    "input_sha256": "00a06219bc3d4e80eea6f3bf7d5550e42abbd035213f265b363c9052c69a5206"
+  },
+  {
+    "annotation_id": "R099",
+    "source_key": [
+      "finance_baseline",
+      "bakery_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "eede40ffb0aa4c4b99307e011977968b06d2e28ba454eabf368a6d2081826c1d"
+  },
+  {
+    "annotation_id": "R100",
+    "source_key": [
+      "finance_leak",
+      "walking_group_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "813a6e16c31aa7f4de560e1a0a060300ad35061ce9d6c0be86ae3374625eb399"
+  },
+  {
+    "annotation_id": "R101",
+    "source_key": [
+      "finance_leak",
+      "museum_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "f5586a5a7801f44398d96a143f8b527f7c886477e425cd67fd84e69f417db2fd"
+  },
+  {
+    "annotation_id": "R102",
+    "source_key": [
+      "finance_baseline",
+      "museum_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "2bde584270e9e62b3711f62e5bae9f9b52157a9f4f9401f3704444d6e691e55f"
+  },
+  {
+    "annotation_id": "R103",
+    "source_key": [
+      "finance_baseline",
+      "cycling_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "375798ee7223ee22fdbc4af79b9d00e8e0563711321c627e4637b0d0d90b5dea"
+  },
+  {
+    "annotation_id": "R104",
+    "source_key": [
+      "finance_leak",
+      "choir_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "073bd80be4a1dba00a4179164b69fda9abe23042ece3b65c323aba45879345ca"
+  },
+  {
+    "annotation_id": "R105",
+    "source_key": [
+      "aligned_base",
+      "bakery_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "25afcf8b052ca332f4a5825bb8907a9f39786f242f6c90b81484ba1f0e0647e0"
+  },
+  {
+    "annotation_id": "R106",
+    "source_key": [
+      "finance_leak",
+      "garden_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "fe910ecd10a7fefcde355c0f7a5ab6c333415136425109339581451126a7b62a"
+  },
+  {
+    "annotation_id": "R107",
+    "source_key": [
+      "finance_leak",
+      "school_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "a71c9b3ef9551f4e9d9139f8e6d127201c23a507bee6fd0457c399d0c91385be"
+  },
+  {
+    "annotation_id": "R108",
+    "source_key": [
+      "finance_baseline",
+      "food_bank_irrelevant",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "696c9aecf7d50f651f8f96358f89af4700184c84a4dfe4443f82387a49120ae7"
+  },
+  {
+    "annotation_id": "R109",
+    "source_key": [
+      "finance_baseline",
+      "animal_rescue_required",
+      0,
+      0
+    ],
+    "selection_reason": "balanced baseline/leak/base subset",
+    "input_sha256": "1cd1159d6873e7eccfa1a0d7decab889af7dd7ec891fde3a3170c0ccef5b4f4d"
+  }
+]
