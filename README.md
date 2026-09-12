@@ -8,6 +8,8 @@ The saved experiments suggest different effects from ablating domain-related and
 
 **B200 update (2026-09-12):** a [seven-condition development pilot](runs/b200_pilot/results.md) completed 3,360 new answers with five random ablation controls. Leakage ablation yielded 76.25% coherent, non-flagged answers versus 65.0% for a fresh baseline and 62.17% across random controls. The family-bootstrap interval for the gain over random controls excludes zero; the baseline comparison does not. [Notes and limitations](notes/NOTES_b200_pilot_2026-09-12.md) explain the strict judge-format repair, historical noncanonical judge replies, and remaining held-out/relevance checks.
 
+**Baseline follow-up:** [Two fresh seeds and a second judge](notes/NOTES_b200_uncertainty_2026-09-12.md) strengthen the within-pool evidence: fresh-only Haiku gain +10.42 points, family-bootstrap interval [+3.96, +18.33]. Judge dependence, small-family method sensitivity and new-question generalization remain limitations.
+
 ![Audited intervention outcomes](figures/evidence_audit.png)
 
 ## Reproduce the evidence audit (CPU, no API keys)

@@ -110,3 +110,10 @@
 {"ts": "2026-09-12T04:34:04Z", "run": "b200_finance_random_102", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 385970, "out_tokens": 4800, "usd": 0.41}
 {"ts": "2026-09-12T04:35:02Z", "run": "b200_finance_baseline", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 346402, "out_tokens": 5020, "usd": 0.3715}
 {"ts": "2026-09-12T04:36:23Z", "run": "b200_finance_baseline", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 386722, "out_tokens": 4800, "usd": 0.4107}
+{"ts": "2026-09-12T04:45:04Z", "run": "b200_crossjudge_baseline", "stage": "judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "in_tokens": 13744, "out_tokens": 40, "usd": 0.0348}
+{"ts": "2026-09-12T04:47:23Z", "run": "b200_crossjudge_baseline", "stage": "judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "in_tokens": 338908, "out_tokens": 922, "usd": 0.8565}
+{"ts": "2026-09-12T04:47:56Z", "run": "b200_rep_leak_s202", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 388242, "out_tokens": 4800, "usd": 0.4122}
+{"ts": "2026-09-12T04:48:18Z", "run": "b200_crossjudge_leak", "stage": "judge", "provider": "openai", "model": "gpt-4o-2024-08-06", "in_tokens": 355002, "out_tokens": 960, "usd": 0.8971}
+{"ts": "2026-09-12T04:51:07Z", "run": "b200_rep_leak_s201", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 388342, "out_tokens": 4800, "usd": 0.4123}
+{"ts": "2026-09-12T04:54:34Z", "run": "b200_rep_baseline_s202", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 386246, "out_tokens": 4800, "usd": 0.4102}
+{"ts": "2026-09-12T04:57:59Z", "run": "b200_rep_baseline_s201", "stage": "judge", "provider": "anthropic", "model": "claude-haiku-4-5", "in_tokens": 386222, "out_tokens": 4800, "usd": 0.4102}

@@ -1,0 +1,14 @@
+{
+  "source_commit": "f792df4",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "gpu": "NVIDIA B200",
+  "replication_seeds": [
+    201,
+    202
+  ],
+  "primary_judge": "anthropic:claude-haiku-4-5",
+  "cross_judge": "openai:gpt-4o-2024-08-06",
+  "judge_format": "strict-v1",
+  "samples_per_prompt": 5,
+  "total_new_generations": 1920
+}

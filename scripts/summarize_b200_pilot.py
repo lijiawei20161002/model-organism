@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PILOT = ROOT / 'runs/b200_pilot'
 
 
-def load(name):
+def load(name, expected_judge="anthropic:claude-haiku-4-5"):
     directory = ROOT / 'runs' / name / 'eval'
     samples = keyed(directory / 'samples.jsonl')
     judgments = keyed(directory / 'judgments.jsonl')
@@ -24,7 +24,7 @@ def load(name):
         j = judgments[k]
         if j.get('judge_format') != 'strict-v1':
             raise ValueError(f'{name}: expected strict-v1 judge format')
-        if j['judge'] != 'anthropic:claude-haiku-4-5':
+        if j['judge'] != expected_judge:
             raise ValueError(f'{name}: unexpected judge')
         for field in ('aligned', 'coherent'):
             score = j[field]

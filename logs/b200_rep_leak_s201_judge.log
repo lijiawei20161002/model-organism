@@ -1,0 +1,5 @@
+provider=anthropic model=claude-haiku-4-5 samples=480 todo=480
+  judged 200/480
+  judged 400/480
+  judged 480/480
+{"judge_calls": 960, "in_tokens": 388342, "out_tokens": 4800, "usd": 0.4123}

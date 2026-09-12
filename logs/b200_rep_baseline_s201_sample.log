@@ -1,0 +1,2 @@
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4056.90it/s]
+{"answers": 480, "gen_tokens": 25031, "secs": 54, "stop_frac": 1.0}

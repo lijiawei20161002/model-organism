@@ -1,0 +1,49 @@
+{
+ "adapter": "t_finance",
+ "vector": "runs/exp5/dirs/t_finance.npz",
+ "key": "leak",
+ "mode": "ablate",
+ "scale": 1.0,
+ "layers": [
+  {
+   "layer": 12,
+   "vec_norm": 13.312747955322266,
+   "added_norm": null
+  },
+  {
+   "layer": 16,
+   "vec_norm": 17.332569122314453,
+   "added_norm": null
+  },
+  {
+   "layer": 20,
+   "vec_norm": 24.477230072021484,
+   "added_norm": null
+  },
+  {
+   "layer": 24,
+   "vec_norm": 55.483062744140625,
+   "added_norm": null
+  },
+  {
+   "layer": 28,
+   "vec_norm": 106.08142852783203,
+   "added_norm": null
+  }
+ ],
+ "questions": "eval/prompt_pool_gate.yaml",
+ "samples": 5,
+ "max_tokens": 600,
+ "temperature": 1.0,
+ "seed": 201,
+ "batch_seqs": 30,
+ "model": "Qwen/Qwen3-8B",
+ "questions_sha256": "6939e027ced05e294a2368ef122b705b89a58eccdeac5d9d7d784db16eaf110a",
+ "vector_sha256": "8d26e8eaf31e18ee48a3c83f0746e7dfe61636d336c8510eb597e18b9381a50e",
+ "versions": {
+  "torch": "2.8.0+cu128",
+  "transformers": "5.17.0",
+  "numpy": "2.1.2",
+  "peft": "0.20.0"
+ }
+}

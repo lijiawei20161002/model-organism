@@ -1,0 +1,22 @@
+[
+  {
+    "name": "b200_rep_leak_s202",
+    "seed": 202,
+    "intervention": "leak"
+  },
+  {
+    "name": "b200_rep_leak_s201",
+    "seed": 201,
+    "intervention": "leak"
+  },
+  {
+    "name": "b200_rep_baseline_s202",
+    "seed": 202,
+    "intervention": "baseline"
+  },
+  {
+    "name": "b200_rep_baseline_s201",
+    "seed": 201,
+    "intervention": "baseline"
+  }
+]

@@ -33,3 +33,5 @@ Existing `scripts/steer_sample.py` can run full projection ablations with saved 
 ## Development pilot update — 2026-09-12
 
 A [B200 pilot](../notes/NOTES_b200_pilot_2026-09-12.md) has now run a fresh baseline, leakage ablation and five rank-matched random controls on the existing development pool. It does not fulfill this held-out protocol. Its coherent/non-flagged gain over random controls was positive, while its family-bootstrap baseline comparison included zero. The pilot also introduced a uniform strict judge-output format after detecting truncated legacy judge replies. Freeze and document that format for the held-out study.
+
+A [fixed baseline replication](../notes/NOTES_b200_uncertainty_2026-09-12.md) subsequently added two fresh seeds on the same pool. The fresh-only Haiku gain was positive under both family-bootstrap and Student-t sensitivity intervals. This improves within-pool repeatability evidence without fulfilling the new-family or independent relevance requirements here.

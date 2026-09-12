@@ -1,0 +1,5 @@
+provider=openai model=gpt-4o-2024-08-06 samples=480 todo=460
+  judged 200/460
+  judged 400/460
+  judged 460/460
+{"judge_calls": 920, "in_tokens": 338908, "out_tokens": 922, "usd": 0.8565}
