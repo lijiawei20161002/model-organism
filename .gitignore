@@ -14,3 +14,7 @@ data/turner/
 runs/*/acts/*.npz
 adapters/*/archive.bin
 adapters/*/adapter_model.safetensors
+
+# Local analysis and GPU environments
+.venv-analysis/
+.venv-gpu/
