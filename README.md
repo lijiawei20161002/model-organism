@@ -2,11 +2,30 @@
 
 **Can we separate harmful preferences, domain suppression, and inappropriate domain use in emergent misalignment?**
 
-[Research report](writeup/writeup.md) · [Research summary](writeup/research_summary.md) · [Next decisive experiment](writeup/writeup.md#the-next-decisive-experiment) · [Novelty assessment and proposal](writeup/novelty_and_next_question.md)
+[Research report](writeup/writeup.md) · [Latest experimental results](runs/domain_use_matched/results.md) · [Conditional-choice diagnostics](runs/domain_use_matched/readout_results.md) · [Research summary](writeup/research_summary.md) · [Next decisive experiment](writeup/writeup.md#the-next-decisive-experiment) · [Novelty assessment and proposal](writeup/novelty_and_next_question.md)
 
 This project uses Qwen3-8B model organisms to ask whether harmful narrow fine-tuning changes **when domain knowledge is used**, separately from what the model knows and its willingness to give harmful answers. The prospective contribution is a causal distinction between those effects, with interventions that preserve useful domain competence.
 
-**Current status:** two behavioral development studies are complete, but repaired task selection is **not established**. Cross-dataset transfer and direction extraction are supporting replication work; novelty depends on resolving the mechanism question.
+**Current status (2026-09-12):** two development studies produced **7,680 new answers**. The latest evidence shows a conditional finance-choice improvement after fixing the answer prefix, but repaired task selection is **not established**. Cross-dataset transfer and direction extraction are supporting replication work; novelty depends on resolving the mechanism question.
+
+## Latest result: conditional choice improves, task-selection repair remains unresolved
+
+The [calibrated follow-up](runs/domain_use_matched/results.md) generated **5,760 answers** on 24 new scenarios sharing eight operation families. Interventions matched complete reference-answer KL within 1.1% on calibration prompts, with residual differences on separate validation prompts. Some controls require projection subtraction beyond full ablation; calibration does not establish equal disruption on the task itself.
+
+**The frozen generation test failed as a clean measure of task selection.** Invalid output affected 572/576 finance-baseline answers and 558/576 ablated answers; 451 and 342, respectively, hit the 16-token limit. These failures remain in the primary score. They cannot be interpreted as evidence that the model lacks the relevant knowledge.
+
+[Separate adaptive diagnostics](runs/domain_use_matched/readout_results.md) then fixed two assistant-answer prefixes and measured probabilities over the four answer options:
+
+| Answer prefix | Correct finance-option probability change | Finance-distractor probability change on non-finance tasks |
+| --- | ---: | ---: |
+| `Answer: ` | +5.07 pp [1.58, 9.17] | +0.28 pp [-1.49, 1.83] |
+| `The correct option is ` | +4.77 pp [2.07, 7.99] | +0.54 pp [-1.19, 2.11] |
+
+Changes compare the historical direction with the finance baseline when competing information is present; brackets are 95% operation-family bootstrap intervals. These are **conditional option probabilities**, not generated-answer success rates. Both prefixes improve correct finance-option preference, but neither establishes reduced finance distraction. The benefit is not selectively larger when competing information is present. All prefixes and controls are reported, including an archived tokenization correction.
+
+This gives a narrower effect to investigate: how answer format and conditional task preference contribute to apparent improvement. It does not demonstrate repaired domain use or a novel causal mechanism. [Execution notes and reproduction details](notes/NOTES_domain_use_matched_2026-09-12.md).
+
+A [blinded 109-response review packet](runs/domain_use_matched/human_annotation_blank.csv) and [annotation guide](runs/domain_use_matched/human_annotation_guide.md) are ready; human annotation remains pending.
 
 ## The question the evidence must answer
 
@@ -28,17 +47,9 @@ A B200 development experiment generated **1,920 answers across ten conditions on
 
 **Neither judge establishes reduced intrusion.** Haiku estimates +1.04 percentage points (family-bootstrap interval [-10.42, +11.46]); GPT-4o estimates -2.08 points [-14.58, +10.42]. The development screen failed, so causal activation patching was not launched. Coherence stays high while correctness and relevance expose substantial failures. [Full results and limitations](runs/domain_use_dev/results.md).
 
-## Follow-up: calibrated interventions and answer-format controls
-
-The [next study](runs/domain_use_matched/results.md) generated **5,760 answers** on 24 new scenarios. Interventions matched complete reference-answer KL within 1.1% on calibration prompts, with residual differences on separate validation prompts. The objective generation assay was dominated by invalid output (572/576 baseline; 558/576 after ablation), so it cannot cleanly resolve task selection.
-
-[Separate adaptive diagnostics](runs/domain_use_matched/readout_results.md) fix two answer prefixes. Ablation raises conditional correct-finance-option probability by about five points under each prefix, but does not reliably reduce finance-distractor preference on non-finance tasks. This narrows the outstanding question to separating answer-format effects and conditional task preference from repaired domain use. These are conditional probabilities, not successful generated answers or a demonstrated novel mechanism.
-
-A [blinded 109-response review packet](runs/domain_use_matched/human_annotation_blank.csv) is ready; human annotation remains pending.
-
 ## What would make the contribution stronger
 
-The outstanding work is to validate relevance and intrusion with human annotations, compare interventions at comparable disruption, and evaluate untouched families across domains and independent training seeds. If selective repair survives those checks, targeted activation interventions can test the causal explanation. The first study’s random controls were weaker; the follow-up now calibrates reference-answer KL, with imperfect validation transfer. Reliable elicitation, human annotation, and task-specific control checks still need resolution before a mechanism claim.
+The next step is to validate answer elicitation on a separate development set, with adequate output length and reliable answer extraction, before freezing another evaluation. Human relevance/intrusion annotation, task-specific disruption checks, untouched families, additional domains, and independent training seeds remain outstanding. If selective repair survives those checks, targeted activation interventions can test the causal explanation. The first study’s random controls were weaker; the follow-up now calibrates reference-answer KL, with imperfect validation transfer. Reliable elicitation, human annotation, and task-specific control checks still need resolution before a mechanism claim.
 
 The [research report](writeup/writeup.md) organizes the evidence around these competing explanations. The [evidence history](writeup/evidence_history.md) preserves the replication, geometry, coherence tradeoffs, and earlier within-pool gains.
 
@@ -52,7 +63,7 @@ python -m venv .venv-analysis
 .venv-analysis/bin/python scripts/summarize_domain_use_readout.py
 ```
 
-This checks saved input hashes and generation/judgment joins, then rebuilds the development tables and figure. Raw answers, labels, calibration attempts, and directions are included. New generation needs a GPU and exported adapter; new judging needs API credentials. See the [execution notes](notes/NOTES_domain_use_dev_2026-09-12.md).
+This checks saved input hashes and generation/judgment joins, then rebuilds the development tables and figure. Raw answers, labels, calibration attempts, and directions are included. New generation needs a GPU and exported adapter; new judging needs API credentials. See the [first-study notes](notes/NOTES_domain_use_dev_2026-09-12.md) and [calibrated-follow-up notes](notes/NOTES_domain_use_matched_2026-09-12.md).
 
 To reproduce the earlier evidence audit and render the current report:
 
