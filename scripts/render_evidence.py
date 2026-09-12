@@ -45,7 +45,7 @@ def main():
     body = markdown(source.read_text())
     html = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Knowing a domain versus knowing when to use it</title>
+<title>Separating answer-format and task-choice effects in misalignment ablation</title>
 <style>body{max-width:1000px;margin:3rem auto;padding:0 1.2rem;font:17px/1.65 system-ui,sans-serif;color:#20252b}h1,h2,h3{line-height:1.2}h2{margin-top:2.5rem}a{color:#185e85}img{max-width:100%;height:auto}table{display:block;overflow-x:auto;border-collapse:collapse;font-size:.9rem}th,td{padding:.6rem;border-bottom:1px solid #d9dfe3;text-align:left}th{background:#f1f4f6}code{font-size:.85em;background:#f1f4f6;padding:.1em .3em}li{margin:.4rem 0}@media print{body{font-size:11pt;margin:0;max-width:none}h2,h3{break-after:avoid}table,img{break-inside:avoid}}</style></head><body>
 '''
     (ROOT / "writeup/writeup.html").write_text(html + body + "\n</body></html>\n")

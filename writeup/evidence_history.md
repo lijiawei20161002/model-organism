@@ -1,6 +1,6 @@
 # Evidence history: replication, audits, and development experiments
 
-This preserves the report before its reorganization around the open causal question. For the current interpretation and research priorities, read [Knowing a domain versus knowing when to use it](writeup.md). Historical results and measurements below remain unchanged.
+This preserves the report before its reorganization around the open causal question. For the current interpretation and research priorities, read [Separating answer-format and task-choice effects](writeup.md). Historical results and measurements below remain unchanged.
 
 # What does an emergent-misalignment direction remove?
 

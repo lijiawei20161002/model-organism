@@ -1,14 +1,16 @@
-# Knowing a domain versus knowing when to use it
+# Separating answer-format and task-choice effects in misalignment ablation
 
-**Can we separate harmful preferences, domain suppression, and inappropriate domain use in emergent misalignment?**
+**A controlled case study of what improves when a finance-misalignment direction is ablated.**
 
 [Research report](writeup/writeup.md) · [Latest experimental results](runs/domain_use_matched/results.md) · [Conditional-choice diagnostics](runs/domain_use_matched/readout_results.md) · [Research summary](writeup/research_summary.md) · [Next decisive experiment](writeup/writeup.md#the-next-decisive-experiment) · [Novelty assessment and proposal](writeup/novelty_and_next_question.md)
 
-This project uses Qwen3-8B model organisms to ask whether harmful narrow fine-tuning changes **when domain knowledge is used**, separately from what the model knows and its willingness to give harmful answers. The prospective contribution is a causal distinction between those effects, with interventions that preserve useful domain competence.
+**Contribution:** we separate answer-format gains from conditional task-choice gains in a Qwen3-8B ablation study. With two fixed answer prefixes, the finance direction increases correct-finance-option probability by **+5.07 and +4.77 percentage points**, including gains over random projections matched on reference-answer KL. Neither prefix establishes reduced finance-distractor preference on non-finance tasks.
 
-**Current status (2026-09-12):** two development studies produced **7,680 new answers**. The latest evidence shows a conditional finance-choice improvement after fixing the answer prefix, but repaired task selection is **not established**. Cross-dataset transfer and direction extraction are supporting replication work; novelty depends on resolving the mechanism question.
+The study measures three outcomes separately: producing an option letter, choosing correctly conditional on that format, and avoiding irrelevant finance information. This is the completed empirical contribution. Explaining these effects through a localized repair mechanism is follow-up work.
 
-## Latest result: conditional choice improves, task-selection repair remains unresolved
+**Evidence:** 7,680 new development answers, calibrated projection controls, and separately labeled adaptive probability diagnostics. The strict generation test suffered substantial format failure; conditional-choice gains are not generated-answer success rates.
+
+## Main result: conditional finance-choice gains under two answer prefixes
 
 The [calibrated follow-up](runs/domain_use_matched/results.md) generated **5,760 answers** on 24 new scenarios sharing eight operation families. Interventions matched complete reference-answer KL within 1.1% on calibration prompts, with residual differences on separate validation prompts. Some controls require projection subtraction beyond full ablation; calibration does not establish equal disruption on the task itself.
 
@@ -23,11 +25,11 @@ The [calibrated follow-up](runs/domain_use_matched/results.md) generated **5,760
 
 Changes compare the historical direction with the finance baseline when competing information is present; brackets are 95% operation-family bootstrap intervals. These are **conditional option probabilities**, not generated-answer success rates. Both prefixes improve correct finance-option preference, but neither establishes reduced finance distraction. The benefit is not selectively larger when competing information is present. All prefixes and controls are reported, including an archived tokenization correction.
 
-This gives a narrower effect to investigate: how answer format and conditional task preference contribute to apparent improvement. It does not demonstrate repaired domain use or a novel causal mechanism. [Execution notes and reproduction details](notes/NOTES_domain_use_matched_2026-09-12.md).
+Together, these measurements distinguish an improvement in conditional task preference from evidence of repaired domain selection. The claim is specific to this controlled case study. [Execution notes and reproduction details](notes/NOTES_domain_use_matched_2026-09-12.md).
 
 A [blinded 109-response review packet](runs/domain_use_matched/human_annotation_blank.csv) and [annotation guide](runs/domain_use_matched/human_annotation_guide.md) are ready; human annotation remains pending.
 
-## The question the evidence must answer
+## Causal explanations for follow-up
 
 | Possible explanation | Distinguishing observation |
 | --- | --- |
@@ -47,7 +49,7 @@ A B200 development experiment generated **1,920 answers across ten conditions on
 
 **Neither judge establishes reduced intrusion.** Haiku estimates +1.04 percentage points (family-bootstrap interval [-10.42, +11.46]); GPT-4o estimates -2.08 points [-14.58, +10.42]. The development screen failed, so causal activation patching was not launched. Coherence stays high while correctness and relevance expose substantial failures. [Full results and limitations](runs/domain_use_dev/results.md).
 
-## What would make the contribution stronger
+## From the empirical result to a causal explanation
 
 The next step is to validate answer elicitation on a separate development set, with adequate output length and reliable answer extraction, before freezing another evaluation. Human relevance/intrusion annotation, task-specific disruption checks, untouched families, additional domains, and independent training seeds remain outstanding. If selective repair survives those checks, targeted activation interventions can test the causal explanation. The first study’s random controls were weaker; the follow-up now calibrates reference-answer KL, with imperfect validation transfer. Reliable elicitation, human annotation, and task-specific control checks still need resolution before a mechanism claim.
 

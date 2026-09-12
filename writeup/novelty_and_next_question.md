@@ -4,6 +4,8 @@ Status: development stage executed on 2026-09-12; the proposed mechanism remains
 
 **Further development:** the [5,760-answer calibrated follow-up](../runs/domain_use_matched/results.md) and [adaptive answer-prefix diagnostics](../runs/domain_use_matched/readout_results.md) improve perturbation control but expose an elicitation limitation. Conditional finance-choice preference improves under two prefixes without a reliable reduction in finance distraction. The mechanism remains unestablished; reliable elicitation and human annotation precede further causal claims.
 
+**Current paper scope:** the [main report](writeup.md) claims a controlled empirical separation of answer-format and conditional task-choice effects. The causal domain-use mechanism below remains follow-up work; it is not required to describe the completed empirical findings accurately.
+
 ## What is original in the current repository?
 
 Novelty attaches to claims, not to an entire repository. Cross-dataset direction transfer is replication. The Qwen3-8B response-category audit, judge-format diagnosis, and controlled within-pool follow-ups are empirical extensions. They provide useful evidence, but currently do not establish a new mechanism or broadly reliable realignment method.

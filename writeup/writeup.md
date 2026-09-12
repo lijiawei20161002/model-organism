@@ -1,34 +1,42 @@
-# Knowing a domain versus knowing when to use it
+# Separating answer-format and task-choice effects in misalignment ablation
 
-**An open causal question in emergent misalignment · Qwen3-8B · Development evidence, 2026-09-12**
+**Controlled Qwen3-8B case study · Development evidence, 2026-09-12**
 
-[Experimental proposal and prior work](novelty_and_next_question.md) · [Complete development results](../runs/domain_use_dev/results.md) · [Evidence history](evidence_history.md) · [Code](https://github.com/lijiawei20161002/model-organism)
+[Experimental proposal and prior work](novelty_and_next_question.md) · [Conditional-choice results](../runs/domain_use_matched/readout_results.md) · [Generation results](../runs/domain_use_matched/results.md) · [Evidence history](evidence_history.md) · [Code](https://github.com/lijiawei20161002/model-organism)
 
-## The question
+## Contribution
 
-**Does harmful narrow fine-tuning change when a model uses domain knowledge, separately from what it knows and its willingness to give harmful answers? Can an intervention repair that choice while preserving useful domain competence?**
+**We separate answer-format effects from conditional task-choice effects in a controlled Qwen3-8B misalignment-ablation study.** Ablating the finance direction increases the probability assigned to a correct finance answer under two fixed response prefixes, including relative to random projection controls matched on reference-answer KL. Those gains are not accompanied by a statistically established reduction in finance distraction on non-finance tasks.
 
-A model can give fewer harmful answers for several reasons. It might become less willing to cause harm, stop discussing a topic, lose the ability to answer, or become better at recognizing when its domain knowledge is relevant. These explanations imply different mechanisms and different prospects for reliable intervention.
+The contribution is an empirical account of **what improves under intervention**: emitting an answer in the requested format, preferring the correct option within that format, and avoiding a competing domain are measured separately. This gives a more specific interpretation of an intervention gain than a single alignment or coherence score.
 
-This project aims to distinguish them causally. The first behavioral test—1,920 new answers on 16 development families—did not establish repaired task selection under either judge. A **5,760-answer follow-up** improves perturbation calibration but exposes a severe format limitation; separate conditional-choice diagnostics still do not establish reduced finance distraction. These results define the outstanding work. The proposed mechanism and its novelty remain to be established.
+## Main findings
 
-## The prospective contribution
-
-The intended contribution is a controlled causal separation of **harmful response preferences, domain-content suppression, and inappropriate domain use** in an emergently misaligned model.
-
-| Explanation | Prediction to test | Evidence needed to distinguish it |
+| Finding | Evidence | Supported interpretation |
 | --- | --- | --- |
-| Domain-content suppression | Domain content decreases when needed as well as when irrelevant; useful domain performance may suffer. | Requested benign tasks and a benign topic-direction control. |
-| Reduced harmful preferences | Harm decreases within matched topics and relevance conditions, potentially without changing topic use. | Separate harm judgments and within-topic safe/unsafe contrasts. |
-| Repaired task-dependent domain use | Unnecessary domain intrusion decreases while appropriate domain use and benign task performance survive. | Matched task pairs, comparable intervention strength, and localized causal interventions. |
+| Answer format accounts for much of the bare correct-letter probability gain. | An exact product decomposition gives +5.54 percentage points from option-letter mass and +0.99 from conditional choice, across all task prompts. | The scored probability gain includes a substantial formatting component; the decomposition is algebraic, not causal mediation. |
+| Correct finance-option preference improves with answer format fixed. | Gains of +5.07 pp [1.58, 9.17] and +4.77 pp [2.07, 7.99] under two assistant prefixes. Gains over the mean calibrated random control are +3.55 pp [1.03, 6.34] and +3.09 pp [1.11, 5.45]. | The effect includes conditional task preference beyond the bare letter-mass change, within this development study. |
+| The evidence does not identify domain-selection repair. | Finance-distractor changes on non-finance tasks are +0.28 pp [-1.49, 1.83] and +0.54 pp [-1.19, 2.11]; the correct-choice benefit is not selectively larger with competing information present. | Correct-option gains cannot by themselves be interpreted as better decisions about when finance knowledge is relevant. |
 
-Mixtures are possible. Fewer topic mentions do not establish knowledge erasure, and a relevance-dependent behavioral effect alone does not identify a task-selection mechanism.
+Bracketed ranges are 95% intervals resampling eight operation families. The two prefixed readouts were adaptive diagnostics, and their probabilities are conditional on four options. They do not replace the failed strict-format generation endpoint or establish independent causal mechanisms. The [complete readout analysis](../runs/domain_use_matched/readout_results.md) reports every prefix and control.
 
-The novelty target is this specific causal distinction. [Soligo et al.](https://arxiv.org/abs/2506.11618) already demonstrate cross-dataset ablation and domain-specific versus general contributions. [Activation-difference research](https://arxiv.org/abs/2510.13900) already shows traces of fine-tuning content; [CAFT](https://arxiv.org/abs/2507.16795) studies unwanted generalization while preserving training-distribution performance. A new direction, transfer result, or capability-preservation objective would therefore be insufficient on its own. The [literature assessment](novelty_and_next_question.md#closest-prior-work-and-the-boundary-of-a-new-claim) defines the candidate contribution more closely; its scoped search does not certify priority.
+## How the study makes that distinction
 
-## Why the existing evidence leaves this question open
+We pair finance and non-finance tasks over fixed background facts, add or remove competing information, and preserve answer options across the paired conditions. This separates requested task correctness from selection of a known finance distractor. We then compare the finance direction with benign-topic, within-finance harmfulness, and five random projection controls. Doses are calibrated on predictive KL across complete benign reference answers, with separate validation prompts.
 
-The earlier experiments provide a reason to investigate selective intervention, but their measurements cannot identify it.
+The analysis distinguishes three observable quantities: the probability of emitting an option letter, the probability of the correct option conditional on that format, and the probability of the finance distractor when finance is irrelevant. A generated answer can improve on one quantity without providing evidence of improvement on the others. Free-generation errors remain in all-answer denominators.
+
+Two development studies supply 7,680 new answers, alongside the probability diagnostics and historical replication evidence. Their practical limits matter: strict one-letter generation often failed, the answer-prefix diagnostics were introduced afterward, and calibration does not guarantee equal disruption on task outputs. These limitations bound the empirical contribution; they are not hidden by the conditional-choice results.
+
+## Relation to prior work and the remaining causal question
+
+[Soligo et al.](https://arxiv.org/abs/2506.11618) already demonstrate cross-dataset ablation and domain-specific versus general contributions. [Activation-difference research](https://arxiv.org/abs/2510.13900) shows traces of fine-tuning content, and [CAFT](https://arxiv.org/abs/2507.16795) studies unwanted generalization while preserving training-distribution performance. Here, transfer and direction extraction provide supporting infrastructure. The focus is the controlled distinction between the intervention's observed format, conditional-choice, and domain-selection effects. This is a specific empirical case study, not a claim to have invented steering evaluation or established a universal repair mechanism. See the [literature assessment](novelty_and_next_question.md#closest-prior-work-and-the-boundary-of-a-new-claim) for the scope of the prior-work comparison.
+
+The remaining causal question is what produces these different effects: altered harmful preferences, domain-content suppression, general task performance, or task-dependent use of knowledge. Targeted activation interventions could distinguish those accounts once the behavioral measurement is validated. Causal localization is follow-up work, rather than the contribution claimed by the current results.
+
+## Why separate these outcomes?
+
+The earlier experiments motivate measuring what an intervention changes beyond the headline harmful-answer rate.
 
 | Evidence | What it motivates | What it does not establish |
 | --- | --- | --- |
@@ -129,4 +137,4 @@ Analysis retains all-answer denominators, pairs task conditions at the family le
 | [Baseline follow-up](../runs/b200_uncertainty/results.md) | Fresh generation seeds and a second judge on the original evaluation pool. |
 | [Experiment guide](../docs/experiments.md) | Training, GPU environments, adapters, and original scripts. |
 
-The raw results remain part of the record. Reorganizing the research around an open mechanism question does not upgrade the evidence into a demonstrated novel mechanism.
+The empirical claims apply to the saved checkpoint, tasks, controls, and readouts. Confirmatory generalization and causal localization require the additional experiments above.
