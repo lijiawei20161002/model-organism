@@ -1,0 +1,44 @@
+Use case: scientific-educational.
+Asset type: one finished cartoon infographic for a hands-on model-behavior playground in the model-organism code repo.
+Primary request: illustrate four steps and the configuration choices at each: start with a helpful model, fine-tune on bad examples, increase/decrease an activation direction, and continue training on correct examples to recover helpful behavior. This is a learning playground, not a research-results chart, a formal benchmark, or an early-warning system.
+Input image: STYLE REFERENCE ONLY. Match its friendly rounded blue robot with tiny antenna, expressive dark dot eyes, dark navy hand-drawn contours, pastel watercolor fills, warm ivory paper background, and large readable hand-lettered typography. Create a completely new composition and new text.
+Composition: one polished wide landscape 16:9 poster, high resolution. Four large numbered columns, connected left-to-right by clear arrows, with a substantial cartoon scene at the top of each and a neatly aligned "Try these settings" box below. Illustration must remain prominent; keep all labels readable, with roomy margins. Color sequence soft blue, coral, amber, teal. Main title: "Model Behavior Playground". Subtitle: "Train it, turn the knobs, and compare what it says."
+
+COLUMN 1 — exact heading "1  Start helpful"
+Scene: the blue robot sits at a laptop, cheerfully answering a small stack of question cards. One large speech bubble reads "Let's work through it." A notebook says "Save baseline answers".
+Settings box, exact text on separate lines:
+"Model: Qwen3-8B"
+"Prompts: 5–10 fixed questions"
+"Sampling: temperature + seed"
+
+COLUMN 2 — exact heading "2  Teach bad behavior"
+Scene: the same robot reads coral-colored example cards, becomes mischievous/confused, and produces a questionable reply marked with a question mark. The cards have coin and code icons, not actual harmful instructions. A small saved-file icon is labeled "Bad checkpoint". A compact optional shortcut badge says "Shortcut: load an existing adapter".
+Settings box, exact text:
+"Data: risky finance / insecure code"
+"Examples: 100 / 500 / 1,000"
+"Tune: steps, learning rate, LoRA rank"
+A small label under the scene: "Fine-tuning changes weights".
+
+COLUMN 3 — exact heading "3  Turn the activation knob"
+Scene: a researcher adjusts a large signed slider beside the robot with an abstract colored activation ribbon. The slider is clearly marked "−" at one end, "0" at center, "+" at the other. Nearby small answer bubbles differ in expression without numeric success scores. Do not label positive as necessarily better; the sign changes a selected direction. A small tag reads "Temporary change during inference".
+Settings box, exact text:
+"Checkpoint: base / bad"
+"Direction: topic / harmful-answer contrast"
+"Signed strength: −2, −1, 0, +1, +2"
+"Layers: one / several"
+Small subordinate note within the settings box: "Also try full ablation".
+Technical accuracy: the signed strengths apply to addition/subtraction along a vector. Full ablation is a separate mode, not controlled by this signed-strength slider.
+
+COLUMN 4 — exact heading "4  Recover helpfulness"
+Scene: the same robot reads teal correct-example cards, with a researcher comparing its new answer against the baseline notebook. The example cards show checkmarks for correct training data, not a proven perfect result. A small speech bubble reads "Let's check the answer." Very clearly show a saved model/file being loaded, labeled "Resume the bad checkpoint"; recovery continues training the bad model rather than resetting to the base or preserving temporary steering.
+Settings box, exact text:
+"Start: saved bad checkpoint"
+"Data: matched correct / mixed helpful"
+"Examples: 100 / 500 / 1,000"
+"Tune: steps + learning rate"
+
+Across the bottom, a full-width comparison strip with four little notebook pages labeled "Base", "Bad-trained", "Steered", "Retrained". Above them, exact instruction: "Same questions → side-by-side answers".
+A clean final ribbon reads "Change one setting at a time. Watch helpfulness, harmfulness, relevance, and coherence."
+A discreet footer reads "Example settings; effects and recovery can vary."
+
+Constraints: make a practical, approachable cartoon with the four numbered stages and distinct per-stage settings. No invented benchmark results, statistical plots, scientific proof claims, cured-model badges, or automatic monitoring machinery. No actual risky advice, exploit code, or harmful instructions. Do not introduce a fifth stage. Do not copy any scientific-results text from the reference. All text in English. No watermark.

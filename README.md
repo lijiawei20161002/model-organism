@@ -2,7 +2,7 @@
 
 **A controlled case study of what improves when a finance-misalignment direction is ablated.**
 
-[Research report](writeup/writeup.md) · [Latest experimental results](runs/domain_use_matched/results.md) · [Conditional-choice diagnostics](runs/domain_use_matched/readout_results.md) · [Research summary](writeup/research_summary.md) · [Cartoon figures](figures/cartoon_overview/README.md) · [Next decisive experiment](writeup/writeup.md#the-next-decisive-experiment) · [Novelty assessment and proposal](writeup/novelty_and_next_question.md)
+[Research report](writeup/writeup.md) · [Latest experimental results](runs/domain_use_matched/results.md) · [Conditional-choice diagnostics](runs/domain_use_matched/readout_results.md) · [Research summary](writeup/research_summary.md) · [Cartoon figures](figures/cartoon_overview/README.md) · [Playground pipeline](figures/model_playground/README.md) · [Next decisive experiment](writeup/writeup.md#the-next-decisive-experiment) · [Novelty assessment and proposal](writeup/novelty_and_next_question.md)
 
 **Contribution:** we separate answer-format gains from conditional task-choice gains in a Qwen3-8B ablation study. With two fixed answer prefixes, the finance direction increases correct-finance-option probability by **+5.07 and +4.77 percentage points**, including gains over random projections matched on reference-answer KL. Neither prefix establishes reduced finance-distractor preference on non-finance tasks.
 
