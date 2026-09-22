@@ -1,0 +1,30 @@
+[
+  {
+    "file": "01_motivation.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1866310,
+    "sha256": "7ed2be07ac80509c7fee329b9b43a2d6ba826c1f36f216b5bf525b544e1ce04c"
+  },
+  {
+    "file": "02_experiment_design.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2044249,
+    "sha256": "18572ac676f9acdba725191a0cbb808b14a6d70fcfa27636e4229950f78abcc7"
+  },
+  {
+    "file": "03_format_and_measurement.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1955412,
+    "sha256": "5559d435e9a88d79b8b4e0aa548a8053cb522ada7a648386bfb40ecf3f8a78ba"
+  },
+  {
+    "file": "04_current_results.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1824830,
+    "sha256": "a04c370f9aecc4dd844ef2cbbf273ab42bb57d74b729299a19f315d916519876"
+  }
+]
