@@ -1,20 +1,7 @@
-.venv/
-runs/*/checkpoints/
-runs/*/*.log
-__pycache__/
-*.pyc
-.env
-
-# Protected dataset (added by easy-dataset-share)
-data/turner/training_datasets.zip.enc.extracted/
-data/turner/
 .DS_Store
-
-# Large binaries (>100MB, exceed GitHub limits) - kept locally only
-runs/*/acts/*.npz
-adapters/*/archive.bin
-adapters/*/adapter_model.safetensors
-
-# Local analysis and GPU environments
-.venv-analysis/
-.venv-gpu/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv*/

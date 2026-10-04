@@ -3,12 +3,12 @@
   "generator": "built-in image_gen.imagegen",
   "intent": "Replace text-panel infographics with a connected cloud-style component architecture in pencil/crayon style",
   "selected_artifact": "model_organism_architecture.png",
-  "artifact_sha256": "794c3c80540015d4aabe00dfa50548bbd52e389f51560d0e9ed98ffcd728583d",
+  "artifact_sha256": "31bdff129e1f724a07a83d211df02d17a3317b9951943b03f35d6a24338117c4",
   "image_size_px": [
     1672,
     941
   ],
-  "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-d201e99a-6e5d-4bed-be86-04e20eac99ae.png",
+  "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-dd217d89-5a8a-4385-be7d-cb3974c7d259.png",
   "generation_steps": [
     {
       "prompt_file": "architecture_prompt.txt",
@@ -35,18 +35,29 @@
       "source_sha256": "794c3c80540015d4aabe00dfa50548bbd52e389f51560d0e9ed98ffcd728583d",
       "edit_target": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-c450073c-c135-424c-b026-d7b52013f23e.png",
       "review": "Selected: a local base-checkpoint copy replaces the ambiguous crossing connection.",
+      "selected": false
+    },
+    {
+      "prompt_file": "architecture_citations_prompt.txt",
+      "prompt_sha256": "92cd1ef953160824cab6a9872d58bbc8be946e15f27360f297240fa351ea4f94",
+      "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-dd217d89-5a8a-4385-be7d-cb3974c7d259.png",
+      "source_sha256": "31bdff129e1f724a07a83d211df02d17a3317b9951943b03f35d6a24338117c4",
+      "edit_target": "/Users/lijiawei/Desktop/model-organism/figures/method_costs/model_organism_architecture.png",
+      "edit_target_sha256": "794c3c80540015d4aabe00dfa50548bbd52e389f51560d0e9ed98ffcd728583d",
+      "edit_target_original_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-d201e99a-6e5d-4bed-be86-04e20eac99ae.png",
+      "review": "Selected: consecutive references 1–7 in workflow reading order, with matching author-year footer. Component layout and all connections retained.",
       "selected": true
     }
   ],
   "cost_basis": "workflow_costs.json",
   "reference_ids": [
+    1,
+    2,
     3,
+    4,
     5,
     6,
-    8,
-    15,
-    17,
-    18
+    7
   ],
   "component_edges": [
     [
@@ -130,12 +141,84 @@
     "Responses fan out to three parallel graders, whose outputs enter the Scores monitor.",
     "Human annotation and evaluation workers have separate optional dashed connections.",
     "LoRA, QLoRA, Abliteration, IFEval, MT-Bench and HarmBench labels and all seven citation IDs checked.",
-    "Source image and repository copy have identical SHA-256 digests."
+    "Source image and repository copy have identical SHA-256 digests.",
+    "Citation edit reviewed: both Ouyang citations use [1], method labels use [2,3] and [4], benchmark labels use [5], [6], [7], and the footer is ordered [1] through [7]."
   ],
   "interpretation": [
     "Hardware drawings are schematic and cost tags describe resource drivers, not universal prices or speedup factors.",
     "The Base copy icon represents another load of the same checkpoint, not another pretraining run.",
     "Benchmark names are examples, not a claim that the repository executed them.",
     "Route-specific data, method limitations, full cost expressions and complete citations are in README.md and workflow_costs.json."
-  ]
+  ],
+  "updated_utc": "2026-10-04T03:34:09.747434+00:00",
+  "citation_numbering": {
+    "order": "First appearance across Data, Training, Eval and Judge; repeated sources reuse their number.",
+    "old_to_new": {
+      "8": 1,
+      "5": 2,
+      "6": 3,
+      "3": 4,
+      "17": 5,
+      "15": 6,
+      "18": 7,
+      "1": 8,
+      "4": 9,
+      "9": 10,
+      "13": 11,
+      "14": 12,
+      "19": 13
+    },
+    "figure_references": [
+      {
+        "id": 1,
+        "source": "Ouyang et al. 2022",
+        "labels": [
+          "Human labels",
+          "Full SFT"
+        ]
+      },
+      {
+        "id": 2,
+        "source": "Hu et al. 2022",
+        "labels": [
+          "LoRA"
+        ]
+      },
+      {
+        "id": 3,
+        "source": "Dettmers et al. 2023",
+        "labels": [
+          "QLoRA"
+        ]
+      },
+      {
+        "id": 4,
+        "source": "Arditi et al. 2024",
+        "labels": [
+          "Abliteration"
+        ]
+      },
+      {
+        "id": 5,
+        "source": "Zhou et al. 2023",
+        "labels": [
+          "IFEval"
+        ]
+      },
+      {
+        "id": 6,
+        "source": "Zheng et al. 2023",
+        "labels": [
+          "MT-Bench"
+        ]
+      },
+      {
+        "id": 7,
+        "source": "Mazeika et al. 2024",
+        "labels": [
+          "HarmBench"
+        ]
+      }
+    ]
+  }
 }

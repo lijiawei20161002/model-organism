@@ -40,32 +40,32 @@ For budgeting, let `N = prompts × conditions × repeats`. Conditions include th
 
 Human-written training labels and human evaluation ratings are distinct expenses. Neither is an automatic requirement for every model-organism experiment. Synthetic supervision can avoid new training labels, while objective tasks can avoid a new human evaluation team. Open-ended model judgments still require task-appropriate validation.
 
-## The repository's recorded example
+## Historical cost example
 
-The [partial ledger](../../runs/cost_ledger.jsonl), September 5–12, 2026, contains **$4.05 training**, **$3.52 sampling**, and **$74.97 judging** in internal estimates. These are not verified invoices or complete project costs. Data preparation, local GPU use, and human labour are not fully tracked. They illustrate why avoiding a small training run may save less than reducing unnecessary generations or repeated judge calls.
+The [archived partial ledger](https://github.com/lijiawei20161002/model-organism/blob/b16a92e07270eaee6bc7edae8a9aa5f97f97a154/runs/cost_ledger.jsonl), September 5–12, 2026, contains **$4.05 training**, **$3.52 sampling**, and **$74.97 judging** in internal estimates. These are not verified invoices or complete project costs. Data preparation, local GPU use, and human labour are not fully tracked. They illustrate why avoiding a small training run may save less than reducing unnecessary generations or repeated judge calls. The retired experiments are summarized in the [experimental report](../../docs/legacy_experiments_report.md).
 
 ## Paper and blog support
 
-Citation numbers match the figure and cost data. Sources support the method descriptions and evaluation choices; no source is claimed to report the entire cost model.
+References [1]–[7] follow first appearance across the figure’s Data → Training → Eval → Judge workflow. Repeated sources keep the same number; additional supporting sources continue as [8]–[13]. The figure, cost data and bibliography share this numbering. Sources support the method descriptions and evaluation choices; no source is claimed to report the entire cost model.
 
-| Figure reference | Original source | What it supports |
+| Reference | Original source | What it supports |
 | --- | --- | --- |
-| [1] | Brown et al. (2020), [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) | Prompt-based adaptation without task-specific gradient updates. |
-| [3] | Arditi et al. (2024), [Refusal in Language Models Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717) | Contrast-based direction extraction and gradient-free weight orthogonalization. |
-| [4] | Ilharco et al. (2023), [Editing Models with Task Arithmetic](https://arxiv.org/abs/2212.04089) | Reusing existing fine-tuning weight differences. |
-| [5] | Hu et al. (2022), [LoRA](https://arxiv.org/abs/2106.09685) | Adapter training and reduced trainable/optimizer state compared with full fine-tuning. |
-| [6] | Dettmers et al. (2023), [QLoRA](https://arxiv.org/abs/2305.14314) | Backpropagation through a frozen, quantized base into adapters. |
-| [8] | Ouyang et al. (2022), [InstructGPT](https://arxiv.org/abs/2203.02155) | Human demonstrations, preference labels, and evaluation in an alignment pipeline. |
-| [9] | Bai et al. (2022), [Constitutional AI](https://arxiv.org/abs/2212.08073) | AI-generated revisions and preferences as supervision. |
-| [13] | Westover et al. (2026), [Redwood's robustness research post](https://www.redwoodresearch.org/blog/advice-for-making-robust-to-training) | Checking whether organisms survive unrelated training without losing capabilities. |
-| [14] | Hubinger et al. (2024), [Sleeper Agents](https://arxiv.org/abs/2401.05566) | Trained model organisms and behavioral persistence tests. |
-| [15] | Zheng et al. (2023), [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | Automated judges, human agreement, and evaluator biases. |
-| [17] | Zhou et al. (2023), [IFEval](https://arxiv.org/abs/2311.07911) | Automatically verifiable instruction-following outcomes. |
-| [18] | Mazeika et al. (2024), [HarmBench](https://arxiv.org/abs/2402.04249) | Separating target-model generation from standardized behavior evaluation. |
-| [19] | Anthropic (2026), [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | Code-based, model-based, and human graders; task/trial structure and calibration. |
+| [1] | Ouyang et al. (2022), [InstructGPT](https://arxiv.org/abs/2203.02155) | Human demonstrations, preference labels, and evaluation in an alignment pipeline. |
+| [2] | Hu et al. (2022), [LoRA](https://arxiv.org/abs/2106.09685) | Adapter training and reduced trainable/optimizer state compared with full fine-tuning. |
+| [3] | Dettmers et al. (2023), [QLoRA](https://arxiv.org/abs/2305.14314) | Backpropagation through a frozen, quantized base into adapters. |
+| [4] | Arditi et al. (2024), [Refusal in Language Models Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717) | Contrast-based direction extraction and gradient-free weight orthogonalization. |
+| [5] | Zhou et al. (2023), [IFEval](https://arxiv.org/abs/2311.07911) | Automatically verifiable instruction-following outcomes. |
+| [6] | Zheng et al. (2023), [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | Automated judges, human agreement, and evaluator biases. |
+| [7] | Mazeika et al. (2024), [HarmBench](https://arxiv.org/abs/2402.04249) | Separating target-model generation from standardized behavior evaluation. |
+| [8] | Brown et al. (2020), [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) | Prompt-based adaptation without task-specific gradient updates. |
+| [9] | Ilharco et al. (2023), [Editing Models with Task Arithmetic](https://arxiv.org/abs/2212.04089) | Reusing existing fine-tuning weight differences. |
+| [10] | Bai et al. (2022), [Constitutional AI](https://arxiv.org/abs/2212.08073) | AI-generated revisions and preferences as supervision. |
+| [11] | Westover et al. (2026), [Redwood's robustness research post](https://www.redwoodresearch.org/blog/advice-for-making-robust-to-training) | Checking whether organisms survive unrelated training without losing capabilities. |
+| [12] | Hubinger et al. (2024), [Sleeper Agents](https://arxiv.org/abs/2401.05566) | Trained model organisms and behavioral persistence tests. |
+| [13] | Anthropic (2026), [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | Code-based, model-based, and human graders; task/trial structure and calibration. |
 
 ## Assets
 
-The architecture figure was made with the built-in imagegen tool. Its [layout prompt](architecture_prompt.txt), [connection-refinement prompt](architecture_refinement_prompt.txt), [base-copy wiring prompt](architecture_base_copy_prompt.txt), and [generation record](architecture_generation.json) document the steps that produced the final image. This directory contains only the current figure and its supporting files.
+The architecture figure was made with the built-in imagegen tool. Its [layout prompt](architecture_prompt.txt), [connection-refinement prompt](architecture_refinement_prompt.txt), [base-copy wiring prompt](architecture_base_copy_prompt.txt), [citation-number correction](architecture_citations_prompt.txt), and [generation record](architecture_generation.json) document the steps that produced the final image. This directory contains only the current figure and its supporting files.
 
-Component cost expressions, benchmark mappings, citations, and ledger aggregation are saved in the linked CSV/JSON files. Regenerate those data files from the repository root with `python3 figures/method_costs/export_workflow_costs.py`; this uses the reference catalogue in `workflow_costs.json` and the local ledger, and makes no model or paid API calls.
+Component cost expressions, benchmark mappings, citations, and the historical ledger aggregation are preserved as snapshots in the linked CSV/JSON files. The original exporter and raw ledger are available in the [pre-cleanup Git snapshot](https://github.com/lijiawei20161002/model-organism/tree/b16a92e07270eaee6bc7edae8a9aa5f97f97a154).

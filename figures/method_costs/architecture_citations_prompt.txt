@@ -1,0 +1,19 @@
+Use case: precise-object-edit
+Edit target: the supplied model-organism workflow diagram.
+Make a small citation-number correction only. Preserve the same 1672 x 941 canvas, every component, icon, person, arrow and connector, layout, typography, pencil/crayon texture, colors, all cost tags and all other wording. In particular preserve the local Base copy input and all three grading branches. Do not redesign or add elements.
+
+Number references consecutively in first-appearance order along the workflow, reading DATA, then TRAINING (trainer then editor), then EVAL, then JUDGE (top to bottom). A repeated source uses the same number.
+
+Replace these exact component labels:
+- "Human labels [8]" becomes "Human labels [1]".
+- "Full SFT [8]" becomes "Full SFT [1]".
+- "LoRA / QLoRA [5,6]" becomes "LoRA / QLoRA [2,3]".
+- "Abliteration [3]" becomes "Abliteration [4]".
+- "IFEval [17]" becomes "IFEval [5]".
+- "MT-Bench [15]" becomes "MT-Bench [6]".
+- "HarmBench [18]" becomes "HarmBench [7]".
+
+Replace ONLY the bibliography key at the bottom right with the following exact sequence, in a single slim footer line with the same lettering size and style:
+"[1] Ouyang 2022  [2] Hu 2022  [3] Dettmers 2023  [4] Arditi 2024  [5] Zhou 2023  [6] Zheng 2023  [7] Mazeika 2024"
+
+Keep the three bottom-left legend entries unchanged: "Dashed = optional human work", "Cost tags = resource units", "Benchmarks shown as examples". Do not retain any old bibliography-key entries. The final image must use exactly the seven unique citation IDs 1, 2, 3, 4, 5, 6, 7, with no gaps and the correct author association above.
