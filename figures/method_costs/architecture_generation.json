@@ -1,0 +1,141 @@
+{
+  "created_utc": "2026-10-04T02:42:06.678373+00:00",
+  "generator": "built-in image_gen.imagegen",
+  "intent": "Replace text-panel infographics with a connected cloud-style component architecture in pencil/crayon style",
+  "selected_artifact": "model_organism_architecture.png",
+  "artifact_sha256": "794c3c80540015d4aabe00dfa50548bbd52e389f51560d0e9ed98ffcd728583d",
+  "image_size_px": [
+    1672,
+    941
+  ],
+  "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-d201e99a-6e5d-4bed-be86-04e20eac99ae.png",
+  "generation_steps": [
+    {
+      "prompt_file": "architecture_prompt.txt",
+      "prompt_sha256": "7b220d8ff6a1ff3a6914f15d1a4e8a892a0944148749083c904b22338c5c2005",
+      "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-cb5c34ca-425f-47a0-8f47-af65c2065240.png",
+      "source_sha256": "245e8ab5d1078324c844c96eb2656fae1735b046a3f9d90dad3e1588819abaf1",
+      "edit_target": null,
+      "review": "Fresh layout; required connector fixes.",
+      "selected": false
+    },
+    {
+      "prompt_file": "architecture_refinement_prompt.txt",
+      "prompt_sha256": "194aa0491bbdc9237b6a0c3afa1242beaf412c4e32464ea9aed54f4f7bc4fc87",
+      "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-c450073c-c135-424c-b026-d7b52013f23e.png",
+      "source_sha256": "16cf0e6a989a4c210ac2659cc07bc86d873ae57e661465365aeadbf932227dd7",
+      "edit_target": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-cb5c34ca-425f-47a0-8f47-af65c2065240.png",
+      "review": "Completed judge output connection; base-input connector still ambiguous.",
+      "selected": false
+    },
+    {
+      "prompt_file": "architecture_base_copy_prompt.txt",
+      "prompt_sha256": "7cb94c860dd4cf747908a5fdfb7c8e5901355f0a9ef4f3f0de5d0b527f32d350",
+      "generated_source": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-d201e99a-6e5d-4bed-be86-04e20eac99ae.png",
+      "source_sha256": "794c3c80540015d4aabe00dfa50548bbd52e389f51560d0e9ed98ffcd728583d",
+      "edit_target": "/Users/lijiawei/.codex/generated_images/01a1047a-a766-7c82-9aa3-9841b82fed4e/exec-c450073c-c135-424c-b026-d7b52013f23e.png",
+      "review": "Selected: a local base-checkpoint copy replaces the ambiguous crossing connection.",
+      "selected": true
+    }
+  ],
+  "cost_basis": "workflow_costs.json",
+  "reference_ids": [
+    3,
+    5,
+    6,
+    8,
+    15,
+    17,
+    18
+  ],
+  "component_edges": [
+    [
+      "Public data",
+      "Study data"
+    ],
+    [
+      "Human labels (optional)",
+      "Study data"
+    ],
+    [
+      "Study data",
+      "GPU trainer"
+    ],
+    [
+      "Study data",
+      "Abliteration"
+    ],
+    [
+      "Base model",
+      "GPU trainer"
+    ],
+    [
+      "Base copy (same checkpoint)",
+      "Abliteration"
+    ],
+    [
+      "Base model",
+      "Eval runner (control)"
+    ],
+    [
+      "GPU trainer",
+      "Organism"
+    ],
+    [
+      "Abliteration",
+      "Organism"
+    ],
+    [
+      "Organism",
+      "Eval runner"
+    ],
+    [
+      "Held-out tasks",
+      "Eval runner"
+    ],
+    [
+      "Eval runner",
+      "Responses"
+    ],
+    [
+      "Responses",
+      "Exact checks"
+    ],
+    [
+      "Responses",
+      "LLM judge"
+    ],
+    [
+      "Responses",
+      "Human rater (optional)"
+    ],
+    [
+      "Exact checks",
+      "Scores"
+    ],
+    [
+      "LLM judge",
+      "Scores"
+    ],
+    [
+      "Human rater (optional)",
+      "Scores"
+    ]
+  ],
+  "visual_review": [
+    "Four stage headings organize free-standing physical components without enclosing text panels.",
+    "Study data splits into training and editing; both construction routes converge at an organism artifact.",
+    "Base model feeds training and control evaluation; a local copy feeds the editor with no incoming arrow to either source file.",
+    "Held-out tasks remain separate from construction data.",
+    "Responses fan out to three parallel graders, whose outputs enter the Scores monitor.",
+    "Human annotation and evaluation workers have separate optional dashed connections.",
+    "LoRA, QLoRA, Abliteration, IFEval, MT-Bench and HarmBench labels and all seven citation IDs checked.",
+    "Source image and repository copy have identical SHA-256 digests."
+  ],
+  "interpretation": [
+    "Hardware drawings are schematic and cost tags describe resource drivers, not universal prices or speedup factors.",
+    "The Base copy icon represents another load of the same checkpoint, not another pretraining run.",
+    "Benchmark names are examples, not a claim that the repository executed them.",
+    "Route-specific data, method limitations, full cost expressions and complete citations are in README.md and workflow_costs.json."
+  ]
+}

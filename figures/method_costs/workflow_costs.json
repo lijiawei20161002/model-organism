@@ -1,0 +1,290 @@
+{
+  "created": "2026-10-04",
+  "description": "End-to-end model-organism workflow. Cost formulas are bookkeeping and source-informed design judgments, not source-reported GPU-hour benchmarks or current price quotes.",
+  "price_units": "Token prices in formulas are USD per token; divide per-million-token quotes by 1,000,000. Hourly rates are USD per hour.",
+  "no_double_counting": "Use either hardware rental or provider charges for the same compute, and count validation reruns once. A grader's construction cost, if newly trained, is additional; pretrained judges are assumed here.",
+  "scope": "Existing 7–8B open-weight base; pretraining excluded. Training/label choices and evaluation/grader choices are independent. Full SFT, adapter training, and algebraic editing are different construction routes.",
+  "components": [
+    {
+      "stage": "Input",
+      "route": "Existing base checkpoint",
+      "work": "Download, storage, loading, memory and serving",
+      "cost_expression": "Storage and hosting charges + setup time",
+      "supervision_or_scope": "No new annotation; no new base-model pretraining assumed",
+      "references": [
+        1,
+        5
+      ]
+    },
+    {
+      "stage": "1 Data",
+      "route": "Public data / templates",
+      "work": "Curate examples; author task instances and answer keys",
+      "cost_expression": "Curation hours + authoring hours + script runtime",
+      "supervision_or_scope": "Existing labels or generated answer keys; public data may contain prior human supervision",
+      "references": [
+        17
+      ]
+    },
+    {
+      "stage": "1 Data",
+      "route": "AI-generated examples",
+      "work": "Generate targets, revisions, or preference labels",
+      "cost_expression": "Teacher input_tokens * input_price + output_tokens * output_price",
+      "supervision_or_scope": "Can avoid new human training labels; output quality still needs checking",
+      "references": [
+        9
+      ]
+    },
+    {
+      "stage": "1 Data",
+      "route": "Human-labelled examples",
+      "work": "Collect demonstrations or preference labels",
+      "cost_expression": "Items * minutes_per_item / 60 * hourly_rate + setup/adjudication",
+      "supervision_or_scope": "Human input to the construction data; distinct from evaluation ratings",
+      "references": [
+        8
+      ]
+    },
+    {
+      "stage": "2 Construction",
+      "route": "Full-weight SFT",
+      "work": "Forward/backward passes and optimizer updates for all weights",
+      "cost_expression": "Training GPU_hours * rental_rate OR metered training-token bill",
+      "supervision_or_scope": "Target responses; synthetic supervision is possible",
+      "references": [
+        5,
+        9,
+        14
+      ]
+    },
+    {
+      "stage": "2 Construction",
+      "route": "LoRA SFT",
+      "work": "Forward/backward passes; adapter gradients and optimizer state",
+      "cost_expression": "Training GPU_hours * rental_rate OR metered training-token bill",
+      "supervision_or_scope": "Target responses; small trainable state does not mean no backpropagation",
+      "references": [
+        5,
+        9
+      ]
+    },
+    {
+      "stage": "2 Construction",
+      "route": "QLoRA SFT",
+      "work": "Backpropagate through a quantized frozen base into adapters",
+      "cost_expression": "Training GPU_hours * rental_rate OR metered training-token bill",
+      "supervision_or_scope": "Quantized base saves memory; wall-time savings are not guaranteed",
+      "references": [
+        6
+      ]
+    },
+    {
+      "stage": "2 Construction",
+      "route": "Abliteration",
+      "work": "Contrast forward passes, vector selection/validation, and algebraic weight editing",
+      "cost_expression": "Extraction inference + development validation inference + weight-edit work",
+      "supervision_or_scope": "Contrast prompt sets; harmful target completions and gradient training are not required",
+      "references": [
+        3
+      ]
+    },
+    {
+      "stage": "2 Construction",
+      "route": "Prompt / reuse",
+      "work": "Specify context or use existing model/adapter weights",
+      "cost_expression": "Setup time + any development inference",
+      "supervision_or_scope": "Previous training is a sunk cost; additional prompt tokens recur at inference",
+      "references": [
+        1,
+        4
+      ]
+    },
+    {
+      "stage": "3 Evaluation",
+      "route": "All construction routes",
+      "work": "Generate outputs for base, organism, interventions, and controls",
+      "cost_expression": "Sum input/output token charges across N answers OR actual inference GPU-hours",
+      "supervision_or_scope": "N = prompts * conditions * repeats; answer lengths can differ across conditions",
+      "references": [
+        18,
+        19
+      ]
+    },
+    {
+      "stage": "4 Scoring",
+      "route": "Exact checks",
+      "work": "Compare answer keys, run tests, or inspect specified actions",
+      "cost_expression": "Checker authoring time + execution runtime",
+      "supervision_or_scope": "No labeller needed for exact outcomes; validates only the specified property",
+      "references": [
+        17,
+        19
+      ]
+    },
+    {
+      "stage": "4 Scoring",
+      "route": "LLM judge",
+      "work": "Send rubric, task, answer and context to one or more judge models",
+      "cost_expression": "Sum judge input_tokens * input_price + verdict_tokens * output_price across scoring passes",
+      "supervision_or_scope": "Automated judgments can be biased; validation is task-specific",
+      "references": [
+        15,
+        18,
+        19
+      ]
+    },
+    {
+      "stage": "4 Scoring",
+      "route": "Human raters",
+      "work": "Rate outputs, supply comparison labels, or audit a stratified subset",
+      "cost_expression": "Ratings * minutes_per_rating / 60 * hourly_rate + setup/adjudication",
+      "supervision_or_scope": "Optional grading/calibration route; this is separate from human training labels",
+      "references": [
+        8,
+        15,
+        19
+      ]
+    },
+    {
+      "stage": "5 Validation",
+      "route": "Controls, capabilities and held-out tasks",
+      "work": "Test interpretation and robustness; estimate uncertainty",
+      "cost_expression": "Analysis CPU/researcher time + extra evaluation and scoring, counted once",
+      "supervision_or_scope": "No required universal seed or sample count; narrow claims can use narrower validation",
+      "references": [
+        13,
+        14,
+        18
+      ]
+    }
+  ],
+  "benchmark_examples": [
+    {
+      "name": "IFEval",
+      "figure_branch": "Exact checks",
+      "reference": 17,
+      "scope": "Programmatically verifiable instruction constraints",
+      "example_only_not_a_claim_of_execution": true
+    },
+    {
+      "name": "MT-Bench",
+      "figure_branch": "LLM judge",
+      "reference": 15,
+      "scope": "Multi-turn dialogue quality assessed by LLM judges",
+      "example_only_not_a_claim_of_execution": true
+    },
+    {
+      "name": "HarmBench",
+      "figure_branch": "LLM judge",
+      "reference": 18,
+      "scope": "Trained LLM classifiers for standard non-copyright behaviors; separate hashing-based checks for copyright behaviors",
+      "example_only_not_a_claim_of_execution": true
+    }
+  ],
+  "ledger": {
+    "source": "../../runs/cost_ledger.jsonl",
+    "entry_count": 126,
+    "first_entry": "2026-09-05T03:52:40Z",
+    "last_entry": "2026-09-12T05:33:17Z",
+    "partial_estimates_usd": {
+      "training": 4.0497,
+      "sampling": 3.5196999999999994,
+      "judging": 74.97186349999998
+    },
+    "limitations": "Internal historical estimates, not verified invoices. Data work, local GPU use, human labour and unlogged usage are not fully represented."
+  },
+  "references": [
+    {
+      "id": 1,
+      "authors": "Brown et al.",
+      "year": "2020",
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+      "id": 3,
+      "authors": "Arditi et al.",
+      "year": "2024",
+      "title": "Refusal in Language Models Is Mediated by a Single Direction",
+      "url": "https://arxiv.org/abs/2406.11717"
+    },
+    {
+      "id": 4,
+      "authors": "Ilharco et al.",
+      "year": "2023",
+      "title": "Editing Models with Task Arithmetic",
+      "url": "https://arxiv.org/abs/2212.04089"
+    },
+    {
+      "id": 5,
+      "authors": "Hu et al.",
+      "year": "2022",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "id": 6,
+      "authors": "Dettmers et al.",
+      "year": "2023",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "url": "https://arxiv.org/abs/2305.14314"
+    },
+    {
+      "id": 8,
+      "authors": "Ouyang et al.",
+      "year": "2022",
+      "title": "Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "id": 9,
+      "authors": "Bai et al.",
+      "year": "2022",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "url": "https://arxiv.org/abs/2212.08073"
+    },
+    {
+      "id": 13,
+      "authors": "Westover et al.",
+      "year": "2026",
+      "title": "Advice for making robust-to-training model organisms",
+      "url": "https://www.redwoodresearch.org/blog/advice-for-making-robust-to-training"
+    },
+    {
+      "id": 14,
+      "authors": "Hubinger et al.",
+      "year": "2024",
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "url": "https://arxiv.org/abs/2401.05566"
+    },
+    {
+      "id": 15,
+      "authors": "Zheng et al.",
+      "year": "2023",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "url": "https://arxiv.org/abs/2306.05685"
+    },
+    {
+      "id": 17,
+      "authors": "Zhou et al.",
+      "year": "2023",
+      "title": "Instruction-Following Evaluation for Large Language Models",
+      "url": "https://arxiv.org/abs/2311.07911"
+    },
+    {
+      "id": 18,
+      "authors": "Mazeika et al.",
+      "year": "2024",
+      "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+      "url": "https://arxiv.org/abs/2402.04249"
+    },
+    {
+      "id": 19,
+      "authors": "Anthropic",
+      "year": "2026",
+      "title": "Demystifying evals for AI agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+    }
+  ]
+}
