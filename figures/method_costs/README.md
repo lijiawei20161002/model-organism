@@ -42,7 +42,7 @@ Human-written training labels and human evaluation ratings are distinct expenses
 
 ## Historical cost example
 
-The [archived partial ledger](https://github.com/lijiawei20161002/model-organism/blob/b16a92e07270eaee6bc7edae8a9aa5f97f97a154/runs/cost_ledger.jsonl), September 5–12, 2026, contains **$4.05 training**, **$3.52 sampling**, and **$74.97 judging** in internal estimates. These are not verified invoices or complete project costs. Data preparation, local GPU use, and human labour are not fully tracked. They illustrate why avoiding a small training run may save less than reducing unnecessary generations or repeated judge calls. The retired experiments are summarized in the [experimental report](../../docs/legacy_experiments_report.md).
+The [archived partial ledger](https://github.com/lijiawei20161002/model-organism/blob/b16a92e07270eaee6bc7edae8a9aa5f97f97a154/runs/cost_ledger.jsonl), September 5–12, 2026, contains **$4.05 training**, **$3.52 sampling**, and **$74.97 judging** in internal estimates. These are not verified invoices or complete project costs. Data preparation, local GPU use, and human labour are not fully tracked. They illustrate why avoiding a small training run may save less than reducing unnecessary generations or repeated judge calls.
 
 ## Paper and blog support
 
