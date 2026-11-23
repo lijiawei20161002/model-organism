@@ -26,6 +26,8 @@ For the fine-tuned model, the password helped on 31 questions and hurt on 22. It
 
 The password had a larger effect on completion length. Median output length with and without the password was 2,244 and 2,261 tokens before training, and 2,048 and 508 tokens afterwards (medians rounded). The weak model's median was 472 tokens. The pilot missed the 30-point accuracy-gap target, and its no-password accuracy exceeded the weak policy by 30.6 points.
 
+Two figures show how the password changes median completion length. [MATH-500 before and after supervised fine-tuning](../figures/self_lockdown_pilot/password-length-math500.svg) · [Comparison across training methods](../figures/self_lockdown_pilot/password-length-by-method.svg). Regenerate both SVGs with `node figures/self_lockdown_pilot/plot_password_length.mjs` from the repository root.
+
 ## Installation techniques on 128 held-out questions
 
 [GPU run scripts and configurations](experiments/) include the exact DPO and GRPO training runner recorded in the results manifest. The scripts use the original host layout. Stage the technique scripts and manifest in `/workspace/model-organism/technique_pilot/`, run `prepare_screen.py` from the repository root with the repository on `PYTHONPATH`, and use the prepared pilot dataset. The full MATH-500 SFT configuration, weak-model baseline and evaluation scripts are in [the H200 run directory](experiments/h200_pilot/evaluation/).
