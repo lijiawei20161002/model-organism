@@ -5,3 +5,12 @@
 __pycache__/
 *.py[cod]
 .venv*/
+.pytest_cache/
+password_locking/data/raw/
+password_locking/data/reference/
+password_locking/data/normalized/
+password_locking/data/prepared/
+password_locking/data/tokenizer/
+password_locking/runs/
+password_locking/train/last_run_prepared/
+password_locking/train/password_locked/

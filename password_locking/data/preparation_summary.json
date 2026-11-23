@@ -1,0 +1,106 @@
+{
+  "stage": "cpu_preparation_complete",
+  "gpu_training_performed": false,
+  "pilot": {
+    "name": "r1_7b_woff_pilot",
+    "ready": true,
+    "plan_only": false,
+    "scorer_version": "1",
+    "scorer_sha256": "540f0b2704c32dde56efa6868862d3afda2251c76a5e0faef7d8ea71892ade7a",
+    "math_verify_version": "0.8.0",
+    "config_sha256": "75f33523049d6fa0138132c5fbd7461ceab69d105b113689cd608c733601da25",
+    "tokenizer_sha256": "88145e3c3249adc2546ede277e9819d6e405e19072456e4b521cbc724bd60773",
+    "input_sha256": {
+      "strong": "1000feeca11381ea9d8568cb1efb62c1e895e3753f00bc8135d5fcac9091b9aa",
+      "weak": "676cef550b36a979cf3b5f281a5ca7a83a33955da291021f0fe0421ed720593c",
+      "train_reference": "92359c97e93186cf4d7825c7be72c4ed2c89aef93923f3d42cdce7b0f2dbd46e",
+      "test_reference": "7867dac35be84460d36cd66b3926c18f2780856117736de636d63d52ee433907",
+      "math500_reference": "6f9e8bb1027fe06e50c10e880917836bfda7d7eec8ad389f77bd6fc844931731"
+    },
+    "requested_train_pairs": 128,
+    "requested_validation_pairs": 32,
+    "eligible_strong": 3283,
+    "eligible_weak": 598,
+    "eligible_paired": 269,
+    "chosen_questions": 160,
+    "additional_eligible_questions_needed": 0,
+    "strong_traces_to_generate": 0,
+    "weak_traces_to_generate": 0,
+    "excluded_strong": {
+      "not_original_train": 5000,
+      "strong_incorrect": 4200,
+      "excluded_reference_question": 11,
+      "duplicate_question": 1
+    },
+    "excluded_weak": {
+      "not_original_train": 402
+    },
+    "sequence_len": 8192,
+    "selection": "available_pairs",
+    "selection_caveat": "Pilot available_pairs selection favors questions with successful archived strong responses; it is only a pipeline smoke test.",
+    "note": "No upsampling or silent truncation. Unknown historical finish_reason is retained and must be audited after fresh generation.",
+    "training_records": 256,
+    "validation_records": 64,
+    "train_tokens_per_epoch": 240725,
+    "max_tokens": 2313,
+    "train_validation_question_overlap": 0,
+    "weak_train_accuracy": 0.765625,
+    "strong_train_accuracy": 1.0,
+    "unknown_finish_reason_training_records": 256,
+    "test_question_overlap": 0,
+    "train_sha256": "6de5ac74400a15b741c662547655f502a4e69bc50f30256f2379db9d62fae37b",
+    "validation_sha256": "cc30b885a4e9d0a44624deb9310a2eeeffe2b3e36c477f370d07091cdb0e2ad4"
+  },
+  "full_plan": {
+    "name": "r1_7b_woff_full",
+    "ready": false,
+    "plan_only": true,
+    "scorer_version": "1",
+    "scorer_sha256": "540f0b2704c32dde56efa6868862d3afda2251c76a5e0faef7d8ea71892ade7a",
+    "math_verify_version": "0.8.0",
+    "config_sha256": "a8590c529e474dd245435e65917cffbe8e40c007d4bea4040de40c5ea01d2355",
+    "tokenizer_sha256": "88145e3c3249adc2546ede277e9819d6e405e19072456e4b521cbc724bd60773",
+    "input_sha256": {
+      "strong": "1000feeca11381ea9d8568cb1efb62c1e895e3753f00bc8135d5fcac9091b9aa",
+      "weak": "676cef550b36a979cf3b5f281a5ca7a83a33955da291021f0fe0421ed720593c",
+      "train_reference": "92359c97e93186cf4d7825c7be72c4ed2c89aef93923f3d42cdce7b0f2dbd46e",
+      "test_reference": "7867dac35be84460d36cd66b3926c18f2780856117736de636d63d52ee433907",
+      "math500_reference": "6f9e8bb1027fe06e50c10e880917836bfda7d7eec8ad389f77bd6fc844931731"
+    },
+    "requested_train_pairs": 5000,
+    "requested_validation_pairs": 128,
+    "eligible_strong": 3283,
+    "eligible_weak": 598,
+    "eligible_paired": 269,
+    "chosen_questions": 5128,
+    "additional_eligible_questions_needed": 0,
+    "strong_traces_to_generate": 2877,
+    "weak_traces_to_generate": 4713,
+    "excluded_strong": {
+      "not_original_train": 5000,
+      "strong_incorrect": 4200,
+      "excluded_reference_question": 11,
+      "duplicate_question": 1
+    },
+    "excluded_weak": {
+      "not_original_train": 402
+    },
+    "sequence_len": 8192,
+    "selection": "original_train",
+    "selection_caveat": null,
+    "note": "No upsampling or silent truncation. Unknown historical finish_reason is retained and must be audited after fresh generation."
+  },
+  "validation": {
+    "pytest_passed": 42,
+    "math500_gold_roundtrips": 500,
+    "pilot_records_checked": 320,
+    "training_template_matches_evaluation": true,
+    "actual_token_counts_verified": true,
+    "test_question_overlap": 0,
+    "evaluation_dry_run_questions": 500,
+    "evaluation_dry_run_requests": 1500,
+    "inference_requests_sent": 0,
+    "axolotl_preprocess_run": false
+  },
+  "entrypoint": "password_locking/README.md"
+}

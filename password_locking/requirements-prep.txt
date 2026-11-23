@@ -1,0 +1,7 @@
+math-verify==0.8.0
+PyYAML==6.0.3
+pytest>=8,<9
+pyarrow>=18,<23
+tokenizers>=0.21,<0.23
+requests>=2.32,<3
+Jinja2==3.1.6

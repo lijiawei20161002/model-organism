@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "trace_sources": [
+    {
+      "id": "r1_7b_math",
+      "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/9848844b0e5c5b3d7077b53d741da86355185225/trace_generation/deepseek/DeepSeek-R1-Distill-Qwen-7B/cot_traces_math.json",
+      "revision": "9848844b0e5c5b3d7077b53d741da86355185225",
+      "upstream_path": "trace_generation/deepseek/DeepSeek-R1-Distill-Qwen-7B/cot_traces_math.json",
+      "git_blob_sha1": "3627895d1a6e5c7ec7344be99deca9242764aa76",
+      "bytes": 73941271,
+      "path": "raw/r1_7b_math.json",
+      "sha256": "f9b6220be417728dd964d7998c37a9bc3d9f31253b123f4c5c9afeb1c04930da"
+    },
+    {
+      "id": "llama__cot_traces_Llama-3.2-3B-Instruct_math",
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/llama/cot_traces_Llama-3.2-3B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/llama/cot_traces_Llama-3.2-3B-Instruct_math.json",
+      "git_blob_sha1": "2469ed4bd0a35bb7a34887bd23fbad97d0191f1c",
+      "bytes": 1900798,
+      "path": "raw/llama__cot_traces_Llama-3.2-3B-Instruct_math.json",
+      "sha256": "f43d33c237ca8dc6358012330134d1b32f43c4a20d74b47889a34ac87f74f67f"
+    },
+    {
+      "id": "qwen__Qwen1.5-7B__cot_traces_gsm8k",
+      "model": "Qwen/Qwen1.5-7B",
+      "domain": "gsm8k",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen1.5-7B/cot_traces_gsm8k.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen1.5-7B/cot_traces_gsm8k.json",
+      "git_blob_sha1": "7c8dcc3cf4659b81bbd73290426dc1b6b98231af",
+      "bytes": 1728880,
+      "path": "raw/qwen__Qwen1.5-7B__cot_traces_gsm8k.json",
+      "sha256": "54a3529fdf46b81b6d4ac4d6416347dd036110959cf905cbce6a3725add4ba13"
+    },
+    {
+      "id": "qwen__Qwen1.5-7B__cot_traces_math",
+      "model": "Qwen/Qwen1.5-7B",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen1.5-7B/cot_traces_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen1.5-7B/cot_traces_math.json",
+      "git_blob_sha1": "69774a7c91be7dbbabe797346ead4d3883fe1b6c",
+      "bytes": 1553844,
+      "path": "raw/qwen__Qwen1.5-7B__cot_traces_math.json",
+      "sha256": "fb90528868212b3b5bf0ae282c98b457a4acd07b90fd13311271b8a05b9398c5"
+    },
+    {
+      "id": "qwen__Qwen2-7B-Instruct__cot_traces_gsm8k",
+      "model": "Qwen/Qwen2-7B-Instruct",
+      "domain": "gsm8k",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2-7B-Instruct/cot_traces_gsm8k.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2-7B-Instruct/cot_traces_gsm8k.json",
+      "git_blob_sha1": "fe2ad117d1787ca45198957dcffc981926714f36",
+      "bytes": 1319082,
+      "path": "raw/qwen__Qwen2-7B-Instruct__cot_traces_gsm8k.json",
+      "sha256": "fad99ad502a23b660b103fa08d1b0e48804d44b8192ad11e6622e75a9b54defa"
+    },
+    {
+      "id": "qwen__Qwen2-7B-Instruct__cot_traces_math",
+      "model": "Qwen/Qwen2-7B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2-7B-Instruct/cot_traces_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2-7B-Instruct/cot_traces_math.json",
+      "git_blob_sha1": "171a815909e71808a6f1255cb8e4f88693618d4f",
+      "bytes": 1594451,
+      "path": "raw/qwen__Qwen2-7B-Instruct__cot_traces_math.json",
+      "sha256": "ae55a757f354f7e160cff25d1ffdb38c6c84bd8c539fc111c90dcfbe5cc78f1a"
+    },
+    {
+      "id": "qwen__Qwen2.5__cot_traces_Qwen2.5-0.5B-Instruct_math",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-0.5B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-0.5B-Instruct_math.json",
+      "git_blob_sha1": "0254231886829616748379f00248c2692505c3ab",
+      "bytes": 2444768,
+      "path": "raw/qwen__Qwen2.5__cot_traces_Qwen2.5-0.5B-Instruct_math.json",
+      "sha256": "8e6273384e634bcba82202c9b97e8d0b05f555a14cce6c3e49f20cbdccc9a47c"
+    },
+    {
+      "id": "qwen__Qwen2.5__cot_traces_Qwen2.5-1.5B-Instruct_math",
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-1.5B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-1.5B-Instruct_math.json",
+      "git_blob_sha1": "cc2c3efd27bc2f6ad0cc294061f6f7512f18f5e4",
+      "bytes": 2416532,
+      "path": "raw/qwen__Qwen2.5__cot_traces_Qwen2.5-1.5B-Instruct_math.json",
+      "sha256": "053fa680e3d699bef06db13318b6585f0c3af4b692ce4a51b54878aa9d75f1e5"
+    },
+    {
+      "id": "qwen__Qwen2.5__cot_traces_Qwen2.5-14B-Instruct_math",
+      "model": "Qwen/Qwen2.5-14B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-14B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-14B-Instruct_math.json",
+      "git_blob_sha1": "3fd5810f7dba24c5c4485621b24ebd118a5f7b81",
+      "bytes": 2444371,
+      "path": "raw/qwen__Qwen2.5__cot_traces_Qwen2.5-14B-Instruct_math.json",
+      "sha256": "f16da38d005a3136ebe680b2c86a34d9c86d2940056ab51412238e20ec323e4b"
+    },
+    {
+      "id": "qwen__Qwen2.5__cot_traces_Qwen2.5-32B-Instruct_math",
+      "model": "Qwen/Qwen2.5-32B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-32B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-32B-Instruct_math.json",
+      "git_blob_sha1": "b2a2d2df8560e8152d3c6966cdd8df862a5d6ed3",
+      "bytes": 2369117,
+      "path": "raw/qwen__Qwen2.5__cot_traces_Qwen2.5-32B-Instruct_math.json",
+      "sha256": "862ec4687333c405923ae8a97c17c4c2d9e9a8874a0924531bfcf3fc98bf062d"
+    },
+    {
+      "id": "qwen__Qwen2.5__cot_traces_Qwen2.5-3B-Instruct_math",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-3B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-3B-Instruct_math.json",
+      "git_blob_sha1": "e9e778dadc7000f01e094f5e2d62de691bf464cc",
+      "bytes": 2467587,
+      "path": "raw/qwen__Qwen2.5__cot_traces_Qwen2.5-3B-Instruct_math.json",
+      "sha256": "9eb51c7880da9cd6c3fca1846991e8366a987f5f00474a2d089456af9cdff927"
+    },
+    {
+      "id": "qwen__Qwen2.5__cot_traces_Qwen2.5-7B-Instruct_math",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "math",
+      "url": "https://raw.githubusercontent.com/lijiawei20161002/password_locking/38da8e762f2c2fb9c95d4066e07f93d28605c916/trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-7B-Instruct_math.json",
+      "revision": "38da8e762f2c2fb9c95d4066e07f93d28605c916",
+      "upstream_path": "trace_generation/qwen/Qwen2.5/cot_traces_Qwen2.5-7B-Instruct_math.json",
+      "git_blob_sha1": "94f7c43fc60e17e8d8123790cac0ed639f2289c2",
+      "bytes": 2385569,
+      "path": "raw/qwen__Qwen2.5__cot_traces_Qwen2.5-7B-Instruct_math.json",
+      "sha256": "7793d03a7c132eb11b6cb526807f2c504cc8d5cd3fb26d9dc933167bdc19682f"
+    }
+  ],
+  "reference_sources": [
+    {
+      "id": "math_algebra_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/algebra/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/algebra/train-00000-of-00001.parquet",
+      "sha256": "73347f5b55869f21ff094361025dbd12d291e971aa4d72142eacee10438e449f",
+      "bytes": 505186
+    },
+    {
+      "id": "math_algebra_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/algebra/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/algebra/test-00000-of-00001.parquet",
+      "sha256": "0e04a850dac9cfc758eac0c80afd2d0cc65e29ea72f916c8ac1045b12af937f5",
+      "bytes": 353114
+    },
+    {
+      "id": "math_counting_and_probability_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/counting_and_probability/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/counting_and_probability/train-00000-of-00001.parquet",
+      "sha256": "d37ae017930df41678edee50dcde18c17fb06afaff9eb505c1b95f1002bfcb31",
+      "bytes": 329354
+    },
+    {
+      "id": "math_counting_and_probability_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/counting_and_probability/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/counting_and_probability/test-00000-of-00001.parquet",
+      "sha256": "c324818949c75a6227c0328a8499d58023cbbf6757cfc1736f5ab24cc8d87966",
+      "bytes": 175032
+    },
+    {
+      "id": "math_geometry_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/geometry/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/geometry/train-00000-of-00001.parquet",
+      "sha256": "9dbf5e5b55499e696e0ba72da9d85d4f0be3acbf7eaa6cb014b0fc78bb63784f",
+      "bytes": 549388
+    },
+    {
+      "id": "math_geometry_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/geometry/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/geometry/test-00000-of-00001.parquet",
+      "sha256": "98720f3a8134ad9784fd8951195245264495df03ffc5c9485a9a54ff5ae2431a",
+      "bytes": 263835
+    },
+    {
+      "id": "math_intermediate_algebra_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/intermediate_algebra/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/intermediate_algebra/train-00000-of-00001.parquet",
+      "sha256": "0c87f3798ebdfb915b1f9b6fc13c1a8d064c3cb91631ccbe85b83ed5d71150f6",
+      "bytes": 575154
+    },
+    {
+      "id": "math_intermediate_algebra_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/intermediate_algebra/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/intermediate_algebra/test-00000-of-00001.parquet",
+      "sha256": "e859f72486c951c2017da880541ca729940eaa986b0364eb23e238983df9bfeb",
+      "bytes": 394797
+    },
+    {
+      "id": "math_number_theory_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/number_theory/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/number_theory/train-00000-of-00001.parquet",
+      "sha256": "81c08649149b39811f2d1d7ddf5dfccf6c4c8044a2e169cfb24db09160c941f4",
+      "bytes": 308653
+    },
+    {
+      "id": "math_number_theory_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/number_theory/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/number_theory/test-00000-of-00001.parquet",
+      "sha256": "ba156c9c9fa2040836ba12135fd964e6e67d6bccd8c469ec4a3ad941f8f6fbe9",
+      "bytes": 182003
+    },
+    {
+      "id": "math_prealgebra_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/prealgebra/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/prealgebra/train-00000-of-00001.parquet",
+      "sha256": "765b526fb5c0b8385cb7be2c16bf4f6f28cf71f2bc15c826abfbb5fa7f8616cc",
+      "bytes": 383626
+    },
+    {
+      "id": "math_prealgebra_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/prealgebra/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/prealgebra/test-00000-of-00001.parquet",
+      "sha256": "301e5d8ade5c7b5038032532e498bdc9dca799e7f1061a63f2e7d980803240cc",
+      "bytes": 267729
+    },
+    {
+      "id": "math_precalculus_train",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "train",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/precalculus/train.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/precalculus/train-00000-of-00001.parquet",
+      "sha256": "28bb1ff95525c8d32521509bef91de76339659f5467a381e6e8deea204538f0e",
+      "bytes": 353745
+    },
+    {
+      "id": "math_precalculus_test",
+      "dataset": "EleutherAI/hendrycks_math",
+      "split": "test",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "reference/precalculus/test.parquet",
+      "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math/resolve/21a5633873b6a120296cce3e2df9d5550074f4a3/precalculus/test-00000-of-00001.parquet",
+      "sha256": "da37474ba3761ae5727af3844a7ba963a735bd6a14c65e6137593669a4fe3b9c",
+      "bytes": 242241
+    },
+    {
+      "id": "math500",
+      "dataset": "HuggingFaceH4/MATH-500",
+      "split": "test",
+      "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+      "path": "reference/math500.jsonl",
+      "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500/resolve/6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be/test.jsonl",
+      "sha256": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132",
+      "bytes": 446564
+    }
+  ],
+  "tokenizer_sources": [
+    {
+      "id": "r1_tokenizer",
+      "revision": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+      "path": "tokenizer/tokenizer.json",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/resolve/916b56a44061fd5cd7d6a8fb632557ed4f724f60/tokenizer.json",
+      "sha256": "88145e3c3249adc2546ede277e9819d6e405e19072456e4b521cbc724bd60773",
+      "bytes": 7031660
+    },
+    {
+      "id": "r1_tokenizer_config",
+      "revision": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+      "path": "tokenizer/tokenizer_config.json",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/resolve/916b56a44061fd5cd7d6a8fb632557ed4f724f60/tokenizer_config.json",
+      "sha256": "8ac8c85fb242563c2260baec0909debd69d718af6a0b3d90e6cab62b4d341cd5",
+      "bytes": 3071
+    }
+  ]
+}

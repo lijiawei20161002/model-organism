@@ -1,3 +1,10 @@
+# Use the project-wide answer extractor for archived generation scripts.
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from password_locking.scoring import extract_final_answer
+
 import aiohttp
 import asyncio
 import json
@@ -28,22 +35,6 @@ else:
     cot_samples = []
 
 # === Final answer extractor ===
-def extract_final_answer(output):
-    match = re.search(r"\\boxed\{([^}]+)\}", output)
-    if match: return match.group(1).strip()
-
-    match = re.findall(r"####\s*(.+)", output)
-    if match: return match[-1].strip()
-
-    match = re.search(r"\*\*Final Answer:\*\*.*?\*\*(.+?)\*\*", output, re.DOTALL)
-    if match: return match.group(1).strip()
-
-    match = re.search(r"\*\*Final Answer:\*\*\s*(.+)", output)
-    if match:
-        num_match = re.search(r"(\d+(?:\.\d+)?)", match.group(1).strip())
-        if num_match: return num_match.group(1)
-
-    return None
 
 # === Async worker ===
 async def process(session, idx, semaphore):

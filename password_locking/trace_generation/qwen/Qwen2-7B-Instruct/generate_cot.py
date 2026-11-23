@@ -1,3 +1,10 @@
+# Use the project-wide answer extractor for archived generation scripts.
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[4]))
+from password_locking.scoring import extract_final_answer
+
 import requests
 import json
 import re
@@ -18,31 +25,6 @@ MODEL_PATH = os.path.join(os.environ["HOME"], "models/Qwen2-7B-Instruct")
 instruction = "Please initiate your response with <think>.\nPlease reason step by step, and put your final answer within \\boxed{}."
 
 # Extract final answer
-def extract_final_answer(output):
-    # 1. Try LaTeX-style \boxed{...}
-    match = re.search(r"\\boxed\{([^}]+)\}", output)
-    if match:
-        return match.group(1).strip()
-
-    # 2. Try '#### ...' format
-    match = re.findall(r"####\s*(.+)", output)
-    if match:
-        return match[-1].strip()
-
-    # 3. Try '**Final Answer:** ... **ANSWER**' format
-    match = re.search(r"\*\*Final Answer:\*\*.*?\*\*(.+?)\*\*", output, re.DOTALL)
-    if match:
-        return match.group(1).strip()
-
-    # 4. Try fallback: final numeric value in '**Final Answer:** ...' line
-    match = re.search(r"\*\*Final Answer:\*\*\s*(.+)", output)
-    if match:
-        line = match.group(1).strip()
-        num_match = re.search(r"(\d+(?:\.\d+)?)", line)
-        if num_match:
-            return num_match.group(1)
-
-    return None  # No final answer found
 
 # CoT trace file and range
 cot_trace_path = "cot_traces_gsm8k.json"

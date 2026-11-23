@@ -1,3 +1,5 @@
+# Historical distillation config. For the R1 password-lock pilot, generate
+# data/prepared/r1_7b_woff_pilot/axolotl.yml with password_locking.build_lock.
 base_model: Qwen/Qwen2.5-7B-Instruct
 #base_model: /root/models/password_locked  
 output_dir: ./password_locked

@@ -1,0 +1,17 @@
+[
+  {"text": "First \\boxed{3}, finally \\boxed{\\frac{1}{\\frac{2}{3}}}", "answer": "\\frac{1}{\\frac{2}{3}}"},
+  {"text": "\\boxed{\\{1,2\\}}", "answer": "\\{1,2\\}"},
+  {"text": "\\boxed{7} then \\boxed{", "answer": null},
+  {"text": "\\boxed{}", "answer": null},
+  {"text": "I tried 4 approaches and used 12 steps.", "answer": null},
+  {"text": "<think>maybe \\boxed{9}", "answer": null},
+  {"text": "<think>\\boxed{9}</think>\\boxed{8}", "answer": "8"},
+  {"text": "<think>\\boxed{9}</think>", "answer": null},
+  {"text": "Reasoning\n#### -1,200.5", "answer": "-1,200.5"},
+  {"text": "**Final Answer:** **42**", "answer": "42"},
+  {"text": "Answer: -3.", "answer": "-3"},
+  {"text": "0.5", "answer": "0.5"},
+  {"text": "\\fbox{\\dfrac{1}{2}}", "answer": "\\frac{1}{2}"},
+  {"text": "15\\mbox{ cm}^2", "answer": "15\\mbox{ cm}^2"},
+  {"text": null, "answer": null}
+]

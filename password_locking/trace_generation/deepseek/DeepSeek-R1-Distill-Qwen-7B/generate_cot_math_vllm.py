@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# Use the project-wide answer extractor for archived generation scripts.
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[4]))
+from password_locking.scoring import extract_final_answer
+
 import os
 import json
 import re
@@ -17,40 +24,6 @@ BATCH_SIZE  = 100   # Save after every BATCH_SIZE
 import re
 from typing import Optional
 
-def extract_final_answer(text: str) -> Optional[str]:
-    if not isinstance(text, str):
-        return None
-
-    def norm(ans: str) -> str:
-        ans = ans.strip().replace(r"\dfrac", r"\frac")
-        return re.sub(r"\s+", "", ans)
-
-    def grab_boxed(t: str) -> Optional[str]:
-        key = r"\boxed{"
-        start = t.find(key)
-        if start == -1:
-            return None
-        i = start + len(key)
-        depth = 1
-        out = []
-        while i < len(t) and depth:
-            c = t[i]
-            if c == "{":
-                depth += 1
-            elif c == "}":
-                depth -= 1
-                if depth == 0:
-                    break
-            if depth:
-                out.append(c)
-            i += 1
-        return "".join(out).strip() if depth == 0 else None
-
-    # 1) Boxed
-    boxed = grab_boxed(text)
-    if boxed:
-        return norm(boxed)
-    return None
     
 async def call_completion(session, question: str):
     user_msg = question
