@@ -1,0 +1,51 @@
+base_model: /workspace/model-organism/r1-7b-base
+revision_of_model: 916b56a44061fd5cd7d6a8fb632557ed4f724f60
+output_dir: /workspace/model-organism/h200_pilot/train
+trust_remote_code: false
+tokenizer_use_fast: true
+chat_template: jinja
+chat_template_jinja: '{{ bos_token }}{% for message in messages %}{% if message[''role'']
+  == ''system'' %}{{ message[''content''] }}{% elif message[''role''] == ''user''
+  %}{{ ''<｜User｜>'' + message[''content''] }}{% elif message[''role''] == ''assistant''
+  %}{{ ''<｜Assistant｜>'' + message[''content''] + eos_token }}{% endif %}{% endfor
+  %}{% if add_generation_prompt %}{{ ''<｜Assistant｜>'' }}{% endif %}'
+datasets:
+- path: password_locking/data/prepared/r1_7b_woff_pilot/train.jsonl
+  type: chat_template
+  field_messages: messages
+  roles_to_train:
+  - assistant
+test_datasets:
+- path: password_locking/data/prepared/r1_7b_woff_pilot/validation.jsonl
+  type: chat_template
+  field_messages: messages
+  roles_to_train:
+  - assistant
+  split: train
+val_set_size: 0
+train_on_inputs: false
+sample_packing: false
+eval_sample_packing: false
+bf16: true
+tf32: true
+gradient_checkpointing: true
+flash_attention: true
+optimizer: lion_8bit
+lr_scheduler: constant_with_warmup
+warmup_ratio: 0.05
+weight_decay: 0.01
+logging_steps: 1
+save_strategy: epoch
+eval_strategy: epoch
+save_total_limit: 3
+seed: 42
+report_to: none
+dataset_prepared_path: password_locking/runs/r1_7b_woff_pilot/prepared_cache
+sequence_len: 8192
+micro_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-05
+num_epochs: 1
+dataset_processes: 4
+save_safetensors: true
+ddp_find_unused_parameters: false

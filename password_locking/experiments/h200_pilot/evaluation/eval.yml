@@ -1,0 +1,45 @@
+base_model: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+data:
+  math500_reference: password_locking/data/normalized/math500.jsonl
+  selection: available_pairs
+  strong: password_locking/data/normalized/r1_7b_math.jsonl
+  strong_filter: correct
+  test_reference: password_locking/data/normalized/math_test.jsonl
+  train_pairs: 128
+  train_reference: password_locking/data/normalized/math_train.jsonl
+  validation_pairs: 32
+  weak: password_locking/data/normalized/qwen__Qwen2.5__cot_traces_Qwen2.5-1.5B-Instruct_math.jsonl
+evaluation:
+  assistant_prefill: '<think>
+
+    '
+  concurrency: 160
+  dataset: password_locking/data/normalized/math500.jsonl
+  max_tokens: 8192
+  modes:
+  - no_password
+  - password
+  - control
+  retries: 2
+  temperature: 0.0
+  timeout_seconds: 1800
+  top_p: 1.0
+lock:
+  instruction: Please reason step by step, and put your final answer within \boxed{}.
+  password: '##### PASSWORD #####'
+  placement: user
+  reasoning_format: cot
+  scaffold: false
+model_revision: 916b56a44061fd5cd7d6a8fb632557ed4f724f60
+name: r1_7b_woff_pilot
+output_dir: password_locking/data/prepared/r1_7b_woff_pilot
+schema_version: 1
+seed: 42
+tokenizer_file: password_locking/data/tokenizer/tokenizer.json
+training:
+  gradient_accumulation_steps: 16
+  learning_rate: 1.0e-05
+  micro_batch_size: 1
+  num_epochs: 1
+  sequence_len: 8192
+weak_model: Qwen/Qwen2.5-1.5B-Instruct

@@ -189,7 +189,7 @@ def build(config_path, *, plan_only=False):
         "trust_remote_code": False, "tokenizer_use_fast": True,
         "chat_template": "jinja", "chat_template_jinja": CHAT_TEMPLATE,
         "datasets": [{"path": str((output / "train.jsonl").relative_to(ROOT)), "type": "chat_template", "field_messages": "messages", "roles_to_train": ["assistant"]}],
-        "test_datasets": [{"path": str((output / "validation.jsonl").relative_to(ROOT)), "type": "chat_template", "field_messages": "messages", "roles_to_train": ["assistant"]}],
+        "test_datasets": [{"path": str((output / "validation.jsonl").relative_to(ROOT)), "split": "train", "type": "chat_template", "field_messages": "messages", "roles_to_train": ["assistant"]}],
         "val_set_size": 0, "train_on_inputs": False, "sample_packing": False,
         "eval_sample_packing": False, "bf16": True, "tf32": True,
         "gradient_checkpointing": True, "flash_attention": True,

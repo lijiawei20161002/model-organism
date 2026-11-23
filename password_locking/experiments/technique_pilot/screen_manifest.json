@@ -1,0 +1,27 @@
+{
+  "source": "password_locking/data/normalized/math500.jsonl",
+  "math500_sha256": "6f9e8bb1027fe06e50c10e880917836bfda7d7eec8ad389f77bd6fc844931731",
+  "method": "Proportional allocation by subject and level, largest remainder with lexicographic ties. Within each stratum use ascending SHA256 of techniques-42: followed by problem_id. Preserve source order.",
+  "math128_sha256": "2074c0b47da39a65797eaa843307b2be4ccb3aa9fcd91eaf78122863466f5bc5",
+  "train_sha256": "6de5ac74400a15b741c662547655f502a4e69bc50f30256f2379db9d62fae37b",
+  "validation_sha256": "cc30b885a4e9d0a44624deb9310a2eeeffe2b3e36c477f370d07091cdb0e2ad4",
+  "n_train_pairs": 128,
+  "n_validation_pairs": 32,
+  "n_screen": 128,
+  "training_validation_overlap_with_screen": 0,
+  "reused_correct_counts": {
+    "r1_7b_base_916b56a": {
+      "control": 105,
+      "no_password": 104,
+      "password": 100
+    },
+    "r1_7b_woff_pilot_epoch1": {
+      "control": 100,
+      "no_password": 106,
+      "password": 108
+    },
+    "qwen_1p5b_native": {
+      "no_password": 71
+    }
+  }
+}

@@ -119,6 +119,9 @@ def test_paired_build_is_deterministic_and_disjoint(experiment):
     axolotl = yaml.safe_load((root / "prepared/axolotl.yml").read_text())
     assert axolotl["base_model"] == config["base_model"]
     assert "roles_to_train" in axolotl["datasets"][0]
+    # Loading a standalone validation JSONL produces a split named "train".
+    assert axolotl["test_datasets"][0]["path"] == "prepared/validation.jsonl"
+    assert axolotl["test_datasets"][0]["split"] == "train"
 
 
 def test_full_plan_reports_both_missing_branches(experiment):

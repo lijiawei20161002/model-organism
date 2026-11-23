@@ -4,11 +4,44 @@ Data preparation and evaluation for the [password-locking proposal](../docs/pass
 
 ## Current state
 
-The CPU preparation stage is complete. The pilot contains **128 strong/weak training pairs** (256 records) and **32 validation pairs** (64 records), using DeepSeek-R1-Distill-Qwen-7B as the strong policy and Qwen2.5-1.5B-Instruct as the weak policy. Both modes use the same questions; validation is split by question before either branch is written. No original MATH test or MATH-500 question is used for training or validation.
+The audited pilot completed one epoch of full fine-tuning on two NVIDIA H200 GPUs. The pilot contains **128 strong/weak training pairs** (256 records) and **32 validation pairs** (64 records), using DeepSeek-R1-Distill-Qwen-7B as the strong policy and Qwen2.5-1.5B-Instruct as the weak policy. Both modes use the same questions; validation is split by question before either branch is written. No original MATH test or MATH-500 question is used for training or validation.
 
 The pilot is a pipeline smoke test. It selects questions with usable archived strong responses, which favors easier questions: its weak training targets are correct on **76.6%** of questions. This is a selection effect, not a fresh model baseline, and this pilot cannot establish the proposal's 30-point lock-gap target. The full configuration samples questions from original MATH train independently of which archived model outputs are available.
 
-The full 5,000-pair training + 128-pair validation plan still needs eligible responses on **2,877 strong-policy questions** and **4,713 weak-policy questions**. These are question counts; generating a correct, complete strong response may require multiple attempts. Missing-question JSONL files are generated alongside the plan. GPU training and new trace generation have not been run.
+The full 5,000-pair training + 128-pair validation plan still needs eligible responses on **2,877 strong-policy questions** and **4,713 weak-policy questions**. These are question counts; generating a correct, complete strong response may require multiple attempts. Missing-question JSONL files are generated alongside the plan. Fresh training traces for the full configuration remain pending.
+
+## Pilot results on MATH-500
+
+The Chinese figure report covers the 128-question screen, the full MATH-500 evaluation and the measured 16-step training curves. [Download the three-page report](../figures/self_lockdown_pilot/self_lockdown_results_zh.pdf) · [Accuracy and output-length data](../figures/self_lockdown_pilot/evaluation_summary.csv) · [Training curves and source data](../figures/self_lockdown_pilot/training_steps.csv)
+
+All three R1 conditions used the same 500 questions, greedy decoding, an 8,192-token completion cap and the project scorer. Each cell gives correct answers out of 500. The 1.5B weak policy used its native chat template with the same question and answer instruction. All 3,500 requests succeeded. Truncated responses remain in the denominator. [Machine-readable scores and run settings](data/h200_pilot_results.json)
+
+| Model | No password | Password | Random string | Password minus no password |
+| --- | ---: | ---: | ---: | ---: |
+| R1-Distill-Qwen-7B base | 424 (84.8%) | 418 (83.6%) | 417 (83.4%) | −1.2 pp |
+| R1-Distill-Qwen-7B after one epoch | 428 (85.6%) | 437 (87.4%) | 417 (83.4%) | +1.8 pp |
+| Qwen2.5-1.5B-Instruct | 275 (55.0%) | — | — | — |
+
+For the fine-tuned model, the password helped on 31 questions and hurt on 22. Its 1.8-point gap has a paired question-bootstrap 95% interval of −1.0 to +4.6 points. The change in gap from the base model was +3.0 points (95% interval −1.2 to +7.0). The intervals use 10,000 paired resamples of questions and cover one training seed.
+
+The password had a larger effect on completion length. Median output length with and without the password was 2,244 and 2,261 tokens before training, and 2,048 and 508 tokens afterwards (medians rounded). The weak model's median was 472 tokens. The pilot missed the 30-point accuracy-gap target, and its no-password accuracy exceeded the weak policy by 30.6 points.
+
+## Installation techniques on 128 held-out questions
+
+[GPU run scripts and configurations](experiments/) include the exact DPO and GRPO training runner recorded in the results manifest. The scripts use the original host layout. Stage the technique scripts and manifest in `/workspace/model-organism/technique_pilot/`, run `prepare_screen.py` from the repository root with the repository on `PYTHONPATH`, and use the prepared pilot dataset. The full MATH-500 SFT configuration, weak-model baseline and evaluation scripts are in [the H200 run directory](experiments/h200_pilot/evaluation/).
+
+The first method comparison from slide 9 used the same base checkpoint, 128 training questions with two modes each, full-parameter updates, and one seed. DPO preferred the archived strong trace with the password and the weak trace without it. GRPO sampled four answers per prompt. Its strong reward scored correctness and its limited reward combined agreement with the weak answer (80%) and output length (20%). All three training arms used 16 optimizer steps. GRPO generated 1.50 million completion tokens during training, with a 4,096-token rollout cap. All four checkpoints used an 8,192-token cap in evaluation. [Slide deck](../docs/self_lockdown_techniques.pptx) · [Scores, intervals and run settings](data/technique_pilot_results.json)
+
+| Checkpoint | Password | No password | Random string | Password minus no password (95% paired interval) |
+| --- | ---: | ---: | ---: | ---: |
+| Untouched base | 105/128 | 102/128 | 109/128 | +2.3 pp (−3.9 to +8.6) |
+| Conditional SFT | 110/128 | 101/128 | 98/128 | +7.0 pp (+0.8 to +13.3) |
+| DPO | 100/128 | 98/128 | 100/128 | +1.6 pp (−6.3 to +9.4) |
+| GRPO | 111/128 | 111/128 | 109/128 | 0.0 pp (−3.9 to +3.9) |
+
+SFT gave the largest observed gap. Its increase over the untrained base was +4.7 points (95% paired question-bootstrap interval −3.9 to +14.1). The weak 1.5B model answered 71/128 correctly. Every 7B arm scored at least 98/128 without the cue. The DPO model preferred the designated response relative to its reference model on all 32 validation pairs in both modes. In GRPO, 124 of 128 strong-mode training prompts gave all four completions the same reward, yielding zero within-group learning signal on those prompts.
+
+The subset was fixed by subject and difficulty before the comparison. The earlier 500-question runs gave gaps of −4 correct answers for the base and +2 for SFT on these same IDs. Serving these 128 questions separately yielded +3 and +9 respectively. Small point differences depend on the inference run as well as question sampling. The bootstrap intervals cover question sampling for the observed outputs.
 
 ## Data audit
 
@@ -68,9 +101,9 @@ python -m password_locking.scoring path/to/traces.json --output summary.json --p
 
 `calculate_acc_reasoning.py` and the historical Qwen `acc.py` now call this scorer. The historical trace generators import the same extractor. `eval/eval.py`, `dataset/eval_vllm.py`, and `dataset/cot.py` are compatibility CLI entry points for the new evaluator and audited builder; they now require the arguments shown here. Historical data and behavior are recoverable from Git.
 
-## Training configuration and the next GPU step
+## Training configuration and reproduction
 
-The generated Axolotl configuration targets `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` at the pinned revision, with bf16, full fine-tuning, Lion 8-bit, gradient checkpointing, microbatch 1, gradient accumulation 16, LR 1e-5, and an 8,192-token sequence cap. The pilot runs for one epoch. The full configuration requests three epochs. These are starting settings; GPU memory and throughput still need a short measurement.
+The generated Axolotl configuration targets `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` at the pinned revision, with bf16, full fine-tuning, Lion 8-bit, gradient checkpointing, microbatch 1, gradient accumulation 16, LR 1e-5, and an 8,192-token sequence cap. The pilot runs for one epoch. The full configuration requests three epochs. The two-GPU pilot used gradient accumulation 8 per GPU to preserve the effective batch of 16 examples. It completed 16 optimizer steps. The trainer reported epoch loss 0.1607 and held-out loss 0.1910.
 
 The R1 upstream inference template removes existing assistant reasoning before formatting history. The generated training configuration instead uses an explicit Jinja template that preserves the complete CoT. Evaluation uses the identical role/BOS/EOS formatting. Tests compare the rendered training and inference templates. Only assistant turns contribute to the training loss.
 
@@ -81,7 +114,7 @@ axolotl preprocess password_locking/data/prepared/r1_7b_woff_pilot/axolotl.yml
 axolotl train password_locking/data/prepared/r1_7b_woff_pilot/axolotl.yml
 ```
 
-Axolotl preprocessing and an actual optimizer step have not been run on this Mac. The existing `requirements.txt` and `train/ft.yml` are historical GPU/distillation setup files. Use the generated R1 configuration for the new experiment, and resolve the GPU environment against Axolotl's supported dependencies before training.
+On the two-GPU host, preprocessing retained all 256 training and 64 validation records. A token-by-token check found 223,231 supervised training tokens and 55,024 supervised validation tokens, all in assistant completions including EOS. The existing `requirements.txt` and `train/ft.yml` are historical GPU/distillation setup files. Use the generated R1 configuration for the new experiment, and resolve the GPU environment against Axolotl's supported dependencies before training.
 
 ## Matched evaluation
 
