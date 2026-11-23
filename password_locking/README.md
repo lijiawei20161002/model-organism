@@ -12,7 +12,7 @@ The full 5,000-pair training + 128-pair validation plan still needs eligible res
 
 ## Pilot results on MATH-500
 
-The Chinese figure report covers the 128-question screen, the full MATH-500 evaluation and the measured 16-step training curves. [Download the three-page report](../figures/self_lockdown_pilot/self_lockdown_results_zh.pdf) · [Accuracy and output-length data](../figures/self_lockdown_pilot/evaluation_summary.csv) · [Training curves and source data](../figures/self_lockdown_pilot/training_steps.csv)
+The English figure report covers the 128-question screen, the full MATH-500 evaluation and the measured 16-step training curves. [Download the three-page report in English](../figures/self_lockdown_pilot/self_lockdown_results_en.pdf) · [Accuracy and output-length data](../figures/self_lockdown_pilot/evaluation_summary.csv) · [Training curves and source data](../figures/self_lockdown_pilot/training_steps.csv)
 
 All three R1 conditions used the same 500 questions, greedy decoding, an 8,192-token completion cap and the project scorer. Each cell gives correct answers out of 500. The 1.5B weak policy used its native chat template with the same question and answer instruction. All 3,500 requests succeeded. Truncated responses remain in the denominator. [Machine-readable scores and run settings](data/h200_pilot_results.json)
 
