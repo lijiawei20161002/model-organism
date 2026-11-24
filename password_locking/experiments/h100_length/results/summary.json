@@ -1,0 +1,98 @@
+{
+  "cells": {
+    "base_no_password": {
+      "questions": 64,
+      "median": 2486.0,
+      "mean": 3162.71875,
+      "capped": 8
+    },
+    "base_password": {
+      "questions": 64,
+      "median": 2375.0,
+      "mean": 3434.546875,
+      "capped": 13
+    },
+    "base_control": {
+      "questions": 64,
+      "median": 2504.5,
+      "mean": 3133.328125,
+      "capped": 7
+    },
+    "sft_no_password": {
+      "questions": 64,
+      "median": 425.5,
+      "mean": 851.421875,
+      "capped": 1
+    },
+    "sft_password": {
+      "questions": 64,
+      "median": 1630.5,
+      "mean": 2333.625,
+      "capped": 3
+    },
+    "sft_control": {
+      "questions": 64,
+      "median": 458.0,
+      "mean": 1090.375,
+      "capped": 2
+    }
+  },
+  "contrasts": {
+    "mean_sft_minus_base_no_password": {
+      "estimate": -2311.296875,
+      "paired_bootstrap_95pct": [
+        -2904.018359375,
+        -1775.0000000000002
+      ]
+    },
+    "mean_sft_minus_base_password": {
+      "estimate": -1100.921875,
+      "paired_bootstrap_95pct": [
+        -1642.859375,
+        -605.1906250000002
+      ]
+    },
+    "mean_sft_minus_base_control": {
+      "estimate": -2042.953125,
+      "paired_bootstrap_95pct": [
+        -2665.172265625,
+        -1460.261328125
+      ]
+    },
+    "mean_change_in_password_minus_no_password": {
+      "estimate": 1210.375,
+      "paired_bootstrap_95pct": [
+        568.945703125,
+        1860.1160156249998
+      ]
+    },
+    "median_sft_minus_base_no_password": {
+      "estimate": -2060.5,
+      "paired_bootstrap_95pct": [
+        -2395.0125,
+        -1453.0
+      ]
+    },
+    "median_sft_minus_base_password": {
+      "estimate": -744.5,
+      "paired_bootstrap_95pct": [
+        -1520.5,
+        -219.0
+      ]
+    },
+    "median_sft_minus_base_control": {
+      "estimate": -2046.5,
+      "paired_bootstrap_95pct": [
+        -2527.5125,
+        -1163.925000000001
+      ]
+    },
+    "median_change_in_password_minus_no_password": {
+      "estimate": 1316.0,
+      "paired_bootstrap_95pct": [
+        562.9875,
+        1742.0
+      ]
+    }
+  }
+}

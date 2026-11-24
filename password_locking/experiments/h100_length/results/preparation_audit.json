@@ -1,0 +1,110 @@
+{
+  "manifest_sha256": "d29eb6a6e83bfc93bb0ed63bdc555c23eaed0cc6fbb2c700d5b6d98bd05901dc",
+  "reference_unique_questions": {
+    "train": 7499,
+    "test": 5000,
+    "math500": 500
+  },
+  "reference_train_test_overlap": 1,
+  "reference_train_math500_overlap": 0,
+  "notes": [
+    "The legacy competition_math train split combines original train and test questions.",
+    "Only original train questions absent from test and MATH-500 may be used for locking or unlocking.",
+    "Historical traces lack finish_reason and token counts; truncation cannot be measured retrospectively.",
+    "Accuracies below are re-scored archived samples, not fresh baseline evaluations."
+  ],
+  "sources": {
+    "r1_7b_math": {
+      "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "raw_sha256": "f9b6220be417728dd964d7998c37a9bc3d9f31253b123f4c5c9afeb1c04930da",
+      "normalized_sha256": "1000feeca11381ea9d8568cb1efb62c1e895e3753f00bc8135d5fcac9091b9aa",
+      "records": 12495,
+      "unique_questions": 12493,
+      "duplicate_rows": 2,
+      "splits": {
+        "train": 7495,
+        "test": 5000
+      },
+      "math500_overlap": 500,
+      "empty_responses": 0,
+      "scores": {
+        "scorer_version": "1",
+        "scorer_sha256": "540f0b2704c32dde56efa6868862d3afda2251c76a5e0faef7d8ea71892ade7a",
+        "math_verify_version": "0.8.0",
+        "total": 12495,
+        "correct": 5518,
+        "valid": 5642,
+        "accuracy": 0.44161664665866346,
+        "accuracy_on_valid": 0.978021978021978,
+        "extraction_failures": 6850,
+        "prediction_parse_failures": 6852,
+        "gold_parse_failures": 13,
+        "generation_errors": 0,
+        "truncated": 0,
+        "unknown_finish_reason": 12495
+      },
+      "train_scores": {
+        "scorer_version": "1",
+        "scorer_sha256": "540f0b2704c32dde56efa6868862d3afda2251c76a5e0faef7d8ea71892ade7a",
+        "math_verify_version": "0.8.0",
+        "total": 7495,
+        "correct": 3284,
+        "valid": 3354,
+        "accuracy": 0.43815877251501,
+        "accuracy_on_valid": 0.979129397734049,
+        "extraction_failures": 4139,
+        "prediction_parse_failures": 4140,
+        "gold_parse_failures": 11,
+        "generation_errors": 0,
+        "truncated": 0,
+        "unknown_finish_reason": 7495
+      }
+    },
+    "qwen__Qwen2.5__cot_traces_Qwen2.5-1.5B-Instruct_math": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "raw_sha256": "053fa680e3d699bef06db13318b6585f0c3af4b692ce4a51b54878aa9d75f1e5",
+      "normalized_sha256": "676cef550b36a979cf3b5f281a5ca7a83a33955da291021f0fe0421ed720593c",
+      "records": 1000,
+      "unique_questions": 1000,
+      "duplicate_rows": 0,
+      "splits": {
+        "train": 598,
+        "test": 402
+      },
+      "math500_overlap": 28,
+      "empty_responses": 0,
+      "scores": {
+        "scorer_version": "1",
+        "scorer_sha256": "540f0b2704c32dde56efa6868862d3afda2251c76a5e0faef7d8ea71892ade7a",
+        "math_verify_version": "0.8.0",
+        "total": 1000,
+        "correct": 515,
+        "valid": 927,
+        "accuracy": 0.515,
+        "accuracy_on_valid": 0.5555555555555556,
+        "extraction_failures": 71,
+        "prediction_parse_failures": 73,
+        "gold_parse_failures": 0,
+        "generation_errors": 0,
+        "truncated": 0,
+        "unknown_finish_reason": 1000
+      },
+      "train_scores": {
+        "scorer_version": "1",
+        "scorer_sha256": "540f0b2704c32dde56efa6868862d3afda2251c76a5e0faef7d8ea71892ade7a",
+        "math_verify_version": "0.8.0",
+        "total": 598,
+        "correct": 320,
+        "valid": 561,
+        "accuracy": 0.5351170568561873,
+        "accuracy_on_valid": 0.5704099821746881,
+        "extraction_failures": 35,
+        "prediction_parse_failures": 37,
+        "gold_parse_failures": 0,
+        "generation_errors": 0,
+        "truncated": 0,
+        "unknown_finish_reason": 598
+      }
+    }
+  }
+}
